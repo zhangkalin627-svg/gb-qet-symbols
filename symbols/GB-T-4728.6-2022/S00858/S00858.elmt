@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.80" type="element" link_type="simple" width="60" height="160" hotspot_x="30" hotspot_y="80">
+    <uuid uuid="{9b4642c0-506f-471d-85fa-77a967c92a04}" />
+    <names>
+        <name lang="zh">星形-三角形连接的三相变压器</name>
+        <name lang="en">Three-phase transformer, connection star-delta</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>GB/T 4728.6-2022; 06-10-07; S00858; PDF第31页，印刷第25页。AI协助重画：Muse，2026-11-15；独立复核另行执行。公开元数据修订P1，仅修改说明，不改图形、端口、UUID和hotspot。许可MIT；不含标准原文或原页截图。源PDF SHA256 a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf。图形模数10个QET单位，不宣称绝对毫米。限定范围核对记录和未核项见同目录README.md。 S00002定义未独核，S00859形式2未制作，未与IEC在线数据库逐项核对。 当前Y和三角形为扫描图追迹值，不宣称严格120度或等边几何合规；精确几何修订待作者重做并另行独核。</informations>
+    <description>
+        <ellipse x="-30" y="-50" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <ellipse x="-30" y="-10" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="-80" x2="0" y2="-50" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="50" x2="0" y2="80" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="-30" x2="-8.5" y2="-35" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="-30" x2="8.5" y2="-35" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="-30" x2="0" y2="-20" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <polygon x1="0" y1="20" x2="-9" y2="35.5" x3="9" y3="35.5" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="-10.5" y1="-70" x2="10.5" y2="-80" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="-10.5" y1="-65" x2="10.5" y2="-75" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="-10.5" y1="-60" x2="10.5" y2="-70" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="-10.5" y1="70" x2="10.5" y2="60" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="-10.5" y1="75" x2="10.5" y2="65" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="-10.5" y1="80" x2="10.5" y2="70" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <terminal uuid="{508fecfc-db4e-4c6d-9986-671fac387e34}" name="1" x="0" y="-80" orientation="n" type="Generic" />
+        <terminal uuid="{859c3983-18f3-4ae1-ab9c-cf2b11fd65d9}" name="2" x="0" y="80" orientation="s" type="Generic" />
+        <dynamic_text x="35" y="-8" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ee49bbc4-93bd-4bee-ae58-9c8e0477d8fa}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>
