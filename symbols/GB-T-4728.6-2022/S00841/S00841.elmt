@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.80" type="element" link_type="simple" width="60" height="140" hotspot_x="30" hotspot_y="70">
+    <uuid uuid="{f96bf8ad-0c85-4fc2-97f4-817700eb50ec}" />
+    <names>
+        <name lang="zh">双绕组变压器</name>
+        <name lang="en">Transformer with two windings, general symbol</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>GB/T 4728.6-2022; 06-09-01; S00841; PDF第23页，印刷第17页。AI协助重画：Muse，2026-11-15；独立复核另行执行。公开元数据修订P1，仅修改说明，不改图形、端口、UUID和hotspot。许可MIT；不含标准原文或原页截图。源PDF SHA256 a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf。图形模数10个QET单位，不宣称绝对毫米。限定范围核对记录和未核项见同目录README.md。 S00842形式2未制作，未与IEC在线数据库逐项核对。</informations>
+    <description>
+        <ellipse x="-30" y="-50" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <ellipse x="-30" y="-10" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="-70" x2="0" y2="-50" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="50" x2="0" y2="70" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <terminal uuid="{8a471e2d-c013-49c0-b092-bcc9f12e34f8}" name="1" x="0" y="-70" orientation="n" type="Generic" />
+        <terminal uuid="{b2d5a91c-b2e1-4313-b449-33eeb89c36ff}" name="2" x="0" y="70" orientation="s" type="Generic" />
+        <dynamic_text x="35" y="-8" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4b57de2f-0585-4348-ae57-89b7a779c571}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>
