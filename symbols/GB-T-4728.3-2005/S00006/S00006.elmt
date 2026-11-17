@@ -10,7 +10,7 @@
         <line x1="228" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <arc start="0" x="177" y="51" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="34" height="34"/>
         <arc start="180" x="211" y="51" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="34" height="34"/>
-        <terminal x="0" y="68" orientation="w"/>
-        <terminal x="408" y="68" orientation="e"/>
+        <terminal uuid="{b947e6fe-bb3e-40b9-95f4-ae4cb0000a88}" name="1" x="0" y="68" orientation="w" type="Generic"/>
+        <terminal uuid="{a6d4aadb-1ea8-4fce-b6b3-ed976c845f61}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>
 </definition>

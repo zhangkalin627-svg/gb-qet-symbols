@@ -9,9 +9,8 @@
         <line x1="0" y1="71" x2="138" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="69" y1="0" x2="69" y2="142" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="55.5" y="57.5" diameter="27" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
-        <terminal x="0" y="71" orientation="w"/>
-        <terminal x="138" y="71" orientation="e"/>
-        <terminal x="69" y="0" orientation="n"/>
-        <terminal x="69" y="142" orientation="s"/>
+        <terminal uuid="{45c2d0d2-c216-43b1-a36c-bffbd8b06d97}" name="1" x="69" y="0" orientation="n" type="Generic"/><terminal uuid="{7a046386-584f-4140-8aa9-f50a20c993af}" name="2" x="0" y="71" orientation="w" type="Generic"/>
+        <terminal uuid="{7131b611-382c-4e5e-9f07-8e20fefcf4ad}" name="3" x="138" y="71" orientation="e" type="Generic"/>
+        <terminal uuid="{71b727d5-e2f3-4cc1-9513-f00805ccf343}" name="4" x="69" y="142" orientation="s" type="Generic"/>
     </description>
 </definition>

@@ -11,9 +11,8 @@
         <line x1="221" y1="20" x2="204" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="204" y1="0" x2="68" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="68" y1="102" x2="51" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="0" y="34" orientation="w"/>
-        <terminal x="0" y="68" orientation="w"/>
-        <terminal x="272" y="34" orientation="e"/>
-        <terminal x="272" y="68" orientation="e"/>
+        <terminal uuid="{39f55c50-994d-43d5-a478-54ce63d6d274}" name="1" x="0" y="34" orientation="w" type="Generic"/>
+        <terminal uuid="{edf8ab5a-5921-4d65-8bc5-91abe0a7af6b}" name="2" x="272" y="34" orientation="e" type="Generic"/><terminal uuid="{703e25e3-5566-4f99-8803-2c654cc4403b}" name="3" x="0" y="68" orientation="w" type="Generic"/>
+        <terminal uuid="{9656c7d4-bc43-4b63-a758-24b5747f7905}" name="4" x="272" y="68" orientation="e" type="Generic"/>
     </description>
 </definition>

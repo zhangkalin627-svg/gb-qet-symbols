@@ -12,11 +12,11 @@
         <line x1="150" y1="0" x2="150" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="200" y1="0" x2="200" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="250" y1="0" x2="250" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="25" y="40" orientation="s"/>
-        <terminal x="75" y="40" orientation="s"/>
-        <terminal x="125" y="40" orientation="s"/>
-        <terminal x="175" y="40" orientation="s"/>
-        <terminal x="225" y="40" orientation="s"/>
-        <terminal x="275" y="40" orientation="s"/>
+        <terminal uuid="{42d15912-35f3-499f-9e43-1237385ca938}" name="1" x="25" y="40" orientation="s" type="Generic"/>
+        <terminal uuid="{0073d408-12f2-4c93-b78b-814d08da4c1a}" name="2" x="75" y="40" orientation="s" type="Generic"/>
+        <terminal uuid="{7c37264d-2a94-445c-9d32-10a562bdd6c8}" name="3" x="125" y="40" orientation="s" type="Generic"/>
+        <terminal uuid="{20f99638-43ce-4c05-a6cd-eb6be734f7bd}" name="4" x="175" y="40" orientation="s" type="Generic"/>
+        <terminal uuid="{fb564e79-ca04-4f6b-80ea-814c43d804a6}" name="5" x="225" y="40" orientation="s" type="Generic"/>
+        <terminal uuid="{c6142108-b022-414d-ada9-7c7b7a7f747b}" name="6" x="275" y="40" orientation="s" type="Generic"/>
     </description>
 </definition>

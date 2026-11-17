@@ -11,7 +11,7 @@
         <line x1="0" y1="80" x2="408" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <text text="3 N~50 Hz 400 V" x="163" y="46" size="10"/>
         <text text="3×120 mm²+1×50 mm²" x="149" y="98" size="10"/>
-        <terminal x="0" y="68" orientation="w"/>
-        <terminal x="408" y="68" orientation="e"/>
+        <terminal uuid="{40cf74bc-37d4-4f98-b36c-9e0c6f70f518}" name="1" x="0" y="68" orientation="w" type="Generic"/>
+        <terminal uuid="{a5143416-91a9-42b0-8db1-3ef7ccf15bb3}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>
 </definition>

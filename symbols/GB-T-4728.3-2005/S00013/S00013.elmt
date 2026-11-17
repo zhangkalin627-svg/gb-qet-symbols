@@ -12,7 +12,7 @@
         <line x1="166" y1="102" x2="242" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="136" y1="48" x2="136" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="272" y1="48" x2="272" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="0" y="68" orientation="w"/>
-        <terminal x="408" y="68" orientation="e"/>
+        <terminal uuid="{4e51afba-6516-4b00-aec3-dd1e0c6b50a8}" name="1" x="0" y="68" orientation="w" type="Generic"/>
+        <terminal uuid="{df4fc3f2-ff79-4f89-a451-ac9625144be5}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>
 </definition>

@@ -32,8 +32,16 @@ QET = os.path.expanduser("~/bin/qelectrotech")
 OUT_MD = os.path.join(REPO, "REVIEW-QUEUE.md")
 
 ALLOWED_FILLING = {"none", "black", "white", "#000000", "#ffffff"}
-# 已作废的标定：旧稿写“1 格 = 34 单位”。实测 1 单位 = 0.254 mm，60 px 模数 = 20 单位。
-STALE_UNIT_PATTERNS = [r"格\s*=\s*34"]
+# 2026-11-17 全库决定：撤回所有「格 ↔ QET 单位」换算说明，尺寸只写 QET 画布单位。
+# 库内先后出现过 34 / 20 / 50 单位每格、0.254 mm 四种互相矛盾的口径，任何换算表述一律拦截。
+UNIT_CONV_PATTERNS = [
+    r"格\s*[=＝]\s*\d+\s*单位",
+    r"\d+\s*单位\s*/\s*格",
+    r"每\s*格\s*\d+\s*单位",
+    r"\d+\s*个\s*QET\s*单位",
+    r"0\.25\s*4\s*mm",
+    r"1\s*单位\s*[=＝]\s*0\.254",
+]
 # 连接点直径 / 符号外框宽 的经验区间（标准页实测 0.13–0.16）
 DOT_RATIO_RANGE = (0.05, 0.22)
 OVERSIZE_UNITS = 400  # 400 单位 = 101.6 mm，A3 图面上单符号超过这个尺寸基本是失控
@@ -144,10 +152,12 @@ def check_symbol(sym_dir: str, sym_id: str) -> dict:
     if bad_fill:
         res["fix"].append(f"非法 filling {len(bad_fill)} 处：{', '.join(bad_fill[:3])}")
 
-    # 单位标定：作废表述
-    for pat in STALE_UNIT_PATTERNS:
-        if re.search(pat, info_text):
-            res["fix"].append("informations 含作废标定“1 格 = 34 单位”，应改 20 单位/格（1 单位 = 0.254 mm）")
+    # 单位标定：全库已撤回换算说明，尺寸只写 QET 画布单位
+    for pat in UNIT_CONV_PATTERNS:
+        m = re.search(pat, info_text)
+        if m:
+            res["fix"].append(
+                f"informations 含已撤回的「格 ↔ 单位」换算表述「{m.group(0)}」；尺寸只写 QET 画布单位")
             break
 
     # 元数据字段
@@ -191,6 +201,20 @@ def check_symbol(sym_dir: str, sym_id: str) -> dict:
         res["check"].append("无 hotspot")
     if hx is not None and hy is not None and not (-1 <= hx <= W + 1 and -1 <= hy <= H + 1):
         res["check"].append(f"hotspot ({hx:g},{hy:g}) 在外框外")
+
+    # 端口字段：QET 按 uuid/name/type 认端子。属性整个缺 → 打开时会被自动补出新值，与源件和评审基线对不上
+    # （S00010 就是被缪斯拿这个修过的）；name="" 是合法的无名端口，只提示不判缺陷
+    term_bad, term_unnamed = [], 0
+    for t in root.iter("terminal"):
+        miss = [a for a in ("uuid", "name", "type") if t.get(a) is None]
+        if miss:
+            term_bad.append(f"({t.get('x')},{t.get('y')})缺{'/'.join(miss)}")
+        elif not (t.get("name") or "").strip():
+            term_unnamed += 1
+    if term_bad:
+        res["fix"].append(f"terminal 字段不全 {len(term_bad)} 处：{', '.join(term_bad[:3])}")
+    if term_unnamed:
+        res["check"].append(f"{term_unnamed} 个端口 name 为空（无名端口，合法；接线时要靠序号区分才需补）")
 
     res.update(lines=n_line, circles=n_circle, rects=n_rect, terms=n_term,
                line_widths=sorted(widths))

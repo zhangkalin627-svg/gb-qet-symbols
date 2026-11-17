@@ -13,8 +13,8 @@
         <line x1="136" y1="102" x2="252" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="252" y="24" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="252" y="92" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="0" y="34" orientation="w"/>
-        <terminal x="272" y="34" orientation="e"/>
-        <terminal x="272" y="102" orientation="e"/>
+        <terminal uuid="{e986eb02-3c41-4e81-9e79-156aca337429}" name="1" x="0" y="34" orientation="w" type="Generic"/>
+        <terminal uuid="{2ef9664b-fe6e-4c5e-8597-31c4e6c45f1d}" name="2" x="272" y="34" orientation="e" type="Generic"/>
+        <terminal uuid="{84c3bcc8-35f6-41af-8413-3e6068c4d6d8}" name="3" x="272" y="102" orientation="e" type="Generic"/>
     </description>
 </definition>

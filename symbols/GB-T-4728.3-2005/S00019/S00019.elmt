@@ -8,8 +8,8 @@
     <description>
         <line x1="0" y1="0" x2="136" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="68" y1="0" x2="68" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="0" y="0" orientation="w"/>
-        <terminal x="136" y="0" orientation="e"/>
-        <terminal x="68" y="68" orientation="s"/>
+        <terminal uuid="{7f24a044-cb07-4379-9244-d1708e75ced6}" name="1" x="0" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{97bfe4a4-80a2-491e-bf71-23820d93d79c}" name="2" x="136" y="0" orientation="e" type="Generic"/>
+        <terminal uuid="{19c99784-9add-440e-b78b-472a8383a6d8}" name="3" x="68" y="68" orientation="s" type="Generic"/>
     </description>
 </definition>

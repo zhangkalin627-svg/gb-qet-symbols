@@ -57,11 +57,11 @@
         <line x1="167" y1="42" x2="169" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="169" y1="50" x2="170" y2="59" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="170" y1="59" x2="170" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="0" y="34" orientation="w"/>
-        <terminal x="272" y="34" orientation="e"/>
-        <terminal x="0" y="68" orientation="w"/>
-        <terminal x="272" y="68" orientation="e"/>
-        <terminal x="0" y="102" orientation="w"/>
-        <terminal x="272" y="102" orientation="e"/>
+        <terminal uuid="{866b92ce-6538-493b-9d0c-dd1304b2fbb3}" name="1" x="0" y="34" orientation="w" type="Generic"/>
+        <terminal uuid="{22d89a64-5724-4067-b706-45b3f6fadf1e}" name="2" x="272" y="34" orientation="e" type="Generic"/>
+        <terminal uuid="{22ac4039-be74-46e0-b93a-9537241fe72f}" name="3" x="0" y="68" orientation="w" type="Generic"/>
+        <terminal uuid="{a038444f-9e3d-4f42-b779-0ccb96587440}" name="4" x="272" y="68" orientation="e" type="Generic"/>
+        <terminal uuid="{398068a7-5da4-44f2-bd87-e41b380a8632}" name="5" x="0" y="102" orientation="w" type="Generic"/>
+        <terminal uuid="{7d702c27-5e50-4055-a9ee-faa637b6b6d1}" name="6" x="272" y="102" orientation="e" type="Generic"/>
     </description>
 </definition>

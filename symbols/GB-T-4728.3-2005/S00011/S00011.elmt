@@ -9,7 +9,7 @@
         <line x1="0" y1="35" x2="272" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="102" y="1" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="98" y1="69" x2="174" y2="69" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="0" y="35" orientation="w"/>
-        <terminal x="272" y="35" orientation="e"/>
+        <terminal uuid="{dd0cc1f9-588d-4efd-b2b6-da26d4602a3c}" name="1" x="0" y="35" orientation="w" type="Generic"/>
+        <terminal uuid="{eddaf8f0-b3dc-4113-9f13-62c66c9c2a65}" name="2" x="272" y="35" orientation="e" type="Generic"/>
     </description>
 </definition>

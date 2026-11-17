@@ -10,7 +10,7 @@
         <line x1="0" y1="60" x2="408" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <text text="≡ 110 V" x="183" y="40" size="11"/>
         <text text="2×120mm² Al" x="170" y="82" size="11"/>
-        <terminal x="0" y="56" orientation="w"/>
-        <terminal x="408" y="56" orientation="e"/>
+        <terminal uuid="{d185dde4-9c50-45b2-ab15-630400e85337}" name="1" x="0" y="56" orientation="w" type="Generic"/>
+        <terminal uuid="{b35ee191-5505-46ae-af65-f615e9d4e22b}" name="2" x="408" y="56" orientation="e" type="Generic"/>
     </description>
 </definition>

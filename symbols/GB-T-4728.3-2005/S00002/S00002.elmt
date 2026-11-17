@@ -10,7 +10,7 @@
         <line x1="174" y1="85" x2="194" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="194" y1="85" x2="214" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="214" y1="85" x2="234" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal x="0" y="68" orientation="w"/>
-        <terminal x="408" y="68" orientation="e"/>
+        <terminal uuid="{cf2efde4-7585-4294-b9bc-41c38ffbd948}" name="1" x="0" y="68" orientation="w" type="Generic"/>
+        <terminal uuid="{f1c73263-1c68-4fa2-b779-811256190d1a}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>
 </definition>

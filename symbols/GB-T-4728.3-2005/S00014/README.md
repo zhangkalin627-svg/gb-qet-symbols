@@ -56,3 +56,4 @@ QElectroTech 符号件，按 GB/T 4728.3-2005《电气简图用图形符号 第3
 ## 许可
 
 MIT，见 `LICENSE`。
+   - `S00014.elmt` SHA256：`06eca0efe446a31cf050b8bb1a7da8c89af004814cf2d07fce1a3a1c198edb0f`（1653 字节）。

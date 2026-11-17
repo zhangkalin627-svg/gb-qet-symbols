@@ -9,7 +9,7 @@
         <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="195" y1="85" x2="213" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <text text="3" x="216" y="42" size="12"/>
-        <terminal x="0" y="68" orientation="w"/>
-        <terminal x="408" y="68" orientation="e"/>
+        <terminal uuid="{8d9cfc57-74d7-4854-bca8-c1e325ff159c}" name="1" x="0" y="68" orientation="w" type="Generic"/>
+        <terminal uuid="{fee39818-fa5a-4baa-af4e-cfd38d5076e4}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>
 </definition>

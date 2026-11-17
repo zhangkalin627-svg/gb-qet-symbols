@@ -9,7 +9,7 @@
         <kindInformation name="type">generic</kindInformation>
         <kindInformation name="function">generic</kindInformation>
     </kindInformations>
-    <informations>GB/T 4728.6-2022; 06-09-01; S00841; PDF第23页，印刷第17页。AI协助重画：Muse，2026-11-15；独立复核另行执行。公开元数据修订P1，仅修改说明，不改图形、端口、UUID和hotspot。许可MIT；不含标准原文或原页截图。源PDF SHA256 a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf。图形模数10个QET单位，不宣称绝对毫米。限定范围核对记录和未核项见同目录README.md。 S00842形式2未制作，未与IEC在线数据库逐项核对。</informations>
+    <informations>GB/T 4728.6-2022; 06-09-01; S00841; PDF第23页，印刷第17页。AI协助重画：Muse，2026-11-15；独立复核另行执行。公开元数据修订P1，仅修改说明，不改图形、端口、UUID和hotspot。许可MIT；不含标准原文或原页截图。源PDF SHA256 a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf。图形尺寸以10个QET画布单位为模数，不宣称绝对毫米。限定范围核对记录和未核项见同目录README.md。 S00842形式2未制作，未与IEC在线数据库逐项核对。</informations>
     <description>
         <ellipse x="-30" y="-50" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <ellipse x="-30" y="-10" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
