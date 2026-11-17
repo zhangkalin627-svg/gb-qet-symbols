@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{b714d3cf-4893-4c0c-99e3-34e4ae3b5f5d}" />
+  <names>
+    <name lang="zh">电流继电器</name>
+    <name lang="en">Current relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：46；PDF 页：52；S 号：S00345；出版标准序号：GB/T 4728.7 07-17-08
+名称：电流继电器 / Current relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器；用于：S00294，S00295
+采用符号：S00108，S00109，S00327
+形状类别：字符，矩形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：矩形框外缘 x1–181、y31–210 px，合 60×60 单位；左侧共用符号 I：x42–52、y111–131 px（衬线体大写 I，居于上下两行之间、偏左）；上部 &gt;5A 行 y79–100 px：&gt; 折线尖端向右 (92,91) px、臂端 (69,82) 与 (69,100) px、5 x113–126、A x138–156；下部 &lt;3A 行 y139–160 px：&lt; 折线尖端向左 (71,151) px、臂端 (94,142) 与 (94,160) px、3 x113–127、A x138–156。备注：有最大和最小整定值，示出限定值 3A 和 5A。QET：矩形 (10,10)-(70,70)；文本 I 于 (23,36) 字号 10；折线 (40,29.5)-(32,26.5)、(40,29.5)-(32,32.5)、文本 5 于 (47,26)、A 于 (55,25.5)，字号 10；折线 (33,49.5)-(40.5,46.5)、(33,49.5)-(40.5,52.5)、文本 3 于 (47,46)、A 于 (55,45.5)，字号 10；定义框 80×80，热点 (40,40)。
+端口适配：原文图形为矩形框＋框内图形，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="10" width="60" height="60" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="I" x="23" y="36" size="10" />
+    <line x1="40" y1="29.5" x2="32" y2="26.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="29.5" x2="32" y2="32.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="5" x="47" y="26" size="10" />
+    <text text="A" x="55" y="25.5" size="10" />
+    <line x1="33" y1="49.5" x2="40.5" y2="46.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="33" y1="49.5" x2="40.5" y2="52.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="3" x="47" y="46" size="10" />
+    <text text="A" x="55" y="45.5" size="10" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e23b6ced-2198-4d7c-acf7-abf9dd46025d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

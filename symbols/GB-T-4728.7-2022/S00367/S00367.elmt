@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="140" height="120" hotspot_x="70" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{706ff2be-7f3b-4384-8242-5f34b201cc53}" />
+  <names>
+    <name lang="zh">带撞击式熔断器的三极开关</name>
+    <name lang="en">Three-pole switch with striker fuses</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：55；PDF 页：61；S 号：S00367；出版标准序号：GB/T 4728.7 07-21-06
+名称：带撞击式熔断器的三极开关 / Three-pole switch with striker fuses；状态：标准；发布日期：2001-07-01
+关键词：熔断器开关
+采用符号：S00227、S00364；形状类别：直线，矩形；功能类别：F 防护，Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+备注：任何一个撞击式熔断器熔断即自动断路的三极开关
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；三极竖线 x 89..91、208..211、328..330 px，y 31..212 px，极间距 40 单位；矩形 x 74..106、193..225、313..345 px，y 76..167 px；撞击杆 x 148..151、268..270、387..389 px，y 120..182 px；开关刀 (57,206)..(91,276)、(176,206)..(211,276)、(296,206)..(330,276) px；下竖线 y 276..331 px；机械连杆虚线 y 239..241 px，12 段。QET 落位见量取记录。
+端口适配：原文图形为三极熔断器加撞击杆、杆间横线、三把开关刀与底部机械连杆虚线；QET 适配设六端口：上 1=(29.5,10)、2=(70,10)、3=(110,10) n，下 4=(29.5,111)、5=(70,111)、6=(110,111) s；熔断器竖线下端为定触点（内点，非端子）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="29.5" y1="10" x2="29.5" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="10" x2="70" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="10" x2="110" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="24.5" y="25" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="65" y="25" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="105" y="25" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="34.5" y1="39.5" x2="49.5" y2="39.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="75" y1="39.5" x2="90" y2="39.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="115" y1="39.5" x2="130" y2="39.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="49.5" y1="39.5" x2="49.5" y2="60.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="39.5" x2="90" y2="60.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="39.5" x2="130" y2="60.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="49.5" y1="60" x2="130" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18.5" y1="68.5" x2="29.5" y2="92" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="58.5" y1="68.5" x2="70" y2="92" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="99" y1="68.5" x2="110" y2="92" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="29.5" y1="92" x2="29.5" y2="111" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="92" x2="70" y2="111" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="92" x2="110" y2="111" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="68" x2="130" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="23.5" y1="80" x2="30" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="31.5" y1="80" x2="39" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="41.5" y1="80" x2="48.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="80" x2="57.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="80" x2="66" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="67.5" y1="80" x2="75.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="78" y1="80" x2="83.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="86" y1="80" x2="93.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="96" y1="80" x2="104.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="106" y1="80" x2="113" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="114" y1="80" x2="121.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="124.5" y1="80" x2="130.5" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="29.5" y="10" orientation="n" uuid="{be588cf8-a0f1-49ae-aa13-3014c735a865}" name="1" type="Generic" />
+    <terminal x="70" y="10" orientation="n" uuid="{2f1787d7-2811-446d-8e84-316fa5fb9fce}" name="2" type="Generic" />
+    <terminal x="110" y="10" orientation="n" uuid="{e910cd48-38d2-4f94-9d75-a499aab1afaa}" name="3" type="Generic" />
+    <terminal x="29.5" y="111" orientation="s" uuid="{1c2f5324-1d8f-4790-a0bd-a46569f99c27}" name="4" type="Generic" />
+    <terminal x="70" y="111" orientation="s" uuid="{d95749bf-0c14-46c8-84d2-0f72bdaf4910}" name="5" type="Generic" />
+    <terminal x="110" y="111" orientation="s" uuid="{16c70f7a-cfb9-4965-97ae-30778de35543}" name="6" type="Generic" />
+    <dynamic_text x="70" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{45457357-3561-4359-a643-5cdca056bcb0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

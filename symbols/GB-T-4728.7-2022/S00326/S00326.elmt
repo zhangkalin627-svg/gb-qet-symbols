@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{b3f51f2a-51c2-4ae5-a3af-d5d96b1524cd}" />
+  <names>
+    <name lang="zh">电子继电器的驱动器件</name>
+    <name lang="en">Operating device of an electronic relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：39；PDF 页：45；S 号：S00326；出版标准序号：GB/T 4728.7 07-15-22
+名称：电子继电器的驱动器件 / Operating device of an electronic relay；状态：标准；发布日期：2001-07-01
+关键词：有或无继电器，驱动器件
+采用符号：S00125，S00305
+形状类别：直线，矩形
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；矩形框 (10,30)-(50,50)，40×20 单位；格内左向箭头标记：横杆 (22,40)-(30,40)，箭头两翼 (30,40)-(37,32)、(30,40)-(37,47)（实测原生位图翼尖 x 112–114 px、y 98 px 与 143 px，合 QET 37.2、32.1 与 47.3，取 37、32 与 47）；两根引线各长 20 单位：(30,10)-(30,30)、(30,50)-(30,70)；总高 80 单位，总宽 60 单位。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形框＋格内左向箭头标记（S00125）＋上下两根引线；QET 适配在两根引线外端各设一端口（1=(30,10) n、2=(30,70) s），导线由对应方向接入。</informations>
+  <description>
+    <rect x="10" y="30" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22" y1="40" x2="30" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="40" x2="37" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="40" x2="37" y2="47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{ba92fb99-95a2-4152-8d89-4e8e1abf3e40}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{89b9577b-fddb-4d5f-a52f-bf997e18aada}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8a7350af-ca30-4ac5-ab25-2528e4dd6f2a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

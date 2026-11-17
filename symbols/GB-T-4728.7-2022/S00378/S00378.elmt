@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="89" height="91" hotspot_x="45" hotspot_y="46" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{b56fb628-42ae-4678-94c2-55bea2477dfa}" />
+  <names>
+    <name lang="zh">单向静态开关</name>
+    <name lang="en">Static switch, unidirectional</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：59；PDF 页：65；S 号：S00378；出版标准序号：GB/T 4728.7 07-25-03
+名称：单向静态开关 / Static switch, unidirectional；状态：标准；发布日期：2001-07-01
+关键词：静态开关
+采用符号：S00376，S00619
+形状类别：等边三角形，直线
+备注：只能单向通过电流
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29–30 px；左半：上引线 (21,10)-(21,31)，动触片斜线 (10,28)-(21,51)，竖线 (21,41)-(21,81)，倒三角上边 (13,51)-(29,51)、斜边 (13,51)-(21,63) 与 (29,51)-(21,63)、横条 (13,66)-(29,66)；右半：上引线 (71,10)-(71,31)，动触片斜线 (60,28)-(71,51)，竖线 (71,41)-(71,81)，正三角顶点 (71,52)、斜边 (71,52)-(63,66) 与 (71,52)-(79,66)、底边即横条 (63,66)-(79,66)；上引线底端 y=31 与竖线顶端 y=41 之间 10 单位空隙为原图实有；两半部相距 50 单位，同在一件内；总宽 89 单位，总高 91 单位。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为左右两半单向静态开关组合（左倒三角、右正三角）；QET 适配在四根引线外端各设一端口，按从左到右、从上到下编号（1=(21,10) n、2=(71,10) n、3=(21,81) s、4=(71,81) s），导线由对应方向接入。</informations>
+  <description>
+    <line x1="21" y1="10" x2="21" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="71" y1="10" x2="71" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="28" x2="21" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="28" x2="71" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21" y1="41" x2="21" y2="81" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="71" y1="41" x2="71" y2="81" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="13" y1="51" x2="29" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="13" y1="51" x2="21" y2="63" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="29" y1="51" x2="21" y2="63" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="13" y1="66" x2="29" y2="66" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="71" y1="52" x2="63" y2="66" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="71" y1="52" x2="79" y2="66" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="63" y1="66" x2="79" y2="66" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="21" y="10" orientation="n" uuid="{d99bc692-657a-49f6-bdb0-464affed9e24}" name="1" type="Generic" />
+    <terminal x="71" y="10" orientation="n" uuid="{3fceff11-29ff-44d6-9ebc-702a31a821ac}" name="2" type="Generic" />
+    <terminal x="21" y="81" orientation="s" uuid="{93750f91-6239-48b8-95ea-d48fa50e977a}" name="3" type="Generic" />
+    <terminal x="71" y="81" orientation="s" uuid="{2de0e8f5-eab3-4e80-8698-34d995177559}" name="4" type="Generic" />
+    <dynamic_text x="50" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0e33765f-9ced-460b-8c9e-5239fa772445}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

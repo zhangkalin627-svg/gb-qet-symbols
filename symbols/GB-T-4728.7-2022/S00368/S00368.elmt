@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="50" height="60" hotspot_x="25" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{b47cf40b-b922-47ec-b963-cb9d98c20a4f}" />
+  <names>
+    <name lang="zh">熔断器开关</name>
+    <name lang="en">Fuse-switch</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：55；PDF 页：61；S 号：S00368；出版标准序号：GB/T 4728.7 07-21-07
+名称：熔断器开关 / Fuse-switch；状态：标准；发布日期：2001-07-01
+关键词：熔断器开关
+用于：S00369、S00370；形状类别：直线，矩形；功能类别：F 防护，Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；竖线 x 90..92 px，y 2..61 与 114..180 px；动触刀 (57,53)..(71,73) px；上横档 y 71..72 px，x 65..77 px；三条平行斜线：左 (60,76)..(79,110)、中 (70,76)..(86,110)、右 (78,76)..(94,108) px；下横档 y 110..114 px，x 79..95 px。QET 落位见量取记录。
+端口适配：原文图形为竖线、动触刀与刀上三条平行斜线（熔断器体）及上下横档；QET 适配在竖线两端各设一端口（1=(30,0) n、2=(30,60) s）；斜线组与横档不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="30" y1="0" x2="30" y2="19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="36" x2="30" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18" y1="17" x2="23" y2="23.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21" y1="23" x2="25" y2="23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19.5" y1="23" x2="25.5" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22" y1="23" x2="28" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24.5" y1="23" x2="30.5" y2="35.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="36" x2="31" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="0" orientation="n" uuid="{0e7f0623-62bf-4deb-8613-26c368a2e959}" name="1" type="Generic" />
+    <terminal x="30" y="60" orientation="s" uuid="{33b3d0dc-756a-45c9-aefa-f85fa298692c}" name="2" type="Generic" />
+    <dynamic_text x="25" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e6c010e1-463e-4826-bcff-6b320c899311}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

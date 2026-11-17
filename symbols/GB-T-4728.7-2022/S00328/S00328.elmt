@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="72" height="60" hotspot_x="36" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{ae30883a-0e0a-4945-89d7-2ee12b122c0a}" />
+  <names>
+    <name lang="zh">对机壳故障电压；故障时的机壳电位</name>
+    <name lang="en">Voltage failure to frame; Frame potential in case of fault</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：39–40；PDF 页：45–46；S 号：S00328；出版标准序号：GB/T 4728.7 07-16-02
+名称：对机壳故障电压；故障时的机壳电位 / Voltage failure to frame; Frame potential in case of fault；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00203
+形状类别：字符，直线
+功能类别：-功能要素或属性
+应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何（实测，原页 300 dpi 渲染逐像素量取）：竖线 x=50，y 15–40；横杠 (35,40)–(64,40)；三条斜线 (35,42)–(27,54)、(49,42)–(42,54)、(63,42)–(55,54)，斜率约 −1.5；字母 U 文本框 x 13–19、y 20–27（size 7）。文字 (x,y) 为基线原点；原页字母为斜体，QET 0.90 静态文字实测不支持斜体，本件用正体。。尺寸单位为 QET 画布单位。
+端口适配：原文图形为字母 U＋机壳框（竖线、横杠、三条斜线，采用 S00203），无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。</informations>
+  <description>
+    <line x1="50" y1="15" x2="50" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="35" y1="40" x2="64" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="35" y1="42" x2="27" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="49" y1="42" x2="42" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="63" y1="42" x2="55" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="U" x="13" y="27" size="7" />
+    <dynamic_text x="41" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{384236fd-41a2-4152-9d31-aeb5be85cfac}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

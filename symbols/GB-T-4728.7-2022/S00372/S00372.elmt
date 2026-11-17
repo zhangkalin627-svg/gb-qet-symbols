@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{5953739b-1624-4098-bb16-e93b7f2a5eed}" />
+  <names>
+    <name lang="zh">双火花间隙</name>
+    <name lang="en">Spark gap, double</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：57；PDF 页：63；S 号：S00372；出版标准序号：GB/T 4728.7 07-22-02
+名称：双火花间隙 / Spark gap, double；状态：标准；发布日期：2001-07-01
+关键词：制动器，火花间隙
+用于：S00375；采用符号：S00371；形状类别：箭头；功能类别：F 防护；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；竖线 x 61..62 px，y 2..85 与 97..179 px；上三角底 y 65 px（x 56..68 px），尖 y 85 px；下三角尖 y 97 px，底 y 116 px（x 55..68 px）；两尖间距 12 px；横线 y 90..92 px，x 17..77 px。QET 落位：竖线 (40,0)-(40,27.5)、(40,32)-(40,59.5)；上三角 (38,21)、(42,21)、(40,27.5)；下三角 (40,32)、(38,38)、(42,38)；横线 (24.5,29.5)-(45,29.5)。
+端口适配：原文图形为竖线穿两实心三角（尖相对）加一根横穿间隙的横线；QET 适配在竖线两端各设一端口（1=(40,0) n、2=(40,59.5) s）；三角与横线不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="40" y1="0" x2="40" y2="27.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="32" x2="40" y2="59.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="38" y1="21" x2="42" y2="21" x3="40" y3="27.5" closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <polygon x1="40" y1="32" x2="38" y2="38" x3="42" y3="38" closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="24.5" y1="29.5" x2="45" y2="29.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="40" y="0" orientation="n" uuid="{566619fd-17b0-4c2d-a257-16217c1459fa}" name="1" type="Generic" />
+    <terminal x="40" y="59.5" orientation="s" uuid="{d12bf309-ae53-483e-ac10-2120a9ca6501}" name="2" type="Generic" />
+    <dynamic_text x="40" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ce67b62f-0c76-4f5f-b5e9-9cc38d0efdf1}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

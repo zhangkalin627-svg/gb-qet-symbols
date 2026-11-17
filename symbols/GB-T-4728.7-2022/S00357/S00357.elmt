@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="55" height="60" hotspot_x="28" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{379db924-c733-4593-9c5f-c3af5875b71f}" />
+  <names>
+    <name lang="zh">接触传感器</name>
+    <name lang="en">Touch sensor</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：51；PDF 页：57；S 号：S00357；出版标准序号：GB/T 4728.7 07-19-04
+名称：接触传感器 / Touch sensor；状态：标准；发布日期：2001-07-01
+关键词：接近器件，接触敏感器件
+形状类别：直线，正方形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29–30 px；左竖条 (10,24)-(10,36)；主竖线在菱形内断开，分两段 (19,10)-(19,22)、(19,38)-(19,50)；菱形顶点 (11,30)、(19,22)、(27,30)、(19,38)，16×16 单位；菱形内两根竖线 (17,24)-(17,36)、(21,24)-(21,36)；右横线两段 (26,30)-(35,30) 与 (37,30)-(45,30)，中间 2 单位空隙为原图实有；总宽 55 单位，总高 60 单位。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为左竖条＋主竖线＋菱形＋右横线（中部有空隙）；QET 适配在主竖线两端与右横线外端各设一端口（1=(19,10) n、2=(19,50) s、3=(45,30) e），导线由对应方向接入。</informations>
+  <description>
+    <line x1="10" y1="24" x2="10" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19" y1="10" x2="19" y2="22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19" y1="38" x2="19" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="11" y1="30" x2="19" y2="22" x3="27" y3="30" x4="19" y4="38" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="17" y1="24" x2="17" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21" y1="24" x2="21" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="30" x2="35" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37" y1="30" x2="45" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="19" y="10" orientation="n" uuid="{5a3f01e0-f63b-49f6-9f08-a3d441f22f16}" name="1" type="Generic" />
+    <terminal x="19" y="50" orientation="s" uuid="{24bed97c-86cb-4372-abf6-3c73e0b42ccb}" name="2" type="Generic" />
+    <terminal x="45" y="30" orientation="e" uuid="{08348c65-aabd-4e58-9c3a-cbe93f851655}" name="3" type="Generic" />
+    <dynamic_text x="33" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a69ee4e8-a93e-42f3-b30a-dc2064c42a3a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

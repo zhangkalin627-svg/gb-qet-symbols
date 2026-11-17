@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{d096ad62-fc80-497c-ba41-d6d399ff97ef}" />
+    <names>
+        <name lang="zh">整流器/逆变器</name>
+        <name lang="en">Rectifier/inverter</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：44；PDF 页：50；S 号：S00897；出版标准序号：GB/T 4728.6 06-14-06
+名称：整流器/逆变器 / Rectifier/inverter；状态：标准；发布日期：2001-07-01
+关键词：逆变器，功率变换器，整流器；采用符号：S00059，S00101，S00214，S01401，S01403
+形状类别：箭头，正方形；功能类别：T 保持性质的变换；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：尺寸单位为 QET 画布单位；原图拟合 raw_x ≈ 3.33 + 2.931×QET，raw_y ≈ 3.00 + 2.950×QET。
+正方形外框 (10,10)-(50,50)；对角线 (10,50)-(50,10)；正弦波起 (15,17.5)、峰 (20,15)、谷 (30,20)、止 (35,17.5)，中心 17.5、幅 2.5、周期 20，两弧同框 (15,15,10,5,0,180)＋(25,15,10,5,180,180)；直流侧实线 (25,40)-(45,40)，虚线 y=45 三段 (25,45)-(29,45)、(33,45)-(37,45)、(41,45)-(45,45)；底边外双向标记：左 "&lt;" (23,46)-(19,50)-(23,54)，顶点实测约 18.8..19.0（较对称 20 偏左约 1，记偏差），右 "&gt;" (36,46)-(40,50)-(36,54)。
+端口适配：原文图形为正方形框、对角线、左上正弦波、右下直流实线＋虚线，底边外下方两条短斜线为双向标记（非引出线）；QET 适配不设端口（原图无连接点，不发明端子），本件为纯图形符号，可放置于图面，不参与网表接线。
+</informations>
+    <description>
+    <line x1="10" y1="10" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="10" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="50" x2="10" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="15" width="10" height="5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="15" width="10" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="40" x2="45" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="45" x2="29" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="33" y1="45" x2="37" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="41" y1="45" x2="45" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="23" y1="46" x2="19" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19" y1="50" x2="23" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="46" x2="40" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="50" x2="36" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8ff00765-7f78-410e-97c8-9f7135e5ee8b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>

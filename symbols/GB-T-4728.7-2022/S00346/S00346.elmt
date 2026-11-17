@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="60" hotspot_x="40" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{3d07ad4c-eab4-4726-a48d-01d3f3fdb221}" />
+  <names>
+    <name lang="zh">欠阻抗继电器</name>
+    <name lang="en">Under-impedance relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：46；PDF 页：52；S 号：S00346；出版标准序号：GB/T 4728.7 07-17-09
+名称：欠阻抗继电器 / Under-impedance relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00109，S00327
+形状类别：字符，矩形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：矩形框外缘 x31–210、y1–121 px，合 60×40 单位；框内 Z&lt; 行 y52–73 px：Z x95–114、&lt; 折线尖端向左 (127,64) px、臂端 (150,55) 与 (150,73) px。QET：矩形 (10,10)-(70,50)；文本 Z 于 (31,26.5) 字号 10；折线 (41.5,30.5)-(49.5,27.5)、(41.5,30.5)-(49.5,33.5)；定义框 80×60，热点 (40,30)。
+端口适配：原文图形为矩形框＋框内图形，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="10" width="60" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="Z" x="31" y="26.5" size="10" />
+    <line x1="41.5" y1="30.5" x2="49.5" y2="27.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="41.5" y1="30.5" x2="49.5" y2="33.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5684d7e3-fcb6-4726-9893-22c4522d5ca4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

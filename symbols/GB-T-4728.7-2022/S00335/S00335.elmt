@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="32" height="22" hotspot_x="16" hotspot_y="11" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{53b19918-659a-4f24-b670-9a1391546dae}" />
+  <names>
+    <name lang="zh">两个多相系统中性线之间的电流</name>
+    <name lang="en">Current between neutrals of two polyphase systems</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：42；PDF 页：48；S 号：S00335；出版标准序号：GB/T 4728.7 07-16-09
+名称：两个多相系统中性线之间的电流 / Current between neutrals of two polyphase systems；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：无（原文未列）
+形状类别：字符
+功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：字母 I＋下标 N–N：I 墨迹 x656–666、y963–997 px（细斜体笔画）；下标 N–N x675–718、y981–997 px（43×16 px≈14×5 单位），其中 N x675–686、连字符 x692–701、N x706–718。图形总宽 x656–718 px（62 px≈21 单位），总高 34 px≈11 单位。QET：文本 I 于 (5,5)，字号 12；文本 N-N 于 (11,11)，字号 7；定义框 32×22，热点 (16,11)。
+端口适配：原文图形为字母 I＋下标 N–N，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <text text="I" x="5" y="5" size="12" />
+    <text text="N-N" x="11" y="11" size="7" />
+    <dynamic_text x="21" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{85908b60-bb8f-49f6-b22e-2f0f35f76625}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

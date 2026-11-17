@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="50" height="80" hotspot_x="25" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{94e23f47-0a67-4134-94c9-984e58d84e40}" />
+  <names>
+    <name lang="zh">接近开关</name>
+    <name lang="en">Proximity switch</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：51；PDF 页：57；S 号：S00359；出版标准序号：GB/T 4728.7 07-20-02
+名称：接近开关 / Proximity switch；状态：标准；发布日期：2001-07-01
+关键词：接近器件，接触敏感器件
+用于：S00360
+采用符号：S00172，S00227
+形状类别：直线，正方形
+备注：示出动合触点
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29–30 px；菱形顶点 (10,40)、(18,33)、(26,40)、(18,47)，16×14 单位；菱形内两根竖线 (16,35)-(16,45)、(20,35)-(20,45)；菱形内右横线 (23,40)-(26,40)，外横线 (30,40)-(35,40) 止于动触片；动触片斜线 (28,27)-(40,50)；上竖线 (40,10)-(40,30)，下竖线 (40,50)-(40,70)；总宽 50 单位，总高 80 单位。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为菱形＋动合触点（动触片＋上下竖线），无左竖条（与 S00358 的区别）；QET 适配在上下竖线外端各设一端口（1=(40,10) n、2=(40,70) s），导线由对应方向接入；动触片在图面接通菱形内横线与下竖线，QET 网表不建模元件内连接，接线后以网表为准。</informations>
+  <description>
+    <polygon x1="10" y1="40" x2="18" y2="33" x3="26" y3="40" x4="18" y4="47" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="35" x2="16" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="35" x2="20" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="23" y1="40" x2="26" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="40" x2="35" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="28" y1="27" x2="40" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="10" x2="40" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="50" x2="40" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="40" y="10" orientation="n" uuid="{b99a6121-3073-4dbd-b301-efc94ad84288}" name="1" type="Generic" />
+    <terminal x="40" y="70" orientation="s" uuid="{020ff6b6-f159-470c-830b-040795286edf}" name="2" type="Generic" />
+    <dynamic_text x="30" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6f2049b7-a9e4-4a9f-b90f-aadc6b33c51c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="80" height="140" hotspot_x="40" hotspot_y="70" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{bd2c835b-e64a-4d6f-9f3d-6a3c973b84c4}" />
+    <names>
+        <name lang="zh">具有两个铁心，每个铁心有一个二次绕组的电流互感器</name>
+        <name lang="en">Current transformer with two cores with one secondary winding on each core</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：37；PDF 页：43；S 号：S00880；出版标准序号：GB/T 4728.6 06-13-02
+名称：具有两个铁心，每个铁心有一个二次绕组的电流互感器 / Current transformer with two cores with one secondary winding on each core；状态：标准；发布日期：2001-07-01
+关键词：电流互感器，仪用互感器，互感器；形式：形式 1；其他形式：S00881；采用符号：S00002，S00017，S00850；应用注释：A00128，A00129，A00134
+形状类别：圆，直线；功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+备注：在一次回路中每端表示出端子符号表明只是一个单独器件。如果使用了端子代号，则端子符号可以省略。
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：尺寸单位为 QET 画布单位；原图拟合 raw_x ≈ 3.11 + 2.940×QET，raw_y ≈ 3.63 + 2.941×QET。
+一次直线 x=20、y=6–125，两端各一端子圆（圆心 (20.5,8) 与 (20.5,122)，直径 4 单位）；二次绕组为两圆，圆心 (20,40) 与 (20,90)、直径 32 单位；二次引线 (36,40)-(70.5,40) 与 (36,90)-(70.5,90)（右端经叠合核对由 68 延至 70.5，原图墨迹右缘约 x=70.7）；引线上各双斜线（采用符号 S00002），上组 (56,30)-(46,50)、(60,30)-(50,50)，下组 (56,80)-(46,100)、(60,80)-(50,100)，斜率 dy/dx=-1/2。
+端口适配：端口 1 (20,6) n、2 (20,125) s 为一次直线两端（端子圆圆心处）；端口 3 (70.5,40) e、4 (70.5,90) e 为两条二次引线端头。原文图形无端口标记；QET 适配在一次直线两端与二次引线端头各设一端口。只做形式 1（双圆形式），不做形式 2（S00881）；端子无绕组编号。点阵背景为参考栅格，未绘入元件。
+</informations>
+    <description>
+    <line x1="20" y1="6" x2="20" y2="125" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="18.5" y="6" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="18.5" y="120" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="4" y="24" diameter="32" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="4" y="74" diameter="32" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="40" x2="70.5" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="90" x2="70.5" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="56" y1="30" x2="46" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="30" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="56" y1="80" x2="46" y2="100" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="80" x2="50" y2="100" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="20" y="6" orientation="n" uuid="{ac77ef31-22a6-4cc0-bf3f-39480f34168a}" name="1" type="Generic" />
+    <terminal x="20" y="125" orientation="s" uuid="{9bf21ba6-ba58-48a2-9cab-44b92c86c3c5}" name="2" type="Generic" />
+    <terminal x="70.5" y="40" orientation="e" uuid="{25e88a07-e128-4801-9696-60341803cf9a}" name="3" type="Generic" />
+    <terminal x="70.5" y="90" orientation="e" uuid="{d128012e-5563-4887-b4d0-c0e8c95ee444}" name="4" type="Generic" />
+        <dynamic_text x="45" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b57f259d-9b2f-4840-be03-b0d3518e38a1}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>

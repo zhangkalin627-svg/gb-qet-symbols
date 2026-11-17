@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="80" height="60" hotspot_x="40" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{9b2c8a50-0a89-4937-8560-2246236c0c26}" />
+  <names>
+    <name lang="zh">单相自耦变压器</name>
+    <name lang="en">Autotransformer, single-phase</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：32；PDF 页：38；S 号：S00871；出版标准序号：GB/T 4728.6 06-11-02
+名称：单相自耦变压器 / Autotransformer, single-phase；状态：标准；发布日期：2001-07-01
+关键词：自耦变压器，变压器
+形式：形式 2
+其他形式：S00870
+采用符号：S00847
+应用注释：A00127，A00128
+形状类别：半圆
+功能类别：T 保持性质的变换
+应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何（实测，原页 300 dpi 渲染逐像素量取）：四个下半圆绕组弧 arc(x,25,10,10,start=180)，x=20,30,40,50；弦线 y=30，弧底 y=35；左竖线 x=20，y 10–30；右贯通竖线 x=60，y 10–50；中间抽头 x=40，y 30–50。尺寸单位为 QET 画布单位。
+端口适配：原文图形为单组半圆绕组、上两引线、下两引线（右贯通线与中间抽头），无端口标记；QET 适配在四根引线端头各设一端口（端口 1/2 朝北、3/4 朝南）。右上端子 2 与右下端子 4 在图形上同属一直通竖线；QET 网表不据图形内连线导通，外部接线时 2 与 4 须视作同一节点。只做形式 2（半圆形式），不做形式 1（S00846 圆形式）；端子无绕组编号。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="20" y1="10" x2="20" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="10" x2="60" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="20" y="25" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="30" y="25" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="40" y="25" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="50" y="25" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="30" x2="40" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="20" y="10" orientation="n" uuid="{98211c1c-2bd0-4463-b3ab-85edb236e2d6}" name="1" type="Generic" />
+    <terminal x="60" y="10" orientation="n" uuid="{0d3615e7-cff3-4227-bdc5-b9d22d0ab56b}" name="2" type="Generic" />
+    <terminal x="40" y="50" orientation="s" uuid="{f4b675ff-8c2c-4f61-ae34-d5fcb16b5106}" name="3" type="Generic" />
+    <terminal x="60" y="50" orientation="s" uuid="{4024162d-5d66-4643-9248-f5fb763edd6f}" name="4" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f450faa0-a8fb-4555-8e2a-b96debaba35c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

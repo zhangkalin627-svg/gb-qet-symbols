@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{2474e5f9-ad33-4471-9a5a-18b184aa06e8}" />
+  <names>
+    <name lang="zh">直流/直流变换器</name>
+    <name lang="en">DC/DC converter</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：43；PDF 页：49；S 号：S00893；出版标准序号：GB/T 4728.6 06-14-02
+名称：直流/直流变换器 / DC/DC converter；状态：标准；发布日期：2001-07-01
+关键词：变换器，换流器，功率变换器
+别名：换流器
+采用符号：S00059，S00214，S01401
+形状类别：正方形；功能类别：T 保持性质的变换；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：点阵间距约 29.5 px；正方形框 (10,10)–(50,50)，40×40 单位（原图框 x31–151、y31–151）；对角线 (10,50)–(50,10)；左上区实线 (15,15)–(35.5,15)（原图 y45–48、x46–107），左上区虚线 y=20、x=14.5–35.5（原图 y60–62，3 段 x45–59、69–82、93–108），用 QET dashed 样式整段画出；右下区实线 (24.5,40)–(45,40)（原图 y120–122、x75–136），右下区虚线 y=45、x=24.5–45.5（原图 y134–136，3 段 x75–88、98–112、123–137），用 QET dashed 样式整段画出。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为正方形框、对角线、左上实线＋虚线、右下实线＋虚线；QET 适配不设端口（原文无连接点，不发明端子）；虚线用 QET dashed 样式整段画出。</informations>
+  <description>
+    <rect x="10" y="10" width="40" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="15" x2="35.5" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="14.5" y1="20" x2="35.5" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24.5" y1="40" x2="45" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24.5" y1="45" x2="45.5" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a2a230ef-0c8d-438e-ab1f-026f15399405}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

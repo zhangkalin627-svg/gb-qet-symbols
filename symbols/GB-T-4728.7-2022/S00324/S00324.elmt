@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="76" height="80" hotspot_x="38" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{b8abd8d0-caa6-4d5b-b301-84c4d32caad8}" />
+  <names>
+    <name lang="zh">剩磁继电器线圈（形式 2）</name>
+    <name lang="en">Relay coil of a remanent relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：38；PDF 页：44；S 号：S00324；出版标准序号：GB/T 4728.7 07-15-20
+名称：剩磁继电器线圈（形式 2） / Relay coil of a remanent relay；状态：标准；发布日期：2001-07-01
+关键词：有或无继电器，驱动器件
+形式：形式 2
+其他形式：S00323
+采用符号：S00305
+形状类别：直线，矩形
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；矩形框 (10,30)-(65,50)，55×20 单位；左格竖隔 x=25（y 30–50），格内积分形标记由折线画出：(21.5,35)-(19,36.5)-(18,38.5)-(17.5,40.5)-(16.5,42.5)-(15,44.5)-(13.5,45)（实测原生位图标记 x 57–82 px、y 105–136 px，合 QET 18.2–26.7、34.5–44.9，折线为骨架追踪拟合，偏差 ≤ 约 0.5 单位）；两根引线各长 20 单位：(45,10)-(45,30)、(45,50)-(45,70)；总高 80 单位，总宽 76 单位（定义框 76，热点 x=38 为整数）。注：原页实测矩形 x 47–209 px、竖隔 x=30、引线 x=50（点阵坐标合 QET 15–70、30、50）；为与同族取齐（矩形左缘 10）整体沿 x 平移 -5，相对几何不变。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形框＋左格竖隔＋格内积分形标记＋上下两根引线；QET 适配在两根引线外端各设一端口（1=(45,10) n、2=(45,70) s），导线由对应方向接入。</informations>
+  <description>
+    <rect x="10" y="30" width="55" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="30" x2="25" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21.5" y1="35" x2="19" y2="36.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19" y1="36.5" x2="18" y2="38.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18" y1="38.5" x2="17.5" y2="40.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="17.5" y1="40.5" x2="16.5" y2="42.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16.5" y1="42.5" x2="15" y2="44.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="44.5" x2="13.5" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="10" x2="45" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="50" x2="45" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="45" y="10" orientation="n" uuid="{20e64c66-3dcb-4342-972f-56ea09c2bceb}" name="1" type="Generic" />
+    <terminal x="45" y="70" orientation="s" uuid="{f674c374-ad14-4b84-9149-3beba10e6ff7}" name="2" type="Generic" />
+    <dynamic_text x="43" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6e9cb191-996d-487c-9710-7cf2eb924d28}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

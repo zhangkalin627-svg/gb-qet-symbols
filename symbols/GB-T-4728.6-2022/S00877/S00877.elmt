@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="160" height="80" hotspot_x="80" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{458715f9-302c-4f75-ab3d-0cd06e391c6c}" />
+    <names>
+        <name lang="zh">三相感应调压器</name>
+        <name lang="en">Three-phase induction regulator</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：35；PDF 页：41；S 号：S00877；出版标准序号：GB/T 4728.6 06-12-02
+名称：三相感应调压器 / Three-phase induction regulator；状态：标准；发布日期：2001-07-01
+关键词：感应调压器，感应器，电抗器；形式：形式 2；其他形式：S00876；采用符号：S00081，S00842；应用注释：A00127，A00128，A00130
+形状类别：箭头，半圆；功能类别：T 保持性质的变换；应用类别：电路图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：尺寸单位为 QET 画布单位；原图拟合 raw_x ≈ 3.60 + 2.940×QET，raw_y ≈ 3.29 + 2.935×QET。
+三列并联，每列左竖线 (x,12)-(x,28)，x=20/60/100；顶横线 (x,19.5)-(x+10,19.5)；顶绕组为 2 个上半圆（start=0），弧框 (x+10,14.5,10,10)、(x+20,14.5,10,10)，弦线 y=19.5、弧顶 y=14.5；右竖线 (x+30,19.5)-(x+30,64)；左绕组为 3 个右半圆（start=270），弧框 (x-5,28,10,10)、(x-5,38,10,10)、(x-5,48,10,10)，弦线 x、弧尖 x+5；底引线 (x,58)-(x,68)；底横线 (50,64)-(130,64)；调压箭头直杆 (11,59.5)-(148,10)，实心三角箭头 (148,10)、(142,11)、(135,16)。箭头说明：箭头尖端 (147.8,9.8) 较直杆拟合线外延偏左约 4 单位，直杆近箭头处与原图墨迹偏差可达约 3.3 单位，见 TEST 记录。
+端口适配：端口 1 (20,12) n、2 (60,12) n、3 (100,12) n 为三列上引线端头；端口 4 (20,68) s、5 (60,68) s、6 (100,68) s 为三列下引线端头。原文图形无端口标记；QET 适配在六条引线端头各设一端口。只做形式 2（半圆绕组形式），不做形式 1（S00876）；端子无绕组编号。点阵背景为参考栅格，未绘入元件。
+</informations>
+    <description>
+    <line x1="20" y1="12" x2="20" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="19.5" x2="30" y2="19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="30" y="14.5" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="40" y="14.5" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="19.5" x2="50" y2="64" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="28" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="38" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="48" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="58" x2="20" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="12" x2="60" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="19.5" x2="70" y2="19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="70" y="14.5" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="80" y="14.5" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="19.5" x2="90" y2="64" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="55" y="28" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="55" y="38" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="55" y="48" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="58" x2="60" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="12" x2="100" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="19.5" x2="110" y2="19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="110" y="14.5" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="120" y="14.5" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="19.5" x2="130" y2="64" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="95" y="28" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="95" y="38" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="95" y="48" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="58" x2="100" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="64" x2="130" y2="64" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11" y1="59.5" x2="148" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="148" y1="10" x2="142" y2="11" x3="135" y3="16" />
+    <terminal x="20" y="12" orientation="n" uuid="{c6e7b0d7-f089-4961-be34-86dfc09a4f96}" name="1" type="Generic" />
+    <terminal x="60" y="12" orientation="n" uuid="{f99752d0-2f9f-43a1-8370-fb76465f4321}" name="2" type="Generic" />
+    <terminal x="100" y="12" orientation="n" uuid="{adf7f5cf-c450-49a0-8be1-4c5b0ef5bf1c}" name="3" type="Generic" />
+    <terminal x="20" y="68" orientation="s" uuid="{495ac15d-1143-4c8d-ba2c-ed803cab33a7}" name="4" type="Generic" />
+    <terminal x="60" y="68" orientation="s" uuid="{2a12b67c-2a96-43d8-891d-0acb80e05df8}" name="5" type="Generic" />
+    <terminal x="100" y="68" orientation="s" uuid="{f502ece6-91e9-4978-9280-6f25026517df}" name="6" type="Generic" />
+        <dynamic_text x="85" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8e7637ad-4b80-492d-925d-adcb02bac643}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>

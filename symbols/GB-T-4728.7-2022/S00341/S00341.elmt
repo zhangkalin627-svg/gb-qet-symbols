@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{2d9dee4c-c37c-4876-9f40-eb819081667b}" />
+  <names>
+    <name lang="zh">延时过流继电器</name>
+    <name lang="en">Delayed overcurrent relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：44；PDF 页：50；S 号：S00341；出版标准序号：GB/T 4728.7 07-17-04
+名称：延时过流继电器 / Delayed overcurrent relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00108，S00124
+形状类别：字符，直线，矩形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：矩形框外缘 x642–823、y1623–1805 px，合 60×60 单位；框内上部 I &gt;：I x719–723、y1672–1693 px；&gt; 折线尖端向右 (763,1683) px，臂端 (741,1674) 与 (741,1692) px；框内下部延时线：水平线 y1759–1762（中心 y1760）、x687–778 px（91 px≈30 单位），两端竖刻线 x687–690 与 x776–778、y1752–1771 px（19 px≈6 单位）。QET：矩形 (10,10)-(70,70)；文本 I 于 (36,26)，字号 10；折线 (50,30)-(43,27)、(50,30)-(43,33)；延时线 (25,56)-(55,56)，竖刻线 (25,53)-(25,59)、(55,53)-(55,59)；定义框 80×80，热点 (40,40)。
+端口适配：原文图形为矩形框＋框内 I &gt;＋下部延时线（水平线＋两端竖刻线），无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="10" width="60" height="60" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="I" x="36" y="26" size="10" />
+    <line x1="50" y1="30" x2="43" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="30" x2="43" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="56" x2="55" y2="56" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="53" x2="25" y2="59" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="55" y1="53" x2="55" y2="59" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{70e6611f-8d03-4347-b30b-35e9818da019}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="120" height="80" hotspot_x="60" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{87b484f9-77fe-4825-abaf-896da2011367}" />
+  <names>
+    <name lang="zh">容性接近传感器件</name>
+    <name lang="en">Proximity sensing device, capacitive</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：50；PDF 页：56；S 号：S00356；出版标准序号：GB/T 4728.7 07-19-03
+名称：容性接近传感器件 / Proximity sensing device, capacitive；状态：标准；发布日期：2001-07-01
+关键词：接近器件，接触敏感器件
+采用符号：S00114，S00355，S00567
+形状类别：直线，矩形，正方形
+备注：固体材料接近时，动作的电容性接近检测器
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29–30 px；斜线小矩形 (10,30)-(20,50)，10×20 单位，内三条 45° 斜线 (10,30)-(20,40)、(10,36)-(20,46)、(10,42)-(18,50)，斜线方向为左上至右下（放大核对＋对角投影核对）；矩形框 (30,10)-(90,70)，60×60 单位；菱形顶点 (52,30)、(60,22)、(68,30)、(60,38)，16×16 单位；菱形内两根竖线 (58,24)-(58,36)、(62,24)-(62,36)；电容两极板 (59,45)-(59,55)、(61,45)-(61,55)，引线 (50,50)-(59,50)、(61,50)-(71,50)；右引线 (90,40)-(110,40)；总宽 120 单位，总高 80 单位。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为斜线矩形＋矩形框＋菱形＋电容＋右引线；QET 适配在右引线外端设一端口（1=(110,40) e），导线由对应方向接入。</informations>
+  <description>
+    <rect x="10" y="30" width="10" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="30" x2="20" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="36" x2="20" y2="46" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="42" x2="18" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="30" y="10" width="60" height="60" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="52" y1="30" x2="60" y2="22" x3="68" y3="30" x4="60" y4="38" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="58" y1="24" x2="58" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="62" y1="24" x2="62" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="59" y1="45" x2="59" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="61" y1="45" x2="61" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="50" x2="59" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="61" y1="50" x2="71" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="40" x2="110" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="110" y="40" orientation="e" uuid="{bad2ae0f-715c-44b6-9352-5199ad547c2e}" name="1" type="Generic" />
+    <dynamic_text x="65" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6a20e05a-eefd-405c-b22e-3b3e4d9b3da9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

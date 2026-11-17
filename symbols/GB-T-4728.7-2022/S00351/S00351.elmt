@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="120" height="120" hotspot_x="60" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{e92ee1b9-7a74-41a6-ad6a-183608c3a1b7}" />
+  <names>
+    <name lang="zh">过流继电器</name>
+    <name lang="en">Overcurrent relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：48；PDF 页：54（备注续于 PDF 55）；S 号：S00351；出版标准序号：GB/T 4728.7 07-17-14
+名称：过流继电器 / Overcurrent relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00109，S00327，S00337
+形状类别：字符，直线，矩形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：矩形框外缘 x90–270、y1–299 px，合 60×99 单位；上部 I&gt; 行 y79–99 px：I x150–160、&gt; 折线尖端向右 (209,90) px、臂端 (186,81) 与 (186,99) px；中部 5× 行 y171–191 px：5 x212–225、× x230–247、y173–190（两条交叉斜线）；下部延时线 y232–247：横线 y239.5、x137–328 px、左端竖刻度 x138、y232–247 px、右端竖刻度 x256.5、y232–246 px、斜线 (181.5,224)-(213,253) px。备注：有两路输出。一路在电流大于 5 倍整定值时动作，另一路按反时限特性动作。QET：矩形 (30,10)-(90,109)（x 整体 +20 平移，见端子说明）；文本 I 于 (49.5,35.5)，折线 (69.5,39)-(61.5,36)、(69.5,39)-(61.5,42)；文本 5 于 (70.5,66)，乘号直线 (76.5,67)-(82,72.5)、(82,67)-(76.5,72.5)；直线 (45.5,89)-(109,89)、(45.5,86.5)-(45.5,91.5)、(85,86.5)-(85,91)、(60,84)-(70.5,93.5)；引线 (10,50)-(30,50)、(90,69)-(109,69)；定义框 120×120，热点 (60,60)。
+端口适配：原文图形为矩形框＋框内 I&gt;、5×、延时线，三条引线出框：左输入 1 路、右输出 2 路；QET 适配设 3 个端口（1 西向、2/3 东向），端子位于引线端点；引线端点 QET x 为 -10（左）与 89（右），按库内先例（S00837 等端子落在定义框内侧），全部 x 坐标 +20 平移，定义框 120×120，热点为矩形中心 (60,60)。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <terminal x="10" y="50" orientation="w" uuid="{7395a460-f366-451a-b778-dc2ed57d4418}" name="1" type="Generic" />
+    <terminal x="109" y="69" orientation="e" uuid="{3126e873-6089-4f59-af58-b377dcc3ce94}" name="2" type="Generic" />
+    <terminal x="109" y="89" orientation="e" uuid="{02c47438-1b76-4cf4-a6cf-a54d6b86f080}" name="3" type="Generic" />
+    <rect x="30" y="10" width="60" height="99" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="I" x="49.5" y="35.5" size="10" />
+    <line x1="69.5" y1="39" x2="61.5" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="69.5" y1="39" x2="61.5" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="5" x="70.5" y="66" size="10" />
+    <line x1="76.5" y1="67" x2="82" y2="72.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="82" y1="67" x2="76.5" y2="72.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45.5" y1="89" x2="109" y2="89" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45.5" y1="86.5" x2="45.5" y2="91.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="85" y1="86.5" x2="85" y2="91" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="84" x2="70.5" y2="93.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="69" x2="109" y2="69" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="65" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0a4ae874-27b1-4a4f-bbdc-58ca9cce3d5c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

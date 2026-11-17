@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="102" hotspot_x="30" hotspot_y="51" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{77da004c-160d-405b-a246-4b2113f535df}" />
+  <names>
+    <name lang="zh">一个二次绕组带一个抽头的电流互感器</name>
+    <name lang="en">Current transformer with one secondary winding with one tap</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：39；PDF 页：45；S 号：S00885；出版标准序号：GB/T 4728.6 06-13-07
+名称：一个二次绕组带一个抽头的电流互感器 / Current transformer with one secondary winding with one tap；状态：标准；发布日期：2001-07-01
+关键词：电流互感器，仪用互感器，互感器
+形式：形式 2
+其他形式：S00884
+采用符号：S00851
+应用注释：A00127，A00128，A00129，A00130，A00134
+形状类别：半圆，直线；功能类别：B 变量转换为信号；应用类别：电路图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：点阵间距约 29.5 px；一次绕组竖直直线 x=30、y=10–91（原图直线 x61–63、y31–271）；二次绕组 4 个向左半圆，弦线 x=30，左缘 x=25，半圆直径 10 单位、深 5 单位，弧段 y=30–40/40–50/50–60/60–70；上引线 (30,30)-(50,30)、下引线 (30,70)-(50,70)；抽头引线 (30,40)-(40,40)，末端实心圆点中心 (40,40)、直径 2.5 单位（原图圆点 x88–94、y118–124，中心约 (91,121)）；总高 102 单位（定义框放宽 1 单位使热点 y=51 为整数，几何不动）。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为一次竖直直线、4 个向左半圆、上下两条二次引线及中部抽头引线；QET 适配在一次直线两端、两条二次引线端头与抽头引线端头各设一端口（1=(30,10) n、2=(30,91) s、3=(50,30) e、4=(40,40) e、5=(50,70) e），导线由对应方向接入；抽头端圆点为原文标记，照画。</informations>
+  <description>
+    <line x1="30" y1="10" x2="30" y2="91" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="30" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="40" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="50" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="60" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="30" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="70" x2="50" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="40" x2="40" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="38.75" y="38.75" diameter="2.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{b001fbff-0396-44ff-acf9-3ad1fcb8a380}" name="1" type="Generic" />
+    <terminal x="30" y="91" orientation="s" uuid="{cf39e89d-09cf-484d-bf3c-c4d0b35fc8fe}" name="2" type="Generic" />
+    <terminal x="50" y="30" orientation="e" uuid="{060e5769-247b-4e4e-8318-f3932e966c95}" name="3" type="Generic" />
+    <terminal x="40" y="40" orientation="e" uuid="{3e419d74-b908-4dfd-8e5a-05194e1430e5}" name="4" type="Generic" />
+    <terminal x="50" y="70" orientation="e" uuid="{9ad5e35c-1db5-4b6f-91f2-598481aab54e}" name="5" type="Generic" />
+    <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c3977ef7-a6cb-49b2-b0e4-1c040bd880d7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{ad3b86d1-d701-426e-a529-8e57b6890432}" />
+    <names>
+        <name lang="zh">一个二次绕组带一个抽头的电流互感器</name>
+        <name lang="en">Current transformer with one secondary winding with one tap</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：39；PDF 页：45；S 号：S00884；出版标准序号：GB/T 4728.6 06-13-06
+名称：一个二次绕组带一个抽头的电流互感器 / Current transformer with one secondary winding with one tap；状态：标准；发布日期：2001-07-01
+关键词：电流互感器，仪用互感器，互感器；形式：形式 1；其他形式：S00885；采用符号：S00002，S00850；应用注释：A00128，A00129，A00134
+形状类别：圆，圆点（点），直线；功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：尺寸单位为 QET 画布单位；原图拟合 raw_x ≈ 3.31 + 2.935×QET，raw_y ≈ 3.46 + 2.931×QET。
+一次直线 x=20、y=12–68；二次绕组为圆，圆心 (20,40)、直径 32 单位；二次引线 (36,40)-(68,40)；引线上双斜线（采用符号 S00002），(56,30)-(46,50)、(60,30)-(50,50)，斜率 dy/dx=-1/2；抽头圆点为实心圆，圆心 (30.3,27.7)、直径 4 单位，位于二次绕组圆右上（距圆心约 16 单位，即在圆周上）。
+端口适配：端口 1 (20,12) n、2 (20,68) s 为一次直线两端；端口 3 (68,40) e 为二次引线端头；端口 4 (30,28) e 为抽头圆点（原图为绕组圆上的实心圆点、无外引线；QET 适配在圆点处设一端口以便接线，方向取 e）。原文图形无端口标记。只做形式 1，不做形式 2（S00885）；端子无绕组编号。点阵背景为参考栅格，未绘入元件。
+</informations>
+    <description>
+    <line x1="20" y1="12" x2="20" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="4" y="24" diameter="32" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="40" x2="68" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="56" y1="30" x2="46" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="30" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="28.3" y="25.7" diameter="4" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <terminal x="20" y="12" orientation="n" uuid="{a7d8879a-7b06-4cbc-ab02-f7512b7b9161}" name="1" type="Generic" />
+    <terminal x="20" y="68" orientation="s" uuid="{ffae6f60-3c44-467e-b2b1-2d61f0e124d4}" name="2" type="Generic" />
+    <terminal x="68" y="40" orientation="e" uuid="{3897078c-c647-4665-bb0e-af506b1694d5}" name="3" type="Generic" />
+    <terminal x="30" y="28" orientation="e" uuid="{4c4efb2f-6ce8-4bb4-93c8-914523822d9a}" name="4" type="Generic" />
+        <dynamic_text x="45" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f731626e-0c49-4d8a-a4f4-ba9ff480a155}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>

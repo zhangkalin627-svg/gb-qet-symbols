@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{221f64f0-9935-424d-9389-f0cec290bb24}" />
+  <names>
+    <name lang="zh">闭环控制器</name>
+    <name lang="en">Closed-loop controller</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：49；PDF 页：55；S 号：S00909；出版标准序号：GB/T 4728.6 06-19-01
+名称：闭环控制器 / Closed-loop controller；状态：标准；发布日期：2001-07-01
+关键词：闭环控制器，控制器
+应用注释：A00132，A00256；应用的示例见 A00256。
+形状类别：等边三角形，正方形
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸单位为 QET 画布单位，不宣称标准绝对毫米或公差。
+实测几何（300 dpi 原页量取）：点阵间距约 29.6 px；单框 (10,10)-(50,49.5)；内 chevron“>”：上斜线 (30.5,10.5)-(50,30)、下斜线 (30.5,48.5)-(50,30)，尖在右框边中点 (50,30)；星形标记中心 (30.5,29.5)：竖线 (30.5,27.5)-(30.5,31.5)、横线 (28.5,29.5)-(32.5,29.5)、两斜线 (28.5,28.5)-(32.5,30.5)、(32.5,28.5)-(28.5,30.5)。定义框 60x60，热点 (30,30)。
+端口适配：原文图形为单框器件，无对外引线；QET 适配在左右框边中点各设一端口（1=(10,30) w、2=(50,30) e），chevron 尖触右框边中点；未擅自补画引线。端口按从左到右顺序编号 1-2。</informations>
+  <description>
+    <rect x="10" y="10" width="40" height="39.5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30.5" y1="10.5" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30.5" y1="48.5" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30.5" y1="27.5" x2="30.5" y2="31.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="28.5" y1="29.5" x2="32.5" y2="29.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="28.5" y1="28.5" x2="32.5" y2="30.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32.5" y1="28.5" x2="28.5" y2="30.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="30" orientation="w" uuid="{de68e3f0-4c75-4394-adcf-6ec646c56e9b}" name="1" type="Generic" />
+    <terminal x="50" y="30" orientation="e" uuid="{1fd5a05c-18ca-40f3-bfc1-e3d995a1c574}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{72243ea4-0001-4858-ae05-bf3ef0fd9897}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

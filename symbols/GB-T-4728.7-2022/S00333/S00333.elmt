@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="50" height="22" hotspot_x="25" hotspot_y="11" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{5401ee68-8b4a-4b11-8b50-d96df6527c6d}" />
+  <names>
+    <name lang="zh">对地故障电流</name>
+    <name lang="en">Earth fault current</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：41；PDF 页：47；S 号：S00333；出版标准序号：GB/T 4728.7 07-16-07
+名称：对地故障电流 / Earth fault current；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00200
+形状类别：字符，直线
+功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：字母 I（斜体）＋接地符号：I 墨迹 x649–672、y2000–2027 px；接地符号竖线 x756–760、y1994–2004 px，顶横线 y2004、x735–770 px（36 px≈12 单位），中横线 y2013、x738–765 px（27 px≈9 单位），底横线 y2027、x746–758 px（12 px≈4 单位，范围受水印干扰、按标准三横线递减比例推定，见量取记录）；图形总宽 x649–770 px（121 px≈40 单位），总高 y1994–2028 px（34 px≈11 单位）。QET：文本 I 于 (5,7)，字号 12；竖线 (41,5)-(41,8)；横线 (33,8)-(45,8)、(35,11)-(44,11)、(37,16)-(41,16)；定义框 50×22，热点 (25,11)。
+端口适配：原文图形为字母 I＋接地符号（采用符号 S00200），无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <text text="I" x="5" y="7" size="12" />
+    <line x1="41" y1="5" x2="41" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="33" y1="8" x2="45" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="35" y1="11" x2="44" y2="11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37" y1="16" x2="41" y2="16" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="30" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8aac5e46-8202-4f46-bfc5-dbd9b35a1062}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="60" hotspot_x="40" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{9f8512d7-dc6d-45af-bddf-ac1c417c86a2}" />
+  <names>
+    <name lang="zh">零电压继电器</name>
+    <name lang="en">No voltage relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：43；PDF 页：49；S 号：S00338；出版标准序号：GB/T 4728.7 07-17-01
+名称：零电压继电器 / No voltage relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00111，S00327
+形状类别：字符，矩形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：矩形框外缘 x675–856、y968–1089 px，边框中心线左 676.5、右 854.5、上 969.5、下 1087.5 px，合 59.3×39.3 单位，取 60×40 单位，边框厚 4 px；框内 U=0：x738–791、y1015–1036 px（53×21 px≈18×7 单位），U x738–756、= x758–773（两横 y1025–1026 与 y1031–1032）、0 x777–791。两侧点阵竖线（x645–649、x882–887 px）为点阵背景，未绘入。QET：矩形 (10,10)-(70,50)；文本 U=0 于 (31,26)，字号 10；定义框 80×60，热点 (40,30)。
+端口适配：原文图形为矩形框＋框内 U=0，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="10" width="60" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="U=0" x="31" y="26" size="10" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a42fd1dc-b672-4e22-80b9-1c7778e4960c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

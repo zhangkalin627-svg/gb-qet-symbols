@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="60" hotspot_x="40" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{9fa5a040-93fc-4bae-b1b2-dee94b793fb0}" />
+  <names>
+    <name lang="zh">断相故障检测继电器</name>
+    <name lang="en">Phase-failure detection relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：47；PDF 页：53（条目文字续于 PDF 54）；S 号：S00349；出版标准序号：GB/T 4728.7 07-17-12
+名称：断相故障检测继电器 / Phase-failure detection relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00109，S00327
+形状类别：字符，矩形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：矩形框外缘 x31–210、y31–152 px，合 60×40 单位；框内 m&lt;3 行 y82–102 px：m x77–99（三竖线 x78.5/88/97.5、两拱顶 y87–88；另读：三相象形，三竖线表三相）、&lt; 折线尖端向左 (111,91) px、臂端 (134,82) 与 (134,100) px、3 x150–164。备注：图示用在三相系统中。QET：矩形 (10,10)-(70,50)；文本 m 于 (25,28) 字号 10；折线 (36.5,29.5)-(44,26.5)、(36.5,29.5)-(44,32.5)；文本 3 于 (49.5,26.5) 字号 10；定义框 80×60，热点 (40,30)。
+端口适配：原文图形为矩形框＋框内图形，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="10" width="60" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="m" x="25" y="28" size="10" />
+    <line x1="36.5" y1="29.5" x2="44" y2="26.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36.5" y1="29.5" x2="44" y2="32.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="3" x="49.5" y="26.5" size="10" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8d7642eb-fd6f-44f8-93a9-940f5bb2ac27}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{3ac05f31-3fc2-488b-a0ea-20cdf5cb8c04}" />
+  <names>
+    <name lang="zh">熔断器；撞击式熔断器</name>
+    <name lang="en">Fuse; striker fuse</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：53/54；PDF 页：59（图形）/60（文字）；S 号：S00364；出版标准序号：GB/T 4728.7 07-21-03
+名称：熔断器；撞击式熔断器 / Fuse; striker fuse；状态：标准；发布日期：2001-07-01
+关键词：熔断器
+用于：S00365、S00367；采用符号：S00144、S00362；形状类别：直线，矩形；功能类别：F 防护；应用类别：电路图，接线图，功能图，概略图
+备注：带机械连杆
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；竖线 x 61..63 px，y 31..210 px；矩形框 x 46..78 px，y 75..166 px；撞击连杆水平线 y 119..121 px，两段 x 76..113 px 与 117..152 px，中间 3 px 断口。QET 落位：竖线 (40,10)-(40,70)；矩形 (35,25) 10x30；连杆线 (45,39.5)-(57,39.5) 与 (58.5,39.5)-(70.5,39.5)，断口照原图保留。
+端口适配：原文图形为竖线穿矩形框、矩形右沿中部偏下伸出撞击连杆；QET 适配在竖线两端各设一端口（1=(40,10) n、2=(40,70) s）；连杆右端无端子（机械连杆，非接线点）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="40" y1="10" x2="40" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="35" y="25" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="39.5" x2="57" y2="39.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="58.5" y1="39.5" x2="70.5" y2="39.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="40" y="10" orientation="n" uuid="{38fd4a7a-e01c-4a46-8ff3-45d3a321f743}" name="1" type="Generic" />
+    <terminal x="40" y="70" orientation="s" uuid="{12f1a89c-781a-4785-919d-2dd67cdd2540}" name="2" type="Generic" />
+    <dynamic_text x="40" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b2462dc1-acce-4d7f-bbd6-1fc9876fa1c8}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

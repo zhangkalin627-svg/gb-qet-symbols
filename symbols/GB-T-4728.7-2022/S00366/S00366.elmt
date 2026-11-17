@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="100" height="80" hotspot_x="50" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{f4f30876-e96d-488c-9b84-e528c0781e65}" />
+  <names>
+    <name lang="zh">独立报警熔断器</name>
+    <name lang="en">Fuse with separate alarm</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：54/55；PDF 页：60（图形）/61（文字续）；S 号：S00366；出版标准序号：GB/T 4728.7 07-21-05
+名称：独立报警熔断器 / Fuse with separate alarm；状态：标准；发布日期：2001-07-01
+关键词：熔断器
+采用符号：S00227、S00362；形状类别：直线，矩形；功能类别：F 防护；应用类别：电路图，接线图，功能图，概略图
+备注：具有独立报警电路
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；熔断器竖线 x 60..63 px，y 32..210 px；矩形 x 46..77 px，y 76..166 px；连杆虚线 y 120..122 px，三段 x 76..101、105..130、134..166 px；触刀 (147,84)..(180,150) px；报警上竖线 x 179..181 px，y 32..93 px；下竖线 y 146..210 px。QET 落位见量取记录。
+端口适配：原文图形为熔断器加右侧独立报警触点；QET 适配设四端口：1=(40,10) n 熔断器上、2=(40,70) s 熔断器下、3=(80,10) n 报警上、4=(80,70) s 报警下；报警电路与熔断器电路独立。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="40" y1="10" x2="40" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="35" y="25" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44.5" y1="40" x2="53" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="54.5" y1="40" x2="63" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="64.5" y1="40" x2="75.5" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="68.5" y1="27.5" x2="80" y2="49.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="10" x2="80" y2="30.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="48.5" x2="80" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="40" y="10" orientation="n" uuid="{5c938d0c-15f2-4485-a91b-0aa7931f3cf6}" name="1" type="Generic" />
+    <terminal x="40" y="70" orientation="s" uuid="{796c88bd-1b5d-43aa-b67c-c3e8dcc5615c}" name="2" type="Generic" />
+    <terminal x="80" y="10" orientation="n" uuid="{7d6f18b5-87ae-402d-83ae-c7c9ae3ea4fd}" name="3" type="Generic" />
+    <terminal x="80" y="70" orientation="s" uuid="{7d723371-d4cf-4238-8e85-acfe4118ab4c}" name="4" type="Generic" />
+    <dynamic_text x="50" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9484f552-a978-4de7-ae06-23f99c3a5a38}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

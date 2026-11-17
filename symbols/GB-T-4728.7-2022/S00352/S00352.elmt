@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="99" hotspot_x="40" hotspot_y="50" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{443ae2a2-0b1b-4cf9-a61c-637b7e285f17}" />
+  <names>
+    <name lang="zh">瓦斯保护器件；气体继电器</name>
+    <name lang="en">Buchholz protection device; gas relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：49；PDF 页：55；S 号：S00352；出版标准序号：GB/T 4728.7 07-18-01
+名称：瓦斯保护器件；气体继电器 / Buchholz protection device; gas relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00195，S00198，S00327
+形状类别：圆弧，矩形，正方形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：矩形框外缘 x31–210、y32–270 px，合 60×79 单位；上部菱形符号 y66–108：竖短线 (120,66)-(120,76) px、上 V 形顶点 (120,76) px、两臂至 (93,89) 与 (148,89) px、下 V 形顶点 (120,108) px、两臂至 (93,96) 与 (148,96) px、左右顶点处各约 7 px 缝隙；下部方框 x98–143、y187–233 px、右上角横短线 (143,188)-(158,188) px。QET：矩形 (10,10)-(70,89)；直线 (39.5,21)-(39.5,24.5)、(39.5,24.5)-(30.5,28.5)、(39.5,24.5)-(48.5,28.5)、(30.5,31)-(39.5,35)、(48.5,31)-(39.5,35)；矩形 (32,61.5)-(47,76.5)；直线 (47,61.5)-(52,61.5)；定义框 80×99，热点 (40,50)。
+端口适配：原文图形为矩形框＋框内图形，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="10" width="60" height="79" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="39.5" y1="21" x2="39.5" y2="24.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="39.5" y1="24.5" x2="30.5" y2="28.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="39.5" y1="24.5" x2="48.5" y2="28.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30.5" y1="31" x2="39.5" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="48.5" y1="31" x2="39.5" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="32" y="61.5" width="15" height="15" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="47" y1="61.5" x2="52" y2="61.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d28a69a1-6828-4c6a-93e9-4d8576b46753}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

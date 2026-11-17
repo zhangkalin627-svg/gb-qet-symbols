@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="120" hotspot_x="40" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{d2d6dc96-1b4b-451a-92b2-5246cb80b8a7}" />
+  <names>
+    <name lang="zh">用放射性同位素热源的热离子二极管发生器</name>
+    <name lang="en">Thermionic diode generator with radio-isotope heat source</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：48；PDF 页：54；S 号：S00907；出版标准序号：GB/T 4728.6 06-18-05
+名称：用放射性同位素热源的热离子二极管发生器 / Thermionic diode generator with radio-isotope heat source；状态：标准；发布日期：2001-07-01
+关键词：发生器，无旋转的电能发生器，电能发生器
+采用符号：S00129，S00641，S00899，S00900，S00901
+形状类别：箭头，矩形，正方形
+功能类别：G 电能的发生；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸单位为 QET 画布单位，不宣称标准绝对毫米或公差。
+实测几何（300 dpi 原页量取）：点阵间距约 29.6 px；上框 (10,10)-(69.5,69.5)，下框 (10,69.5)-(69.5,109)，共用边 y=69.5；下框内竖条 x=15、20、60、64.5（y 69.5-109）；二极管：横线 (30,54.5)-(50.5,54.5)，三角 (30,54.5),(35,49),(35,60)，竖杠 (45,49)-(45,60)；字母 G：弧 (38,27,5.5,7.5,start=45,angle=270)＋横画 (40.5,30)-(42.5,30)；波形箭头两支，尾 (30,93)/(35,98)、尖 (46,79.5)/(51,84)，中心线按实测折线画出，箭头为实心三角。定义框 80x120，热点 (40,60)。
+端口适配：原文图形为双框器件，内部二极管无对外引线；QET 适配在左右框边、二极管高度处各设一端口（1=(10,54.5) w、2=(69.5,54.5) e），导线由对应方向接入；未擅自补画引线。端口按从左到右顺序编号 1-2。</informations>
+  <description>
+    <rect x="10" y="10" width="59.5" height="59.5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="10" y="69.5" width="59.5" height="39.5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="69.5" x2="15" y2="109" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="69.5" x2="20" y2="109" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="69.5" x2="60" y2="109" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="64.5" y1="69.5" x2="64.5" y2="109" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="54.5" x2="50.5" y2="54.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="30" y1="54.5" x2="35" y2="49" x3="35" y3="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="49" x2="45" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="38" y="27" width="5.5" height="7.5" start="45" angle="270" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40.5" y1="30" x2="42.5" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="31" y1="92" x2="33" y2="92" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="33" y1="92" x2="35" y2="90.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="35" y1="90.5" x2="37" y2="89.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37" y1="89.5" x2="39" y2="86" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="39" y1="86" x2="41" y2="84" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="41" y1="84" x2="43" y2="83" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="43" y1="83" x2="45" y2="80.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="80.5" x2="46" y2="79.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="46" y1="79.5" x2="44.4" y2="83.6" x3="41.9" y3="81.1" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="35.5" y1="98" x2="37.5" y2="98" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37.5" y1="98" x2="39.5" y2="96" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="39.5" y1="96" x2="41.5" y2="95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="41.5" y1="95" x2="44" y2="91.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="91.5" x2="46" y2="89.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="46" y1="89.5" x2="48" y2="88.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="48" y1="88.5" x2="50.5" y2="86.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50.5" y1="86.5" x2="51" y2="84" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="51" y1="84" x2="52" y2="88.3" x3="48.5" y3="87.6" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <terminal x="10" y="54.5" orientation="w" uuid="{a9462d78-63bf-46dd-b08d-6722696c252b}" name="1" type="Generic" />
+    <terminal x="69.5" y="54.5" orientation="e" uuid="{7b606c1b-e81e-4c44-b78f-ce04a767a441}" name="2" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{754a7dc0-1cc5-430b-9418-7dd1963631bd}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

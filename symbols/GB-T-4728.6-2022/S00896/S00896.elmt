@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{b65c010c-6641-4fe5-942c-a7580322bd74}" />
+    <names>
+        <name lang="zh">逆变器</name>
+        <name lang="en">Inverter</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：44；PDF 页：50；S 号：S00896；出版标准序号：GB/T 4728.6 06-14-05
+名称：逆变器 / Inverter；状态：标准；发布日期：2001-07-01
+关键词：逆变器，功率变换器；采用符号：S00059，S00214，S01401，S01403
+形状类别：正方形；功能类别：T 保持性质的变换；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：尺寸单位为 QET 画布单位；原图拟合 raw_x ≈ 3.33 + 2.931×QET，raw_y ≈ 3.00 + 2.950×QET。
+正方形外框 (10,10)-(50,50)；对角线 (10,50)-(50,10)；直流侧实线 (15,15)-(35,15)，虚线 y=20 三段 (15,20)-(19,20)、(23,20)-(27,20)、(31,20)-(35,20)；正弦波起 (25,42.5)、峰 (30,40)、中 (35,42.5)、谷 (40,45)、止 (45,42.5)，中心 42.5、幅 2.5、周期 20，两弧同框 (25,40,10,5,0,180)＋(35,40,10,5,180,180)（第二弧 y 与第一弧同为 40）。
+端口适配：原文图形为正方形框、对角线、左上直流实线＋虚线、右下正弦波；QET 适配不设端口（原图无连接点，不发明端子），本件为纯图形符号，可放置于图面，不参与网表接线。
+</informations>
+    <description>
+    <line x1="10" y1="10" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="10" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="50" x2="10" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="15" x2="35" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="20" x2="19" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="23" y1="20" x2="27" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="31" y1="20" x2="35" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="40" width="10" height="5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="35" y="40" width="10" height="5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{574f4f0f-7838-45f9-91dd-c534cd7cde2d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="120" hotspot_x="30" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{c545ee7f-510c-4bc2-a9f4-f068ac2ea18f}" />
+  <names>
+    <name lang="zh">在同一个铁心有两个二次绕组的脉冲变压器或电流互感器</name>
+    <name lang="en">Pulse or current transformer with two secondary windings on the same core</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：42；PDF 页：48；S 号：S00891；出版标准序号：GB/T 4728.6 06-13-13
+名称：在同一个铁心有两个二次绕组的脉冲变压器或电流互感器 / Pulse or current transformer with two secondary windings on the same core；状态：标准；发布日期：2001-07-01
+关键词：电流互感器，仪用互感器，脉冲变压器，变压器
+形式：形式 2
+其他形式：S00890
+采用符号：S00851
+应用注释：A00127，A00128，A00129，A00130，A00134
+形状类别：半圆，直线；功能类别：B 变量转换为信号；应用类别：电路图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：点阵间距约 29.5 px；一次绕组竖直直线 x=30、y=10–110（原图直线 x60–62、y31–329）；左侧联线 x=20、y=30–90（原图直线 x31–33、y90–270，与半圆左缘不接触）；二次绕组 4 个向左半圆，分上下两组，弦线 x=30，左缘 x=25，半圆直径 10 单位、深 5 单位：上组弧段 y=30–40/40–50，下组弧段 y=70–80/80–90；4 条二次引线 (30,30)-(50,30)、(30,50)-(50,50)、(30,70)-(50,70)、(30,90)-(50,90)（原图引线行 y90–92、149–151、209–211、268–270，x 至 121）；斜线 (34,15)-(23,27)，过一次线于 y≈20（原图斜线约 (75,48)-(41,82)）；数字 9 置于一次线上端右侧（原图分量包围盒 x96–109、y33–53）。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为一次竖直直线、左侧联线、4 个向左半圆、4 条二次引线、斜线及数字 9；QET 适配在一次直线两端与 4 条二次引线端头各设一端口（1=(30,10) n、2=(30,110) s、3=(50,30) e、4=(50,50) e、5=(50,70) e、6=(50,90) e），导线由对应方向接入；数字 9 用 QET text 元素画出。</informations>
+  <description>
+    <line x1="30" y1="10" x2="30" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="30" x2="20" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="30" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="40" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="70" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="80" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="30" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="70" x2="50" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="90" x2="50" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="34" y1="15" x2="23" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="9" x="41.5" y="17.1" size="7" rotation="0" color="#000000" />
+    <terminal x="30" y="10" orientation="n" uuid="{171ff432-cbf5-4160-8dab-1e821becb2ec}" name="1" type="Generic" />
+    <terminal x="30" y="110" orientation="s" uuid="{c2b078f6-6291-4f8b-8a6d-0006ccefd563}" name="2" type="Generic" />
+    <terminal x="50" y="30" orientation="e" uuid="{1db62a34-dcdc-404c-a15f-fb6da02eb9ab}" name="3" type="Generic" />
+    <terminal x="50" y="50" orientation="e" uuid="{0ac2d755-e4b2-4353-9c68-acbdf47366c0}" name="4" type="Generic" />
+    <terminal x="50" y="70" orientation="e" uuid="{87f80d9b-99c0-4693-8b09-bd392e934152}" name="5" type="Generic" />
+    <terminal x="50" y="90" orientation="e" uuid="{7b13fec4-4d17-4894-a67d-f10665c42e85}" name="6" type="Generic" />
+    <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{109bbc31-9c12-4632-850d-584522d208a3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

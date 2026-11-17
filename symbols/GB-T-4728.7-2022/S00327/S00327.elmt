@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="80" height="60" hotspot_x="40" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{bf09a1cd-0d59-4610-90e9-ac7213084c31}" />
+  <names>
+    <name lang="zh">测量继电器；测量继电器有关的器件</name>
+    <name lang="en">Measuring relay; Device related to a measuring relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：39；PDF 页：45；S 号：S00327；出版标准序号：GB/T 4728.7 07-16-01
+名称：测量继电器；测量继电器有关的器件 / Measuring relay; Device related to a measuring relay；状态：标准；发布日期：2001-07-01
+关键词：测量继电器，驱动器件
+用于：S00338，S00339，S00340，S00343，S00344，S00345，S00346，S00347，S00348，S00349，S00350，S00351，S00352，S00353，S00479，S00478
+应用注释：A00091，A00092，A00093，A00094，A00368
+形状类别：矩形
+功能类别：B 变量转换为信号
+应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；矩形框 (10,10)-(70,50)，60×40 单位；框内星号 * 中心 (40,30)，由 4 条短线画出：竖线 (40,28)-(40,32)、横线 (38,30)-(42,30)、斜线 (42,29)-(38.5,31.5) 与 (38,29)-(41.5,31.5)（实测原生位图星号 x 114–127 px、y 55–67 px，合 QET 37.5–41.9、17.6–21.6，直径约 4 单位）；无引线；总高 60 单位，总宽 80 单位（定义框 80，热点 x=40、y=30 均为整数）。注：原页本件图形在点阵 y 0–40，整体沿 y 平移 +10 与同族取齐，相对几何不变。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为单个空心矩形框＋框内星号，无引线；QET 适配不设端口（原文无连接点，不发明端子）。</informations>
+  <description>
+    <rect x="10" y="10" width="60" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="28" x2="40" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="38" y1="30" x2="42" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="42" y1="29" x2="38.5" y2="31.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="38" y1="29" x2="41.5" y2="31.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{bf7084d6-aec5-4506-b926-e5e6807f7327}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

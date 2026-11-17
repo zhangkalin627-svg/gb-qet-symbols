@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="50" height="18" hotspot_x="25" hotspot_y="9" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{9f6ceeb9-b9e7-4b16-9607-64c803397b60}" />
+  <names>
+    <name lang="zh">反时限特性</name>
+    <name lang="en">Inverse time-lag characteristic</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：42；PDF 页：48；S 号：S00337；出版标准序号：GB/T 4728.7 07-16-11
+名称：反时限特性 / Inverse time-lag characteristic；状态：标准；发布日期：2001-07-01
+关键词：测量继电器
+采用符号：S00124；用于 S00351
+形状类别：直线
+功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：水平线 y2781、x644–764 px（120 px=40 单位）；45° 斜线 (688,2765)-(720,2797) px，过水平线于 (704,2781) px，两端均无箭头（端部宽 3–4 px）；两端竖刻线 x644–646 与 x762–764、y2765–2797 px（32 px≈11 单位），关于水平线对称。两侧点阵竖线（x613–617、x790–795 px）为点阵背景，未绘入。QET：水平线 (5,9)-(45,9)；斜线 (19,3)-(30,14)；竖刻线 (5,3)-(5,14)、(45,3)-(45,14)；定义框 50×18，热点 (25,9)。
+端口适配：原文图形为水平线＋45° 斜线＋两端竖刻线，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="5" y1="9" x2="45" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19" y1="3" x2="30" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="5" y1="3" x2="5" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="3" x2="45" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="30" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c62f3321-c0a3-4514-a6c5-55231a23fb16}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="36" height="56" hotspot_x="18" hotspot_y="28" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{71010ad6-c984-43ff-a828-c8bfc769ff2e}" />
+  <names>
+    <name lang="zh">接近传感器</name>
+    <name lang="en">Proximity sensor</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：49；PDF 页：55；S 号：S00354；出版标准序号：GB/T 4728.7 07-19-01
+名称：接近传感器 / Proximity sensor；状态：标准；发布日期：2001-07-01
+关键词：接近器件，接触敏感器件
+形状类别：直线，正方形
+功能类别：B 变量转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29–30 px；主竖线在菱形内断开，分两段 (18,10)-(18,21)、(18,35)-(18,46)；菱形顶点 (10,28)、(18,21)、(26,28)、(18,35)，16×14 单位；菱形内两根竖线 (16,23)-(16,33)、(20,23)-(20,33)；总宽 36 单位，总高 56 单位。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为主竖线＋菱形＋菱形内两根竖线；QET 适配在主竖线两端各设一端口（1=(18,10) n、2=(18,46) s），导线由对应方向接入。</informations>
+  <description>
+    <line x1="18" y1="10" x2="18" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18" y1="35" x2="18" y2="46" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="10" y1="28" x2="18" y2="21" x3="26" y3="28" x4="18" y4="35" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="23" x2="16" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="23" x2="20" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="18" y="10" orientation="n" uuid="{b6899243-5a6b-4941-a00e-b99fab0c1974}" name="1" type="Generic" />
+    <terminal x="18" y="46" orientation="s" uuid="{4ce40b64-b112-45b2-b2d9-b0ff13728231}" name="2" type="Generic" />
+    <dynamic_text x="23" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3b8c6468-e0f7-4d20-9dde-2a123eea424b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

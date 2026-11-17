@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="50" height="130" hotspot_x="25" hotspot_y="65" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{57657221-a97c-460d-977c-cb567a691337}" />
+    <names>
+        <name lang="zh">具有两个铁心，每个铁心有一个二次绕组的电流互感器</name>
+        <name lang="en">Current transformer with two cores with one secondary winding on each core</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：37（条目文字续于印刷页 38）；PDF 页：43（文字续 PDF 页 44）；S 号：S00881；出版标准序号：GB/T 4728.6 06-13-03
+名称：具有两个铁心，每个铁心有一个二次绕组的电流互感器 / Current transformer with two cores with one secondary winding on each core；状态：标准；发布日期：2001-07-01
+关键词：电流互感器，仪用互感器，互感器；形式：形式 2；其他形式：S00880；采用符号：S00017，S00851；应用注释：A00127，A00128，A00129，A00130，A00134
+形状类别：半圆，直线；功能类别：B 变量转换为信号；应用类别：电路图
+备注：在一次回路中每端表示出端子符号表明只是一个单独器件。如果使用了端子代号，则端子符号可以省略。形式 2 中铁心符号可以略去。
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染，另以 PDF 内嵌原图核对）：尺寸单位为 QET 画布单位；原图拟合 raw_x ≈ 2.89 + 2.942×QET，raw_y ≈ 3.38 + 2.945×QET。
+一次直线 x=20、y=7–113，两端各一端子圆（圆心 (20.5,9.5) 与 (20.5,110.5)，直径 4 单位）；二次绕组为 4 个左半圆（start=90），弧框 (15,30,10,10)、(15,40,10,10)、(15,70,10,10)、(15,80,10,10)，弦线 x=20、弧尖 x=15；铁心线 (10,32)-(10,48) 与 (10,72)-(10,88)；二次引线四条 (20,30)-(38,30)、(20,50)-(38,50)、(20,70)-(38,70)、(20,90)-(38,90)（每绕组两端各一引线，按采用符号 S00851 的双引线形式）。
+端口适配：端口 1 (20,7) n、2 (20,113) s 为一次直线两端（端子圆圆心处）；端口 3 (38,30) e、4 (38,50) e、5 (38,70) e、6 (38,90) e 为四条二次引线端头。原文图形无端口标记；QET 适配在一次直线两端与二次引线端头各设一端口。只做形式 2（半圆绕组形式），不做形式 1（S00880）；端子无绕组编号。点阵背景为参考栅格，未绘入元件。
+</informations>
+    <description>
+    <line x1="20" y1="7" x2="20" y2="113" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="18.5" y="7.5" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="18.5" y="108.5" diameter="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="30" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="40" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="70" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="80" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="32" x2="10" y2="48" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="72" x2="10" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="30" x2="38" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="50" x2="38" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="70" x2="38" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="90" x2="38" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="20" y="7" orientation="n" uuid="{bead8d9a-b28c-46ab-a4ba-4a4f4f456391}" name="1" type="Generic" />
+    <terminal x="20" y="113" orientation="s" uuid="{901bc64c-f4f9-4e12-960c-eae63da3b932}" name="2" type="Generic" />
+    <terminal x="38" y="30" orientation="e" uuid="{b8e559fd-bb6f-41cb-9193-3e9a8ca1ce04}" name="3" type="Generic" />
+    <terminal x="38" y="50" orientation="e" uuid="{d0ba35b1-4089-4c36-9b1f-fffd321c7bbe}" name="4" type="Generic" />
+    <terminal x="38" y="70" orientation="e" uuid="{b9dd3f92-64ca-4efb-a989-e1deb3aa9de8}" name="5" type="Generic" />
+    <terminal x="38" y="90" orientation="e" uuid="{15d69693-7dbc-45b5-b37d-2765fbcdebfd}" name="6" type="Generic" />
+        <dynamic_text x="30" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{32e1be18-db33-4db4-923a-1289c9c37f58}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>

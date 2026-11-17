@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="120" height="80" hotspot_x="60" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{67313db8-7b7e-4560-a0b7-ad5bffa9a4ba}" />
+  <names>
+    <name lang="zh">自复位极化继电器</name>
+    <name lang="en">Polarized relay, self restoring</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：36（图形）/37（条目文字）；PDF 页：42（图形）/43（条目文字）；S 号：S00320；出版标准序号：GB/T 4728.7 07-15-16
+名称：自复位极化继电器 / Polarized relay, self restoring；状态：标准；发布日期：2001-07-01
+关键词：有或无继电器，驱动器件
+采用符号：S00230，S00319
+形状类别：圆点（点），直线，矩形
+备注：在绕组中只有一个方向的电流起作用，并能自复位的极化继电器
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；矩形框 (10,30)-(60,50)，50×20 单位；左端实心黑条 (10,30)-(20,50)，条内白色竖缝 (11,36)-(14,44)；上下两根线圈引线各长 20 单位：(40,10)-(40,30)、(40,50)-(40,70)；虚线机械连线 y=40，自矩形右缘 (60,40) 至 (88,40)（原页 3 段虚划 60–68、70–78、80–88，QET 虚线样式整段画出）；转换触点：左定触点竖线 (80,10)-(80,30)＋横足 (80,30)-(92,30)，右定触点竖线 (100,10)-(100,30)，动触片斜线 (90,30)-(100,49)（上端接横足，下端续竖线 (100,49)-(100,70)）；实心圆点两个：(110,20)、(50,60)，直径 3.5（原页实测 10 px）；总高 80 单位，总宽 120 单位（定义框 120，热点 x=60 为整数，右留边 10 单位）。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为极化线圈＋虚线机械连线＋先断后合转换触点（S00230）；QET 适配在线圈引线外端与三根触点引线外端各设一端口：线圈 1=(40,10) n、2=(40,70) s，触点 3=(80,10) n、4=(100,10) n、5=(100,70) s；动触片在图面接通 3 与 5，QET 网表不建模元件内连接，接线后以网表为准。</informations>
+  <description>
+    <rect x="10" y="30" width="50" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="10" y="30" width="10" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <rect x="11" y="36" width="3" height="8" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:white;color:white" antialias="false" />
+    <line x1="40" y1="10" x2="40" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="50" x2="40" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="40" x2="88" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="10" x2="80" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="30" x2="92" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="10" x2="100" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="30" x2="100" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="49" x2="100" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="108.25" y="18.25" diameter="3.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <circle x="48.25" y="58.25" diameter="3.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <terminal x="40" y="10" orientation="n" uuid="{0b13ea07-4be7-4753-9de8-2c6a23e79eb0}" name="1" type="Generic" />
+    <terminal x="40" y="70" orientation="s" uuid="{8387faa1-b76f-460f-a7f0-ad73a6eb7e3c}" name="2" type="Generic" />
+    <terminal x="80" y="10" orientation="n" uuid="{d4328908-9ba5-4038-9700-48a15f84083b}" name="3" type="Generic" />
+    <terminal x="100" y="10" orientation="n" uuid="{4ae41616-0c6c-47e2-987a-0cd53feece1f}" name="4" type="Generic" />
+    <terminal x="100" y="70" orientation="s" uuid="{e563aec8-9ad7-4cfa-a5df-f48c631f6689}" name="5" type="Generic" />
+    <dynamic_text x="65" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{add23230-89c3-4e31-bbb8-38e215dfaa36}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

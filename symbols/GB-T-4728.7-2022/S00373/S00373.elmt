@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="30" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{9ce88993-0525-446b-b79a-213eca3d1911}" />
+  <names>
+    <name lang="zh">避雷器；电涌保护器</name>
+    <name lang="en">Surge diverter; Lightning arrester</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：57；PDF 页：63；S 号：S00373；出版标准序号：GB/T 4728.7 07-22-03
+名称：避雷器；电涌保护器 / Surge diverter; Lightning arrester；状态：标准；发布日期：2001-07-01
+关键词：制动器
+形状类别：箭头，矩形
+功能类别：F 保护；应用类别：电路图，接线图，功能图，概略图，网络图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸单位为 QET 画布单位，不宣称标准绝对毫米或公差。
+实测几何（300 dpi 原页量取）：点阵间距约 29.6 px；竖矩形 (25,25)-(35,55)（10x30 单位）；上引线 (30,10)-(30,39)，下引线 (30,54.5)-(30,70)，框内上下引线之间有断口（39-54.5，无连线）；向下实心三角箭头 (28,32),(32,32),(30,39)。定义框 30x80，热点 (30,40)。
+端口适配：原文图形为竖矩形＋上下两根引线＋框内向下箭头；QET 适配在两根引线外端各设一端口（1=(30,10) n、2=(30,70) s），导线由对应方向接入；框内断口按原图保留，未补线。端口按从上到下顺序编号 1-2。</informations>
+  <description>
+    <rect x="25" y="25" width="10" height="30" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="28" y1="32" x2="32" y2="32" x3="30" y3="39" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="30" y1="54.5" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{1c2f0392-4976-4aa7-8c0a-1fa023f326e2}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{bd044bda-3862-4cef-a520-fde1a02c290b}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2a4438a1-78ea-4b58-9066-ac8040d41c25}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
