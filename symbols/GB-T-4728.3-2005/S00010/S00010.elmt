@@ -1,0 +1,56 @@
+<definition width="272" link_type="simple" version="0.5" hotspot_x="136" height="276" hotspot_y="138" type="element">
+    <uuid uuid="{feecf6c7-64c9-4d83-b3b0-c45c45c2cb0e}"/>
+    <names>
+        <name lang="zh">电缆中的导线（五根）</name>
+        <name lang="en">Conductors in a cable (five conductors)</name>
+    </names>
+    <informations>GB/T 4728.3-2005 | 03-01-10 | p4-5 / PDF 8-9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 1 画布单位 = 0.254 mm；默认网格 20 单位/格；PDF图面：五条平行导线、上方竖胶囊(电缆)宽49高94.5(约2.5×4.7格)、自胶囊底引竖线、两个箭头尖分别指向第1条与第4条导线(备注"箭头所指的两根在同一电缆内")；线长按使用取8格 → 272×276；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <description>
+        <line x1="0" y1="163" x2="272" y2="163" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="188" x2="272" y2="188" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="209" x2="272" y2="209" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="252.5" x2="272" y2="252.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="275" x2="272" y2="275" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="136" y1="95" x2="136" y2="252.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="128.5" y1="152" x2="136" y2="163" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="143.5" y1="152" x2="136" y2="163" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="128.5" y1="241.5" x2="136" y2="252.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="143.5" y1="241.5" x2="136" y2="252.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="111.5" y1="25" x2="111.5" y2="70.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="111.5" y1="70.5" x2="112.5" y2="77" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="112.5" y1="77" x2="115" y2="83" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="115" y1="83" x2="118.5" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="118.5" y1="88" x2="123.5" y2="91.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="123.5" y1="91.5" x2="129.5" y2="94" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="129.5" y1="94" x2="136" y2="95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="136" y1="95" x2="142.5" y2="94" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="142.5" y1="94" x2="148" y2="91.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="148" y1="91.5" x2="153.5" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="153.5" y1="88" x2="157" y2="82.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="157" y1="82.5" x2="159.5" y2="77" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="159.5" y1="77" x2="160.5" y2="70.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="160.5" y1="70.5" x2="160.5" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="160.5" y1="25" x2="159.5" y2="18.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="159.5" y1="18.5" x2="157" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="157" y1="13" x2="153.5" y2="7.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="153.5" y1="7.5" x2="148" y2="4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="148" y1="4" x2="142.5" y2="1.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="142.5" y1="1.5" x2="136" y2="0.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="136" y1="0.5" x2="129.5" y2="1.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="129.5" y1="1.5" x2="124" y2="4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="124" y1="4" x2="118.5" y2="7.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="118.5" y1="7.5" x2="115" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="115" y1="13" x2="112.5" y2="18.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="112.5" y1="18.5" x2="111.5" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+    </description>
+        <terminal x="0" y="163" orientation="w"/>
+        <terminal x="0" y="188" orientation="w"/>
+        <terminal x="0" y="209" orientation="w"/>
+        <terminal x="0" y="252.5" orientation="w"/>
+        <terminal x="0" y="275" orientation="w"/>
+        <terminal x="272" y="163" orientation="e"/>
+        <terminal x="272" y="188" orientation="e"/>
+        <terminal x="272" y="209" orientation="e"/>
+        <terminal x="272" y="252.5" orientation="e"/>
+        <terminal x="272" y="275" orientation="e"/>
+</definition>
