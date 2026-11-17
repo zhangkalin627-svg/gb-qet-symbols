@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="120" height="430" hotspot_x="60" hotspot_y="215" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{57eca83e-8ea2-40fe-bd43-d6c13cbe850a}" />
+  <names>
+    <name lang="zh">一组触点按压操作、一组触点旋转操作的组合开关</name>
+    <name lang="en">Switch assembly, one set push operated, one set turn operated</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：84；PDF 页：90；S 号：S00268；出版标准序号：GB/T 4728.7 07-11-02
+名称：一组触点按压操作、一组触点旋转操作的组合开关 / Switch assembly, one set push operated, one set turn operated；状态：废除———仅供参考；IEC 废除日期：2002-03-23；发布日期：2001-07-01
+关键词：触点，开关；采用符号：S00017，S00144，S00170，S00171，S00227，S00229，S00230
+应用注释：A00061，A00082，A00083
+形状类别：直线；功能类别：S 把手动操作转换为信号；应用类别：电路图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+备注：用端子表示一组触点由推动按钮操作（自动复位），一组由旋转按钮操作（无自动复位）。括号表示只有一个制动器。上边触点组由一个动断触点（S00229）和两个动合触点（S00227）组成。下边触点组由两个动合触点（S00227）和一个开关触点（S00230）组成。由于技术过时而废除。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；13 个端子圆圈单列在左，圆心 x=30，直径 6，圆心 y=30/50/90/110/150/170/250/270/290/330/350/390/410；触点横线左起 x=32，右端 x=70（y50/250/410）、75（y90/150/290/350）或 100（其余）；换接触点竖杆 x=70（y25-51、250-275）；中部推操作符 ⊔：横 (80,200)-(100,200)、竖 (80,191)-(80,200)、(100,190)-(100,200)；旋操作符：横 (80,220)-(100,220)、竖 (80,210)-(80,220)、(100,220)-(100,230)；括号折线 (103,185)-(108,192)-(108,207)-(110,210)-(108,214)-(108,229)-(103,236)；虚线机械联接 x=90（y33-391）；总高 430 单位 = 43 网格距，总宽 120 单位 = 12 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。括号为折线近似（原生为圆弧拐角）；推/旋操作符与括号均位于上下两组触点之间（y185-236）。
+端口适配：原文图形为单列 13 个端子圆圈的组合开关：上组按压操作、下组旋转操作，中部推/旋操作符与括号（表示只有一个制动器）及虚线机械联接，无端口标记；QET 适配在 13 个圆圈中心各设一端口（1–13 朝西），导线由左接入。圆圈、横线、竖杆、操作符、括号、虚线不另设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <circle x="27" y="27" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="47" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="87" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="107" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="147" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="167" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="247" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="267" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="287" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="327" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="347" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="387" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="407" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="30" x2="100" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="50" x2="70" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="90" x2="75" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="110" x2="100" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="150" x2="75" y2="150" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="170" x2="100" y2="170" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="250" x2="70" y2="250" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="270" x2="100" y2="270" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="290" x2="75" y2="290" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="330" x2="100" y2="330" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="350" x2="75" y2="350" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="390" x2="100" y2="390" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="410" x2="70" y2="410" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="25" x2="70" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="250" x2="70" y2="275" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="200" x2="100" y2="200" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="191" x2="80" y2="200" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="190" x2="100" y2="200" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="220" x2="100" y2="220" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="210" x2="80" y2="220" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="220" x2="100" y2="230" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="103" y1="185" x2="108" y2="192" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="108" y1="192" x2="108" y2="207" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="108" y1="207" x2="110" y2="210" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="210" x2="108" y2="214" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="108" y1="214" x2="108" y2="229" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="108" y1="229" x2="103" y2="236" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="33" x2="90" y2="391" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="30" orientation="w" uuid="{847a6bc1-0be0-464e-bd7d-915dd5401dbf}" name="1" type="Generic" />
+    <terminal x="30" y="50" orientation="w" uuid="{6f2b3f43-83ef-4769-8027-1ef5ee313953}" name="2" type="Generic" />
+    <terminal x="30" y="90" orientation="w" uuid="{863a4947-05fa-4ac5-8c4f-5742fd555553}" name="3" type="Generic" />
+    <terminal x="30" y="110" orientation="w" uuid="{50b3cedd-cbeb-4224-9dc3-96a1b92ee1a2}" name="4" type="Generic" />
+    <terminal x="30" y="150" orientation="w" uuid="{944060c4-5b78-46a2-acaf-155aa87d57e6}" name="5" type="Generic" />
+    <terminal x="30" y="170" orientation="w" uuid="{e3f247df-33f5-4413-9338-3ac171a06167}" name="6" type="Generic" />
+    <terminal x="30" y="250" orientation="w" uuid="{5b4d6b11-9207-47c5-b396-40d7e9ef5e55}" name="7" type="Generic" />
+    <terminal x="30" y="270" orientation="w" uuid="{d0abd25b-9b1c-4844-8ca9-d7266e14b1c7}" name="8" type="Generic" />
+    <terminal x="30" y="290" orientation="w" uuid="{abf11143-7f2a-42a3-bd62-78a1feec86d5}" name="9" type="Generic" />
+    <terminal x="30" y="330" orientation="w" uuid="{cf3b9ffc-8863-40c7-a9b4-5df122a4391a}" name="10" type="Generic" />
+    <terminal x="30" y="350" orientation="w" uuid="{9f9ed151-6e09-42ac-b3f6-2c6bab95805d}" name="11" type="Generic" />
+    <terminal x="30" y="390" orientation="w" uuid="{90963ce3-44ea-4c48-bc2d-7cf260d453a9}" name="12" type="Generic" />
+    <terminal x="30" y="410" orientation="w" uuid="{0ce433b0-581f-4028-8012-258e08a20f02}" name="13" type="Generic" />
+    <dynamic_text x="65" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{bb09e375-94fa-4e73-bd29-63ccf496aca2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
