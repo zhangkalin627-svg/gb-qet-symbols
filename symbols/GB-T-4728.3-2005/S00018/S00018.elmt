@@ -1,0 +1,22 @@
+<definition width="300" link_type="simple" version="0.5" hotspot_x="150" height="80" hotspot_y="40" type="element">
+    <uuid uuid="{de09f3b1-0779-4d82-b5d7-d0c3c447ec4f}"/>
+    <names>
+        <name lang="zh">端子板</name>
+        <name lang="en">Terminal strip</name>
+    </names>
+    <informations>GB/T 4728.3-2005 | 03-02-03 | p7 / PDF 11 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；1格=34画布单位；PDF图面：矩形约9×2.4格、内分6格 → 取300×80、格50；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <description>
+        <rect x="0" y="0" width="300" height="80" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="50" y1="0" x2="50" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="100" y1="0" x2="100" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="150" y1="0" x2="150" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="200" y1="0" x2="200" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="250" y1="0" x2="250" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal x="25" y="40" orientation="s"/>
+        <terminal x="75" y="40" orientation="s"/>
+        <terminal x="125" y="40" orientation="s"/>
+        <terminal x="175" y="40" orientation="s"/>
+        <terminal x="225" y="40" orientation="s"/>
+        <terminal x="275" y="40" orientation="s"/>
+    </description>
+</definition>
