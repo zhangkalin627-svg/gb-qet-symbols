@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{02dbe099-1ed9-53d9-870a-265b1dcf1adb}" />
+  <names>
+    <name lang="zh">继电器线圈一般符号（形式 1）</name><name lang="en">Operating device, general symbol; Relay coil, general symbol</name></names>
+  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：32；PDF 页：38；S 号：S00305；出版标准序号：GB/T 4728.7 07-15-01
+名称：驱动器件一般符号；继电器线圈一般符号 / Operating device, general symbol; Relay coil, general symbol；状态：标准；发布日期：2001-07-01
+别名：选择器的操作线圈；关键词：有或无继电器，驱动器件；形式：形式 1；其他形式：S00306；用于：S00294，S00295，S00307，S00308，S00309，S00310，S00311，S00312
+形状类别：矩形，直线；功能类别：未在原页文字层单独列出（见原页）；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；单个空心横矩形 40×20 单位 = 4 网格距×2 网格距，上下各 2 网格距引线；总高 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为单个空心横矩形、上下中心各一段引线，无端口标记；QET 适配在上下引线端头各设一端口（n/s，端口 1/2），导线由上下接入。两端 terminal 只是软件连接点，不附加 A1/A2 或额定电压。点阵背景为参考栅格，未绘入元件。
+修订（2026-11-17，制作者 Muse）：C1 候选升级为本批格式：补 terminal UUID+名称、kindInformations、完整 informations、dynamic_text 标签；版本 0.5→0.100.0；几何、端口坐标与方向未动。不是同页 S00307 双线圈组合，也不是形式 2 S00306。</informations>
+  <description>
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="10" y="30" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{3c696221-8990-57ce-9382-1e3e14f4bb7d}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{795d2830-2a31-5f36-82aa-95bb2a3f7c6f}" name="2" type="Generic" />
+  <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{13f06bf5-4524-5e86-b071-8e4b89c48d04}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular"><text /><info_name>label</info_name></dynamic_text></description>
+</definition>

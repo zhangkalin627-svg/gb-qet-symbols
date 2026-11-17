@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <definition version="0.80" type="element" link_type="simple" width="60" height="160" hotspot_x="30" hotspot_y="80">
-    <uuid uuid="{9b4642c0-506f-471d-85fa-77a967c92a04}" />
+    <uuid uuid="{d069dcfb-c354-4329-8f6f-e76e086c5fe4}" />
     <names>
         <name lang="zh">星形-三角形连接的三相变压器</name>
         <name lang="en">Three-phase transformer, connection star-delta</name>
@@ -9,16 +9,32 @@
         <kindInformation name="type">generic</kindInformation>
         <kindInformation name="function">generic</kindInformation>
     </kindInformations>
-    <informations>GB/T 4728.6-2022; 06-10-07; S00858; PDF第31页，印刷第25页。AI协助重画：Muse，2026-11-15；独立复核另行执行。公开元数据修订P1，仅修改说明，不改图形、端口、UUID和hotspot。许可MIT；不含标准原文或原页截图。源PDF SHA256 a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf。图形模数10个QET单位，不宣称绝对毫米。限定范围核对记录和未核项见同目录README.md。 S00002定义未独核，S00859形式2未制作，未与IEC在线数据库逐项核对。 当前Y和三角形为扫描图追迹值，不宣称严格120度或等边几何合规；精确几何修订待作者重做并另行独核。</informations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：25；PDF 页：31；S 号：S00858；出版标准序号：GB/T 4728.6 06-10-07
+名称：星形-三角形连接的三相变压器 / Three-phase transformer, connection star-delta；状态：标准；发布日期：2001-07-01
+关键词：变压器，有独立绕组的变压器；形式：形式 1；其他形式：S00859（形式 2，专用）；采用符号：S00002，S00806，S00808，S00841（按原书 S00858 条目所列）；应用注释：A00128
+形状类别：圆，等边三角形，直线；功能类别：T 保持性质的变换；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-15；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T 4728.6-2022，72 页，admin Drive file 1DCa9u4m-P8Xsk4jICEe0w03QiYuq2XpF）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+几何比例（实测，300 dpi 渲染）：双圆同 S00841（Ø约 180 px，圆心距约 118 px）；上圆内 Y 形：两臂端点（±25 px，约上圆心上方 44 px）、叉点位于上圆心上方约 28 px、竖干止于上圆心；下圆内等边三角形：顶点位于下圆心、底边宽约 54 px、高约 47 px；上下引线各约 88 px，引线上各 3 条斜线（斜率 -0.5，长约 69 px，中心分别距圆端 1.5/2/2.5 网格距）。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口：上下各 1 个（n/s），位于引线端头；导线由上下接入。
+待核限制：S00806（三角形连接的三相绕组）、S00808（星形连接的三相绕组）定义见本标准内条目；S00002 的定义不在 GB/T 4728.6 内，未核；形式 2（S00859，半圆形式）未做；未与 IEC 60617 原库逐项核对。
+严格几何版（2026-11-15，制作者 Muse；桥独核后按管家 20:47 信重建；definition UUID 已换新，原版 UUID {9b4642c0-506f-471d-85fa-77a967c92a04}）：
+三角形（等边）：底 18；理论高 9√3 = 15.588457；取值 15.588（保留 3 位小数，舍入误差 -0.000457，-0.003%）；顶点 (0,20)，底角 (-9,35.588)、(9,35.588)；边长复算 17.9996（与底 18 差 -0.0004）。原版高 15.5 为图像追迹取值，本版改按理论等边构造。
+Y 形（精确 120°）：叉点 (0,-30)；臂长 r = 10；理论臂端 (±10·sin60°, -10·cos60°) = (±8.660254, -5.000)；取值 (±8.6603, -5.00)（x 保留 4 位小数，舍入误差 +0.000046）；竖干 (0,-30)-(0,-20) 不变；三臂夹角复算：臂-竖干 119.9999°、臂-臂 120.0003°（与 120° 的偏差分别为 -0.0001°、+0.0003°，均在 ±0.001° 内）。修正说明（2026-11-15 23:xx，桥初核后）：原取值 (±8.66, -5.00) 的臂-臂夹角实为 119.998544°，与 120° 偏差 -0.001456°，已超出原称的 ±0.001°；故 x 精度提高到 4 位小数（8.6603），同时 Δ 底角 y 由误写的 15.588 更正为 35.588。原版臂端 (±8.5,-5) 的三臂夹角为 119.1°/120.5°，非精确 120°。
+其余几何（双圆、引线、斜线、端口）与原版完全相同；端口 UUID 不变；本版与原版以 definition UUID 区分。
+原 PDF 为扫描图、无矢量；上述构造不依赖图像追迹，可按表中理论值直接复算。
+公开修订（2026-11-17，制作者 Muse）：仅改用途句与本修订说明；几何、端口、definition UUID 未动。本件为严格几何版（definition UUID {d069dcfb-c354-4329-8f6f-e76e086c5fe4}），取代公开库 S00858 P1 扫描追迹版（definition UUID {9b4642c0-506f-471d-85fa-77a967c92a04}）；三角形按精确等边构造（底 18、高 9√3 取 15.588），Y 形按精确 120° 构造（臂端 ±8.6603）。</informations>
     <description>
         <ellipse x="-30" y="-50" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <ellipse x="-30" y="-10" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <line x1="0" y1="-80" x2="0" y2="-50" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <line x1="0" y1="50" x2="0" y2="80" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
-        <line x1="0" y1="-30" x2="-8.5" y2="-35" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
-        <line x1="0" y1="-30" x2="8.5" y2="-35" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="-30" x2="-8.6603" y2="-35" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="0" y1="-30" x2="8.6603" y2="-35" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <line x1="0" y1="-30" x2="0" y2="-20" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
-        <polygon x1="0" y1="20" x2="-9" y2="35.5" x3="9" y3="35.5" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <polygon x1="0" y1="20" x2="-9" y2="35.588" x3="9" y3="35.588" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <line x1="-10.5" y1="-70" x2="10.5" y2="-80" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <line x1="-10.5" y1="-65" x2="10.5" y2="-75" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
         <line x1="-10.5" y1="-60" x2="10.5" y2="-70" length1="1.5" length2="1.5" end1="none" end2="none" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
