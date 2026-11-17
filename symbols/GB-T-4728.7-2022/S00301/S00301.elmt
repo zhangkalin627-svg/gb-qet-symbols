@@ -19,8 +19,8 @@
 用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
 待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
 注：双箭头底边用 .5 坐标（实测 28.5–31.5，取整会改动实测几何，按批规保留 .5）；半圆弧直径取 6（实测墨宽约 6.5、深约 3.5，含线宽）。
-几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；正方形 (10,10)-(50,50)，40×40 单位；内 V 形：斜线 (10,10)-(30,20) 与 (50,10)-(30,20)，顶点 (30,20)；双向箭头：轴线 (15,30)-(45,30)，左箭头实心三角 (15,30)、(24,28.5)、(24,31.5)，右箭头实心三角 (45,30)、(36,28.5)、(36,31.5)（底边 y 实测 28.5–31.5，取 .5 坐标，见注）；下部换向触点：左横线 (15,35)-(27,35)，下半圆弧（中心 (24,35)，直径 6，实测宽约 6.5、深约 3.5），右横线 (38,35)-(45,35)，斜线 (38,35)-(23,43)（实测斜率 dx/dy≈-1.95，约 27°，下端自由，实测下端约 (23,43.5)，取整 43）；总高 60 单位 = 6 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
-端口适配：原文图形为正方形＋内 V 形＋双向箭头＋下部换向触点的可逆直接在线启动器，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。下半圆弧 start=0 的方向以 GUI 视觉门核实为准。点阵背景为参考栅格，未绘入元件。</informations>
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；正方形 (10,10)-(50,50)，40×40 单位；内 V 形：斜线 (10,10)-(30,20) 与 (50,10)-(30,20)，顶点 (30,20)；双向箭头：轴线 (15,30)-(45,30)，左箭头实心三角 (15,30)、(24,28.5)、(24,31.5)，右箭头实心三角 (45,30)、(36,28.5)、(36,31.5)（底边 y 实测 28.5–31.5，取 .5 坐标，见注）；下部换向触点：左横线 (15,35)-(27,35)，下半圆弧（弧盒 (21,32,6,6)，start=180，中心 (24,35)，直径 6，端点 y=35、底 y=38，实测宽约 6.5、深约 3.5），右横线 (38,35)-(45,35)，斜线 (38,35)-(23,43)（实测斜率 dx/dy≈-1.95，约 27°，下端自由，实测下端约 (23,43.5)，取整 43）；总高 60 单位 = 6 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为正方形＋内 V 形＋双向箭头＋下部换向触点的可逆直接在线启动器，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。下半圆弧 arc(21,32,6,6,start=180,angle=180)，端点 y=35、底 y=38。修正（2026-11-17）：原 arc(21,35,6,6,start=0,angle=180) 在 QET 0.90 GUI 里实为上半圆，与原图下挂半圆相反；按已确立弧约定（start=0 上半圆、start=180 下半圆、start=90 左半圆、start=270 右半圆），改 start=180 并把盒 y 改为 32，使端点落 y=35、底落 y=38，与原页端点 y≈35、底部约 y=38.5 一致。点阵背景为参考栅格，未绘入元件。</informations>
   <description>
     <line x1="10" y1="10" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <line x1="50" y1="10" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
@@ -32,7 +32,7 @@
     <polygon x1="15" y1="30" x2="24" y2="28.5" x3="24" y3="31.5" closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
     <polygon x1="45" y1="30" x2="36" y2="28.5" x3="36" y3="31.5" closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
     <line x1="15" y1="35" x2="27" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
-    <arc x="21" y="35" width="6" height="6" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="21" y="32" width="6" height="6" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <line x1="38" y1="35" x2="45" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <line x1="38" y1="35" x2="23" y2="43" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{295bb51b-6a5b-44c3-9c8f-7c8ee47976db}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
