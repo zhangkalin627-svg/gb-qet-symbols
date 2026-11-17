@@ -4,7 +4,7 @@
         <name lang="zh">电缆中的导线</name>
         <name lang="en">Conductors in a cable</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-09 | p4 / PDF 8 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；1格=34画布单位；PDF图面：三线间距1格、竖椭圆宽2格高4格(48段折线近似)、椭圆上下各伸出线束、线长按使用取8格 → 272×136；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-09 | p4 / PDF 8 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；1 画布单位 = 0.254 mm（实测 1200 单位 = 304.8 mm）；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；PDF图面：三线间距1格、竖椭圆宽2格高4格(48段折线近似)、椭圆上下各伸出线束、线长按使用取8格 → 272×136；标准未给定mm尺寸，本件数值不是标准规定值</informations>
     <description>
         <line x1="0" y1="34" x2="272" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="0" y1="68" x2="272" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>

@@ -4,7 +4,7 @@
         <name lang="zh">三相电路</name>
         <name lang="en">Three-phase circuit</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-05 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：三条平行水平线长12格(408)、间距约0.5格(18)，上注「3 N~50 Hz 400 V」、下注「3×120 mm²+1×50 mm²」；字符为符号组成部分 | 尺寸单位=QET画布单位；1格=34画布单位；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-05 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：三条平行水平线长12格(408)、间距约0.5格(18)，上注「3 N~50 Hz 400 V」、下注「3×120 mm²+1×50 mm²」；字符为符号组成部分 | 尺寸单位=QET画布单位；1 画布单位 = 0.254 mm（实测 1200 单位 = 304.8 mm）；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；标准未给定mm尺寸，本件数值不是标准规定值</informations>
     <description>
         <line x1="0" y1="56" x2="408" y2="56" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>

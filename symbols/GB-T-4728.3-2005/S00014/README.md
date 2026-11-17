@@ -13,7 +13,7 @@ QElectroTech 符号件，按 GB/T 4728.3-2005《电气简图用图形符号 第3
 ## 文件
 
 - `S00014.elmt` — QElectroTech 元素定义
-  - SHA-256：`fae84ae726adcfa540664a434241befdc2899dcd0d9995d8199a95c50552b8cc`
+  - SHA-256：`1a27e5e231b128e6edb4d9957c11aa275ac9269275bb23efa8d4ed1c87dbe695`
   - 字节数：1515
 
 ## 图形实测尺寸

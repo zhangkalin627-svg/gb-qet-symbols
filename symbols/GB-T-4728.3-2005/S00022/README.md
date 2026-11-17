@@ -7,7 +7,7 @@ AI协助制作的独立重画件。制作：Hermes；独立复核另行执行。
 - 依据 GB/T 4728.3-2005，03-02-07，S00022。
 - 复核原件：PDF第13页（印刷第9页附近），36页版；PDF SHA256：`fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d`。
 - 本目录仅提供重画符号与说明，不提供标准原文或原页截图。
-- `S00022.elmt` SHA256：`b1c24e80f3f79cd73b66e2f332573c9c72f4e9b2cffa1cf5c17f7541bdab43ed`。
+- `S00022.elmt` SHA256：`4f094ffaad0e4bc70e9cd3b665ca81809fe62fc5ef3fcf441ec2f549d03415fe`。
 
 ## 原页图形与QET适配
 
