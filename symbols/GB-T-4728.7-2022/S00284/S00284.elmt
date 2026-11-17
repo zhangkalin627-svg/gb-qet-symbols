@@ -15,11 +15,11 @@
 待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
 几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；固定端与动端总距 60 单位 = 6 网格距；半圆按标准形状类别作半圆理想化（包络 10×10 单位，实际绘制半边宽 5、高 10）。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
 端口适配：原文图形为左侧半圆与斜动触点（非操作位置断开），无端口标记；QET 适配在上下引线端头各设一端口（n/s，端口 1/2），导线由上下接入。两端 terminal 为软件适配，未加 13/14 或 21/22 端子号。点阵背景为参考栅格，未绘入元件。
-修订（2026-11-17，制作者 Muse）：C1 候选升级为本批格式：补 terminal UUID+名称、kindInformations、完整 informations、dynamic_text 标签；版本 0.5→0.100.0；几何、端口坐标与方向未动。</informations>
+修订（2026-11-17，制作者 Muse）：C1 候选升级为本批格式：补 terminal UUID+名称、kindInformations、完整 informations、dynamic_text 标签；版本 0.5→0.100.0；几何、端口坐标与方向未动。坐标修订（2026-11-17，Hermes 复核）：触点斜线上端 x 18.75→18.5（1/4 格吸附到半格），与 S00286 保持镜像对称；渲染外形不变。</informations>
   <description>
     <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <arc x="25" y="20" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
-    <line x1="18.75" y1="27.5" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18.5" y1="27.5" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <terminal x="30" y="10" orientation="n" uuid="{a57d3b18-b9c6-533c-b78e-c79adbc7834f}" name="1" type="Generic" />
     <terminal x="30" y="70" orientation="s" uuid="{1297ce14-2c82-5da8-8b59-f97d0837bf8f}" name="2" type="Generic" />

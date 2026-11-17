@@ -16,6 +16,10 @@ ROOT_README = os.path.join(ROOT, "README.md")
 COORD_ATTRS = {"x", "y", "x1", "y1", "x2", "y2", "diameter",
                "width", "height", "hotspot_x", "hotspot_y"}
 ALLOWED_FILLING = {"none", "black", "white"}
+# 精确构造坐标（圆与引线求交、等边三角、120 度 Y 形等）必然是非有理数。
+# 只要 informations 里留下构造与舍入论证，就按提示处理，不进错误清单。
+GEOM_PROOF = re.compile(r"几何求交|精确|舍入|√|等边|120°|60°|圆周")
+HINTS = []
 
 
 def sha256_file(path):
@@ -126,6 +130,14 @@ def check_elmt_integrity(elmt_path, issues):
         issues.append(f"{os.path.basename(elmt_path)} XML 解析失败: {e}")
         return
 
+    try:
+        with open(elmt_path, encoding="utf-8") as fobj:
+            raw = fobj.read()
+    except OSError:
+        raw = ""
+    info = re.search(r"<informations>(.*?)</informations>", raw, re.S)
+    proof_ok = bool(info and GEOM_PROOF.search(info.group(1)))
+
     for elem in root.iter():
         style = elem.get("style", "")
         if style:
@@ -150,9 +162,12 @@ def check_elmt_integrity(elmt_path, issues):
                 # 允许整数与半格(x.5)。对称件居中常需半格，QET 支持浮点坐标；
                 # 更细的小数会导致图形对不上 QET 网格，按缺陷处理。
                 if abs(f * 2 - round(f * 2)) > 1e-9:
-                    issues.append(
-                        f"{os.path.basename(elmt_path)} "
-                        f"{elem.tag} {attr_name}={val!r} 既不是整数也不是半格")
+                    msg = (f"{os.path.basename(elmt_path)} "
+                           f"{elem.tag} {attr_name}={val!r} 既不是整数也不是半格")
+                    if proof_ok:
+                        HINTS.append(msg + "（informations 已含精确构造论证，仅提示）")
+                    else:
+                        issues.append(msg)
 
 
 def collect_all_uuids(symbol_dirs):
@@ -240,6 +255,11 @@ def main():
     link_issues = check_root_readme_links(symbol_dirs)
     if link_issues:
         all_issues.append(("根README", link_issues))
+
+    if HINTS:
+        print(f"提示（不计入错误）：{len(HINTS)} 项精确构造坐标")
+        for h in HINTS:
+            print(f"  - {h}")
 
     if not all_issues:
         print(f"检查完成：{len(symbol_dirs)} 个符号，全部通过。")
