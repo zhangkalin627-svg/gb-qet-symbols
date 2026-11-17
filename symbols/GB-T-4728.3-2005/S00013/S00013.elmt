@@ -1,0 +1,18 @@
+<definition width="408" link_type="simple" version="0.5" hotspot_x="204" height="136" hotspot_y="68" type="element">
+    <uuid uuid="{80c034ec-26d5-4b6a-97e6-e3773780b15f}"/>
+    <names>
+        <name lang="zh">屏蔽同轴对</name>
+        <name lang="en">Coaxial pair with screen</name>
+    </names>
+    <informations>GB/T 4728.3-2005 | 03-01-13 | p6 / PDF 10 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；1格=34画布单位；PDF图面按内圆直径≈54px合68单位折算：内圆径68、外层屏蔽圆径136、横线贯穿(408)、屏蔽圆左右极点各一段短竖线(长44)跨过横线、圆底另有一段水平短线(宽76) → 408×136；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <description>
+        <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="136" y="0" diameter="136" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="170" y="34" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="166" y1="102" x2="242" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="136" y1="48" x2="136" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="272" y1="48" x2="272" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal x="0" y="68" orientation="w"/>
+        <terminal x="408" y="68" orientation="e"/>
+    </description>
+</definition>
