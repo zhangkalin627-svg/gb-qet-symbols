@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="160" height="140" hotspot_x="80" hotspot_y="70" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{65364a67-ef57-4442-92f8-50fd63811504}" />
+  <names>
+    <name lang="zh">鼓形旋转式复合开关</name>
+    <name lang="en">Complex switch, rotary drum type</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：90；PDF 页：96；S 号：S00282；出版标准序号：GB/T 4728.7 07-12-03
+名称：鼓形旋转式复合开关 / Complex switch, rotary drum type；状态：废除———仅供参考；IEC 废除日期：2002-03-23；发布日期：2001-07-01
+关键词：复合开关，开关；采用符号：S00280
+应用注释：A00253
+形状类别：字符，直线，矩形；功能类别：S 把手动操作转换为信号；应用类别：电路图，接线图，功能图，概略图
+备注：具有五个端子的 6 位鼓形旋转开关，其结构如应用注释 A00253 所示。所示字符（“6.”）并非符号组成部分，未绘入。由于技术过时而废除
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；整体沿 y 平移 +10；矩形框 (30,30)-(130,110)，100×80 单位；五根端子引线各长 20 单位：B (50,10)-(50,30)、D (110,10)-(110,30) 顶端，A (10,70)-(30,70) 左端，C (130,70)-(150,70) 右端，E (70,110)-(70,130) 底端；内字形：横线 (50,75)-(109,75)（实测右端 109.2，取整 109），上竖两段 (60,44)-(60,60)（实测 33.6–49.8）与 (60,64)-(60,77)（实测 53.9–66.8），L 形下折 (50,75)-(50,95)（实测 64.7–85.4）；总高 140 单位 = 14 网格距，总宽 160 单位 = 16 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形框＋五根端子引线＋内字形的鼓形旋转式复合开关，无端口标记；QET 适配在五根引线外端各设一端口（A=1 左端 w，B=2、D=4 顶端 n，C=3 右端 e，E=5 底端 s），导线由对应方向接入。字符“6.”按备注不属于符号，未绘入；端口按字母顺序编号 1–5。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="30" y1="30" x2="130" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="30" x2="130" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="110" x2="30" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="110" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="10" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="10" x2="110" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="70" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="70" x2="150" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="110" x2="70" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="75" x2="109" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="44" x2="60" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="64" x2="60" y2="77" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="75" x2="50" y2="95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="70" orientation="w" uuid="{82d4f23f-dc5d-426b-9817-4acfeeaabbbe}" name="1" type="Generic" />
+    <terminal x="50" y="10" orientation="n" uuid="{cec12d83-0dce-45f7-99f5-90d5ef8d0cd3}" name="2" type="Generic" />
+    <terminal x="150" y="70" orientation="e" uuid="{af4fb3ff-978b-4f72-9f2d-39e9a9cb99b2}" name="3" type="Generic" />
+    <terminal x="110" y="10" orientation="n" uuid="{0806b350-1b60-4c65-b27b-0c3eafb2fc43}" name="4" type="Generic" />
+    <terminal x="70" y="130" orientation="s" uuid="{513b38d6-b8a0-422c-9350-bc84145344fb}" name="5" type="Generic" />
+    <dynamic_text x="85" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c2e4b82f-3c67-4eb0-968c-58e26ea5aaab}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

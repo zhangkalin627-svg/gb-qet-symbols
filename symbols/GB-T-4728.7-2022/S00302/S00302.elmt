@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{676c8c00-01f9-4945-91c1-e38e074b9ed8}" />
+  <names>
+    <name lang="zh">星-三角启动器</name>
+    <name lang="en">Star-delta starter</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：31；PDF 页：37；S 号：S00302；出版标准序号：GB/T 4728.7 07-14-06
+名称：星-三角启动器 / Star-delta starter；状态：标准；发布日期：2001-07-01
+关键词：电动机启动器；采用符号：S00297，S00806，S00808
+形状类别：等边三角形，正方形；功能类别：Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；正方形 (10,10)-(50,50)，40×40 单位；内 V 形：斜线 (10,10)-(30,20) 与 (50,10)-(30,20)，顶点 (30,20)；星形三角形：顶点 (30,27)（实测首墨行 Qy=27.1），底边 (20,45)-(40,45)（实测 y 44.4–45.4），中心点 (30,39)（三角形形心，实测内斜线交于约 (30,39)），中竖线 (30,27)-(30,39)，内斜线 (30,39)-(20,45) 与 (30,39)-(40,45)；总高 60 单位 = 6 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为正方形＋内 V 形＋星形三角形的星-三角启动器，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="10" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="10" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="50" x2="10" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="10" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="10" x2="30" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="10" x2="30" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="27" x2="20" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="27" x2="40" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="45" x2="40" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="27" x2="30" y2="39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="39" x2="20" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="39" x2="40" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{426a35c4-ac50-4d22-a061-46bcd80469fa}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
