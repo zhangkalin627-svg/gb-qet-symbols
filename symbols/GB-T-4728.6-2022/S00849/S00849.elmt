@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="40" hotspot_x="30" hotspot_y="20" type="element" link_type="simple" version="0.100.0"><uuid uuid="{10f5ccc1-a8a2-4d78-a798-f941da80d306}" /><names><name lang="zh">电抗器，一般符号</name><name lang="en">Reactor, general symbol</name></names><kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：21；PDF 页：27；S 号：S00849；出版标准序号：GB/T 4728.6 06-09-09
+名称：电抗器，一般符号 / Reactor, general symbol；状态：标准；发布日期：2001-07-01
+别名：扼流圈；关键词：扼流圈，电抗器；形式：形式 2；其他形式：S00848；采用符号：S00583；应用注释：A00127，A00128，A00130
+形状类别：半圆；功能类别：R 限制或稳定；应用类别：电路图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；原文图形仅一排 4 个上凸半圆、无引线（包围盒 x675-796、y498-512，半圆接点 x706/736/766）；半圆直径 10 单位 = 1 网格距、深 5 单位（真半圆：顶至弦线实测约 13.5 px，见 TEST 记录，弧深待独立核对），弦线 y=20、顶 y=15，半圆排 x=10–50。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形仅一排半圆、无引线、无端口标记；QET 适配在半圆排两端（弦线端点）各设一端口（端口 1 朝西、2 朝东），导线由左右接入；未擅自补画引线。只做形式 2（半圆形式），不做形式 1（S00848 圆形式）；端子无绕组编号。点阵背景为参考栅格，未绘入元件。</informations><description><arc x="10" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" /><arc x="20" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" /><arc x="30" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" /><arc x="40" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" /><terminal x="10" y="20" orientation="w" uuid="{2ef18168-17ba-4eac-a831-a24186e9d882}" name="1" type="Generic" /><terminal x="50" y="20" orientation="e" uuid="{cb7b600d-d40a-4c66-b162-e9b29f66f4fb}" name="2" type="Generic" /><dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b0d00f24-78ef-4a8f-91f6-9d957dfea3fb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular"><text /><info_name>label</info_name></dynamic_text></description></definition>

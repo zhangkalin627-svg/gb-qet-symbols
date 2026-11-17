@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{3572cbf0-fe19-4d3d-b24a-2e4d549d254a}" />
+  <names>
+    <name lang="zh">隔离器</name>
+    <name lang="en">Disconnector; Isolator</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：26；PDF 页：32；S 号：S00292；出版标准序号：GB/T 4728.7 07-13-10
+名称：隔离器 / Disconnector; Isolator；状态：标准；发布日期：2001-07-01
+关键词：隔离器，电力开关器件；采用符号：S00158，S00167，S00220，S00227；应用注释：A00082，A00083
+形状类别：直线，正方形；功能类别：Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+备注：带有手工操作的闭锁装置。左侧连接片图形左竖杠是否另为一电气端口未核（暂按 2 端子）。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；上引线 (50,10)-(50,30)，固定端横杠 (44.5,30)-(55.5,30)，动触刀斜线 (40,28.5)-(50,50)，下引线 (50,50)-(50,70)；下方可卸连接片图形：横线四段 (4.7,40)-(11.5,40)、(12.9,40)-(25.3,40)、(27,40)-(37.2,40)、(38.8,40)-(45.3,40)，矩形左 (14,34)-(14,40)、顶 (14,34)-(24,34)、右 (24,34)-(24,40)，左竖杠 (5,35)-(5,45)，短竖刻 (26,31.5)-(26,37)；总高 80 单位 = 8 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。整体沿 x 平移 +20（引线 x=50），使左侧连接片图形落入画布；相对几何与实测一致。斜线拟合斜率 0.484（约 1:2），顶端实测 (19.5,28.3)；横线缺口（原生 px）x 36–39、78–81、113–116 为实测原样。
+端口适配：原文图形为上引线＋固定端横杠、下方动触刀斜线及下引线，另附下方可卸连接片图形（横线、矩形、竖杠），无端口标记；QET 适配在上下引线端头各设一端口（n/s，端口 1/2），导线由上下接入。连接片图形不增加电气端口（其左竖杠未设端口，见备注）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="50" y1="10" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44.5" y1="30" x2="55.5" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="28.5" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="50" x2="50" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="4.7" y1="40" x2="11.5" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12.9" y1="40" x2="25.3" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="27" y1="40" x2="37.2" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="38.8" y1="40" x2="45.3" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="14" y1="34" x2="14" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="14" y1="34" x2="24" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24" y1="34" x2="24" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="5" y1="35" x2="5" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="31.5" x2="26" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="50" y="10" orientation="n" uuid="{154928c4-46ee-4468-ad4a-0367dff5e2ae}" name="1" type="Generic" />
+    <terminal x="50" y="70" orientation="s" uuid="{fd83bcf5-b6a6-4376-a657-9fa227f55a91}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a40773ca-5ef0-4bf0-a629-9724ccd0b7ca}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
