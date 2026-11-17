@@ -4,7 +4,7 @@
         <name lang="zh">导线或电缆的终端，未连接</name>
         <name lang="en">End of a conductor or cable, not connected</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-14 | p6 / PDF 10 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；PDF图面实测：水平线长约9.1格取374、右端接右凸半圆(半径约0.82格取34、竖直直径68)、半圆底端与水平线右端相接 → 408×136、横线居中y=68；标准未给定mm尺寸，本件数值不是标准规定值；形状类别 半圆,直线；功能类别 功能要素或属性；应用类别 概念要素或限定符号；端子只保留左侧1个(w)，右端为线端不接，故不设端子 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-14 | p6 / PDF 10 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面实测：水平线长约9.1格取374、右端接右凸半圆(半径约0.82格取34、竖直直径68)、半圆底端与水平线右端相接 → 408×136、横线居中y=68；标准未给定mm尺寸，本件数值不是标准规定值；形状类别 半圆,直线；功能类别 功能要素或属性；应用类别 概念要素或限定符号；端子只保留左侧1个(w)，右端为线端不接，故不设端子 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
     <description>
         <line x1="0" y1="68" x2="374" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <arc x="340" y="0" width="68" height="68" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>

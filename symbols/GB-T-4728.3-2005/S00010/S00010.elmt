@@ -4,7 +4,7 @@
         <name lang="zh">电缆中的导线（五根）</name>
         <name lang="en">Conductors in a cable (five conductors)</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-10 | p4-5 / PDF 8-9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 默认网格 20 单位/格；PDF图面：五条平行导线、上方竖胶囊(电缆)宽49高89.5(约2.5×4.5格)、自胶囊底引竖线、两个箭头尖分别指向第1条与第4条导线(备注"箭头所指的两根在同一电缆内")；线长按使用取8格 → 272×276；标准未给定mm尺寸，本件数值不是标准规定值 | 修正 2026-11-17（缪斯实测）：端子移入 description 内并补 uuid/名/type（原在 description 外且无 uuid，QET 0.90 无法接线）；胶囊高 94.5→89.5（原页 6.86 mm）；箭头翼全宽 15→21（原页中线 1.61 mm） | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-10 | p4-5 / PDF 8-9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位；PDF图面：五条平行导线、上方竖胶囊(电缆)宽49高89.5、自胶囊底引竖线、两个箭头尖分别指向第1条与第4条导线(备注"箭头所指的两根在同一电缆内")；外框取 272×276；标准未给定mm尺寸，本件数值不是标准规定值 | 修正 2026-11-17（缪斯实测）：端子移入 description 内并补 uuid/名/type（原在 description 外且无 uuid，QET 0.90 无法接线）；胶囊高 94.5→89.5（原页 6.86 mm）；箭头翼全宽 15→21（原页中线 1.61 mm） | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
     <description>
         <line x1="0" y1="163" x2="272" y2="163" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="0" y1="188" x2="272" y2="188" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>

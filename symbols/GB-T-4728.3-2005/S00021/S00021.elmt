@@ -4,7 +4,7 @@
         <name lang="zh">导线的双T连接（形式1）</name>
         <name lang="en">Double T-connection of conductors (form 1)</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-02-06 | p8-p9 / PDF 12 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-14 | v2 修订(2026-11-14): 支线对称化+长度按600dpi原图复测 | 测量: 格距59.5px(600dpi) 横干364px=6.12格, 上支距左端2.08格长2.02格, 下支距右端2.04格长1.98格 | 取整: 横干6格, 支线2格/4格, 各长2格 | 尺寸单位=QET画布单位(整数), QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格(内部比例, 非标准规定值); 标准未给绝对mm尺寸, 不可认定1:1 | 旧版=238单位(7格)不对称, 见 50-v2 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-02-06 | p8-p9 / PDF 12 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-14 | v2 修订(2026-11-14): 支线对称化+长度按600dpi原图复测 | 测量: 格距59.5px(600dpi) 横干364px=6.12格, 上支距左端2.08格长2.02格, 下支距右端2.04格长1.98格 | 取整: 横干6格, 支线2格/4格, 各长2格 | 尺寸单位=QET画布单位(整数); 标准未给绝对mm尺寸, 不可认定1:1 | 旧版=238单位(7格)不对称, 见 50-v2 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
     <description>
         <line x1="0" y1="68" x2="204" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="68" y1="68" x2="68" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>

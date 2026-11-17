@@ -4,7 +4,7 @@
         <name lang="zh">同轴对</name>
         <name lang="en">Coaxial pair</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-11 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；PDF图面：空心圆径约2.1格取68、横线穿圆、圆底另有一段水平短线(长约2.3格取76、紧贴圆底) → 272×70；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-11 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面：空心圆径约2.1格取68、横线穿圆、圆底另有一段水平短线(长约2.3格取76、紧贴圆底) → 272×70；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
     <description>
         <line x1="0" y1="35" x2="272" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="102" y="1" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
