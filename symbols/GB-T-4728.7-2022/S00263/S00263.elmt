@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{2973e3fe-33eb-46f8-88cc-828dceb9ccca}" />
+  <names>
+    <name lang="zh">带动合触点的热敏开关</name>
+    <name lang="en">Temperature sensitive switch, make contact</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：18；PDF 页：24；S 号：S00263；出版标准序号：GB/T 4728.7 07-09-01
+名称：带动合触点的热敏开关 / Temperature sensitive switch, make contact；状态：标准；发布日期：2001-07-01
+关键词：触点，开关，温度；采用符号：S00227；应用注释：A00061，A00085
+形状类别：字符，直线；功能类别：S 把手动操作转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；上引线 (30,10)-(30,30)，动触点斜线 (18.75,27.5)-(30,50)，下引线 (30,50)-(30,70)；热敏限定符 θ：椭圆包络 (37,36.7) 宽 5.7、高 6.4（中心约 (40,40)），中横线 (39,39.5)-(41.5,39.5)；总高 60 单位 = 6 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。斜线自由端实测 (19.0,27.6)，按 1:2 斜率取 (18.75,27.5)，与 S00284 同族一致；θ 椭圆实测包络 x=36.9–42.7、y=36.7–43.1，中横线实测 (39.0,39.6)-(41.3,39.6)。
+端口适配：原文图形为上固定引线、下方断开的斜动触点及右侧 θ 热敏限定符，无端口标记；QET 适配在上下引线端头各设一端口（n/s，端口 1/2），导线由上下接入。θ 限定符不增加电气端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18.75" y1="27.5" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="39" y1="39.5" x2="41.5" y2="39.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="37" y="36.7" width="5.7" height="6.4" start="0" angle="360" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{2d7061ab-42c3-44a5-913b-a9c6e49667c3}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{d58641eb-e7b5-4e00-91dc-d6a08c7e060e}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9bcb9446-aad2-4c17-9065-3856cb40027d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

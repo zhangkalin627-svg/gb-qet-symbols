@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{673b3a0b-b703-413a-a951-4040840b332e}" />
+  <names>
+    <name lang="zh">能正向操作带动断触点的位置开关</name>
+    <name lang="en">Position switch, break contact, positive operation</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：18；PDF 页：24；S 号：S00262；出版标准序号：GB/T 4728.7 07-08-04
+名称：能正向操作带动断触点的位置开关 / Position switch, break contact, positive operation；状态：标准；发布日期：2001-07-01
+关键词：触点，位置开关，正向操作，开关；采用符号：S00226，S00260；应用注释：A00061，A00084
+形状类别：箭头，圆，直线；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；上引线 (30,10)-(30,30)，固定触臂 (30,30)-(43.5,30)，动断触点斜线 (41.25,27.5)-(30,50)（端头略探出触臂上方，与 S00286 同族做法一致），下引线 (30,50)-(30,70)；正向操作圆 (10,40) 直径 20（左缘贴合画布左沿），内箭头轴线 (2.5,40)-(17.5,40)，箭头 (5.5,35)-(17.5,40)、(5.5,45.5)-(17.5,40)；位置开关三角形：竖直边 (32,35.5)-(32,49)，顶点 (36,38)，另两边 (32,35.5)-(36,38)、(32,49)-(36,38)，顶点落在斜线上；总高 60 单位 = 6 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。斜线自由端实测 (41.2,27.4)，按 1:2 斜率取 (41.25,27.5)，与 S00286 同族一致；圆心实测 (9.9,40.2)，取 (10,40)；箭头基角实测 (5.4,34.8)/(5.4,45.6)，取 (5.5,35)/(5.5,45.5)；三角形竖直边实测 x=31.7、y=35.5–49.0，顶点实测 (36.1,37.9)。
+端口适配：原文图形为上固定引线＋右向触臂、下方动断斜触点、左侧圆内右箭头正向操作限定符及附于斜线左侧的三角形位置开关限定符，无端口标记；QET 适配在上下引线端头各设一端口（n/s，端口 1/2），导线由上下接入。限定符不增加电气端口。点阵背景为参考栅格，未绘入元件。
+别名：限位开关。</informations>
+  <description>
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="30" x2="43.5" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="41.25" y1="27.5" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="35.5" x2="32" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="35.5" x2="36" y2="38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="49" x2="36" y2="38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="2.5" y1="40" x2="17.5" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="5.5" y1="35" x2="17.5" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="5.5" y1="45.5" x2="17.5" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="0" y="30" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{bcdea117-65d4-4bd6-9088-0b319cde0b73}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{9cd54ade-8563-472c-9963-427f4f68d39b}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3dc09f92-07da-44da-a361-7c93e7530d9f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
