@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="140" height="100" hotspot_x="70" hotspot_y="50" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{03f5fd17-d5df-407f-b50a-35a9a660fd21}" />
+  <names>
+    <name lang="zh">带提前/滞后断/合状态指示的多位开关</name>
+    <name lang="en">Multi-position switch, early/late break/make indicated</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：88；PDF 页：94；S 号：S00279；出版标准序号：GB/T 4728.7 07-11-13
+名称：带提前/滞后断/合状态指示的多位开关 / Multi-position switch, early/late break/make indicated；状态：废除———仅供参考；IEC 废除日期：2002-03-23；发布日期：2001-07-01
+别名：单极多位开关
+关键词：触点，开关；采用符号：S00239，S00240，S00270
+应用注释：A00061
+形状类别：直线；功能类别：S 把手动操作转换为信号；应用类别：电路图
+备注：当滑动片从位置 2 滑向位置 3 时，位置 3 的触点较其他触点提前接通。当滑动片从位置 5 滑向位置 6 时，位置 5 的触点较其他触点滞后断开。当滑动片反向滑动时，功能相反。由于技术过时而废除
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；位置数字 1–6（实测字框高约 7 单位，y=17.3–24.1，中心约 x=29/49.6/69.8/89.4/109.7/130），以 &lt;text&gt; 元素置于各短竖线上方（与 S00272 同式，字号 10）；6 根位置短竖线 x=30/50/70/90/110/130，y=30-50（长 20 单位，间距 20 单位）；第 3 位早合脚 (60,50)-(70,50)（向左伸出）、第 5 位迟断脚 (110,50)-(120,50)（向右伸出，均长 10 单位；第 5 位实测右端 120.7，取整 120）；动触臂竖线 x=30，y=55-85（实测 54.8–85.5，取整），与位置 1 短竖线上下对正、间距 5 单位；公共横线 (10,70)-(130,70)；左端公共引线 (10,70)-(10,90)；总高 100 单位 = 10 网格距，总宽 140 单位 = 14 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为六个位置的多位开关＋提前/滞后指示（数字 1–6、第 3 位早合脚、第 5 位迟断脚）与动触臂，无端口标记；QET 适配在六根短竖线顶端各设一端口（n，端口 1–6），在公共引线下端设一端口（s，端口 7），导线由上下接入。数字、L 脚与动触臂不另设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="30" y1="30" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="30" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="30" x2="70" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="30" x2="90" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="30" x2="110" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="30" x2="130" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="50" x2="70" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="50" x2="120" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="55" x2="30" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="70" x2="130" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="70" x2="10" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="1" x="27" y="17" size="10" />
+    <text text="2" x="47.5" y="17" size="10" />
+    <text text="3" x="68" y="17" size="10" />
+    <text text="4" x="87.5" y="17" size="10" />
+    <text text="5" x="108" y="17" size="10" />
+    <text text="6" x="128" y="17" size="10" />
+    <terminal x="30" y="30" orientation="n" uuid="{8a96eea7-22b6-4f0b-b419-d7c556be4e6b}" name="1" type="Generic" />
+    <terminal x="50" y="30" orientation="n" uuid="{3ab231f5-ae81-448b-9418-c02424817338}" name="2" type="Generic" />
+    <terminal x="70" y="30" orientation="n" uuid="{22e55df9-fb43-4ba1-aa1b-b57eb5da0708}" name="3" type="Generic" />
+    <terminal x="90" y="30" orientation="n" uuid="{c82a3ba2-d8b6-4ffc-a54d-1c3afc235c78}" name="4" type="Generic" />
+    <terminal x="110" y="30" orientation="n" uuid="{a6f1e81e-a2e0-477a-8b4c-93aa99eae96c}" name="5" type="Generic" />
+    <terminal x="130" y="30" orientation="n" uuid="{4675544b-821b-4ec1-9ad7-bc558f6b948e}" name="6" type="Generic" />
+    <terminal x="10" y="90" orientation="s" uuid="{8e496ad8-ef89-4df4-adf7-901c92926981}" name="7" type="Generic" />
+    <dynamic_text x="75" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{85022915-c178-43cb-8642-fa67e2919688}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
