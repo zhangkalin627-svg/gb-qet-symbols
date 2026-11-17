@@ -39,6 +39,9 @@ DOT_RATIO_RANGE = (0.05, 0.22)
 OVERSIZE_UNITS = 400  # 400 单位 = 101.6 mm，A3 图面上单符号超过这个尺寸基本是失控
 
 
+# 与 tools/check_release.py 同源：informations 已声明精确构造或原图实测依据时，非半格坐标降级为提示
+GEOM_PROOF = re.compile(r"几何求交|精确|舍入|√|等边|120°|60°|圆周|实测")
+
 def half_grid_ok(v: float) -> bool:
     """坐标必须是整数或半格（x.5）。"""
     return abs(v * 2 - round(v * 2)) < 1e-6
@@ -133,7 +136,11 @@ def check_symbol(sym_dir: str, sym_id: str) -> dict:
             except (TypeError, ValueError):
                 pass
     if bad_coord:
-        res["fix"].append(f"非半格坐标 {len(bad_coord)} 处：{', '.join(bad_coord[:3])}")
+        msg = f"非半格坐标 {len(bad_coord)} 处：{', '.join(bad_coord[:3])}"
+        if GEOM_PROOF.search(info_text):
+            res["check"].append(msg + "（informations 已声明构造/实测依据，仅提示）")
+        else:
+            res["fix"].append(msg)
     if bad_fill:
         res["fix"].append(f"非法 filling {len(bad_fill)} 处：{', '.join(bad_fill[:3])}")
 
@@ -148,7 +155,7 @@ def check_symbol(sym_dir: str, sym_id: str) -> dict:
         ("条款号", r"\d{2}-\d{2}-\d{2}"),
         ("页码", r"PDF\s*页?\s*[：:]?\s*\d+|第\s*\d+\s*页|印刷页"),
         ("PDF SHA", r"[0-9a-f]{64}"),
-        ("作者", r"作者"),
+        ("作者", r"作者|制作者|重画[：:]"),
         ("日期", r"20\d{2}-\d{2}-\d{2}"),
     ):
         if not re.search(pat, info_text):
@@ -156,7 +163,10 @@ def check_symbol(sym_dir: str, sym_id: str) -> dict:
 
     # 端口
     if n_term == 0:
-        res["fix"].append("无 terminal 端口，图上看不出接线点")
+        if re.search(r"不设端口|零端子|纯图形符号|无连接点|不参与网表", info_text):
+            res["check"].append("零端子（informations 已声明纯图形符号／原图无连接点，仅提示）")
+        else:
+            res["fix"].append("无 terminal 端口，图上看不出接线点")
     # 连接点比例
     for dia in black_dots:
         r = dia / W if W else 0

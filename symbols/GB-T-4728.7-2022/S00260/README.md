@@ -7,7 +7,7 @@ AI协助制作的独立重画件。制作：Muse；独立复核另行执行。�
 - 依据 GB/T 4728.7-2022，GB/T 4728.7 07-08-02，S00260。
 - 复核原件：PDF第23页（印刷第17页）；PDF SHA256：`e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9`。
 - 本目录仅提供重画符号与说明，不提供标准原文或原页截图。
-- `S00260.elmt` SHA256：`f75fe39ce92bc29ac7dfc331d84ced2ec129a0116133fa4e2c498729f6e428ff`；definition UUID `{eccefabc-59a0-4f69-868a-67178b3b97ce}`；版本 0.100.0。
+- `S00260.elmt` SHA256：`ae1c8c053e32412fdbf2f927c94ef7a0bd0214a771c304529b88ca3561097e60`；definition UUID `{eccefabc-59a0-4f69-868a-67178b3b97ce}`；版本 0.100.0。
 
 ## 原页图形与QET适配
 

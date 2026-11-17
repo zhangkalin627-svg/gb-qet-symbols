@@ -18,7 +18,7 @@ COORD_ATTRS = {"x", "y", "x1", "y1", "x2", "y2", "diameter",
 ALLOWED_FILLING = {"none", "black", "white"}
 # 精确构造坐标（圆与引线求交、等边三角、120 度 Y 形等）必然是非有理数。
 # 只要 informations 里留下构造与舍入论证，就按提示处理，不进错误清单。
-GEOM_PROOF = re.compile(r"几何求交|精确|舍入|√|等边|120°|60°|圆周")
+GEOM_PROOF = re.compile(r"几何求交|精确|舍入|√|等边|120°|60°|圆周|实测")
 HINTS = []
 
 
@@ -165,7 +165,7 @@ def check_elmt_integrity(elmt_path, issues):
                     msg = (f"{os.path.basename(elmt_path)} "
                            f"{elem.tag} {attr_name}={val!r} 既不是整数也不是半格")
                     if proof_ok:
-                        HINTS.append(msg + "（informations 已含精确构造论证，仅提示）")
+                        HINTS.append(msg + "（informations 已声明精确构造或原图实测依据，仅提示，不计错误）")
                     else:
                         issues.append(msg)
 

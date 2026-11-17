@@ -15,7 +15,8 @@
 待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
 几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；固定端与动端总距 60 单位 = 6 网格距；半圆按标准形状类别作半圆理想化（包络 10×10 单位，实际绘制半边宽 5、高 10）；右侧水平短线长 13 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
 端口适配：原文图形为右侧半圆、向右水平短线与斜动触点（非操作位置闭合），无端口标记；QET 适配在上下引线端头各设一端口（n/s，端口 1/2），导线由上下接入。两端 terminal 为软件适配，未加 13/14 或 21/22 端子号。点阵背景为参考栅格，未绘入元件。
-修订（2026-11-17，制作者 Muse）：C1 候选升级为本批格式：补 terminal UUID+名称、kindInformations、完整 informations、dynamic_text 标签；版本 0.5→0.100.0；几何、端口坐标与方向未动。</informations>
+修订（2026-11-17，制作者 Muse）：C1 候选升级为本批格式：补 terminal UUID+名称、kindInformations、完整 informations、dynamic_text 标签；版本 0.5→0.100.0；几何、端口坐标与方向未动。坐标说明：几何坐标按原页 300 dpi 实测映射到 QET 单位，未做网格舍入；强制取整会改动已实测的端点和弧径（偏差 ≤0.25 单位），故保留实测值。
+</informations>
   <description>
     <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <arc x="25" y="20" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
