@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="100" height="80" hotspot_x="50" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{a7665de9-6617-4434-9925-ded9afb3facc}" />
+  <names>
+    <name lang="zh">驱动器件；继电器线圈（组合表示法，形式 1）</name>
+    <name lang="en">Operating device; Relay coil (attached representation, form 1)</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：32；PDF 页：38；S 号：S00307；出版标准序号：GB/T 4728.7 07-15-03
+名称：驱动器件；继电器线圈（组合表示法，形式 1） / Operating device; Relay coil (attached representation, form 1)；状态：标准；发布日期：2001-07-01
+关键词：有或无继电器，驱动器件
+形式：形式 1；其他形式：S00308；采用符号：S00305
+形状类别：矩形；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+备注：具有两个独立绕组的驱动器件的组合表示法
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；两矩形并列共用中壁：左 (10,30)-(50,50)、右 (50,30)-(90,50)，各 40×20 单位，中壁 x=50（y 30–50）；四根引线各长 20 单位：顶端 (30,10)-(30,30)、(70,10)-(70,30)，底端 (30,50)-(30,70)、(70,50)-(70,70)；总高 80 单位 = 8 网格距，总宽 100 单位 = 10 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为两矩形共用中壁＋四根引线的驱动器件（组合表示法，形式 1）；QET 适配在四根引线外端各设一端口（1=(30,10) n、2=(70,10) n、3=(30,70) s、4=(70,70) s），导线由对应方向接入。端口按从左到右、从上到下顺序编号 1–4。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="30" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="30" x2="90" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="30" x2="90" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="50" x2="10" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="10" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="30" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="10" x2="70" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="50" x2="70" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{3093ffcd-476f-4e83-9056-12bd879843a8}" name="1" type="Generic" />
+    <terminal x="70" y="10" orientation="n" uuid="{2a80f132-d0b2-41e4-8b82-7b263399e15f}" name="2" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{1b3acaec-795e-4275-ad3c-e8877bdb0d02}" name="3" type="Generic" />
+    <terminal x="70" y="70" orientation="s" uuid="{5eacabc1-ebab-47de-8d0a-508bf7ebf0b1}" name="4" type="Generic" />
+    <dynamic_text x="55" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0261f47f-66be-498f-a555-d2221baed35e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

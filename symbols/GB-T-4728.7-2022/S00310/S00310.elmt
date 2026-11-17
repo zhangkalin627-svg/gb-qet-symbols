@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="120" height="80" hotspot_x="60" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{3f3d0cd4-d2a1-40b5-a0de-fa9f3916c5ce}" />
+  <names>
+    <name lang="zh">驱动器件；继电器线圈（分立表示法，形式 2）</name>
+    <name lang="en">Operating device; Relay coil (detached representation, form 2)</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：92；PDF 页：98；S 号：S00310；出版标准序号：GB/T 4728.7 07-15-06
+名称：驱动器件；继电器线圈（分立表示法，形式 2） / Operating device; Relay coil (detached representation, form 2)；状态：废除———仅供参考；IEC 废除日期：2003-08-12；发布日期：2001-07-01
+关键词：有或无继电器，驱动器件
+形式：形式 2；其他形式：S00309；采用符号：S00305
+形状类别：直线，矩形；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+备注：具有两个独立绕组的驱动器件的分立表示法
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；整体沿 x、y 各平移 +10（与 S00305 同族取齐）；两分立矩形：左 (10,30)-(50,50)、右 (70,30)-(110,50)，各 40×20 单位，间距 20 单位；每框两斜线（表示两个绕组）：左框 (34.5,30)-(25.5,50)、(44.5,30)-(35.5,50)，右框 (94,30)-(85,50)、(105,30)-(95,50)（斜率约 -0.45–-0.5，逐行拟合，端点残差 ≤0.5；中点 (30,40)、(40,40)、(90,40)、(100,40)）；四根引线各长 20 单位：顶端 (30,10)-(30,30)、(90,10)-(90,30)，底端 (30,50)-(30,70)、(90,50)-(90,70)；总高 80 单位 = 8 网格距，总宽 120 单位 = 12 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为两分立矩形＋每框两斜线＋四根引线的驱动器件（分立表示法，形式 2）；QET 适配在四根引线外端各设一端口（1=(30,10) n、2=(90,10) n、3=(30,70) s、4=(90,70) s），导线由对应方向接入。端口按从左到右、从上到下顺序编号 1–4。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="30" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="30" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="50" x2="10" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="10" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="30" x2="110" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="30" x2="110" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="50" x2="70" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="50" x2="70" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="34.5" y1="30" x2="25.5" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44.5" y1="30" x2="35.5" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="94" y1="30" x2="85" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="105" y1="30" x2="95" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="10" x2="90" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="50" x2="90" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{c0b8bdae-59da-4489-8ffc-f7bcd5ae1816}" name="1" type="Generic" />
+    <terminal x="90" y="10" orientation="n" uuid="{bca3cf1f-7de6-4f3d-b3f9-0c282cf1c4cd}" name="2" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{2596e1e2-bc20-4336-b1a6-0a31cb77489f}" name="3" type="Generic" />
+    <terminal x="90" y="70" orientation="s" uuid="{b1dbfe2f-653b-484c-a7b4-b44ffab8015e}" name="4" type="Generic" />
+    <dynamic_text x="65" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0813a815-11e9-4ebb-af6f-3f76943f1aa8}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

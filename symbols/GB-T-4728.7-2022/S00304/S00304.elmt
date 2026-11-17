@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="70" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{c75ed009-71a0-4247-9b8d-8a3f2cc45854}" />
+  <names>
+    <name lang="zh">带可控硅整流器的调节-启动器</name>
+    <name lang="en">Starter-regulator with thyristors</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：31；PDF 页：37；S 号：S00304；出版标准序号：GB/T 4728.7 07-14-08
+名称：带可控硅整流器的调节-启动器 / Starter-regulator with thyristors；状态：标准；发布日期：2001-07-01
+关键词：电动机启动器；采用符号：S00299，S00641
+形状类别：箭头，等边三角形，正方形；功能类别：Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；整体沿 y 平移 +10（箭头尖端避开上缘，沿用 S00299 做法）；正方形 (10,20)-(50,60)，40×40 单位；内 V 形：斜线 (10,20)-(30,30) 与 (50,20)-(30,30)，顶点 (30,30)；调节箭头：45° 斜线 (20,30)-(40,10)（平移前 x+y≈40，实测 39.6–39.9，取 40），实心箭头三角 (45,4.5)、(37.5,10)、(40,12)（平移前尖端约 (45,-5.5)，底角约 (37.5,0) 与 (40,2)，各 ±0.5）；晶闸管（S00641）：三角 (22,34)、(22,50)、(37,42)，竖条 (37,34)-(37,50)，水平线 (15,42)-(45,42)，门极线 (30,46)-(30,53.5)（平移前下端约 43.5）；总高 70 单位 = 7 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为正方形＋内 V 形＋调节箭头＋晶闸管三角＋竖条＋水平线＋门极线的调节-启动器，无引线、无端口标记；QET 适配不设端口（原图无连接点，增设端口属发明连接点），本件为纯图形符号，可放置于图面，不参与网表接线。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="20" x2="50" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="20" x2="50" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="60" x2="10" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="60" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="20" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="20" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="30" x2="40" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="45" y1="4.5" x2="37.5" y2="10" x3="40" y3="12" closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="22" y1="34" x2="22" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22" y1="50" x2="37" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37" y1="42" x2="22" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37" y1="34" x2="37" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="42" x2="45" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="46" x2="30" y2="53.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1a0000d3-8c52-4a04-9a92-1e65df814f86}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
