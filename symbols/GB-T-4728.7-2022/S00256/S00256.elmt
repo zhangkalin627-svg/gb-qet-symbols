@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{7f110a44-e673-4950-a672-e7bddcc2b9d4}" />
+  <names>
+    <name lang="zh">无自动复位的手动旋转开关</name>
+    <name lang="en">Switch, manually operated, turning, stay-put</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：15；PDF 页：21；S 号：S00256；出版标准序号：GB/T 4728.7 07-07-04
+名称：无自动复位的手动旋转开关 / Switch, manually operated, turning, stay-put；状态：标准；发布日期：2001-07-01
+关键词：触点，开关；采用符号：S00170，S00227；应用注释：A00061，A00083
+形状类别：直线；功能类别：S 把手动操作转换为信号；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；上引线 (60,10)-(60,30)，动触点斜线 (49,27)-(60,51)，下引线 (60,51)-(60,70)；旋转操作件：竖杠 (30,35)-(30,45)，上钩向右 (30,35)-(35,35)，下钩向左 (25,45)-(30,45)，中部短线 (30,40)-(35,40)；虚线机械联系 (37,40)-(48,40)、(49,40)-(55,40)（末段触及斜线）。总高 60 单位 = 6 网格距，总宽 80 单位 = 8 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为上固定引线、下方断开的斜动触点及左侧旋转操作件（上钩向右、下钩向左的阶梯形）与水平虚线机械联系，无端口标记；QET 适配在上下引线端头各设一端口（n/s，端口 1/2），导线由上下接入。操作件不增加电气端口；虚线拆成直线段以保留断续，未把操作线当第三电气连接。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="60" y1="10" x2="60" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="49" y1="27" x2="60" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="51" x2="60" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="35" x2="30" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="35" x2="35" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="45" x2="30" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="40" x2="35" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37" y1="40" x2="48" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="49" y1="40" x2="55" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="60" y="10" orientation="n" uuid="{25d247d1-7a7d-4146-b509-d01ac7333563}" name="1" type="Generic" />
+    <terminal x="60" y="70" orientation="s" uuid="{e5575c42-ac1a-4934-9b53-7cbae033d71c}" name="2" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1b5b04bb-4396-40e6-9e93-d1553dc713e2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

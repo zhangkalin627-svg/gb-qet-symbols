@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{7331c43a-3eb1-48ab-82f1-4d1888c7520a}" />
+  <names>
+    <name lang="zh">双位隔离器</name>
+    <name lang="en">Two-way disconnector; Two-way isolator</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：24；PDF 页：30；S 号：S00289；出版标准序号：GB/T 4728.7 07-13-07
+名称：双位隔离器 / Two-way disconnector; Two-way isolator；状态：标准；发布日期：2001-07-01
+关键词：隔离器，电力开关器件；采用符号：S00220，S00228
+形状类别：圆，直线；功能类别：Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+备注：具有中间断开位置
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；左右固定端均为 ⊥ 形：左引线 (20,10)-(20,30)＋横杠 (15,30)-(25,30)，右引线 (60,10)-(60,30)＋横杠 (55,30)-(65,30)；中间动触点直立于中间断开位置：竖线 (40,26)-(40,70) 穿过枢轴空心圆，圆心 (40,52.5)、直径 6 单位（圆心取半格，实测圆心 52.5、直径约 5.7 单位）。总高 60 单位 = 6 网格距，总宽 80 单位 = 8 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为左右两个固定端（⊥ 形）与中间直立的动触点（枢轴空心圆），无端口标记；QET 适配在左右固定端顶头与中间引线底头各设一端口（n/n/s，端口 1/2/3），导线由对应方向接入。三端子均为软件适配；中间断开位置表示动触点未与任一固定端闭合。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="20" y1="10" x2="20" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="30" x2="25" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="10" x2="60" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="55" y1="30" x2="65" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="26" x2="40" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="37" y="49.5" diameter="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="20" y="10" orientation="n" uuid="{b5f8f5bf-47c6-420d-9c57-ff0eb497ff86}" name="1" type="Generic" />
+    <terminal x="60" y="10" orientation="n" uuid="{4365c276-e0cf-4cf5-81c1-5d49d82926de}" name="2" type="Generic" />
+    <terminal x="40" y="70" orientation="s" uuid="{1f03248e-9f65-49dc-a0e4-8ee8977a8e7a}" name="3" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5352041d-dc1d-4753-a632-1d65eeb9d8bc}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
