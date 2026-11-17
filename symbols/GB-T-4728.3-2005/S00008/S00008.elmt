@@ -1,0 +1,19 @@
+<definition width="272" link_type="simple" version="0.5" hotspot_x="136" height="102" hotspot_y="51" type="element">
+    <uuid uuid="{b62c5454-c97b-4889-87e1-78f9e02ade49}"/>
+    <names>
+        <name lang="zh">绞合连接</name>
+        <name lang="en">Twisted connection</name>
+    </names>
+    <informations>GB/T 4728.3-2005 | 03-01-08 | p4 / PDF 8 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；1格=34画布单位；PDF图面：两平行线间距1格、斜线水平跨约4格、两端各伸出约1格、两端各带短钩且方向相反(上钩向右下、下钩向左上) → 取272×102；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <description>
+        <line x1="0" y1="34" x2="272" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="68" x2="272" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="221" y1="20" x2="204" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="204" y1="0" x2="68" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="68" y1="102" x2="51" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal x="0" y="34" orientation="w"/>
+        <terminal x="0" y="68" orientation="w"/>
+        <terminal x="272" y="34" orientation="e"/>
+        <terminal x="272" y="68" orientation="e"/>
+    </description>
+</definition>
