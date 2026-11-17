@@ -4,7 +4,7 @@
         <name lang="zh">软连接</name>
         <name lang="en">Flexible connection</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-06 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)，中段2格(88)为S形两半圆(半径0.65格取22)，先上拱后下凹，两端与水平段相接 | 尺寸单位=QET画布单位；1 画布单位 = 0.254 mm（实测 1200 单位 = 304.8 mm）；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-06 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)，中段2格(88)为S形两半圆(半径0.65格取22)，先上拱后下凹，两端与水平段相接 | 尺寸单位=QET画布单位；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
     <description>
         <line x1="0" y1="68" x2="177" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="228" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>

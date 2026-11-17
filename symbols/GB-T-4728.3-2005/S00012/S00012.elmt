@@ -4,7 +4,7 @@
         <name lang="zh">连到端子上的同轴对</name>
         <name lang="en">Coaxial pair connected to terminals</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-12 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；1 画布单位 = 0.254 mm（实测 1200 单位 = 304.8 mm）；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；PDF图面：内导体横线穿过空心圆(圆径约2.2格取68)，圆底右侧引竖线向下2格接外导体横线，外导体横线右端与内导体右端各接一个小空心端子(径约0.6格取20)，圆底另有一段水平短线；左端为自由端不接端子 → 272×136；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-12 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；QET 默认网格 20 单位/格，本文旧稿“格”按 34 单位计，非界面网格；PDF图面：内导体横线穿过空心圆(圆径约2.2格取68)，圆底右侧引竖线向下2格接外导体横线，外导体横线右端与内导体右端各接一个小空心端子(径约0.6格取20)，圆底另有一段水平短线；左端为自由端不接端子 → 272×136；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
     <description>
         <line x1="0" y1="34" x2="252" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="102" y="0" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
