@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{38ab4471-5287-4cee-a488-9c070f435a4a}" />
+  <names>
+    <name lang="zh">对交流不敏感继电器线圈</name>
+    <name lang="en">Relay coil of a relay unaffected by alternating current</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：34（续于印刷页 35）；PDF 页：40（条目文字续于 PDF 页 41 / 印刷页 35）；S 号：S00315；出版标准序号：GB/T 4728.7 07-15-11
+名称：对交流不敏感继电器线圈 / Relay coil of a relay unaffected by alternating current；状态：标准；发布日期：2001-07-01
+关键词：有或无继电器，驱动器件
+采用符号：S00305
+形状类别：直线，矩形
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；矩形框 (10,30)-(50,50)，40×20 单位；上、下两条实心黑边各厚约 5.5 单位：上黑条 (10,30)-(50,35.5)、下黑条 (10,44.5)-(50,50)，中间白带 (10,35.5)-(50,44.5) 约 9 单位（实测原生位图上条 17 px、下条 18 px、白带 26 px，合 5.7/6.1/8.8 单位，取 5.5/5.5/9）；两根引线各长 20 单位：(30,10)-(30,30)、(30,50)-(30,70)；总高 80 单位 = 8 网格距，总宽 60 单位 = 6 网格距。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形框＋上、下实心黑边＋上下两根引线；QET 适配在两根引线外端各设一端口（1=(30,10) n、2=(30,70) s），导线由对应方向接入。端口按从上到下顺序编号 1–2。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="30" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="10" y="30" width="40" height="5.5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <rect x="10" y="44.5" width="40" height="5.5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{47f3a6c5-747d-4b30-b261-0a9c28aa1a31}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{bae3944d-9ef2-4c4f-9a4b-815c6cd7b946}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ac95608e-1e9f-4199-9790-2c2c20dac13d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

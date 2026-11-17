@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="160" height="190" hotspot_x="80" hotspot_y="95" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{025fb3ee-e48b-4690-89bc-254bce2c4931}" />
+    <names>
+        <name lang="zh">中性点引出的星形-曲折形连接的三相变压器</name>
+        <name lang="en">Three-phase transformer, connection star-zigzag with the neutral brought out</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：30；PDF 页：36；S 号：S00867；出版标准序号：GB/T 4728.6 06-10-16
+名称：中性点引出的星形-曲折形连接的三相变压器 / Three-phase transformer, connection star-zigzag with the neutral brought out；状态：标准；发布日期：2001-07-01
+关键词：变压器，有独立绕组的变压器；形式：形式 2；其他形式：S00866（形式 1，已推）；采用符号：S00842
+应用注释：A00128；形状类别：圆，直线；功能类别：T 保持性质的变换；应用类别：电路图，接线图，功能图，概略图
+实测几何（300 dpi 原页量取）：点阵间距 29.4 px = 10 单位，纵向拟合 raw ≈ 1.35 + 2.965×QET，横向 raw ≈ 3.9 + 2.94×QET；全部锚点与整数 QET 值偏差 ≤0.3 单位。上排星形：引线 x=30/70/110，y 10–20；绕组弧弦线 x=30/70/110，接点 y 20/30/40/50，弧右凸 5 单位；短引线 y 50–60；星形线 y=60，x 30–110。中排曲折前半：框顶 y=70，x 10–110；框左 x=10，y 70–140；倒 U 顶 y=80，x 30–50 与 70–90；竖腿 x=50/90，y 80–140；绕组弧弦线 x=30/70/110，接点 y 90/100/110/120（右绕组弦线自框顶 y=70 起）；短引线 y 120–130；中排底线 y=130，x 30–150。下排曲折后半：顶段 y=140，x 10–30/50–70/90–110；绕组弧弦线 x=30/70/110，接点 y 140/150/160/170；短引线 y 170–180。中性线 x=150，y 130–180。连接：中-1 顶经腿 x=50 接下-2 顶；中-2 顶经腿 x=90 接下-3 顶；中-3 顶经框顶与框左接下-1 顶；中排底端共接 y=130（中性点），由 x=150 引出。
+端子说明：端子 1 (30,10) n、2 (70,10) n、3 (110,10) n 为上排星形三相引线；端子 4 (30,180) s、5 (70,180) s、6 (110,180) s 为下排曲折三相引线；端子 7 (150,180) s 为中性点引出线。原图无其他对外引线；中排底线交点 (50,130) 与 (90,130) 在原页为无断口、无圆点的普通交叉，按原图照画（像素级核实）。
+备注：绕组弧全部右凸（弦线左侧起弧、start=270），按原页逐行像素扫描核实；与已推 S00859 弧向相反（见组报告 BATCH10-B.md）。点阵背景为参考栅格，未绘入元件。
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途与限定：AI协助制作的独立重画件。候选状态，2026-11-17。许可MIT。不是标准认证或生产验收。
+</informations>
+    <description>
+    <line x1="30" y1="10" x2="30" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="20" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="30" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="40" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="10" x2="70" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="20" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="30" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="40" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="50" x2="70" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="10" x2="110" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="20" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="30" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="40" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="50" x2="110" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="60" x2="110" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="70" x2="110" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="70" x2="10" y2="140" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="80" x2="50" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="80" x2="90" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="80" x2="50" y2="140" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="80" x2="90" y2="140" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="80" x2="30" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="80" x2="70" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="70" x2="110" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="90" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="100" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="110" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="120" x2="30" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="90" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="100" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="110" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="120" x2="70" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="90" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="100" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="110" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="120" x2="110" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="130" x2="150" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="140" x2="30" y2="140" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="140" x2="70" y2="140" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="140" x2="110" y2="140" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="140" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="150" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="160" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="170" x2="30" y2="180" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="140" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="150" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65" y="160" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="170" x2="70" y2="180" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="140" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="150" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="160" width="10" height="10" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="170" x2="110" y2="180" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="150" y1="130" x2="150" y2="180" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{293da672-2fa0-4c33-8a49-513033076766}" name="1" type="Generic" />
+    <terminal x="70" y="10" orientation="n" uuid="{3922ce07-ed7a-4f22-abaa-4c0f7cb44dc3}" name="2" type="Generic" />
+    <terminal x="110" y="10" orientation="n" uuid="{cd875bdd-92e7-4dfc-bd1a-71af15056235}" name="3" type="Generic" />
+    <terminal x="30" y="180" orientation="s" uuid="{5f8207c9-5342-4a6d-9e00-633ff702ec91}" name="4" type="Generic" />
+    <terminal x="70" y="180" orientation="s" uuid="{e57c1a60-0522-47f5-9bb8-a68667194f8d}" name="5" type="Generic" />
+    <terminal x="110" y="180" orientation="s" uuid="{df4f3325-722f-404f-9e13-3c864e166312}" name="6" type="Generic" />
+    <terminal x="150" y="180" orientation="s" uuid="{88c8bd74-8e9e-4937-848f-99848c94f15a}" name="7" type="Generic" />
+        <dynamic_text x="80" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8b9c476b-0bb0-457c-b04e-efae127beb00}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>

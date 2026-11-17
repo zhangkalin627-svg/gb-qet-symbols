@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="96" height="80" hotspot_x="48" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{de4d4bb6-73e0-457b-9c19-a0eda2ceef5e}" />
+  <names>
+    <name lang="zh">机械谐振继电器线圈</name>
+    <name lang="en">Relay coil of a mechanically resonant relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：35；PDF 页：41；S 号：S00317；出版标准序号：GB/T 4728.7 07-15-13
+名称：机械谐振继电器线圈 / Relay coil of a mechanically resonant relay；状态：标准；发布日期：2001-07-01
+关键词：有或无继电器，驱动器件
+采用符号：S00098，S00305
+形状类别：描述形状，矩形
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；矩形框 (10,30)-(50,50)，40×20 单位；上下两根引线各长 20 单位：(30,10)-(30,30)、(30,50)-(30,70)；矩形右缘中线 y=40 处向右一根水平线 (50,40)-(85,40)（实测原生位图线端 x 255 px，合 QET 85.6；300 dpi 渲染合 85.1，取 85）；线上竖直正弦谐振标记由两段弧画出：右凸弧 (60,32,7,8,start=270,angle=180)、左凸弧 (60,40,7,8,start=90,angle=180)，标记 x 60–67、y 32–48、中心 (63.5,40)（实测原生位图标记 x 179–199 px、y 96–145 px，合 QET 60–66.6、31.9–48.1）；总高 80 单位 = 8 网格距，总宽 96 单位（定义框 96，热点 x=48 为整数，右留边 11 单位）。注：原生位图水平线在点阵列 x≈60、70 处各有约 1 单位微断口（源位图线段接缝），300 dpi 渲染上线连续不断，本件按连续线画出。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形框＋上下两根引线＋右向水平线＋线上竖直谐振标记；QET 适配在两根引线外端各设一端口（1=(30,10) n、2=(30,70) s），导线由对应方向接入；右向水平线末端不设端口（谐振标记线，非连接点，不发明端子）。端口按从上到下顺序编号 1–2。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="30" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="40" x2="85" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="60" y="32" width="7" height="8" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="60" y="40" width="7" height="8" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{d364ec92-6783-4678-a726-5f2430a0b016}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{3ca83642-c9f8-4287-9166-c5046b3200dd}" name="2" type="Generic" />
+    <dynamic_text x="53" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0e9ee4a6-6330-416c-b645-9f18c2964e02}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

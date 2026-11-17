@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="120" height="180" hotspot_x="60" hotspot_y="90" type="element" link_type="simple" version="0.100.0">
+    <uuid uuid="{5405744a-2885-4c4d-95d1-70b2bc5d77e7}" />
+    <names>
+        <name lang="zh">三相变压器，星形-星形-三角形连接</name>
+        <name lang="en">Three-phase transformer, connection star-star-delta</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：31；PDF 页：37；S 号：S00868；出版标准序号：GB/T 4728.6 06-10-17
+名称：三相变压器，星形-星形-三角形连接 / Three-phase transformer, connection star-star-delta；状态：标准；发布日期：2001-07-01
+关键词：变压器，有独立绕组的变压器；形式：形式 1；其他形式：S00869（形式 2）；采用符号：S00002，S00806，S00808，S00844
+应用注释：A00128；形状类别：圆，等边三角形，直线；功能类别：T 保持性质的变换；应用类别：电路图，接线图，功能图，概略图
+实测几何（300 dpi 原页量取）：点阵间距 29.5 px = 10 单位；纵向拟合 raw ≈ 2.42 + 2.9525×QET，横向 raw ≈ 2.5 + 2.95×QET。三圆直径 60：上圆圆心 (60,70)，左下圆 (40,110)，右下圆 (80,110)，圆心拟合残差 ≤0.5 px。上引线 (60,10)–(60,40)，斜线（S00002）(70,10)–(50,20)、(70,15)–(50,25)、(70,20)–(50,30)。下引线 (40,140)–(40,170)、(80,140)–(80,170)，斜线左 (50,150)–(30,160)、(50,155)–(30,165)、(50,160)–(30,170)，右 (90,150)–(70,160)、(90,155)–(70,165)、(90,160)–(70,170)；斜线拟合容差 ±0.5 单位。上圆 Y（S00808）：接点 (60,65)，臂至 (51,60)/(69,60)，柄至 (60,75)。左下圆 Y：接点 (35,110)（圆心 x−5），臂至 (26,105)/(44,105)，柄至 (35,120)。右下圆三角形（S00806）：顶点 (85,99)，底边 (76,115)–(94,115)，高 16、半宽 9，边斜率实测 0.567（9/16）。
+端子说明：端子 1 (60,10) n 为上绕组引线；端子 2 (40,170) s、3 (80,170) s 为下绕组两引线。原图无其他对外引线；三圆内 Y 与三角形为图形标记，无对外引线。
+备注：斜线组与三角形顶点按原页逐行像素扫描拟合，容差 ±0.5 单位，见 TEST-S00868.md。点阵背景为参考栅格，未绘入元件。
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途与限定：AI协助制作的独立重画件。候选状态，2026-11-17。许可MIT。不是标准认证或生产验收。
+</informations>
+    <description>
+    <circle x="30" y="40" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="10" y="80" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="50" y="80" diameter="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="10" x2="60" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="10" x2="50" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="15" x2="50" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="20" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="140" x2="40" y2="170" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="140" x2="80" y2="170" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="150" x2="30" y2="160" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="150" x2="70" y2="160" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="155" x2="30" y2="165" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="155" x2="70" y2="165" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="160" x2="30" y2="170" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="160" x2="70" y2="170" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="51" y1="60" x2="60" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="69" y1="60" x2="60" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="65" x2="60" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="105" x2="35" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="105" x2="35" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="35" y1="110" x2="35" y2="120" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="85" y1="99" x2="76" y2="115" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="85" y1="99" x2="94" y2="115" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="76" y1="115" x2="94" y2="115" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="60" y="10" orientation="n" uuid="{dab8a20d-2840-462c-95de-7036e977cd89}" name="1" type="Generic" />
+    <terminal x="40" y="170" orientation="s" uuid="{913fe8e2-dae5-452d-b315-f101eb584145}" name="2" type="Generic" />
+    <terminal x="80" y="170" orientation="s" uuid="{857b9287-aa30-4f17-a519-c13a6c860cbb}" name="3" type="Generic" />
+        <dynamic_text x="60" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5a72d9e9-d265-41af-a0f0-dff3e0c987b8}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" />
+    </description>
+</definition>
