@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="24" height="33" hotspot_x="12" hotspot_y="16" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{7507151c-9c2d-4eed-9c00-8ac54d0f318f}" />
+  <names>
+    <name lang="zh">自由脱扣机构</name>
+    <name lang="en">Trip-free mechanism</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：26；PDF 页：32；S 号：S00293；出版标准序号：GB/T 4728.7 07-13-11
+名称：自由脱扣机构 / Trip-free mechanism；状态：标准；发布日期：2001-07-01
+关键词：机械控制，电力开关器件；用于：S00294
+应用注释：A00247
+形状类别：直线，正方形；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；正方形 (4,12)-(20,28)，16×16 单位；竖线 (12,7.5)-(12,32.5)，关于 y=20 对称（顶端实测 7.52、底端 32.24，取 7.5/32.5）；横线 (0,20)-(24,20)，左端在圆点下、取 0。总高 33 单位，总宽 24 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为正方形＋竖线＋横线的自由脱扣机构（概念要素），无端口标记；QET 适配在四条线端各设一端口（1(12,7.5)n、2(12,32.5)s、3(0,20)w、4(24,20)e），以便在 S00294/S00295 等应用件中与机械联接线对接。端口为 QET 适配，不是标准图形的组成部分。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="4" y1="12" x2="20" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="12" x2="20" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="28" x2="4" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="4" y1="28" x2="4" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12" y1="7.5" x2="12" y2="32.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="0" y1="20" x2="24" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="12" y="7.5" orientation="n" uuid="{7a674b15-3c9f-4070-bc22-faee65d60b3c}" name="1" type="Generic" />
+    <terminal x="12" y="32.5" orientation="s" uuid="{1cb5e249-2c46-444e-bb21-0f095a24417c}" name="2" type="Generic" />
+    <terminal x="0" y="20" orientation="w" uuid="{074ea094-da90-4564-9671-0b95d1cb77fc}" name="3" type="Generic" />
+    <terminal x="24" y="20" orientation="e" uuid="{9cacb31e-89c3-4c47-94ce-6bd3abbe554d}" name="4" type="Generic" />
+    <dynamic_text x="17" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a19fae20-0c14-42e7-8a04-eec5c15f7577}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

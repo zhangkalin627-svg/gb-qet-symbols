@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="280" height="190" hotspot_x="140" hotspot_y="95" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{8ed64c9b-80e0-45f3-a404-3c19cd77863c}" />
+  <names>
+    <name lang="zh">三极机械式开关装置</name>
+    <name lang="en">Mechanical switching device, three-pole</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：27；PDF 页：33；S 号：S00295；出版标准序号：GB/T 4728.7 07-13-13
+名称：三极机械式开关装置 / Mechanical switching device, three-pole；状态：标准；发布日期：2001-07-01
+关键词：电力开关器件；采用符号：S00003，S00145，S00150，S00167，S00192，S00227，S00229，S00305，S00325，S00345，S01406
+应用注释：A00082，A00083
+形状类别：直线，矩形，正方形；功能类别：Q 受控切换或改变；应用类别：电路图
+制作者：Muse；日期：2026-11-17；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+备注：弹簧贮能电动操作和：三个过负荷脱扣器、三个过电流脱扣器、手动脱扣器、遥控脱扣线圈、三个动合主触点、一个动合和一个动断辅助触点、一个用于电动机的启动和停止操作的位置开关。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；五极 x=140/180/220/250/270：上引线 (x,10)-(x,30)，下引线 (x,50)-(x,70)；主极动合斜线 (130,30)-(140,50)、(170,30)-(180,50)、(210,30)-(220,50)，斜率 0.5（实测 0.51–0.52）；辅助动合斜线 (240,30)-(250,50)；辅助动断：横脚 (270,30)-(280,30)，斜线 (280,30)-(270,50)，斜率 -0.5；左上手动操作：竖线 (10,34)-(10,44)（实测 34.3–44.4，取整），横线实线 (10,40)-(30,40)，左向空心三角 (17,40)-(26,34)-(26,44)（顶点实测 (17.2,39.7)，上/下边实测斜率 -1.6/+2.0）；主虚线横线 y=40：实线段 (10,40)-(30,40)，其后虚线 (33,40)-(280,40)（右端至位图边缘，取 280）；弹簧方框 (55,30)-(76,50)（实测宽约 20.3、高 20，取 21×20），内锯齿折线 (56,34)-(62,47)-(68,34)-(73,47)-(74,44)（峰/谷实测 y≈34/47.5，末段止于 (74,44)、未及右框边，两端均为自由端）；内嵌 S00293 方框 (93,33)-(108,49)（实测 14.7×15.4，取 15×16；与 S00294 的 16×16 不同，为原图差异），竖线 (100,28.5)-(100,50)（顶端实测 28.5，非整数，保留）；竖虚线 x=100：实线段 (100,28.5)-(100,50) 穿方框，其下虚线 (100,52)-(100,180)（首段实测起于 52.2）；三个 I&gt; 盒 (120,70)-(160,110)、(160,70)-(200,110)、(200,70)-(240,110)，各中线 y=90，内阶梯同 S00294（(cx,70)-(cx,75)-(cx+10,75)-(cx+10,85)-(cx,85)-(cx,90)，cx=140/180/220），下格 I&gt; 文本（&lt;text&gt;，约 15×7 单位，中心约 (cx+3,100)）；M 圆 (60,80) 直径 20，中心 (70,90)，内含字母 M（&lt;text&gt;，约 8×7 单位）；M 圆上引线 (70,72.5)-(70,80)；位置开关：竖线 (20,80)-(20,90)，斜线 (20,80)-(37,90)（实测斜率约 1.54），横线 (10,90)-(20,90) 与 (36,90)-(60,90) 接 M 圆左缘，另有短竖线 (30,74)-(30,80)（实测孤立短段，功能未独立核实），无数字 3；线圈矩形 (50,130)-(90,150)，上下引线 (70,120)-(70,130) 与 (70,150)-(70,160)，右出线 (90,140)-(100,140) 接竖虚线；底：横虚线 y=180 自 x≈59 至 x=100，T 形竖线 (60,176)-(60,185)；无 V 形（与 S00294 不同，原图底左仅 T 形）。总高 190 单位，总宽 280 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。虚线节律为 QET 自有，与原文约 9 单位/3.5 单位节律不一致。
+端口适配：原文图形为三极机械式开关装置的应用示例（弹簧贮能电动操作＋三组过负荷/过电流脱扣＋手动/遥控脱扣＋三动合主触点＋动合/动断辅助触点＋电动机位置开关），无端口标记；QET 适配在五极上下引线端各设一端口（上 1–5 n、下 6–10 s），导线由上下接入；其中主极下端端口 (140/180/220,70) 落在 I&gt; 盒顶边（引线进入脱扣盒之处）。M 圆、线圈、位置开关、手动操作、弹簧与机械联接线不另设端口。端口为 QET 适配，不是标准图形的组成部分。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="140" y1="10" x2="140" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="180" y1="10" x2="180" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="220" y1="10" x2="220" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="250" y1="10" x2="250" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="270" y1="10" x2="270" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="140" y1="50" x2="140" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="180" y1="50" x2="180" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="220" y1="50" x2="220" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="250" y1="50" x2="250" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="270" y1="50" x2="270" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="30" x2="140" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="170" y1="30" x2="180" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="210" y1="30" x2="220" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="240" y1="30" x2="250" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="270" y1="30" x2="280" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="280" y1="30" x2="270" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="34" x2="10" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="40" x2="30" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="17" y1="40" x2="26" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="34" x2="26" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="44" x2="17" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="33" y1="40" x2="280" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="55" y1="30" x2="76" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="76" y1="30" x2="76" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="76" y1="50" x2="55" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="55" y1="50" x2="55" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="56" y1="34" x2="62" y2="47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="62" y1="47" x2="68" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="68" y1="34" x2="73" y2="47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="73" y1="47" x2="74" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="93" y1="33" x2="108" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="108" y1="33" x2="108" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="108" y1="49" x2="93" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="93" y1="49" x2="93" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="28.5" x2="100" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="52" x2="100" y2="180" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="59" y1="180" x2="100" y2="180" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="176" x2="60" y2="185" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="60" y="80" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="M" x="66" y="87" size="10" />
+    <line x1="70" y1="72.5" x2="70" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="80" x2="20" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="80" x2="37" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="90" x2="20" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="90" x2="60" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="74" x2="30" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="120" y1="70" x2="160" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="160" y1="70" x2="160" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="160" y1="110" x2="120" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="120" y1="110" x2="120" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="120" y1="90" x2="160" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="140" y1="70" x2="140" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="140" y1="75" x2="150" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="150" y1="75" x2="150" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="150" y1="85" x2="140" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="140" y1="85" x2="140" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="I &gt;" x="135" y="97" size="10" />
+    <line x1="160" y1="70" x2="200" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="200" y1="70" x2="200" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="200" y1="110" x2="160" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="160" y1="110" x2="160" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="160" y1="90" x2="200" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="180" y1="70" x2="180" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="180" y1="75" x2="190" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="190" y1="75" x2="190" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="190" y1="85" x2="180" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="180" y1="85" x2="180" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="I &gt;" x="175" y="97" size="10" />
+    <line x1="200" y1="70" x2="240" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="240" y1="70" x2="240" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="240" y1="110" x2="200" y2="110" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="200" y1="110" x2="200" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="200" y1="90" x2="240" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="220" y1="70" x2="220" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="220" y1="75" x2="230" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="230" y1="75" x2="230" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="230" y1="85" x2="220" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="220" y1="85" x2="220" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="I &gt;" x="215" y="97" size="10" />
+    <line x1="50" y1="130" x2="90" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="130" x2="90" y2="150" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="150" x2="50" y2="150" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="150" x2="50" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="120" x2="70" y2="130" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="150" x2="70" y2="160" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="140" x2="100" y2="140" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="140" y="10" orientation="n" uuid="{c51835fd-12dc-4e6c-be0c-22933ba2b45f}" name="1" type="Generic" />
+    <terminal x="180" y="10" orientation="n" uuid="{516d8738-0b91-4187-bb9d-02087ab44d18}" name="2" type="Generic" />
+    <terminal x="220" y="10" orientation="n" uuid="{86b311e2-a7ae-47d6-979a-c4eb0c859e25}" name="3" type="Generic" />
+    <terminal x="250" y="10" orientation="n" uuid="{bd2e123f-4211-4265-a261-9f757346cb55}" name="4" type="Generic" />
+    <terminal x="270" y="10" orientation="n" uuid="{586a361d-6846-48d8-bb32-60e32a01dc12}" name="5" type="Generic" />
+    <terminal x="140" y="70" orientation="s" uuid="{d5ff0dcc-00f1-47ca-9a29-6e741a5c3d7e}" name="6" type="Generic" />
+    <terminal x="180" y="70" orientation="s" uuid="{ed623221-4ef8-4167-a680-cc8e2a686ef3}" name="7" type="Generic" />
+    <terminal x="220" y="70" orientation="s" uuid="{5cd2abb9-dd16-417c-9d25-ff8c06552551}" name="8" type="Generic" />
+    <terminal x="250" y="70" orientation="s" uuid="{891c250c-9104-4e6f-91c1-fb8238165814}" name="9" type="Generic" />
+    <terminal x="270" y="70" orientation="s" uuid="{162a05ae-56a9-4bd6-9473-959df19daa6b}" name="10" type="Generic" />
+    <dynamic_text x="145" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3d5b26d2-a37e-40b2-8bf7-bb4321f0ae92}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
