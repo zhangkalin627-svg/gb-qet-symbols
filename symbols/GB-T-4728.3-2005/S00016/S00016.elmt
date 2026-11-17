@@ -1,0 +1,35 @@
+<definition version="0.100.0" type="element" link_type="simple" width="20" height="20" hotspot_x="10" hotspot_y="10">
+    <uuid uuid="{467723f2-fd86-427d-affd-591c894ff2b0}"/>
+    <names>
+        <name lang="zh">连接点</name>
+        <name lang="en">Connection point</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：7；PDF 页：11；S 号：S00016；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-02-01
+名称：连接点 / Connection point；状态：标准；发布日期：2001-07-01
+别名：连接；关键词：分支，连接；用于：S00020，S00022，S00454，S00455，S00952，S01325，S00664；被替代的符号：S01350
+形状类别：圆，点；功能类别：功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-13；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；实点直径为 QET 8 单位（实测原文约 23 px ≈ 0.77 网格距，四舍五入）。四端口等电位待 QET 连线/电位传播实测（见端口适配段）。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；实心圆直径约 23 px ≈ 0.77 网格距。QET 比例：1 网格距 = 10 单位；实点直径 8 单位。
+端口适配：原文图形为一个实心圆点，无端口标记；QET 适配在圆点四向边缘各设一端口（n/s/e/w，端口 1/2/3/4）。图形语义：实点表示连接点，四端口在图面共点，不是四根独立导体。软件电位语义待实测：本元件 link_type="simple"；按 QET 0.8.0 sources/qetgraphicsitem/terminal.cpp relatedPotentialTerminal()，simple 元素不返回同元素其他端口，四端口等电位未在目标版本以连线/电位传播核验，不作已实现结论。图形实点与软件电气语义分开。参照：官方库 bod.elmt（连接点）同为 link_type="simple" 四端口。点阵背景为参考栅格，未绘入元件。
+修订 r2（2026-11-13）：端口适配段按管家 2026-11-13 20:54 源码核查更正（四端口等电位改标待实测）；definition UUID 不变；几何、端口、link_type 未动。
+公开修订（2026-11-17，制作者 Muse）：仅改用途句与本修订说明；几何、端口、definition UUID 未动。</informations>
+    <description>
+        <ellipse x="-4" y="-4" width="8" height="8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <dynamic_text x="-11" y="-14.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1e1708d7-4415-44a4-8236-55017dd357a3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{d0f79000-938f-480e-b0e0-9541ffb46cbd}" name="1" x="0" y="-4" orientation="n" type="Generic"/>
+        <terminal uuid="{71dec4a6-a1a0-4e05-a350-14606cfd4d76}" name="2" x="0" y="4" orientation="s" type="Generic"/>
+        <terminal uuid="{0d1c9f41-54bf-44a2-ab62-77b18c448d74}" name="3" x="-4" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{89a4e154-d421-463c-878d-6c40b4543041}" name="4" x="4" y="0" orientation="e" type="Generic"/>
+    </description>
+</definition>

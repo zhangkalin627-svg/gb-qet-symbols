@@ -1,0 +1,31 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="20" height="20" hotspot_x="10" hotspot_y="10">
+    <uuid uuid="{46ddb773-26e1-4888-bffd-52c84b954844}"/>
+    <names>
+        <name lang="zh">端子</name>
+        <name lang="en">Terminal</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：7；PDF 页：11；S 号：S00017；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-02-02
+名称：端子 / Terminal；状态：标准；发布日期：2001-07-01
+关键词：端子；用于：S00012，S00039，S00044，S00046，S00267，S00268，S00269，S01200，S00880，S00955，S00957，S01201，S00881，S01202
+形状类别：圆；功能类别：X 连接；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-13；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；空心圆外径为 QET 8 单位（实测原文外径约 21–23 px ≈ 0.70–0.77 网格距），圆环线宽为 QET 常规线宽（实测原文环宽约 4 px ≈ 0.13 网格距，导入后渲染宽度待确认）。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；空心圆外径约 21–23 px，环宽约 4 px。QET 比例：1 网格距 = 10 单位；外径 8 单位。
+端口适配：原文图形为一个空心圆，无端口标记、无引线；QET 适配在圆西缘设一个端口（w，端口 1），导线由西侧接入触及圆缘。元件可旋转，端口随之转到任意方向。本元件不是接线端子排（S00018），不含端子板几何。点阵背景为参考栅格，未绘入元件。
+公开修订（2026-11-17，制作者 Muse）：仅改用途句与本修订说明；几何、端口、definition UUID 未动。</informations>
+    <description>
+        <ellipse x="-4" y="-4" width="8" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-11" y="-14.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{16f99e98-0494-40ef-a75b-c22f974e0210}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{7681f3d0-e55a-47b5-8f24-9a26f010af9c}" name="1" x="-4" y="0" orientation="w" type="Generic"/>
+    </description>
+</definition>
