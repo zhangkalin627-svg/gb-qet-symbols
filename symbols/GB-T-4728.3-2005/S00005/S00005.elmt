@@ -1,0 +1,17 @@
+<definition width="408" link_type="simple" version="0.5" hotspot_x="204" height="150" hotspot_y="68" type="element">
+    <uuid uuid="{83e34bf9-9868-46fa-9346-b2fafd9fd532}"/>
+    <names>
+        <name lang="zh">三相电路</name>
+        <name lang="en">Three-phase circuit</name>
+    </names>
+    <informations>GB/T 4728.3-2005 | 03-01-05 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：三条平行水平线长12格(408)、间距约0.5格(18)，上注「3 N~50 Hz 400 V」、下注「3×120 mm²+1×50 mm²」；字符为符号组成部分 | 尺寸单位=QET画布单位；1格=34画布单位；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <description>
+        <line x1="0" y1="56" x2="408" y2="56" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="80" x2="408" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="3 N~50 Hz 400 V" x="163" y="46" size="10"/>
+        <text text="3×120 mm²+1×50 mm²" x="149" y="98" size="10"/>
+        <terminal x="0" y="68" orientation="w"/>
+        <terminal x="408" y="68" orientation="e"/>
+    </description>
+</definition>

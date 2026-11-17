@@ -1,0 +1,14 @@
+<definition width="408" link_type="simple" version="0.5" hotspot_x="204" height="136" hotspot_y="68" type="element">
+    <uuid uuid="{59372ed1-0f89-4f47-adea-2061d0a287c9}"/>
+    <names>
+        <name lang="zh">屏蔽导体</name>
+        <name lang="en">Screened conductor</name>
+    </names>
+    <informations>GB/T 4728.3-2005 | 03-01-07 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)穿过空心圆，圆径2格(68)与S00011同轴对同径；圆内无其它笔画 | 尺寸单位=QET画布单位；1格=34画布单位；标准未给定mm尺寸，本件数值不是标准规定值</informations>
+    <description>
+        <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="175" y="39" diameter="58" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal x="0" y="68" orientation="w"/>
+        <terminal x="408" y="68" orientation="e"/>
+    </description>
+</definition>
