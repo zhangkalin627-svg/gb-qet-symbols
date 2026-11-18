@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.100.0" type="element" link_type="simple" width="96" height="100" hotspot_x="48" hotspot_y="50">
+    <uuid uuid="{3634785f-7ffd-404c-b9d6-003a52ef1384}" />
+    <names>
+        <name lang="zh">电流回路多挡位选择仪器开关</name>
+        <name lang="en">Instrument multi-position selector switch for current circuit</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：66；PDF 页：72；S 号：S01856；出版标准序号：GB/T 4728.7 不适用（2009 年新增符号，无上版号）
+名称：电流回路多挡位选择仪器开关 / Instrument multi-position selector switch for current circuit；状态：标准；发布日期：2009-09-11
+关键词：仪器开关，开关；用于：S01857；采用符号：S00233，S01454；替代符号：电流回路切换仪器开关
+形状类别：字符，矩形；功能类别：Q 受控切换或改变，S 将手动操作转变为信号；应用类别：电路图
+备注：AS——电流表切换开关
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；矩形框 (8,10)-(88,90)，80×80 单位；AS 字形区 (45,35)-(57,42)；电流互感器形：竖线 (31,43)-(31,61)，横杠 (24,48)-(37,48)，底脚 (24,60)-(31,60)；动触点斜线 (39,59)-(60,48)，右横线 (60,48)-(75,48)。总高 80 单位，总宽 80 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形框＋AS 字样＋框内电流互感器形＋动合触点，无引出线、无端口标记；QET 适配设 3 端口：电流互感器竖线上下两端（1=(31,43) n、2=(31,61) s，作贯通导体）与开关输出端（3=(75,48) e）。动触点自由端不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <rect x="8" y="10" width="80" height="80" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <text text="AS" x="45" y="42" size="9" />
+        <line x1="31" y1="43" x2="31" y2="61" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="24" y1="48" x2="37" y2="48" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="24" y1="60" x2="31" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="39" y1="59" x2="60" y2="48" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="60" y1="48" x2="75" y2="48" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <terminal x="31" y="43" orientation="n" uuid="{b5d20b8a-c998-4531-a80b-89c1898968ae}" name="1" type="Generic" />
+        <terminal x="31" y="61" orientation="s" uuid="{791a6014-20f6-41e8-b8c9-f2da01f3c5cd}" name="2" type="Generic" />
+        <terminal x="75" y="48" orientation="e" uuid="{309b7661-3149-41dd-a30c-861461481a94}" name="3" type="Generic" />
+        <dynamic_text x="53" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8ee62aaf-1085-4cac-88e1-53d4838092b2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

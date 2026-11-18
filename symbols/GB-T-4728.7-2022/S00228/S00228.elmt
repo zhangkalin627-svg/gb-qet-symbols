@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="34" height="80" hotspot_x="17" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{4eeab6e0-01f7-49c2-865c-26a94bbe26dc}" />
+  <names>
+    <name lang="zh">动合(常开)触点一般符号;开关一般符号</name>
+    <name lang="en">Make contact, general symbol; Switch, general symbol</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：80；PDF 页：86；S 号：S00228；出版标准序号：GB/T 4728.7 07-02-02
+名称：动合(常开)触点一般符号;开关一般符号 / Make contact, general symbol; Switch, general symbol；状态：废除———仅供参考；IEC 废除日期：2002-03-23；发布日期：2001-07-01
+关键词：触点，电力开关器件，开关
+形式：旧式
+用于：S00289
+应用注释：A00061
+代替：S00283
+替代符号：S00227
+形状类别：圆，直线；功能类别：K 处理信号或信息，Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+备注：由于技术过时而废除
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：本件为附录 NA 废除———仅供参考符号，仅供参考，不得用于新设计；第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；上引线 px x=61、y 1..62；斜臂 (32,61)-(61,124)；节点圆外框约 x 54..67、y 116..131（直径约 14–15 px），中心 (61,124)；下引线 x=61、y 135..177。QET：上引线 (20,10)-(20,30)；斜臂 (10,30)-(20,51)；节点圆 (17.5,48.5) 直径 5；下引线 (20,55)-(20,69)。注：节点圆与下引线之间实测有约 1.5 单位间隙，按实测留出。
+端口适配：原文图形为旧式动合触点：上引线＋斜臂＋节点圆＋下引线；QET 适配在两根引线外端各设一端口（1=(20,10) n、2=(20,69) s），导线由对应方向接入。节点圆不另设端口。</informations>
+  <description>
+    <line x1="20" y1="10" x2="20" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="30" x2="20" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="17.5" y="48.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="55" x2="20" y2="69" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="20" y="10" orientation="n" uuid="{e0d46ec9-3cc7-4ed3-9010-6d53b77152be}" name="1" type="Generic" />
+    <terminal x="20" y="69" orientation="s" uuid="{39fab454-b729-4120-b045-de42fbbc6154}" name="2" type="Generic" />
+    <dynamic_text x="22" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9fba960e-e12b-4f1d-b457-4b64b15ba121}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

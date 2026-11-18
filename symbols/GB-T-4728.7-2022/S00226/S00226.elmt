@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="40" hotspot_x="20" hotspot_y="20" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{f37cc56a-d35a-4c4b-8738-602bc102d3d9}" />
+  <names>
+    <name lang="zh">开关的正向动作</name>
+    <name lang="en">Positive operation of a switch</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：3；PDF 页：9；S 号：S00226；出版标准序号：GB/T 4728.7 07-01-09
+名称：开关的正向动作 / Positive operation of a switch；状态：标准；发布日期：2001-07-01
+关键词：正向动作
+用于：S00257，S00258，S00262，S00296
+应用注释：A00061，A00068，A00069
+形状类别：箭头，圆；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.75 px；圆外框 px 31..92（直径约 62 px），中心 (61.5,61.5)；箭头水平线 y≈61、x 42..80，箭头尖 (80,61)，尾叉 (74,51)/(74,72)。QET：圆 (10,10) 直径 20；箭头 (13.5,20)-(26,20)，尾叉 (24,16.5)-(26,20)、(24,23.5)-(26,20)。
+端口适配：原文图形为限定符号（圆内右向箭头），无引线、无端口标记；QET 未设端口（与 S00327 同例）；仅作限定符号使用，须与其他符号组合。零端子：本件为限定符号（纯图形符号），原图无连接点，不设端口，不参与网表。
+</informations>
+  <description>
+    <circle x="10" y="10" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="13.5" y1="20" x2="26" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24" y1="16.5" x2="26" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24" y1="23.5" x2="26" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="25" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b656390a-547d-48bb-9420-86fe9cd04d4f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

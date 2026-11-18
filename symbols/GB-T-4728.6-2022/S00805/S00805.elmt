@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="30" height="30" hotspot_x="15" hotspot_y="15" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{c5450f2b-238c-4d8b-af92-2bf96a78e5a3}" />
+  <names>
+    <name lang="zh">T 形连接的三相绕组</name><name lang="en">Three-phase winding, T</name></names>
+  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：4；PDF 页：10；S 号：S00805；出版标准序号：GB/T 4728.6 06-02-04
+名称：T 形连接的三相绕组 / Three-phase winding, T；状态：标准；发布日期：2001-07-01
+关键词：绕组互连,内部连接的绕组,绕组—限定符号；应用注释：A00135
+形状类别：直线；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29–31 px；T 形：横杠长 33 px ≈ 11 单位（取 10 单位，整数端点）、位于点阵行 2、中心在点阵列 134；竖柄长 29 px ≈ 10 单位，自横杠中心下至点阵行 3。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为 T 形（横杠＋居中竖柄），无端口标记；QET 适配在横杠两端与竖柄下端各设一端口（端口 1 朝西、2 朝东、3 朝南），导线由相应方向接入。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="10" x2="20" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="10" x2="15" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="10" orientation="w" uuid="{762496bd-7d1d-4aae-9cc3-350ddb8efa57}" name="1" type="Generic" />
+    <terminal x="20" y="10" orientation="e" uuid="{4051cebc-4a92-4113-8e2f-a6089ad4c614}" name="2" type="Generic" />
+    <terminal x="15" y="20" orientation="s" uuid="{97ce11f8-1e76-4c58-938b-0cb8f0182ed3}" name="3" type="Generic" />
+    <dynamic_text x="20" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1279331a-7bae-45f5-876a-ce3639139e4f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

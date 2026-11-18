@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.100.0" type="element" link_type="simple" width="60" height="60" hotspot_x="30" hotspot_y="30">
+    <uuid uuid="{38cd2cc3-c07b-44fe-a834-5429d9a7b117}" />
+    <names>
+        <name lang="zh">原电池或蓄电池组</name>
+        <name lang="en">Battery of primary or secondary cells</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：50；PDF 页：56；S 号：S01342；出版标准序号：GB/T 4728.6 GB/T 4728.6 06-15-01
+名称：原电池或蓄电池组 / Battery of primary or secondary cells；状态：标准；发布日期：2001-07-01
+关键词：蓄能器，电池组，原电池，蓄电池；用于：S01018，S00908；替代符号：S01365，S01366
+形状类别：直线；功能类别：G 启动能量流；应用类别：电路图，接线图，功能图，安装简图，概略图
+备注：长线代表阳极，短线代表阴极
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；引线轴 y=30；短板（阴极）(27,20)-(27,40)，长板（阳极）(33,9)-(33,51)；左引线 (10,30)-(27,30)，右引线 (33,30)-(49,30)。与 S01341 原图元逐像素相同（几何、尺寸全同，见 README）；长板实测 125 px（约 42 单位），顶端贴原图元上缘，取 42 单位；短板实测 62 px（20 单位）。总高 42 单位，总宽 39 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为一长一短两竖板＋左右引线，无端口标记；QET 适配在左右引线端头各设一端口（1=(10,30) w、2=(49,30) e），导线由左右接入。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <line x1="27" y1="20" x2="27" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="33" y1="9" x2="33" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="10" y1="30" x2="27" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="33" y1="30" x2="49" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <terminal x="10" y="30" orientation="w" uuid="{c2d21d82-1d21-44e4-bf51-0af957f76208}" name="1" type="Generic" />
+        <terminal x="49" y="30" orientation="e" uuid="{9e28c3a6-f941-4df3-b226-bbc37b1c2273}" name="2" type="Generic" />
+        <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c6950b38-1485-413c-b9aa-8a9c2f3ff061}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

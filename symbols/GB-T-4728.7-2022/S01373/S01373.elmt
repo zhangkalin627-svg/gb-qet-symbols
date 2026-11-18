@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="190" height="100" hotspot_x="95" hotspot_y="50" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{38490e71-9b32-4c3a-b7c8-a357e431abb8}" />
+  <names>
+    <name lang="zh">高能点火装置</name>
+    <name lang="en">Ignition unit, high energy</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版（附录废除件，仅供参考）
+印刷页：96；PDF 页：102；S 号：S01373；出版标准序号：GB/T 4728.7 07-A4-01
+名称：高能点火装置 / Ignition unit, high energy；状态：废除———仅供参考；IEC 废除日期：1996-05
+关键词：感应器
+形状类别：描述
+功能类别：T 保持能量性质不变的能量变换；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。 废除件仅供参考，不作现行标准使用。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；主矩形 (731,545)-(971,667) px，约 80×40 单位；左接头 (672,558)-(735,652) px，约 19×31 单位，分隔竖线 x=703 px，引线 y=590/618 px（长约 35 px）；右小接头 (967,558)-(1000,652) px，约 11×31 单位；右引线 y=606 px 至 x=1148 px；虚线圆实测左缘 x=1028 px、右缘 x=1088 px、底虚划 y=634 px，圆心约 (1058,610) px、半径约 32 px，取 Ø22 单位、圆心 (149,41)；接地竖线 x=910 px，横杠三条 y=712/728/740 px，宽 59/45/31 px。
+端口适配：原文图形为高能点火装置，无端口标记；QET 适配在左两根引线左端（w，端口 1、2）与右引线右端（e，端口 3）各设一端口。接地符号为图形要素，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="40" y="20" width="80" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="21" y="24" width="19" height="31" rx="5" ry="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="31" y1="24" x2="31" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="35" x2="22" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="44" x2="22" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="119" y="24" width="11" height="31" rx="5" ry="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="129" y1="40" x2="179" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <ellipse x="138" y="30" width="22" height="22" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="100" y1="60" x2="100" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="75" x2="110" y2="75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="92" y1="81" x2="107" y2="81" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="95" y1="85" x2="105" y2="85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="35" orientation="w" uuid="{189dceb9-c3af-40db-b145-3f234fe16db8}" name="1" type="Generic" />
+    <terminal x="10" y="44" orientation="w" uuid="{dafcfdef-63f7-4dd7-9cd3-984b89b9ca16}" name="2" type="Generic" />
+    <terminal x="179" y="40" orientation="e" uuid="{80a9c0b7-19e1-4d42-a6ec-19a8a4695ae7}" name="3" type="Generic" />
+    <dynamic_text x="100" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9b64dde9-9bc7-4a89-abab-7c32913eee67}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

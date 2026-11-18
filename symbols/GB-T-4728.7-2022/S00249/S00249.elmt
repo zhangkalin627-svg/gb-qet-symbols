@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="31" height="81" hotspot_x="16" hotspot_y="41" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{8f1b75fc-951a-5ef3-8789-7c8aa73f01db}" />
+  <names>
+    <name lang="zh">自动返回的动合触点</name>
+    <name lang="en">Make contact, automatic return</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：80；PDF 页：86；S 号：S00249；出版标准序号：GB/T 4728.7-2022 07-06-01
+名称：自动返回的动合触点 / Make contact, automatic return；状态：废除———仅供参考；IEC 废除日期：2002-03-23；发布日期：2001-07-01
+关键词：触点，开关；采用符号：S00224，S00227；应用注释：A00060，A00061，A00064，A00065
+形状类别：等边三角形，直线；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+备注：由于技术过时而废除
+本件为已废除符号，仅供参考，不得用于新设计。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；上引线 (20,11)-(20,30.67)，自动返回三角形：顶点 (20,23)、(13.67,28)、(20,30.67)（底边贴合引线，顶点向左，底边长 7.67 单位）；动合斜线 (11,31.33)-(20,48.67)（上端自由，与上引线下端留有断开间隙）；下引线 (20,48.67)-(20,69)；画布 31×81 单位（热点 (16,41)）；图形纵向 11–69（58 单位）、横向 11–20。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(20,11)n；2(20,69)s。这（些）连接点是 QET 适配，不是额外的标准图形。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="20" y1="11" x2="20" y2="30.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="23" x2="13.67" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="13.67" y1="28" x2="20" y2="30.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11" y1="31.33" x2="20" y2="48.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="48.67" x2="20" y2="69" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="20" y="11" orientation="n" uuid="{649c5176-0706-5d0e-a218-06aecbbb1b5a}" name="1" type="Generic" />
+    <terminal x="20" y="69" orientation="s" uuid="{839a704a-fb4c-5b5d-9a35-d65a3a56e9dd}" name="2" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c1ef3567-6194-5345-8f94-fc475fbe4228}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

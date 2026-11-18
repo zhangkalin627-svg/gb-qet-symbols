@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="70" hotspot_x="20" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{a5a8540b-1577-4f82-8ee2-fe0120477c66}" />
+  <names>
+    <name lang="zh">水银开关;液位开关</name>
+    <name lang="en">Mercury switch; Levelling switch</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：94；PDF 页：100；S 号：S01369；出版标准序号：GB/T 4728.7 07-A1-03
+名称：水银开关;液位开关 / Mercury switch; Levelling switch；状态：废除———仅供参考（IEC 废除日期 1996-05）
+关键词：触点，开关
+形状类别：描述形状，直线
+备注：示出四端
+功能类别：K 处理信号或开关；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；上引线两根 (10,0)-(10,15)、(30,0)-(30,15)，下引线两根 (10,44)-(10,60)、(30,44)-(30,60)，四根均与胶囊留约 10 单位间隙；中心贯通线 (20,15)-(20,50)，自上引线底端高度起、穿过胶囊、止于下引线顶端下方约 6 单位；胶囊（横置水银囊）(5,25)-(36,36)，31×11 单位：左半圆弧 (5,25,11,11) start=90、右半圆弧 (25,25,11,11) start=270、上边 (10,25)-(30,25)、下边 (10,36)-(30,36)；总高 70 单位，总宽 40 单位。注：胶囊端部按标准体育场形（半圆端）画出，弧与直边的 0.5 单位接缝为取整所致；中心贯通线为水银/液位指示图形、不设端口，见 TEST 记录。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为上下各两根引线＋中心贯通线＋横置胶囊（示出四端）；QET 适配在四根引线外端各设一端口：上左 1=(10,0) n、上右 2=(30,0) n、下左 3=(10,60) s、下右 4=(30,60) s（端口编号为本件自定，标准原文无编号）；中心贯通线不设端口；QET 网表不建模元件内连接，接线后以网表为准。</informations>
+  <description>
+    <line x1="10" y1="0" x2="10" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="0" x2="30" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="44" x2="10" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="44" x2="30" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="15" x2="20" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="5" y="25" width="11" height="11" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="25" width="11" height="11" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="25" x2="30" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="36" x2="30" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="0" orientation="n" uuid="{5c37d5ab-e033-4843-af07-5735196d0d50}" name="1" type="Generic" />
+    <terminal x="30" y="0" orientation="n" uuid="{f11ccc7c-605e-45f7-8282-fcea93432427}" name="2" type="Generic" />
+    <terminal x="10" y="60" orientation="s" uuid="{b7c460d0-1a80-42d6-8c99-5ff4e62f99f6}" name="3" type="Generic" />
+    <terminal x="30" y="60" orientation="s" uuid="{fd7a5ad1-81a4-41f7-8078-1306c9312020}" name="4" type="Generic" />
+    <dynamic_text x="25" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b118298e-365e-48e5-898c-c29379d5fec3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

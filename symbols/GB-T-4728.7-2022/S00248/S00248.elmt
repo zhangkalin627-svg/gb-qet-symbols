@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="120" height="81" hotspot_x="60" hotspot_y="41" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{da5eb7c5-7d82-5ad2-aa2b-81614d4e15a2}" />
+  <names>
+    <name lang="zh">触点组</name>
+    <name lang="en">Contact assembly</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：13；PDF 页：19；S 号：S00248；出版标准序号：GB/T 4728.7-2022 07-05-06
+名称：触点组 / Contact assembly；状态：标准；发布日期：2001-07-01
+关键词：触点，开关；采用符号：S00144，S00227，S00243，S00246；应用注释：A00061，A00070
+形状类别：半圆，直线；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+备注：该触点组表示一个不延时的动合触点，一个延时闭合的动合触点和一个延时闭合的动断触点
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；三组触点横距约 118 px（引线 x=21/60/99）；触点 1（左，不延时动合）：上引线 (21,10)-(21,30.67)，动合斜线 (11.33,31.33)-(21,48.33)，下引线 (21,48.33)-(21,70)；触点 2（中，延时闭合动合）：上引线 (60,10)-(60,30.67)，动合斜线 (50.67,31.33)-(60,48.33)，下引线 (60,48.33)-(60,70)，延时半圆圆心 (122,120)px、半径 8，左凸（圆框 x=32.67），延时连线 y=38.33 (32.33,38.33)-(54.67,38.33)、y=42 (32.33,42)-(56.33,42)；触点 3（右，延时闭合动断）：上引线 (99,10)-(99,30.67)，横触臂 (99,30.33)-(109,30.33)，动断斜线 (109.67,29.33)-(99,48)（上端略探出触臂上方），下引线 (99,48.33)-(99,70)，延时半圆圆心 (221,120)px、半径 8，右凸（圆框 x=65.67），延时连线 y=38.33 (81.33,38.33)-(105.67,38.33)、y=42 (81.33,42)-(103.67,42)；虚线机械联系 y=40.33：(17.33,40.33)-(23,40.33)、(26.33,40.33)-(32.33,40.33)、(56.33,40.33)-(58.67,40.33)、(62.67,40.33)-(67,40.33)、(70.67,40.33)-(75,40.33)、(78.67,40.33)-(81.33,40.33)，横贯三组触点中部；画布 120×81 单位（热点 (60,41)）；图形纵向 10–70（60 单位）、横向 11.33–109.67。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(21,10)n、2(21,70)s 为触点 1；3(60,10)n、4(60,70)s 为触点 2；5(99,10)n、6(99,70)s 为触点 3。这（些）连接点是 QET 适配，不是额外的标准图形。虚线机械联系不设电气端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="21" y1="10" x2="21" y2="30.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11.33" y1="31.33" x2="21" y2="48.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21" y1="48.33" x2="21" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="10" x2="60" y2="30.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50.67" y1="31.33" x2="60" y2="48.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="48.33" x2="60" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32.33" y1="38.33" x2="54.67" y2="38.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32.33" y1="42" x2="56.33" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="32.67" y="32" width="16" height="16" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="99" y1="10" x2="99" y2="30.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="99" y1="30.33" x2="109" y2="30.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="109.67" y1="29.33" x2="99" y2="48" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="99" y1="48.33" x2="99" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="81.33" y1="38.33" x2="105.67" y2="38.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="81.33" y1="42" x2="103.67" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="65.67" y="32" width="16" height="16" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="17.33" y1="40.33" x2="23" y2="40.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26.33" y1="40.33" x2="32.33" y2="40.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="56.33" y1="40.33" x2="58.67" y2="40.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="62.67" y1="40.33" x2="67" y2="40.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70.67" y1="40.33" x2="75" y2="40.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="78.67" y1="40.33" x2="81.33" y2="40.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="21" y="10" orientation="n" uuid="{a88f1e67-c606-5dbd-9450-45c894dc4264}" name="1" type="Generic" />
+    <terminal x="21" y="70" orientation="s" uuid="{fafa40e4-7735-51dd-bdf1-6789c111d092}" name="2" type="Generic" />
+    <terminal x="60" y="10" orientation="n" uuid="{4da634b2-4a7c-5f0e-ab63-aaa2746c32a3}" name="3" type="Generic" />
+    <terminal x="60" y="70" orientation="s" uuid="{a36cf7e2-2e5e-5baa-a322-5793bca35fd7}" name="4" type="Generic" />
+    <terminal x="99" y="10" orientation="n" uuid="{cde592d3-3d0a-5019-bfbe-37e9980912bc}" name="5" type="Generic" />
+    <terminal x="99" y="70" orientation="s" uuid="{7880ddb5-10fa-5838-bd7b-b386db200b94}" name="6" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7d20d3a4-32c9-55f0-85dc-f391a0f5dfe3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{5c5b25e9-c84c-4235-ba7d-8e2a48128184}" />
+  <names>
+    <name lang="zh">移相</name>
+    <name lang="en">Phase-shifting</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：54；PDF 页：60；S 号：S01846；出版标准序号：无（上版标准序号：不适用）
+名称：移相 / Phase-shifting；状态：标准；发布日期：2005-11-15
+关键词：移相
+用于：S01837，S01838
+形状类别：箭头，直线；功能类别：-功能要素或属性；应用类别：理论上的元件或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；对角线 (32,120)-(120,32) px（x+y=152.5，45°，端点均为点阵点）→ QET (10,40)-(40,10)；竖线 x=120 px、y32–69 → QET (40,10)-(40,22.5)；箭头实心三角 (113,69)、(127,69)、(120,89) px → QET (37.5,22.5)、(42.5,22.5)、(40,29.5)，底宽 14 px ≈ 4.8 单位、高 20 px ≈ 6.8 单位。点阵间距约 29.5 px；点阵中心 (91,91) 对应 QET (30,30)。
+端口适配：原文图形为对角线＋竖线＋向下实心箭头（限定符号，无引线、无端口标记）；QET 适配在对角线下端、箭头尖端与上角顶点各设一端口（1=(10,40) w、2=(40,29.5) s、3=(40,10) n），导线由对应方向接入；箭头用 filled polygon 画出（先例 S00901）。端口为 QET 适配，不是标准图形的组成部分。</informations>
+  <description>
+    <line x1="10" y1="40" x2="40" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="10" x2="40" y2="22.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="37.5" y1="22.5" x2="42.5" y2="22.5" x3="40" y3="29.5" />
+    <terminal x="10" y="40" orientation="w" uuid="{dc952a9c-58be-41c7-925d-b14f87930dd4}" name="1" type="Generic" />
+    <terminal x="40" y="29.5" orientation="s" uuid="{1d06cd40-b639-4653-b8c1-d2ba4e253e82}" name="2" type="Generic" />
+    <terminal x="40" y="10" orientation="n" uuid="{67cdc7c8-af25-4976-aa62-efd79751d31d}" name="3" type="Generic" />
+    <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{394c445a-1ed1-40f0-a149-cbbd027cef1c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

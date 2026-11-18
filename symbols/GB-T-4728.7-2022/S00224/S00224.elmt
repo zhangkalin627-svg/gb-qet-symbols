@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="40" hotspot_x="20" hotspot_y="20" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{2f00676b-fbfa-462b-800a-2865421b8949}" />
+  <names>
+    <name lang="zh">自动返回功能</name>
+    <name lang="en">Automatic return function</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版（本条目为附录 NA 废除件，仅供参考）
+印刷页：79；PDF 页：85；S 号：S00224；出版标准序号：无（本条目属附录 NA“废除——仅供参考”件，无现行出版标准序号；上版标准序号：GB/T 4728.7 07-01-07，页图目视确认）
+名称：自动返回功能 / Automatic return function；状态：废除——仅供参考；发布日期：2001-07-01；废除日期：2003-01-25
+别名：弹性返回
+关键词：自动返回
+用于：S00249，S00251，S00252
+应用注释：A00061，A00064，A00065
+形状类别：等边三角形；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差；原图形实测为矮胖三角形（底 12 单位、高 8 单位），与形状类别名义“等边三角形”不完全一致，已按原图实测绘制，未按名义等边改形。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；三角形：内嵌模板图原生包围盒 x 70..96、y 60..98 px；边拟合顶点（模板图坐标）：顶点 (71.4,81.9)、底边上 (94.8,62.1)、底边下 (94.8,96.9)；点阵列 x=61、点阵行 y=62 对应 QET (20,20)，比例 2.95 px/单位 → QET 线 (23.5,26.5)-(31.5,20)、(31.5,20)-(31.5,32)、(31.5,32)-(23.5,26.5)。点阵背景不画入符号。
+端口适配：原文图形为等边三角形（概念要素／限定符号，无引线、无端口标记）；本件零端子，不设 QET 适配端口。</informations>
+  <description>
+    <line x1="23.5" y1="26.5" x2="31.5" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="31.5" y1="20" x2="31.5" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="31.5" y1="32" x2="23.5" y2="26.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="25" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c6385750-1a99-4700-ac1a-e18783490c1c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="20" height="20" hotspot_x="10" hotspot_y="9" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{847f7dc8-20c2-4e43-b4f4-0439dcded74e}" />
+  <names>
+    <name lang="zh">中性点引出的叉形连接的六相绕组</name>
+    <name lang="en">Six-phase winding in fork with neutral brought out</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：7；PDF 页：13；S 号：S00814；出版标准序号：GB/T 4728.6 06-02-13
+名称：中性点引出的叉形连接的六相绕组 / Six-phase winding in fork with neutral brought out；状态：标准；发布日期：2001-07-01
+关键词：绕组互连，内部连接的绕组，绕组—限定符号
+形状类别：圆点(点)，直线；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px（1 点阵距 = 10 QET 单位）；点阵间距约 29.5 px；中心圆点 (62,56) px，直径约 15 px；上 Λ 形：端点 (46,33)、(77,33) px，顶点 (62,44) px，竖干 x 61..63 px 至圆点并下延至 y 68 px；中性斜引线 (73,54)-(88,45) px，角约 31°；左右叉：肘点 (46,70)、(77,70) px，叉端 (36,65)、(88,65) px，竖干 x 45..48、76..78 px，y 70..89 px。QET 落位（圆点为原点）：Λ 端 (±5,-7.5)、顶点 (0,-4)、竖干 (0,-4)-(0,4)；中性引线 (2.5,0)-(8.5,-3.5)；叉斜臂 (∓1.3,2.5)-(∓5.17,4.67)；叉端 (±8.67,3)；竖干 (±5.17,4.67)-(±5.17,11)。
+端口适配：原文图形为一叉三分（上 Λ 叉、左下叉、右下叉）加中心实心圆点与一条向右上的中性斜引线，共七自由端；QET 适配在七端各设一端口（1=Λ 左端 w、2=Λ 右端 e、3=中性引线端 e、4=左叉端 w、5=左竖干下端 s、6=右叉端 e、7=右竖干下端 s）。圆点表示中性点。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="5" y1="1.5" x2="10" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="1.5" x2="10" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="5" x2="10" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <ellipse x="7.5" y="6.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="12.5" y1="9" x2="18.5" y2="5.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="8.7" y1="11.5" x2="4.83" y2="13.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11.3" y1="11.5" x2="15.17" y2="13.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="4.83" y1="13.67" x2="1.33" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15.17" y1="13.67" x2="18.67" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="4.83" y1="13.67" x2="4.83" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15.17" y1="13.67" x2="15.17" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="5" y="1.5" orientation="w" uuid="{e0e0c5a8-9609-4570-8381-73d726aa0918}" name="1" type="Generic" />
+    <terminal x="15" y="1.5" orientation="e" uuid="{13674dfc-8eea-4af8-ac06-61838ee36a53}" name="2" type="Generic" />
+    <terminal x="18.5" y="5.5" orientation="e" uuid="{66380b8d-7309-4bc0-8141-f829f9c9c383}" name="3" type="Generic" />
+    <terminal x="1.33" y="12" orientation="w" uuid="{87f7bbcc-57dc-4dd4-a939-089e3c46c27c}" name="4" type="Generic" />
+    <terminal x="4.83" y="20" orientation="s" uuid="{cd33ae6c-f710-48f5-9bb9-f4367b7d3277}" name="5" type="Generic" />
+    <terminal x="18.67" y="12" orientation="e" uuid="{c9936063-785d-4eac-8540-56a088de70df}" name="6" type="Generic" />
+    <terminal x="15.17" y="20" orientation="s" uuid="{ae849eb3-c15f-412a-9eab-b8a9f5fa7f36}" name="7" type="Generic" />
+    <dynamic_text x="10" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0e848cf3-fc56-43cb-87d5-74599713c98c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

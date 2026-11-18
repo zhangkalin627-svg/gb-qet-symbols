@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="110" height="80" hotspot_x="55" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{2d7a87a0-f18c-4ba9-873a-35cd2b73df35}" />
+  <names>
+    <name lang="zh">静态继电器一般符号</name>
+    <name lang="en">Static relay, general symbol</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：60；PDF 页：66；S 号：S00379；出版标准序号：GB/T 4728.7 07-26-01
+名称：静态继电器一般符号 / Static relay, general symbol；状态：标准；发布日期：2001-07-01
+关键词：静态开关器件
+采用符号：S00305，S00376
+应用注释：A00098
+形状类别：直线，矩形
+备注：图示为半导体动合触点
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；线圈矩形框 (10,30)-(50,50)，40×20 单位（与 S00305 同形）；线圈引线 (30,10)-(30,30)、(30,50)-(30,70)，各长 20 单位；虚线机械连线 y=40，自线圈右缘 (50,40) 至 (84,40)（原页 4 段虚划 762–787、791–817、821–847、851–867 px，合 QET 50–58、60–68、70–78、80–85，QET 虚线样式整段画出）；触点：上引线 (89,10)-(89,30)，横杆 (78,50)-(100,50)，下引线 (89,50)-(89,70)，动触片斜线 (79,28)-(89,50)（上端近接上引线、下端接横杆中点，动合位置）；总高 80 单位，总宽 110 单位。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为线圈＋虚线机械连线＋半导体动合触点（S00305＋S00376）；QET 适配在线圈引线外端与触点引线外端各设一端口：线圈 1=(30,10) n、2=(30,70) s，触点 3=(89,10) n、4=(89,70) s；动触片在图面接通 3 与 4，QET 网表不建模元件内连接，接线后以网表为准。</informations>
+  <description>
+    <rect x="10" y="30" width="40" height="20" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="40" x2="84" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="89" y1="10" x2="89" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="78" y1="50" x2="100" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="89" y1="50" x2="89" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="79" y1="28" x2="89" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{f906d8ad-8ff8-46d2-8cd0-354961ebbda2}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{bbcfe5ad-f7f5-48e0-bda5-1ddd1edb9c3b}" name="2" type="Generic" />
+    <terminal x="89" y="10" orientation="n" uuid="{e11a5e64-68c4-4ce6-b421-3943700ecb59}" name="3" type="Generic" />
+    <terminal x="89" y="70" orientation="s" uuid="{511a5bfe-44b6-4bc8-94b2-4d4cbd4f9700}" name="4" type="Generic" />
+    <dynamic_text x="60" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{dea84a59-e23d-4586-90b2-7834b4fc5e99}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

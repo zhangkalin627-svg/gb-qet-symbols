@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="40" height="110" hotspot_x="20" hotspot_y="55" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{9b6a33d7-9fae-4abd-8050-59c289891516}" />
+  <names>
+    <name lang="zh">多功能开关器件</name>
+    <name lang="en">Multiple-function switching device</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：63；PDF 页：69；S 号：S01413；出版标准序号：GB/T 4728.7 不适用
+名称：多功能开关器件 / Multiple-function switching device；状态：标准；IEC 发布日期：2003-11-10
+关键词：断路器，接触器，绝缘子，可逆
+别名：控制和保护开关器件（CPS），可逆 CPS
+采用符号：S00024，S00218，S00219，S00220，S00222，S00227
+备注：该多功能开关器件包括：可逆功能、断路器功能、隔离功能、接触器功能和自动脱扣功能，可通过使用相关功能符号来表示。为了相位转换，该符号示出了可逆功能。当使用该符号时，应省略不适用的功能符号要素
+形状类别：半圆，直线，正方形
+功能类别：Q 受控切换或改变；应用类别：电路图，功能图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；竖线 x=736 px，自 y=547 px 至 y=872 px（中段 y=757–806 px 由斜刀代替）；换向斜刀 (721,561)-(753,649) px，过线点约 y=600 px；叉号中心 (735,678) px，约 4×4 单位；横杠 y=707 px，x=722–754 px；左半圆 y=724–755 px，左缘 x=726 px，取 Ø10 单位；黑菱形中心 (707,777) px，对角线约 30 px，取 10 单位；斜刀 (702,744)-(736,806) px，下竖线自 y=806 px。
+端口适配：原文图形为多功能开关器件（多功能要素沿一根竖线叠合），无端口标记；QET 适配在竖线上端（n，端口 1）与下端（s，端口 2）各设一端口。QET 网表不建模元件内各功能要素的连接。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="20" y1="1" x2="20" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="88" x2="20" y2="109" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="6" x2="26" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18" y1="43" x2="22" y2="47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22" y1="43" x2="18" y2="47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="15" y1="55" x2="26" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="15" y="60" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="8" y1="67" x2="20" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="11" y1="73" x2="16" y2="78" x3="11" y3="83" x4="5" y4="78" />
+    <terminal x="20" y="1" orientation="n" uuid="{603c9741-d829-4291-886e-6aa2e02212b1}" name="1" type="Generic" />
+    <terminal x="20" y="109" orientation="s" uuid="{e5f85187-ac9c-480d-942a-b9277d08b8d0}" name="2" type="Generic" />
+    <dynamic_text x="25" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2b95ede5-773d-4982-833e-302303c0fbae}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

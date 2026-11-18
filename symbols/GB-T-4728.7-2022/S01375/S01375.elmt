@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="190" height="80" hotspot_x="95" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{a7851eee-fa38-4cf3-b970-1b2d6c64d9d0}" />
+  <names>
+    <name lang="zh">插头点火器</name>
+    <name lang="en">Igniter plug</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版（附录废除件，仅供参考）
+印刷页：96；PDF 页：102；S 号：S01375；出版标准序号：GB/T 4728.7 07-A4-03
+名称：插头点火器 / Igniter plug；状态：废除———仅供参考；IEC 废除日期：1996-05
+关键词：火花间隙
+形状类别：箭头，矩形
+功能类别：E 提供辐射能或热能；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。 废除件仅供参考，不作现行标准使用。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；主矩形 (790,2665)-(1030,2787) px，约 80×41 单位；左小接头 (761,2684)-(793,2769) px，约 9×27 单位，无分隔线；左引线 y=2727 px 至 x=765 px；虚线圆实测左缘 x=680 px、顶虚划约 y=2695 px，圆心约 (720,2727) px、半径约 40 px，取 Ø26 单位、圆心 (45,31)；内箭头两枚：左箭头顶 (870,2726) px、右箭头顶 (947,2726) px，箭头高约 9 px；右出线 y=2726 px 至 x=1088 px 后下折至接地；接地横杠三条 y=2831/2845/2857 px，宽 82/58/30 px。
+端口适配：原文图形为插头点火器，无端口标记；QET 适配仅在左引线左端设一端口（w，端口 1）。右出线接地的竖线与横杠为图形要素，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="68" y="10" width="80" height="41" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="59" y="17" width="9" height="27" rx="5" ry="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="31" x2="60" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <ellipse x="32" y="18" width="26" height="26" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="68" y1="31" x2="88" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="88" y1="29" x2="88" y2="32" x3="95" y3="31" />
+    <line x1="127" y1="31" x2="148" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="127" y1="29" x2="127" y2="32" x3="121" y3="31" />
+    <line x1="148" y1="31" x2="168" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="168" y1="31" x2="168" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="155" y1="65" x2="182" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="158" y1="70" x2="178" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="163" y1="74" x2="173" y2="74" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="31" orientation="w" uuid="{fedb75fe-812f-443e-aa53-cbdcd72804d9}" name="1" type="Generic" />
+    <dynamic_text x="100" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f605467b-9e61-4e6f-a779-05c8ca6400be}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

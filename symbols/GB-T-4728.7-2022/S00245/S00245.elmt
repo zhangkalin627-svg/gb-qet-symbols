@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="51" height="81" hotspot_x="26" hotspot_y="41" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{823bebe8-7029-52d0-9cb8-eb652e05d96b}" />
+  <names>
+    <name lang="zh">延时断开的动断触点</name>
+    <name lang="en">Break contact, delayed opening</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：12；PDF 页：18；S 号：S00245；出版标准序号：GB/T 4728.7-2022 07-05-03
+名称：延时断开的动断触点 / Break contact, delayed opening；状态：标准；发布日期：2001-07-01
+关键词：触点，开关；采用符号：S00148，S00229；应用注释：A00061，A00070
+形状类别：半圆，直线；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+备注：当带该触点的器件被吸合时，此触点延时断开
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；上引线 (30,10)-(30,30.67)，横触臂 (30,30.33)-(38,30.33)，动断斜线 (38,30.33)-(30,48)，下引线 (30,48)-(30,70)；延时半圆：圆心 (20.33,40)、半径 8，左半圆（端点 (20.33,32)、(20.33,48)，最左点 (12.33,40)）；延时连线 y=38.33 (12.67,38.33)-(36.67,38.33)、y=42 (12.33,42)-(34.67,42)，均触及斜线、左端触及半圆弧；画布 51×81 单位（热点 (26,41)）；图形纵向 10–70（60 单位）、横向 12.33–38。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(30,10)n；2(30,70)s。这（些）连接点是 QET 适配，不是额外的标准图形。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="30" y1="10" x2="30" y2="30.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="30.33" x2="38" y2="30.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="38" y1="30.33" x2="30" y2="48" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="48" x2="30" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12.67" y1="38.33" x2="36.67" y2="38.33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12.33" y1="42" x2="34.67" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="12.33" y="32" width="16" height="16" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{c994d4a0-07e8-5d41-8a30-110c8950db03}" name="1" type="Generic" />
+    <terminal x="30" y="70" orientation="s" uuid="{f1127e30-68a3-5197-a25a-69b57a31a5dc}" name="2" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d94dca61-2d69-58b9-858d-71772d789b5c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

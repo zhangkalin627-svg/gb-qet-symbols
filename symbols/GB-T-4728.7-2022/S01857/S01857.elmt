@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.100.0" type="element" link_type="simple" width="140" height="130" hotspot_x="70" hotspot_y="65">
+    <uuid uuid="{26c209f4-6eac-4b25-aa8a-e9031d07771a}" />
+    <names>
+        <name lang="zh">显示终端电流回路的多挡位选择仪器开关</name>
+        <name lang="en">Instrument multi-position selector switch for current circuit with shown terminals</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：66；PDF 页：72；S 号：S01857；出版标准序号：GB/T 4728.7 不适用（2009 年新增符号，无上版号）
+名称：显示终端电流回路的多挡位选择仪器开关 / Instrument multi-position selector switch for current circuit with shown terminals；状态：标准；发布日期：2009-09-11
+关键词：仪器开关，开关；用于：S01856
+形状类别：字符，矩形；功能类别：Q 受控切换或改变，S 将手动操作转变为信号；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px（x）/29 px（y）；矩形框 (22,10)-(117,120)，95×110 单位；左引线 L1 (11,33)-(22,33)、L2 (11,54)-(22,54)、L3 (11,76)-(22,76)、N (11,98)-(22,98)，右引线 L (117,54)-(128,54)、N (117,76)-(128,76)；AS 字形区 (66,29)-(76,36)；电流互感器形：竖线 (56,51)-(56,65)，横杠 (51,53)-(61,53)，底脚 (51,64)-(56,64)；动触点斜线 (62,65)-(81,53)，右横线 (81,53)-(94,53)。总高 110 单位，总宽 117 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为带引出端子的矩形框（左 L1/L2/L3/N，右 L/N）＋AS 字样＋框内电流互感器形＋动合触点；QET 适配在 6 根引线外端各设一端口（1=L1 (11,33) w、2=L2 (11,54) w、3=L3 (11,76) w、4=N (11,98) w、5=L (128,54) e、6=N (128,76) e），框内互感器形与动触点不另设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <rect x="22" y="10" width="95" height="110" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="11" y1="33" x2="22" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="11" y1="54" x2="22" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="11" y1="76" x2="22" y2="76" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="11" y1="98" x2="22" y2="98" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="117" y1="54" x2="128" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="117" y1="76" x2="128" y2="76" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <text text="L1" x="25" y="36" size="9" />
+        <text text="AS" x="66" y="36" size="9" />
+        <text text="L2" x="25" y="56" size="9" />
+        <text text="L" x="107" y="58" size="9" />
+        <text text="L3" x="25" y="80" size="9" />
+        <text text="N" x="106" y="78" size="9" />
+        <text text="N" x="25" y="102" size="9" />
+        <line x1="56" y1="51" x2="56" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="51" y1="53" x2="61" y2="53" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="51" y1="64" x2="56" y2="64" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="62" y1="65" x2="81" y2="53" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="81" y1="53" x2="94" y2="53" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <terminal x="11" y="33" orientation="w" uuid="{8f2d10f6-03c8-4d5d-9e0b-357b3c6cd90c}" name="1" type="Generic" />
+        <terminal x="11" y="54" orientation="w" uuid="{4e9110cc-8dfd-41f0-b864-3ea7570e9eed}" name="2" type="Generic" />
+        <terminal x="11" y="76" orientation="w" uuid="{1f075211-4f2d-4dd2-9cb2-76db3365a1d7}" name="3" type="Generic" />
+        <terminal x="11" y="98" orientation="w" uuid="{ef83f54f-6658-4b1e-a5e8-3a0686678759}" name="4" type="Generic" />
+        <terminal x="128" y="54" orientation="e" uuid="{c380e1df-56e4-4131-b203-d10043d27a44}" name="5" type="Generic" />
+        <terminal x="128" y="76" orientation="e" uuid="{f34a64c5-3738-46cd-a209-e4a97d573d33}" name="6" type="Generic" />
+        <dynamic_text x="75" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f18e5dbd-6279-46d1-a944-c293cd0a02b9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

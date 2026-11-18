@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="40" hotspot_x="20" hotspot_y="20" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{3c17c008-d4ee-4c6c-a2a1-f8a0ee832e8a}" />
+  <names>
+    <name lang="zh">断路器功能</name>
+    <name lang="en">Circuit breaker function</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：1；PDF 页：7；S 号：S00219；出版标准序号：GB/T 4728.7 07-01-02
+名称：断路器功能 / Circuit breaker function；状态：标准；发布日期：2001-07-01
+关键词：断路器
+用于：S00287，S01413，S01860
+应用注释：A00061
+形状类别：直线；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；叉形（X）：两对角线包围盒 x46–78、y45–77 px，中心 (62,61.5)，臂端约 (46,46)、(78,78)、(78,46)、(46,78) → QET 线 (15,15)-(25,25)、(25,15)-(15,25)。点阵间距约 29.5 px；点阵中心 (62,62) 对应 QET (20,20)。
+端口适配：原文图形为两条交叉对角线（概念要素／限定符号，无引线、无端口标记）；QET 适配在四臂端各设一端口（1=(15,15) n、2=(25,15) n、3=(15,25) s、4=(25,25) s），导线由对应方向接入。端口为 QET 适配，不是标准图形的组成部分。</informations>
+  <description>
+    <line x1="15" y1="15" x2="25" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="15" x2="15" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="15" y="15" orientation="n" uuid="{0fdad89e-b256-4620-be3f-e5bd62cb1d2d}" name="1" type="Generic" />
+    <terminal x="25" y="15" orientation="n" uuid="{6c2e017f-3d22-45ce-9cb8-852a9e4cc23b}" name="2" type="Generic" />
+    <terminal x="15" y="25" orientation="s" uuid="{167c7660-e23c-4379-bcf9-361cdd6de050}" name="3" type="Generic" />
+    <terminal x="25" y="25" orientation="s" uuid="{79428f55-050a-4583-8fbe-02b628521301}" name="4" type="Generic" />
+    <dynamic_text x="25" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{71acdb27-1fc1-4d5e-9025-3c172468988e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="41" height="41" hotspot_x="21" hotspot_y="21" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{a5d841cb-d219-549a-9477-394ae8bf8b41}" />
+  <names>
+    <name lang="zh">三个独立绕组</name>
+    <name lang="en">Three separate windings</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：1；PDF 页：7；S 号：S00797；出版标准序号：GB/T 4728.6-2022 06-01-02
+名称：三个独立绕组 / Three separate windings；状态：标准；发布日期：2001-07-01
+关键词：绕组互连，绕组—限定符号，独立绕组；用于：S00027，S00028，S00834；采用符号：S00796；应用注释：A00120
+形状类别：直线；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；三根竖线，横距 2 单位：(19,10)-(19,31)、(21,10)-(21,31)、(23,10)-(23,31)，每根长 21 单位（实测约 61 px，约 2 网格距）；画布 41×41 单位（热点 (21,21)）；图形纵向 10–31、横向 19–23。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(19,10)n、2(19,31)s 为左绕组；3(21,10)n、4(21,31)s 为中绕组；5(23,10)n、6(23,31)s 为右绕组。这（些）连接点是 QET 适配，不是额外的标准图形。本件为限定符号，实测端子按引线端头适配。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="19" y1="10" x2="19" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21" y1="10" x2="21" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="23" y1="10" x2="23" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="19" y="10" orientation="n" uuid="{8b1e31e6-1711-59b7-b0d3-45a89df2436f}" name="1" type="Generic" />
+    <terminal x="19" y="31" orientation="s" uuid="{c5af345a-1ee5-5cf0-962a-86963ebc3b1c}" name="2" type="Generic" />
+    <terminal x="21" y="10" orientation="n" uuid="{521f08d4-5d5e-5980-8417-5639cd47ba3f}" name="3" type="Generic" />
+    <terminal x="21" y="31" orientation="s" uuid="{87345fa5-98fb-5717-9c66-28220fb49955}" name="4" type="Generic" />
+    <terminal x="23" y="10" orientation="n" uuid="{5f59307b-1258-578e-9dc9-fe689fb91065}" name="5" type="Generic" />
+    <terminal x="23" y="31" orientation="s" uuid="{5ad50191-98c3-5ae7-9a13-69217f510ad7}" name="6" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3bf36752-959d-510b-b86b-cc4e8523bb83}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

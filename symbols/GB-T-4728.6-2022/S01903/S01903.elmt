@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{692adf65-20e0-4ff3-bfa0-9fdaa0777ded}" />
+  <names>
+    <name lang="zh">交流电源</name>
+    <name lang="en">AC power supply</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：54；PDF 页：60；S 号：S01903；出版标准序号：无（上版标准序号：不适用）
+名称：交流电源 / AC power supply；状态：标准；发布日期：2012-05-23
+关键词：电源供给，电力发电机
+采用符号：S00061，S01403
+形状类别：圆，描述形状；功能类别：G 启动能量流；应用类别：电路图，接线图，功能图，安装图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；圆外包围盒 x31–152、y31–152 px（121 px），圆心 (91.5,91.5)，线宽约 3 px，路径直径约 118 px = 40 单位 → QET 圆 (10,10,40)，圆心 (30,30)；正弦线逐列中心 x57–125、y82–101 px（幅值约 10 px、周期约 51 px，中心 (91,91.5)）→ QET 折线 18 点 (18.47,32.54)–(41.53,26.95)，按实测逐列中心逐点换算，未用理想正弦拟合。点阵间距约 29.5 px；点阵中心 (91,91) 对应 QET (30,30)。
+端口适配：原文图形为圆＋圈内正弦线（采用符号 S00061、S01403）；QET 适配在圆顶与圆底各设一端口（1=(30,10) n、2=(30,50) s），导线由对应方向接入；正弦线用 17 段折线按实测逐列中心画出。端口为 QET 适配，不是标准图形的组成部分。</informations>
+  <description>
+    <circle x="10" y="10" diameter="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18.47" y1="32.54" x2="19.83" y2="30.51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19.83" y1="30.51" x2="21.19" y2="28.64" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21.19" y1="28.64" x2="22.54" y2="27.46" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22.54" y1="27.46" x2="23.9" y2="26.95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="23.9" y1="26.95" x2="25.25" y2="26.95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25.25" y1="26.95" x2="26.61" y2="27.46" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26.61" y1="27.46" x2="27.97" y2="28.14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="27.97" y1="28.14" x2="29.32" y2="29.32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="29.32" y1="29.32" x2="30.68" y2="30.85" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30.68" y1="30.85" x2="32.03" y2="32.2" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32.03" y1="32.2" x2="33.39" y2="33.05" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="33.39" y1="33.05" x2="34.75" y2="33.39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="34.75" y1="33.39" x2="36.1" y2="33.39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36.1" y1="33.39" x2="37.46" y2="32.54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="37.46" y1="32.54" x2="38.81" y2="31.19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="38.81" y1="31.19" x2="40.17" y2="29.15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40.17" y1="29.15" x2="41.53" y2="26.95" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="30" y="10" orientation="n" uuid="{735a2bf4-4752-4e4b-8e0f-15b4692d9a9a}" name="1" type="Generic" />
+    <terminal x="30" y="50" orientation="s" uuid="{aabb9526-f0d4-49c4-a6e9-2a9e0df99e19}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{afcf80a5-23d9-4080-b4ee-3e95238454b6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

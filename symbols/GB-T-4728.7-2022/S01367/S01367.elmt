@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="70" hotspot_x="21" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{f63888c1-d4e1-40e0-a2a7-d0a48e0fe62e}" />
+  <names>
+    <name lang="zh">惯性开关(突然减速而动作)</name>
+    <name lang="en">Inertia switch (operated by sudden deceleration)</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：93；PDF 页：99；S 号：S01367；出版标准序号：GB/T 4728.7 07-A1-01
+名称：惯性开关(突然减速而动作) / Inertia switch (operated by sudden deceleration)；状态：废除———仅供参考（IEC 废除日期 1996-05）
+关键词：触点，开关
+形状类别：点，直线
+功能类别：K 处理信号或信息；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；上定触点竖线 (30,0)-(30,20)；下竖线 (30,38)-(30,60)；动触片斜线 (16,18)-(30,38)，下端接下竖线顶端（支点），上端为自由端、距上定触点约 14 单位（断开位置）；重锤臂由两段折线画出 (20,25)-(12,30)-(16,37)，末端实心圆点中心 (16,37)、直径 3.5（原页实测约 10 px）；总高 70 单位，总宽 40 单位。注：动触片支点在下端的读法为本件自定解读（原页图形为斜线＋重锤臂，未核第二路），见 TEST 记录。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为上下两根竖线＋斜动触片＋重锤臂（带实心圆点）；QET 适配在上定触点顶端与下竖线底端各设一端口：1=(30,0) n（定触点）、2=(30,60) s（支点侧）；动触片在图面与定触点断开，QET 网表不建模元件内连接，接线后以网表为准。</informations>
+  <description>
+    <line x1="30" y1="0" x2="30" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="38" x2="30" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="18" x2="30" y2="38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="25" x2="12" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12" y1="30" x2="16" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="14.25" y="35.25" diameter="3.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <terminal x="30" y="0" orientation="n" uuid="{f23d6afa-e085-4366-a96c-39a90ade2dbc}" name="1" type="Generic" />
+    <terminal x="30" y="60" orientation="s" uuid="{4aac105e-e961-4e12-93f2-155be12ee3dd}" name="2" type="Generic" />
+    <dynamic_text x="26" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d7ea6a65-3cd8-4941-8125-d78c3a2cb2c6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

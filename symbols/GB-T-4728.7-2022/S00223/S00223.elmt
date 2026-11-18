@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="40" hotspot_x="20" hotspot_y="20" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{eb9d49b9-5556-414c-ab15-a54734781638}" />
+  <names>
+    <name lang="zh">位置开关功能</name>
+    <name lang="en">Position switch function</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：3；PDF 页：9；S 号：S00223；出版标准序号：GB/T 4728.7 07-01-06
+名称：位置开关功能 / Position switch function；状态：标准；发布日期：2001-07-01
+关键词：位置开关
+用于：S00259，S00260，S00261
+应用注释：A00061，A00062，A00063
+形状类别：直角三角形；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；直角三角形：顶点 (46,32)、(63,32)、(62,62) px，直角在右上，斜边 (46,32)-(62,62) → QET 线 (15,20)-(20,20)、(20,20)-(20,30)、(20,30)-(15,20)。点阵间距约 29.5 px；点阵列 x=62、点阵行 y=32 对应 QET (20,20)。
+端口适配：原文图形为直角三角形（概念要素／限定符号，无引线、无端口标记）；QET 适配在三个顶点各设一端口（1=(15,20) w、2=(20,20) n、3=(20,30) s），导线由对应方向接入。端口为 QET 适配，不是标准图形的组成部分。</informations>
+  <description>
+    <line x1="15" y1="20" x2="20" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="20" x2="20" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="30" x2="15" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="15" y="20" orientation="w" uuid="{b3fbc326-3c03-45d9-bbcd-515812fe2c21}" name="1" type="Generic" />
+    <terminal x="20" y="20" orientation="n" uuid="{fc71583e-e02b-4369-b060-7a753c9bdf88}" name="2" type="Generic" />
+    <terminal x="20" y="30" orientation="s" uuid="{4268784d-b91c-4e3b-8d5a-68a859c0fca2}" name="3" type="Generic" />
+    <dynamic_text x="25" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ab392cec-d58c-4de4-9246-c721dd191bd9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

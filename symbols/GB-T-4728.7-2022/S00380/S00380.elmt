@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="140" height="80" hotspot_x="70" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{f3b61c0e-3640-47e2-bae6-211454d1a596}" />
+  <names>
+    <name lang="zh">静态继电器</name>
+    <name lang="en">Static relay</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：60；PDF 页：66；S 号：S00380；出版标准序号：GB/T 4728.7 07-26-02
+名称：静态继电器 / Static relay；状态：标准；发布日期：2001-07-01
+关键词：静态开关器件
+采用符号：S00376，S00642
+形状类别：箭头，等边三角形，矩形
+备注：发光二极管做驱动元件，同时示出半导体动合触点
+功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；驱动矩形框 (20,10)-(80,70)，60×60 单位；左侧两根引线 (0,20)-(34,20)、(0,60)-(34,60)；发光二极管：竖线 (34,20)-(34,60)，三角形上边 (24,30)-(44,30)、两斜边 (24,30)-(34,50)、(44,30)-(34,50)，阴极横杆 (24,50)-(44,50)；两支发光箭头：杆 (51,35)-(72,35)、(51,45)-(72,45)，实心箭头 (66,32)-(66,38)-(72,35)、(66,42)-(66,48)-(72,45)；虚线机械连线 y=40，自矩形右缘 (79,40) 至 (124,40)（原页 5 段虚划，QET 虚线样式整段画出）；触点：上引线 (129,10)-(129,31)，横杆 (118,50)-(140,50)，下引线 (129,50)-(129,70)，动触片 (118,29)-(129,50)；总高 80 单位，总宽 140 单位。注：原页图形整体沿 x 平移 +10 与同族取齐（矩形左缘 20），相对几何不变。尺寸单位为 QET 画布单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为发光二极管驱动＋虚线机械连线＋半导体动合触点（S00376＋S00642）；QET 适配在两根驱动引线左端与两根触点引线外端各设一端口：驱动 1=(0,20) w、2=(0,60) w，触点 3=(129,10) n、4=(129,70) s；动触片在图面接通 3 与 4，QET 网表不建模元件内连接，接线后以网表为准。</informations>
+  <description>
+    <rect x="20" y="10" width="60" height="60" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="0" y1="20" x2="34" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="0" y1="60" x2="34" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="34" y1="20" x2="34" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24" y1="30" x2="44" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24" y1="30" x2="34" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="30" x2="34" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24" y1="50" x2="44" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="51" y1="35" x2="72" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="51" y1="45" x2="72" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="66" y1="32" x2="66" y2="38" x3="72" y3="35" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="66" y1="42" x2="66" y2="48" x3="72" y3="45" />
+    <line x1="79" y1="40" x2="124" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="129" y1="10" x2="129" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="118" y1="50" x2="140" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="129" y1="50" x2="129" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="118" y1="29" x2="129" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="0" y="20" orientation="w" uuid="{4a8998f4-5af9-427d-8fae-7d8bc56009d0}" name="1" type="Generic" />
+    <terminal x="0" y="60" orientation="w" uuid="{99c49089-0465-4265-b5f5-e641fdd88621}" name="2" type="Generic" />
+    <terminal x="129" y="10" orientation="n" uuid="{05edf4a7-3163-4e44-bee1-45889bb24e0a}" name="3" type="Generic" />
+    <terminal x="129" y="70" orientation="s" uuid="{1af9880a-5ca2-4a5c-a61b-c1a14d87b143}" name="4" type="Generic" />
+    <dynamic_text x="75" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{de4660bb-6760-4f6e-b802-04b33d50dacf}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

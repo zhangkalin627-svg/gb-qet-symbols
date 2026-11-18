@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="64" height="40" hotspot_x="32" hotspot_y="20" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{9e03df7e-10f3-4c90-b81f-28493ebb27ff}" />
+  <names>
+    <name lang="zh">互不连接的三相绕组</name><name lang="en">Three-phase winding, phases not interconnected</name></names>
+  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：2；PDF 页：8；S 号：S00799；出版标准序号：GB/T 4728.6 06-01-04
+名称：互不连接的三相绕组 / Three-phase winding, phases not interconnected；状态：标准；发布日期：2001-07-01
+关键词：绕组互连,绕组—限定符号,独立绕组；采用符号：S00796,S01403；应用注释：A00120,A00122
+形状类别：直线；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.6-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5–30 px；三根竖线 x=127/133/139 px（间距 6 px = 2 单位），长 63 px ≈ 20 单位（点阵行 2→行 4）；“3”字框 14×21 px ≈ 4.7×7 单位，中心约在中间竖线右 11 单位、与竖线中点同高；交流波形框 69×22 px ≈ 23×7.3 单位，中心约在中间竖线右 31 单位、与竖线中点同高。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为三根竖线、“3”与交流波形，无端口标记；QET 适配在三根竖线两端各设一端口（端口 1/2/3 朝北、4/5/6 朝南），导线由上下接入。“3”与波形为自绘弧线候选表达，非标准字号声明。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="10" x2="10" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12" y1="10" x2="12" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="14" y1="10" x2="14" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="16" y="17" width="9" height="3.5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="16" y="20.5" width="9" height="3.5" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="31" y="17" width="11.5" height="7.5" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="42.5" y="17" width="11.5" height="7.5" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="10" orientation="n" uuid="{8149d39e-a5a2-4484-aa31-ae4a09ecbe41}" name="1" type="Generic" />
+    <terminal x="12" y="10" orientation="n" uuid="{83edbd94-3213-4f8c-ade8-47791494018e}" name="2" type="Generic" />
+    <terminal x="14" y="10" orientation="n" uuid="{8731a24f-4e9f-439b-8a0c-c95e5d898138}" name="3" type="Generic" />
+    <terminal x="10" y="30" orientation="s" uuid="{de6e7a53-450a-4d6d-9cfb-9dff3751eae4}" name="4" type="Generic" />
+    <terminal x="12" y="30" orientation="s" uuid="{112a9314-68b8-457c-b49b-0a2c3e1d545a}" name="5" type="Generic" />
+    <terminal x="14" y="30" orientation="s" uuid="{cfc8381b-aa6e-429e-a5c1-c582527203e8}" name="6" type="Generic" />
+    <dynamic_text x="37" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{09494b23-17ed-40e8-b841-a94eb44f860e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

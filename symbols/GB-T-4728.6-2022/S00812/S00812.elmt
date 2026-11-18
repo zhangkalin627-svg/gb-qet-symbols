@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="20" height="20" hotspot_x="10" hotspot_y="10" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{534eeb29-b9bf-4692-9927-a79ec13045a8}" />
+  <names>
+    <name lang="zh">多边形连接的六相绕组</name>
+    <name lang="en">Six-phase winding in polygon</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：6；PDF 页：12；S 号：S00812；出版标准序号：GB/T 4728.6 06-02-11
+名称：多边形连接的六相绕组 / Six-phase winding in polygon；状态：标准；发布日期：2001-07-01
+关键词：绕组互连，内部连接的绕组，绕组—限定符号
+形状类别：六边形；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px（1 点阵距 = 10 QET 单位）；点阵间距约 29.5 px；六边形顶点 (61,31)、(91,46)、(91,75)、(61,90)、(32,75)、(32,46) px（上下顶点在点阵交点上，左右为竖边）。QET 落位（中心为原点）：顶点 (0,-10)、(10,-5)、(10,5)、(0,10)、(-10,5)、(-10,-5)；竖边长 10 单位，斜边角 26.57°（atan 1/2）。非正六边形，照实测取点。
+端口适配：原文图形为闭合六边形，无端口标记；QET 适配在六顶点各设一端口（1=上 n、2=右上 e、3=右下 e、4=下 s、5=左下 w、6=左上 w），六相各一。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <polygon x1="10" y1="0" x2="20" y2="5" x3="20" y3="15" x4="10" y4="20" x5="0" y5="15" x6="0" y6="5" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="0" orientation="n" uuid="{5b8d2dcd-6eb2-4068-a377-a92f374c2554}" name="1" type="Generic" />
+    <terminal x="20" y="5" orientation="e" uuid="{71095db9-21bd-495f-8e73-b226aae564b4}" name="2" type="Generic" />
+    <terminal x="20" y="15" orientation="e" uuid="{06f6b6a7-2eb2-4bde-b76a-9350c27a1bd3}" name="3" type="Generic" />
+    <terminal x="10" y="20" orientation="s" uuid="{09326346-50ef-4cf3-8e03-d4c946171447}" name="4" type="Generic" />
+    <terminal x="0" y="15" orientation="w" uuid="{b4fbf414-9516-4a74-9b79-92a3bf58e224}" name="5" type="Generic" />
+    <terminal x="0" y="5" orientation="w" uuid="{226e85b7-d003-4123-b303-564ecedd08a7}" name="6" type="Generic" />
+    <dynamic_text x="10" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d8592a52-3035-4bdf-9b82-0b73a37fc7c9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

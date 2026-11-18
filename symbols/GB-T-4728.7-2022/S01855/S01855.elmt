@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.100.0" type="element" link_type="simple" width="130" height="130" hotspot_x="65" hotspot_y="65">
+    <uuid uuid="{e229ebf4-a723-45a4-a869-a377769d69c9}" />
+    <names>
+        <name lang="zh">电压回路多挡位选择仪器开关</name>
+        <name lang="en">Instrument multi-position selector switch for voltage circuit</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：65；PDF 页：71；S 号：S01855；出版标准序号：GB/T 4728.7 不适用（2009 年新增符号，无上版号）
+名称：电压回路多挡位选择仪器开关 / Instrument multi-position selector switch for voltage circuit；状态：标准；发布日期：2009-09-11
+关键词：仪器开关，开关；用于：S01858；采用符号：S00227，S01454；替代符号：电压回路切换仪器开关
+形状类别：字符，矩形；功能类别：Q 受控切换或改变，S 将手动操作转变为信号；应用类别：电路图
+备注：VS——电压表切换开关
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；矩形框 (7,7)-(122,123)，115×116 单位；VS 字形区 (54,32)-(66,38)；左固定触点线 (26,65)-(46,65)；动触点斜线 (41,87)-(79,65)，右横线 (79,65)-(103,65)。总高 116 单位，总宽 115 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形框＋VS 字样＋框内动合触点，无引出线、无端口标记；QET 适配在触点路径两端各设一端口（1=(26,65) w、2=(103,65) e），两端子均在框内，导线由左右接入、穿框。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <rect x="7" y="7" width="115" height="116" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <text text="VS" x="54" y="38" size="9" />
+        <line x1="26" y1="65" x2="46" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="41" y1="87" x2="79" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="79" y1="65" x2="103" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <terminal x="26" y="65" orientation="w" uuid="{0aa90cfc-37c1-456a-a440-fb1802fecf50}" name="1" type="Generic" />
+        <terminal x="103" y="65" orientation="e" uuid="{5356c906-9127-4e9d-ba2e-b0914f2a019b}" name="2" type="Generic" />
+        <dynamic_text x="70" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{50a67dc6-a80d-4711-8bfd-09ee2d0692d1}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

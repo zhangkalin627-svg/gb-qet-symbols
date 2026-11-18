@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="100" height="80" hotspot_x="50" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{cb470ef1-05ab-40a8-adf5-4819785d4baf}" />
+  <names>
+    <name lang="zh">电气导火管点火器</name>
+    <name lang="en">Squib igniter</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版（附录废除件，仅供参考）
+印刷页：96；PDF 页：102；S 号：S01374；出版标准序号：GB/T 4728.7 07-A4-02
+名称：电气导火管点火器 / Squib igniter；状态：废除———仅供参考；IEC 废除日期：1996-05
+关键词：电阻器
+形状类别：矩形
+功能类别：E 提供辐射能或热能；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。 废除件仅供参考，不作现行标准使用。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；主矩形 (643,1635)-(883,1757) px，约 80×41 单位；中横线 y=1696 px；波折线峰点 x=732/761/787 px（y=1681/1682 px）、谷点 x=747/774 px（y=1709/1710 px），幅约 10 单位；下伸通道两竖线 x=733/792 px，自 y=1754 px 至 y=1818 px；箭头竖杆 x=762 px（y=1755–1795 px），箭头三角形顶宽约 13 px（y=1795 px）、顶点 (762,1815) px。
+端口适配：原文图形为电气导火管点火器，无端口标记；QET 适配在中横线两端各设一端口（w，端口 1；e，端口 2）。下伸通道与箭头为图形要素，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <rect x="10" y="10" width="80" height="41" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="30" x2="36" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="30" x2="40" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="25" x2="45" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="35" x2="49" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="49" y1="26" x2="54" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="54" y1="35" x2="58" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="58" y1="26" x2="61" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="61" y1="30" x2="90" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="50" x2="40" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="50" x2="60" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="50" x2="50" y2="63" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="48" y1="63" x2="52" y2="63" x3="50" y3="70" />
+    <terminal x="10" y="30" orientation="w" uuid="{112fac8e-01c5-4c1f-89e5-10875f9ebf99}" name="1" type="Generic" />
+    <terminal x="90" y="30" orientation="e" uuid="{45c77ab8-9599-4147-a1b8-e8f0e7b22e43}" name="2" type="Generic" />
+    <dynamic_text x="55" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9316698d-bd55-4e3f-a6cc-3cc1fd4a3150}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

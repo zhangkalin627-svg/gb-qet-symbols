@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="30" height="10" hotspot_x="15" hotspot_y="5" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{7f4d1701-bd69-4c22-aaa2-2056e6b0e0b2}" />
+  <names>
+    <name lang="zh">电机绕组(区别串激绕组功能)</name>
+    <name lang="en">Winding of machine (different functions: series winding)</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版；附录 NA（资料性）废除———仅供参考；IEC 废除日期：2002-01-27；替代符号：S00583
+印刷页：附录NA 59；PDF 页：65；S 号：S00816；出版标准序号：GB/T 4728.6 06-03-02
+名称：电机绕组(区别串激绕组功能) / Winding of machine (different functions: series winding)；状态：废除———仅供参考；发布日期：2001-07-01
+关键词：电机元件，绕组
+采用符号：S00583；形状类别：半圆；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+别名：串激绕组。备注：符号 S00815、S00816 和 S00817，用于区分这些绕组所具有的不同功能。按 A00263 应用注释，用符号 S00583 代替。替代符号：S00583。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：本件为废除符号，仅供参考，绘制新图请用替代符号 S00583；第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px（1 点阵距 = 10 QET 单位）；点阵间距约 29.5 px；三拱：拱顶 y 47 px，拱脚 x 32、62、92、122 px，基线 y 62 px（点阵行）；每拱宽 30 px、高 15 px。QET 落位（基线中点为原点）：三上半圆 R 5 单位，圆心 (-10,0)、(0,0)、(10,0)，端点 (-15,0)、(-5,0)、(5,0)、(15,0)。
+端口适配：原文图形为三连拱（半圆形绕组线），两自由端在基线两端；QET 适配在两端各设一端口（1=左端 s、2=右端 s，弧端切线竖直向下）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <arc x="0" y="0" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="10" y="0" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="20" y="0" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="0" y="5" orientation="s" uuid="{edff03bf-7779-4d17-8a09-ef9c536803b9}" name="1" type="Generic" />
+    <terminal x="30" y="5" orientation="s" uuid="{6609018d-56b7-4c22-b772-7bb7f638b87e}" name="2" type="Generic" />
+    <dynamic_text x="15" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{91368144-4057-4587-93d5-df890db05a82}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

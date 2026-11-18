@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.100.0" type="element" link_type="simple" width="80" height="126" hotspot_x="40" hotspot_y="63">
+    <uuid uuid="{1eb77ed8-ef30-4db9-89c0-d7249b48d847}" />
+    <names>
+        <name lang="zh">组合式隔离接地开关</name>
+        <name lang="en">Combined disconnector and earthing switch</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：65；PDF 页：71；S 号：S01848；出版标准序号：GB/T 4728.7 不适用（2007 年新增符号，无上版号）
+名称：组合式隔离接地开关 / Combined disconnector and earthing switch；状态：标准；发布日期：2007-04-04
+关键词：隔离开关，接地，开关；采用符号：S00200，S00288
+形状类别：直线；功能类别：Q 受控切换或改变；应用类别：电路图，功能图，概略图
+备注：可以添加的独立执行设备
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；接地：上横杠 (26,19)-(39,19)，中横杠 (18,25)-(46,25)，下横杠 (10,31)-(53,31)，竖柄 (32,31)-(32,55)；固定触点：竖线 (64,10)-(64,55)，横脚 (58,55)-(70,55)；动触点斜线 (48,52)-(64,84)，下引线 (64,84)-(64,115)。总高 105 单位，总宽 60 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为左侧接地符号（3 横杠＋竖柄）与右侧隔离开关（固定触点＋斜动触点＋下引线），无端口标记；QET 适配在开关上下引线端头各设一端口（1=(64,10) n、2=(64,115) s），导线由上下接入。接地竖柄末端不设端口（接地符号本身即终端，见 S00200 类先例的画法取舍，见 README）。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <line x1="26" y1="19" x2="39" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="18" y1="25" x2="46" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="10" y1="31" x2="53" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="32" y1="31" x2="32" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="64" y1="10" x2="64" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="58" y1="55" x2="70" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="48" y1="52" x2="64" y2="84" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="64" y1="84" x2="64" y2="115" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <terminal x="64" y="10" orientation="n" uuid="{f267441e-4cde-4bd6-9422-38115383cf9a}" name="1" type="Generic" />
+        <terminal x="64" y="115" orientation="s" uuid="{8d9e7264-e7fb-42ec-bc9e-6ff0a07d37bd}" name="2" type="Generic" />
+        <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{bdb3fe39-868a-4181-87ec-4df13dae50db}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

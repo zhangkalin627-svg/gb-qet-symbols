@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="31" height="80" hotspot_x="16" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{fc6b427f-bf8f-4764-b3be-330fab3aa583}" />
+  <names>
+    <name lang="zh">提前闭合的动合触点</name>
+    <name lang="en">Make contact, early closing</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：9；PDF 页：15；S 号：S00239；出版标准序号：GB/T 4728.7 07-04-01
+名称：提前闭合的动合触点 / Make contact, early closing；状态：标准；发布日期：2001-07-01
+关键词：触点，开关
+用于：S00279
+应用注释：A00061
+形状类别：直线；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+备注：多触点组中此动合触点比其他动合触点提前闭合
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px；定触竖线 x=91（QET 21），y 1–63（QET 10–30）；动臂为折线：尖端 (71,48)–折点 (59,56)–下端 (91,120)（QET (14,25)–(10,28)–(21,50)；尖端段斜率约 -1.5，指向上方定触线，主斜段斜率 1/2）；下竖线 x=91（QET 21），y 122–181（QET 50–70）。QET 比例：1 点阵距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为一根定触竖线＋一折线动臂（尖端上翘指向定触线）＋一下端竖线，无端口标记、无接点圆点；QET 适配在定触竖线顶端设一端口（1=(21,10) n），在下端竖线底端设一端口（2=(21,70) s），导线由对应方向接入。尖端上翘为提前闭合的标志（与 S00240 尖端下垂相区别），已按原页实测绘制。</informations>
+  <description>
+    <line x1="21" y1="10" x2="21" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="14" y1="25" x2="10" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="28" x2="21" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21" y1="50" x2="21" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="21" y="10" orientation="n" uuid="{f02d4cad-59ad-4d3e-a658-ed1de152b0be}" name="1" type="Generic" />
+    <terminal x="21" y="70" orientation="s" uuid="{5664bc35-e03a-4128-9317-5fb28d262e88}" name="2" type="Generic" />
+    <dynamic_text x="21" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ab5b58c7-f17f-4444-b698-430fc874c84e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

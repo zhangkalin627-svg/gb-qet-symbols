@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="60" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{b86d80c2-94e7-43b2-ae57-728653c7d7ff}" />
+  <names>
+    <name lang="zh">线圈驱动的标志指示器</name>
+    <name lang="en">Coil-operated flag indicator</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版（附录废除件，仅供参考）
+印刷页：97；PDF 页：103；S 号：S01376；出版标准序号：GB/T 4728.7 07-A4-04
+名称：线圈驱动的标志指示器 / Coil-operated flag indicator；状态：废除———仅供参考；IEC 废除日期：1996-05
+关键词：指示器
+形状类别：半圆，矩形
+功能类别：P 提供信息；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。 废除件仅供参考，不作现行标准使用。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；线圈为三段连续半椭圆，足点 x=692/720/752/779 px、顶 y=976 px、基线 y=993 px，弧宽约 28/32/27 px、高约 17 px，取 9/11/9 宽、6 高；左右短线 y=993 px，自 x=675/778 px 至足点；斜线自菱形左顶点 (766,949) px 至 (690,1026) px，约 45°；菱形顶点 (785,927)/(805,949)/(786,967)/(766,949) px，对角线约 40/39 px，取 13 单位。
+端口适配：原文图形为线圈驱动的标志指示器，无端口标记；QET 适配在线圈两端短线外端各设一端口（w，端口 1；e，端口 2）。斜线与菱形旗为图形要素，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="40" x2="16" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="45" y1="40" x2="51" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="16" y="34" width="9" height="6" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="25" y="34" width="11" height="6" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="36" y="34" width="9" height="6" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="25" x2="15" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" x1="47" y1="18" x2="53" y2="25" x3="47" y3="31" x4="40" y4="25" />
+    <terminal x="10" y="40" orientation="w" uuid="{6ad41936-e15f-40a5-867e-cf4500780090}" name="1" type="Generic" />
+    <terminal x="51" y="40" orientation="e" uuid="{e8f67def-52d1-4d6c-8610-c0e9ee2ea073}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{459f7fe7-c958-4fa6-a86f-8632f8b3d59e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="80" hotspot_x="20" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{cbc75833-3e56-431b-a6cd-dd7af647b5dc}" />
+  <names>
+    <name lang="zh">中间断开的转换触点</name>
+    <name lang="en">Change-over contact with off-position</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：5；PDF 页：11；S 号：S00231；出版标准序号：GB/T 4728.7 07-02-05
+名称：中间断开的转换触点 / Change-over contact with off-position；状态：标准；发布日期：2001-07-01
+关键词：触点，开关
+用于：S00252，S00321
+应用注释：A00061，A00060
+形状类别：圆，直线；功能类别：K 处理信号或信息，Q 受控切换或改变；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；左引线 px x=62、y 31..92；右引线 x=120、y 31..92；中竖线 x=91、y 75..210；节点圆外框约 x 84..98、y 144..159（直径约 15 px），中心 (91,150)。QET：左引线 (10,10)-(10,30)；右引线 (30,10)-(30,30)；中竖线 (20,25)-(20,70)；节点圆 (17.5,47.5) 直径 5，圆心 (20,50)，竖线穿过圆心。
+端口适配：原文图形为中间断开的转换触点：左右两根上引线＋中竖线（带节点圆，臂在中间位置不接触两侧）；QET 适配在三根引线外端各设一端口（1=(10,10) n、2=(30,10) n、3=(20,70) s），导线由对应方向接入。节点圆不另设端口。</informations>
+  <description>
+    <line x1="10" y1="10" x2="10" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="25" x2="20" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="17.5" y="47.5" diameter="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="10" orientation="n" uuid="{f012dfa9-3217-4f76-993e-f34817eba26e}" name="1" type="Generic" />
+    <terminal x="30" y="10" orientation="n" uuid="{42cfb082-9ccd-49dd-9b0e-8bf89498b770}" name="2" type="Generic" />
+    <terminal x="20" y="70" orientation="s" uuid="{6033b291-bf2f-4a2a-9cf1-b89b4c8ae121}" name="3" type="Generic" />
+    <dynamic_text x="25" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{86e64f99-3be1-425c-ba99-1a525ca2c202}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

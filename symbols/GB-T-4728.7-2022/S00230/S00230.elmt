@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="80" hotspot_x="20" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{77156c39-ed12-4996-b667-0c2f5e273523}" />
+  <names>
+    <name lang="zh">先断后合的转换触点</name>
+    <name lang="en">Change-over break before make contact</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：5；PDF 页：11；S 号：S00230；出版标准序号：GB/T 4728.7 07-02-04
+名称：先断后合的转换触点 / Change-over break before make contact；状态：标准；发布日期：2001-07-01
+关键词：触点，开关
+用于：S00267，S00268，S00269，S00320，S01416，S01330
+应用注释：A00061
+形状类别：直线；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.7-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；左引线 px x=33、y 33..91；横杠 y=91、x 33..65；斜臂 (59,85)-(91,150)，与横杠交于 (62,91)，尖端在横杠之上约 6 px；下引线 x=91、y 150..208；右引线 x=91、y 31..92。QET：左引线 (10,10)-(10,30)；横杠 (10,30)-(21,30)；斜臂 (19,28)-(30,50)，与横杠交于 (20,30)；下引线 (30,50)-(30,69.5)；右引线 (30,10)-(30,30)。
+端口适配：原文图形为先断后合的转换触点：左右两根上引线（左带横杠）＋斜臂＋下引线；QET 适配在三根引线外端各设一端口（1=(10,10) n、2=(30,10) n、3=(30,69.5) s），导线由对应方向接入。</informations>
+  <description>
+    <line x1="10" y1="10" x2="10" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="30" x2="21" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19" y1="28" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="50" x2="30" y2="69.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="10" orientation="n" uuid="{4e12f7a7-bd8f-4597-a870-054e1a5f7b96}" name="1" type="Generic" />
+    <terminal x="30" y="10" orientation="n" uuid="{08916d7e-1637-444f-a08e-1e5f4ae34c97}" name="2" type="Generic" />
+    <terminal x="30" y="69.5" orientation="s" uuid="{d7a70dd1-4ac0-4232-9599-af2ade269609}" name="3" type="Generic" />
+    <dynamic_text x="25" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1cd0e905-857d-4ee4-92d8-b3a90a133d40}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

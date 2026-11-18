@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="18" height="20" hotspot_x="11" hotspot_y="10" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{688e22b5-7e4b-4dc5-bbbc-26c733b05c56}" />
+  <names>
+    <name lang="zh">曲折形或互联星形的三相绕组</name>
+    <name lang="en">Three-phase winding in zigzag or interconnected star</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：6；PDF 页：12；S 号：S00810；出版标准序号：GB/T 4728.6 06-02-09
+名称：曲折形或互联星形的三相绕组 / Three-phase winding in zigzag or interconnected star；状态：标准；发布日期：2001-07-01
+关键词：绕组互连，内部连接的绕组，绕组—限定符号
+用于：S00866；形状类别：直线；功能类别：-功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px（1 点阵距 = 10 QET 单位）；点阵间距约 29.5 px；中心 (63,62) px；上斜臂 (78,34)-(63,45) px（拟合角约 32°）；上竖干 x 62..64 px，y 45..62 px；左 V 形：左端 (36,64) px、V 底 (48,71) px；右下斜臂中心至 (78,72) px、下竖干 x 77..79 px，y 72..90 px。QET 落位（中心为原点，30° 斜臂）：上端 (5.1962,-9)、折点 (0,-6)、V 底 (-5.1962,3)、左端 (-9.0933,0.75)、右折点 (5.1962,3)、下端 (5.1962,9)；斜臂长 6 单位、左 V 臂 4.5 单位、竖干 6 单位。
+端口适配：原文图形为一条曲折连续线（上斜臂＋竖干＋左 V 形＋右下斜臂竖干），三自由端；QET 适配在三端各设一端口（1=上端 e、2=左端 w、3=下端 s）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="16.1962" y1="1" x2="11" y2="4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11" y1="4" x2="11" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11" y1="10" x2="5.8038" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="5.8038" y1="13" x2="1.9067" y2="10.75" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11" y1="10" x2="16.1962" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16.1962" y1="13" x2="16.1962" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="16.1962" y="1" orientation="e" uuid="{59431ac2-1977-40d4-a934-6b8f8c14bf87}" name="1" type="Generic" />
+    <terminal x="1.9067" y="10.75" orientation="w" uuid="{0349ddbc-9566-4e1e-8505-5f3c32cbdcf8}" name="2" type="Generic" />
+    <terminal x="16.1962" y="19" orientation="s" uuid="{d3ca4eff-7975-429a-a701-52d254702193}" name="3" type="Generic" />
+    <dynamic_text x="11" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c05ec44e-3459-4579-8737-fd104db0bcc4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="61" height="71" hotspot_x="31" hotspot_y="36" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{278b69ee-9084-576f-935b-2f296b57bdc0}" />
+  <names>
+    <name lang="zh">一边有自动返回，另一边无自动返回的中间断开的转换触点</name>
+    <name lang="en">Change-over contact with off-position, automatic return and stay put</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+版次：2022 版现行版
+印刷页：82；PDF 页：88；S 号：S00252；出版标准序号：GB/T 4728.7-2022 07-06-04
+名称：一边有自动返回，另一边无自动返回的中间断开的转换触点 / Change-over contact with off-position, automatic return and stay put；状态：废除———仅供参考；IEC 废除日期：2002-03-23；发布日期：2001-07-01
+关键词：触点，开关；采用符号：S00224，S00225，S00231；应用注释：A00061，A00064，A00065，A00066，A00067
+形状类别：圆，等边三角形，直线；功能类别：K 处理信号或信息；应用类别：电路图，接线图，功能图，概略图
+备注：此触点中间断开，左边可以自动返回，右边无法自动返回。由于技术过时而废除
+本件为已废除符号，仅供参考，不得用于新设计。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：e88149f955f677b79644046c3056ad8b297dcdea5dde4bf69862b6e89a1f5fd9
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.7-2022符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；左固定触点：上引线 (11,1)-(11,20.67)，自动返回三角形顶点 (11,13)、(17.33,16.67)、(11,20.67)（底边贴合引线，顶点向右）；中间公共触点（中间断开位置）：动臂上段 (30,17)-(30,37.67)，枢轴小圆圆框 (27,36.67)、直径 6.67（圆心 (30.33,40)），公共引线下段 (30,42.33)-(30,59)；右固定触点：上引线 (50,1)-(50,13.67)，下端挂空心圆：圆框 (45.67,12.67)、直径 8.67（圆心 (50,17)，引线下端伸入圆顶）；无斜动触点——动臂处于中间断开竖直位置，不触及两侧固定触点；画布 61×71 单位（热点 (31,36)）；图形纵向 1–59（58 单位）、横向 11–54.33。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(11,1)n 为左固定触点；2(30,59)s 为公共触点（枢轴下方引出）；3(50,1)n 为右固定触点。动臂上段无端口（自由端）。这（些）连接点是 QET 适配，不是额外的标准图形。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="11" y1="1" x2="11" y2="20.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="11" y1="13" x2="17.33" y2="16.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="17.33" y1="16.67" x2="11" y2="20.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="17" x2="30" y2="37.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="27" y="36.67" diameter="6.67" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="42.33" x2="30" y2="59" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="1" x2="50" y2="13.67" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="45.67" y="12.67" diameter="8.67" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="11" y="1" orientation="n" uuid="{8ede99f2-fd66-501a-9e5f-a86873bad099}" name="1" type="Generic" />
+    <terminal x="30" y="59" orientation="s" uuid="{69927d05-c05c-50f2-a4bc-165bf9c9e224}" name="2" type="Generic" />
+    <terminal x="50" y="1" orientation="n" uuid="{8d185750-cc84-5a75-b14d-f0bd971a790d}" name="3" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{b7646c85-8eac-5967-916d-b5ccdefd5059}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>
