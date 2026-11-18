@@ -1,0 +1,44 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="76" height="72" hotspot_x="38" hotspot_y="36">
+    <uuid uuid="{f35e754e-aea6-44bc-afdd-447307f9922b}"/>
+    <names>
+        <name lang="zh">带有设备箱的可调整分支的直通段</name>
+        <name lang="en">Through section with adjustable branch with equipment box</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：16；PDF 页：22；S 号：S00527；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-30
+章节：第 17 章 干线系统
+名称：带有设备箱的可调整分支的直通段 / Through section with adjustable branch with equipment box；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无规划/运行分栏（第 17 章表无此分栏）；图形按原页所刊；星号应以所用设备符号代替或省略
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 21-31 px），尺寸按点阵距相对量取，±1 单位扫描偏差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 21-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：主横线 y=6，x=0-76，两端竖档 x=0、76，高 0-12；实心上向箭头：尖 (38,12)、底边 y=22、x=34-43；竖线 x=38，y=22-34；设备箱：正方形 (28,34)-(48,54)；箱内星号以 3 条短线相交于 (38,43) 表示；箱下竖线 x=38、y=54-71；底横档 y=71、x=33-44。实测（px）：主横线 y=862、x=885-1114；箭头尖 (1000,880)、底边 y=910、宽 x=987-1014；箱外框约 62x60 px、x=969-1031、y=946-1006；星号约 20x19 px、中心 (1000,973)；底档 y=1055-1059、x=985-1018。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+原页说明：星号应以所用设备符号代替或省略（原页说明）。</informations>
+    <description>
+        <line x1="0" y1="6" x2="76" y2="6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="0" x2="0" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="76" y1="0" x2="76" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="38" y1="12" x2="34" y2="22" x3="43" y3="22" />
+        <line x1="38" y1="22" x2="38" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="28" y1="34" x2="48" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="48" y1="34" x2="48" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="48" y1="54" x2="28" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="28" y1="54" x2="28" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="38" y1="40" x2="38" y2="46" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="36" y1="41" x2="40" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="41" x2="36" y2="45" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="38" y1="54" x2="38" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="33" y1="71" x2="44" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9d58dfd5-3f1d-4fba-bc19-c3ab8cca6cee}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

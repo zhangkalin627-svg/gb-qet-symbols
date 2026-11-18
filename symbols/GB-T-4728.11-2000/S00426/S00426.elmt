@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="39" height="39" hotspot_x="20" hotspot_y="20">
+    <uuid uuid="{4d114516-35f2-4879-a8e4-ea8c32c05c87}"/>
+    <names>
+        <name lang="zh">保护阳极</name>
+        <name lang="en">Protective anode</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：5；PDF 页：11；S 号：S00426；出版标准序号：GB/T 4728.11 (ed.2.0) 11-04-08
+名称：保护阳极 / Protective anode；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第二篇 网络，4 其他
+变体：一般符号；阳极材料的类型可用其化学字母来加注（原页说明）；本件未加注。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：竖线长 19（实测约 58 px，x 约 988，y 2580–2638）；倒三角顶边长 39（实测约 117 px，x 930–1047，y 约 2638）、高 20（顶点 y 约 2697）；内横线三条，长 19/15/10（y 约 2649/2659/2670）。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="19" y1="0" x2="19" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="19" x2="39" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="19" x2="19" y2="39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="39" y1="19" x2="19" y2="39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="23" x2="29" y2="23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="12" y1="26" x2="27" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="14" y1="30" x2="24" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1f7397af-722b-406c-8dcd-bc29bbc12fdf}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

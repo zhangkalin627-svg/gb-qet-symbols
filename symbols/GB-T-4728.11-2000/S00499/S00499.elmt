@@ -1,0 +1,33 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="70" height="10" hotspot_x="35" hotspot_y="5">
+    <uuid uuid="{bf8e699b-dc34-4b84-8759-707316826de3}"/>
+    <names>
+        <name lang="zh">组合的直通段（示出由两节装配的段）</name>
+        <name lang="en">Combined straight section (section assembled from two parts shown)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：13；PDF 页：19；S 号：S00499；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-02
+名称：组合的直通段（示出由两节装配的段） / Combined straight section (section assembled from two parts shown)；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 17 章 干线系统
+变体：本章表为单栏“图形符号”，无“规划（设计）的/运行的或未加规定的”两栏之分，本件即原页所刊图形
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-28 px），尺寸按点阵距相对量取。中短划位置按实测取 36（对称中心 35），差异 1 单位已注明。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线实测 x885..1094，y2924..2929；三短划 x 约 887/992/1091，竖向约 y2911..2941。QET 落位：横线 (1,5)-(69,5)，短划 x=1/36/69，y0..10（中短划实测 x 约 992 px，合 35.8 单位，取 36）。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。干线段端部的短划为符号组成部分，不设端子。</informations>
+    <description>
+        <line x1="1" y1="5" x2="69" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="1" y1="0" x2="1" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="36" y1="0" x2="36" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="69" y1="0" x2="69" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e8249274-f35c-483b-8ff7-b8d2cc620ce9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

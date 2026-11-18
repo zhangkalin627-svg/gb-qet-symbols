@@ -1,0 +1,35 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="134" height="69" hotspot_x="67" hotspot_y="34">
+    <uuid uuid="{7c07bb56-7e89-458d-a23c-3d08797b4b24}"/>
+    <names>
+        <name lang="zh">线路电源接入点</name>
+        <name lang="en">Line power access point</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：8；PDF 页：14；S 号：S00445；出版标准序号：GB/T 4728.11 (ed.2.0) 11-10-03
+名称：线路电源接入点 / Line power access point；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 10 线路电源器件 章
+变体：无变体：原页该序号仅刊一种图形。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-29 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-29 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：矩形 39×38 单位，（47,1）至（86,39），外框实测约 117 px × 115 px；横线 134 单位长，y=20，纵贯矩形；竖线 x=67，由矩形底边 y=39 向下至 y=68，实测约 87 px。图形中的横线与竖线为符号组成部分，非引线。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="-20" y1="-33" x2="19" y2="-33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="19" y1="-33" x2="19" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="19" y1="5" x2="-20" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-20" y1="5" x2="-20" y2="-33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-67" y1="-14" x2="67" y2="-14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="5" x2="0" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{fa5ecf25-285e-45c6-b6ff-8bed9d6edefd}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

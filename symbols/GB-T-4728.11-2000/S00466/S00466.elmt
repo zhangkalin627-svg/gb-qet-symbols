@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.100.0" type="element" link_type="terminal" width="30" height="44" hotspot_x="15" hotspot_y="22">
+    <uuid uuid="{3cfbedc3-471c-4905-b35d-0140f5288db3}" />
+    <names>
+        <name lang="zh">开关，一般符号</name>
+        <name lang="en">Switch, general symbol</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：10；PDF 页：16；S 号：S00466；出版标准序号：GB/T 4728.11 (ed.2.0) 11-14-01
+名称：开关，一般符号 / Switch, general symbol；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：原页图形栏单图，无规划/运行分栏；无变体。第 14 章“开关”。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：圆 x=1,y=24,d=18（圆心(10,33),r=9）；开关刀片自圆右上(15,24)斜上至(27,0)。原页实测外框 91x131 px，约 30x44 u。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <circle x="1" y="24" diameter="18" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="15" y1="24" x2="27" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9874fec2-b74b-4d2a-a008-ec855f0ec45d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

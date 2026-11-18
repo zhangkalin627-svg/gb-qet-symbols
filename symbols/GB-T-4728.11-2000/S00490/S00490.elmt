@@ -1,0 +1,30 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="40" height="22" hotspot_x="20" hotspot_y="11">
+    <uuid uuid="{3a74943d-dee8-4b9a-b252-6c11d36b3cd6}"/>
+    <names>
+        <name lang="zh">气体放电灯的辅助设备</name>
+        <name lang="en">Auxiliary equipment for gas-discharge lamps</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：12；PDF 页：18；S 号：S00490；出版标准序号：GB/T 4728.11 (ed.2.0) 11-15-10
+名称：气体放电灯的辅助设备 / Auxiliary equipment for gas-discharge lamps；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无变体（原页该序号仅刊一图；本章无‘规划（设计）的/运行的’双栏）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：外矩形 118x64 px；内实心横条 62x19 px，居中 (348,79)；外框 118x64 px。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <rect x="0" y="0" width="40" height="22" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <rect x="10" y="8" width="20" height="6" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ab9b0831-07e2-496f-bb7e-7956d431d4d9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

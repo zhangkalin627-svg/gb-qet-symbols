@@ -1,0 +1,34 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="40" height="25" hotspot_x="20" hotspot_y="13">
+    <uuid uuid="{34f58d89-51df-4cbc-b52d-c873f1b5b8cb}"/>
+    <names>
+        <name lang="zh">T 形（三路连接）</name>
+        <name lang="en">T-shape (three-way connection)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：14；PDF 页：20；S 号：S00502；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-05
+名称：T 形（三路连接） / T-shape (three-way connection)；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 17 章 干线系统
+变体：本章表为单栏“图形符号”，无“规划（设计）的/运行的或未加规定的”两栏之分，本件即原页所刊图形
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线实测 x928..1047，y703..707；竖干 x~990 自横线至 y760；底短划 y760..764，x975..1005；端短划竖向约 y692..721。QET 落位：横线 (1,5)-(39,5)，端短划 (1,0)-(1,10)、(39,0)-(39,10)，竖干 (20,5)-(20,24)，底短划 (15,24)-(25,24)。本符号参照 03-02-04。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。干线段端部的短划为符号组成部分，不设端子。</informations>
+    <description>
+        <line x1="1" y1="5" x2="39" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="1" y1="0" x2="1" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="39" y1="0" x2="39" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="5" x2="20" y2="24" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="15" y1="24" x2="25" y2="24" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{83d6a7f7-ab98-4526-977b-e62bb1f8f86c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

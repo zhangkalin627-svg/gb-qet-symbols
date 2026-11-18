@@ -1,0 +1,31 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="133" height="20" hotspot_x="66" hotspot_y="10">
+    <uuid uuid="{5940e15d-630b-4e3c-99d3-ff168159c46c}"/>
+    <names>
+        <name lang="zh">环路系统出线端</name>
+        <name lang="en">Loop system outlet</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：7；PDF 页：13；S 号：S00439；出版标准序号：GB/T 4728.11 (ed.2.0) 11-08-03
+名称：环路系统出线端 / Loop system outlet；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第三篇 音响和电视的分配系统，8 分支器和系统出线端
+变体：亦称串联出线端（原页说明“串联出线端”）。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线长 133（实测约 398 px，x 784–1182，y 约 1993）；小圆直径 19（实测约 57 px，中心约 (983,2024)），圆顶与横线相切。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。横线为示意线，非端子引线。</informations>
+    <description>
+        <line x1="0" y1="0" x2="133" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="57" y="1" width="19" height="19" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3e341f6e-c498-4e9a-9be7-8dbecc34dbf2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

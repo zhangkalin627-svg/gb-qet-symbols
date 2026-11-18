@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="78" height="21" hotspot_x="39" hotspot_y="11">
+    <uuid uuid="{851e460a-fcad-4169-9a82-21db703b430c}"/>
+    <names>
+        <name lang="zh">具有可移动触点分支的直通段</name>
+        <name lang="en">Through section with movable-contact branch</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：15；PDF 页：21；S 号：S00525；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-28
+章节：第 17 章 干线系统
+名称：具有可移动触点分支的直通段 / Through section with movable-contact branch；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无规划/运行分栏（第 17 章表无此分栏）；图形按原页所刊；本符号参照 02-17-04
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 21-31 px），尺寸按点阵距相对量取，±1 单位扫描偏差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 21-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：主横线 y=6，x=0-78，两端竖档 x=0、78，高 0-12；实心上向箭头：尖 (20,9)、底边 y=14、x=17-23；竖柄 x=20、y=14-21；下横线 y=21、x=20-58。实测（px）：主横线 y=3048、x=875-1108；端档 y=3031-3065；箭头尖约 (935,3056)、底边 y=3073、宽约 x=927-943；竖柄 x=934-937、y=3074-3090；下横线 y=3092、x=934-1049。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+原页说明：本符号参照 02-17-04（原页说明）。</informations>
+    <description>
+        <line x1="0" y1="6" x2="78" y2="6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="0" x2="0" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="78" y1="0" x2="78" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="20" y1="9" x2="17" y2="14" x3="23" y3="14" />
+        <line x1="20" y1="14" x2="20" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="21" x2="58" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c3169126-4740-45bf-89ba-2e6864274cff}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

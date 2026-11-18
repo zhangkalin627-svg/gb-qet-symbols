@@ -1,0 +1,39 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="100" height="26" hotspot_x="50" hotspot_y="13">
+    <uuid uuid="{1ef909ff-6179-469d-a882-bfa79ec468d3}"/>
+    <names>
+        <name lang="zh">带有设备盒（箱）的末端馈线单元，示出从左边供电</name>
+        <name lang="en">End feeder unit with equipment box, shown fed from the left</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：15；PDF 页：21；S 号：S00519；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-22
+名称：带有设备盒（箱）的末端馈线单元，示出从左边供电 / End feeder unit with equipment box, shown fed from the left；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 17 章 干线系统
+变体：无（原页本序号仅刊一种图形；本章无规划/运行分栏）
+说明附注：星号应以所用设备符号代替或省略。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：主线分两段 x205-380/435-495 y115，左端无档（自左边供电）；三角（尖向右）左竖边 x319 y85-149，顶点 (378,117)；方框 x378-437 y90-153，星号中心 (407,121)；右端档 x493 y102-134。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="1" y1="11" x2="59" y2="11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="78" y1="11" x2="98" y2="11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="97" y1="7" x2="97" y2="17" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon x1="39" y1="1" x2="39" y2="22" x3="59" y3="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="59" y="3" width="20" height="21" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="68" y1="10" x2="68" y2="16" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="65" y1="13" x2="71" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="66" y1="11" x2="70" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="70" y1="11" x2="66" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{dd02b139-f049-44fa-82ec-aed1675cb652}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

@@ -1,0 +1,35 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="78" height="42" hotspot_x="39" hotspot_y="21">
+    <uuid uuid="{bd5427ef-6e2b-4968-853a-e4ab480e6be9}"/>
+    <names>
+        <name lang="zh">定时开关</name>
+        <name lang="en">Time switch</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：11；PDF 页：17；S 号：S00479；出版标准序号：GB/T 4728.11 (ed.2.0) 11-14-14
+名称：定时开关 / Time switch；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无变体（原页该序号仅刊一图；本章无‘规划（设计）的/运行的’双栏）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：矩形 233x125 px；表盘圆直径约 62x65 px，圆心 (288,112)，指针指向上与向左（9 时方向）；开关线：左段 (343,375)-(375,112)，右段 (392,431)-(431,112)，刀片自右段左端 (400,112) 斜向左下至 (373,128)，不接左段；外框 233x125 px。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <rect x="0" y="0" width="78" height="42" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <ellipse x="10" y="11" width="21" height="21" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="13" x2="20" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="12" y1="21" x2="20" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="39" y1="21" x2="49" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="56" y1="21" x2="68" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="58" y1="21" x2="49" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9ba73cc4-9c2f-488b-9e1a-c75969955093}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

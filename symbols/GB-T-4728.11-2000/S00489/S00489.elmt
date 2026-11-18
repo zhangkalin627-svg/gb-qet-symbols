@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="36" height="42" hotspot_x="18" hotspot_y="21">
+    <uuid uuid="{14dc14ff-7e43-4571-89ff-160107ef0d1f}"/>
+    <names>
+        <name lang="zh">泛光灯</name>
+        <name lang="en">Floodlight</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：12；PDF 页：18；S 号：S00489；出版标准序号：GB/T 4728.11 (ed.2.0) 11-15-09
+名称：泛光灯 / Floodlight；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无变体（原页该序号仅刊一图；本章无‘规划（设计）的/运行的’双栏）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：左弧：圆心 (330,107)，半径约 38 px，端点 (322,70) 与 (313,140)，约 141 度弧（start=102, angle=141；左半圆近似会差约 8-17 px）；内圆 X：圆直径约 37x34 px，圆心 (334,108)；右上斜箭头指右上（柄 (360,74)-(380,54)，头 (372,54),(390,50),(384,66)），右下斜箭头指右下（柄 (360,142)-(380,162)，头 (372,162),(390,166),(384,150)）；外框 100x119 px。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <arc x="1" y="8" width="26" height="26" start="102" angle="141" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <ellipse x="9" y="15" width="12" height="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="9" y1="15" x2="21" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="21" y1="15" x2="9" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="24" y1="10" x2="31" y2="3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="28" y1="3" x2="34" y2="2" x3="32" y3="7" />
+        <line x1="24" y1="32" x2="31" y2="39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="28" y1="39" x2="34" y2="40" x3="32" y3="35" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{48812eac-599e-44f6-99a2-5461fe80acff}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

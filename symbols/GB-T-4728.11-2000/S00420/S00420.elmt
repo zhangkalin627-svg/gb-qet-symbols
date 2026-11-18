@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="56" height="54" hotspot_x="28" hotspot_y="27">
+    <uuid uuid="{07233207-1deb-418e-a066-4c029c2b172a}"/>
+    <names>
+        <name lang="zh">示例：放大点在防风雨罩内</name>
+        <name lang="en">Example: amplifier point inside a weatherproof cover</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：5；PDF 页：11；S 号：S00420；出版标准序号：GB/T 4728.11 (ed.2.0) 11-04-02
+名称：示例：放大点在防风雨罩内 / Example: amplifier point inside a weatherproof cover；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：示例（11-04-01 地上防风雨罩的示例：放大点在防风雨罩内）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 25-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 25-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：与 S00419 同形防风雨罩（矩形 36x49 单位、顶弧弦 56 单位、矢高 13 单位）；罩内右向空心三角 11x10 单位（实测 x967-999 px、y1034-1065 px），为放大点标记。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+第 4 章“其他”。三角为空心（原页轮廓线），非实心箭头。</informations>
+    <description>
+        <arc x="-9" y="0" width="74" height="74" start="41" angle="98" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="5" x2="10" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="46" y1="5" x2="46" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="54" x2="46" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="22" y1="23" x2="22" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="22" y1="23" x2="33" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="22" y1="33" x2="33" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{401f0664-584c-47b5-8e34-9c38377143d2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

@@ -1,0 +1,37 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="78" height="41" hotspot_x="39" hotspot_y="21">
+    <uuid uuid="{fd3a4bb2-fcb1-4004-b215-8deb9af7e8d4}"/>
+    <names>
+        <name lang="zh">带有连续移动分支的直通段</name>
+        <name lang="en">Through section with continuously movable branch</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：15；PDF 页：21；S 号：S00523；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-26
+章节：第 17 章 干线系统
+名称：带有连续移动分支的直通段 / Through section with continuously movable branch；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无规划/运行分栏（第 17 章表无此分栏）；图形按原页所刊
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 21-31 px），尺寸按点阵距相对量取，±1 单位扫描偏差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 21-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：双向箭头：轴线 y=4，左尖 (22,4)、右尖 (59,4)，箭头底边 x=33 与 x=48、高 0-8；主横线 y=22，x=1-78，两端竖档 x=1、78，高 17-27；圆：椭圆 (31,14,16,16)，中心 (39,22)；下引竖线 x=39，y=30-41。实测（px）：箭头轴 y=2560、尖 x=937/1047、底 x=970/1014；主横线 y=2614、x=873-1105；端档高约 31 px；圆外径约 48 px、中心 (988,2614)；竖线 x=987、y=2635-2670。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="22" y1="4" x2="59" y2="4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="22" y1="4" x2="33" y2="0" x3="33" y3="8" />
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="59" y1="4" x2="48" y2="0" x3="48" y3="8" />
+        <line x1="1" y1="22" x2="78" y2="22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="1" y1="17" x2="1" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="78" y1="17" x2="78" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="31" y="14" width="16" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="39" y1="30" x2="39" y2="41" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c77eccf6-4394-4995-a325-4a7ed9ed8e20}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

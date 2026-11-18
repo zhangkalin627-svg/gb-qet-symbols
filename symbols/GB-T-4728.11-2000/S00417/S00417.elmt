@@ -1,0 +1,34 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="130" height="27" hotspot_x="65" hotspot_y="14">
+    <uuid uuid="{82e9305e-49d8-4ce4-9ba5-d6144e1e5112}"/>
+    <names>
+        <name lang="zh">电信线路上交流供电</name>
+        <name lang="en">Alternating-current supply on a telecommunication line</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：4；PDF 页：10；S 号：S00417；出版标准序号：GB/T 4728.11 (ed.2.0) 11-03-11
+名称：电信线路上交流供电 / Alternating-current supply on a telecommunication line；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无（第 3 章表格为单栏“图形符号”，无规划/运行分栏）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 25-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 25-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：箭头：杆长 21 单位（实测 x798-860 px、y2727 px），实心三角箭头 9x6 单位（实测 x859-884 px、y2718-2736 px）；其下“～”波形 19 单位宽（实测 x800-854 px、y2758-2774 px，左升右降、峰谷约 10 px）；底部长横线 130 单位（实测 x798-1186 px、y2795 px）。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+第 3 章“线路”。</informations>
+    <description>
+        <line x1="0" y1="3" x2="21" y2="3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="20" y1="0" x2="20" y2="6" x3="29" y3="3"/>
+        <arc x="0" y="14" width="12" height="12" start="41" angle="98" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="8" y="6" width="12" height="12" start="221" angle="98" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="26" x2="129" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5160710c-51ef-4211-a083-d2bcba5e99b0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

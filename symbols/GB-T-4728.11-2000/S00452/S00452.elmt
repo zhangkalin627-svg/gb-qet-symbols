@@ -1,0 +1,33 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="40" height="41" hotspot_x="20" hotspot_y="20">
+    <uuid uuid="{20aa93b1-56fb-4958-9f8b-45ffea0c339b}"/>
+    <names>
+        <name lang="zh">垂直通过配线</name>
+        <name lang="en">Wiring through, vertical</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：9；PDF 页：15；S 号：S00452；出版标准序号：GB/T 4728.11 (ed.2.0) 11-12-03
+名称：垂直通过配线 / Wiring through, vertical；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 12 配线 章
+变体：无变体：原页该序号仅刊一种图形；双向箭头沿 45° 对角线。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-29 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-29 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：双向箭头沿 45° 对角线，由左下（1,40）至右上（40,0），实测约 168 px；两端实心箭头三角形：右上（40,0)、(36,8)、(32,4)，左下（1,40)、(9,36)、(4,32)；中点实心圆点直径约 16 px（5 单位），圆心（20,20)。图形中的斜线为符号组成部分，非引线。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="-19" y1="20" x2="20" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="20" y1="-20" x2="16" y2="-12" x3="12" y3="-16" />
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="-19" y1="20" x2="-11" y2="16" x3="-16" y3="12" />
+        <circle x="-2" y="-2" diameter="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5d7232b0-80ca-4b12-b7d5-3524725f9b9f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

@@ -1,0 +1,41 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="76" height="57" hotspot_x="38" hotspot_y="29">
+    <uuid uuid="{dc17ad23-b9d6-4093-afc2-40fefdd206b5}"/>
+    <names>
+        <name lang="zh">由三个独立分区组成的直通段，示出一个布线系统A区、一个布线系统B区和一个现场安装的电缆C区（竖框梯式）</name>
+        <name lang="en">Through section composed of three independent compartments, showing wiring-system zone A, wiring-system zone B and site-installed cable zone C, vertical-ladder form</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：16；PDF 页：22；S 号：S00531；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-34
+章节：第 17 章 干线系统
+名称：由三个独立分区组成的直通段，示出一个布线系统A区、一个布线系统B区和一个现场安装的电缆C区（竖框梯式） / Through section composed of three independent compartments, showing wiring-system zone A, wiring-system zone B and site-installed cable zone C, vertical-ladder form；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无规划/运行分栏（第 17 章表无此分栏）；图形按原页所刊；本件与 11-17-35 说明文字相同，以图形区分（本件为竖框梯式）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 21-31 px），尺寸按点阵距相对量取，±1 单位扫描偏差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 21-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：上横线 y=10、中横线 y=28，x=0-76；下横线 y=47、x=10-58；左竖档 x=1、高 0-39，右竖档 x=75、高 0-38；竖梯框：左竖 x=29、右竖 x=38，y=0-57，横档 y=0、19、38、57；字母 A、B、C 为原页标注，未绘入元件：A 约位于 (42,1)-(50,8)，B 约位于 (43,18)-(49,25)，C 约位于 (43,36)-(49,43)。实测（px）：上横线 y=1869、中横线 y=1924、下横线 y=1980（x=907-1050）；竖档 x=880/1103、高 y=1838-1955；梯框 x=963-994、y=1837-2010，横档 y=1841、1897、1953、2008；A 约 x=1003-1026、y=1842-1862；B 约 x=1006-1024、y=1893-1913；C 约 x=1005-1024、y=1947-1968。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+原页说明：与 11-17-35 说明文字相同，图形不同（本件竖框梯式，11-17-35 为斜线式）。</informations>
+    <description>
+        <line x1="0" y1="10" x2="76" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="28" x2="76" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="47" x2="58" y2="47" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="1" y1="0" x2="1" y2="39" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="75" y1="0" x2="75" y2="38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="0" x2="29" y2="57" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="38" y1="0" x2="38" y2="57" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="0" x2="38" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="19" x2="38" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="38" x2="38" y2="38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="57" x2="38" y2="57" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7f8ac532-7ea9-4685-9d63-62ce83272c94}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

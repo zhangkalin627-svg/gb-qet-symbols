@@ -1,0 +1,33 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="95" height="69" hotspot_x="47" hotspot_y="20">
+    <uuid uuid="{feb64ed6-2d11-4006-9273-ed1dfeebecc1}"/>
+    <names>
+        <name lang="zh">方向耦合器</name>
+        <name lang="en">Directional coupler</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：7；PDF 页：13；S 号：S00436；出版标准序号：GB/T 4728.11 (ed.2.0) 11-07-03
+名称：方向耦合器 / Directional coupler；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第三篇 音响和电视的分配系统，7 分配器和方向耦合器
+变体：一般符号。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线长 95（实测约 285 px，x 843–1128，y 约 892）；圆直径 39（实测约 117 px，中心约 (985,892)）；耦合线自圆左缘 (927,892) 斜向右下至 (985,921)，再竖直向下出圆至 (985,1039)。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。横线与耦合线为示意线，非端子引线。</informations>
+    <description>
+        <line x1="0" y1="20" x2="95" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="28" y="0" width="39" height="39" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="28" y1="20" x2="47" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="47" y1="29" x2="47" y2="69" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5d9f66f5-858c-4a79-a88f-574df1d0e9c9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

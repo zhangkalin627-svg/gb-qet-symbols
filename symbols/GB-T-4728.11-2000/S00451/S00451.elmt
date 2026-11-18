@@ -1,0 +1,33 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="70" height="24" hotspot_x="35" hotspot_y="12">
+    <uuid uuid="{1649d477-9984-4b0e-ba41-ac11524c8f98}"/>
+    <names>
+        <name lang="zh">向下配线</name>
+        <name lang="en">Wiring downwards</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：9；PDF 页：15；S 号：S00451；出版标准序号：GB/T 4728.11 (ed.2.0) 11-12-02
+名称：向下配线 / Wiring downwards；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 12 配线 章
+变体：无变体：原页说明栏“若箭头指向图纸的下方，向下配线”，本件按箭头指向下方绘制。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-29 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-29 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线由（0,4）至圆点中心（67,4），实测约 208 px；圆点实心，直径约 16 px（5 单位），圆心（67,4）；箭头由圆点向左下至箭尖（47,24），约 46°，实测箭杆约 85 px；实心箭头三角形（47,24)、(55,20)、(51,16)。图形中的横线为符号组成部分，非引线。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="-35" y1="-8" x2="32" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="30" y="-11" diameter="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+        <line x1="32" y1="-8" x2="12" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="12" y1="12" x2="20" y2="8" x3="16" y3="4" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{950835c8-f4a3-42d7-b3ef-98d910acf984}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="69" height="40" hotspot_x="35" hotspot_y="20">
+    <uuid uuid="{5d16b63a-72a4-40ad-a32e-be01e9f73e4c}"/>
+    <names>
+        <name lang="zh">风扇示出引线</name>
+        <name lang="en">Fan, outlet lead shown</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：13；PDF 页：19；S 号：S00494；出版标准序号：GB/T 4728.11 (ed.2.0) 11-16-02
+名称：风扇示出引线 / Fan, outlet lead shown；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 16 章 其他
+变体：本章表为单栏“图形符号”，无“规划（设计）的/运行的或未加规定的”两栏之分，本件即原页所刊图形
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-28 px），尺寸按点阵距相对量取。∞ 两环为近似圆，环形以相切圆表达。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：方框实测 120x120 px（左缘 x973..978，上缘 y538..543）；引线 y595..600 px，自 x887 至方框左缘；∞ 实测 57x31 px（x1003..1059，y580..610），两环各约 28x30 px。QET 落位：方框 (29,0,40,40)；引线 (0,20)-(29,20)；∞ 为两相切圆 (38,15,10,10)、(48,15,10,10)，圆心 (43,20)、(53,20)。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。示出引线绘为普通线条（自左缘接入图形），不设端子。</informations>
+    <description>
+        <line x1="0" y1="20" x2="29" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="0" x2="69" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="69" y1="0" x2="69" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="69" y1="40" x2="29" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="40" x2="29" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="38" y="15" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <ellipse x="48" y="15" width="10" height="10" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e2f627ba-6cc0-48d4-9c0f-bbefe46e6317}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

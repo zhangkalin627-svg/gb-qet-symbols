@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="40" height="40" hotspot_x="20" hotspot_y="20">
+    <uuid uuid="{76ab87eb-39dc-40ce-a953-f542d7944398}"/>
+    <names>
+        <name lang="zh">白色单向光束的地面航行灯（高架的）</name>
+        <name lang="en">Aerodrome ground light with white unidirectional beam (elevated)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：17；PDF 页：23；S 号：S00535；出版标准序号：GB/T 4728.11 (ed.2.0) 11-18-03
+章节：第 18 章 机场导航灯和指示器（第五篇 露天设备）
+名称：白色单向光束的地面航行灯（高架的） / Aerodrome ground light with white unidirectional beam (elevated)；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：高架的（原页第二表“高架的”栏图形）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 21-31 px），尺寸按点阵距相对量取，±1 单位扫描偏差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 21-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：空心正方形 40x40；V 形（角形，尖端向左）光束线：顶点 (0,20)（左框中点），两臂至右上顶角 (40,0) 与右下顶角 (40,40)。实测（px）：方框 117x114 px（x=802-919、y=1782-1896）；V 形臂逐行量取：y=1794 臂心 x=895、y=1818 臂心 x=848、y=1848 臂心 x=823、y=1884 臂心 x=898，臂线斜率约 dx/dy=2.0，顶点约 (806,1839)、臂端约 (916,1785)/(916,1893)。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+原页说明：本件与 11-18-04 说明文字相同，变体不同（本件高架的方形，11-18-04 为地面的圆形）。</informations>
+    <description>
+        <line x1="0" y1="0" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="0" x2="40" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="40" x2="0" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="40" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f3b73195-4b2e-4530-9d15-887ca3e5122a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

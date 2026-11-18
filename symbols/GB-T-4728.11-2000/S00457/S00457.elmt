@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition version="0.100.0" type="element" link_type="terminal" width="21" height="30" hotspot_x="10" hotspot_y="15">
+    <uuid uuid="{b3b432a2-eea6-4d75-b62b-ca3c26e9f42d}" />
+    <names>
+        <name lang="zh">(电源)插座，一般符号</name>
+        <name lang="en">Socket (power), general symbol</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：9；PDF 页：15；S 号：S00457；出版标准序号：GB/T 4728.11 (ed.2.0) 11-13-01
+名称：(电源)插座，一般符号 / Socket (power), general symbol；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：原页图形栏单图，无规划（设计）的/运行的（或未加规定的）分栏；无变体。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：竖线(10,0)-(10,19)；上半圆弧 x=1,y=19,18x18（圆心(10,28),r=9，足点(1,28)/(19,28)，顶(10,19)）。原页实测外框 63x89 px，约 21x30 u。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="10" y1="0" x2="10" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <arc x="1" y="19" width="18" height="18" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c63b2a5c-ddd7-4885-b4b7-cb054d807c16}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text />
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

@@ -1,0 +1,37 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="40" height="50" hotspot_x="20" hotspot_y="25">
+    <uuid uuid="{83e14cb9-6f2f-40c9-a7c8-d768cbf3db48}"/>
+    <names>
+        <name lang="zh">时钟；时间记录器</name>
+        <name lang="en">Clock; time recorder</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：13；PDF 页：19；S 号：S00495；出版标准序号：GB/T 4728.11 (ed.2.0) 11-16-03
+名称：时钟；时间记录器 / Clock; time recorder；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 16 章 其他
+变体：本章表为单栏“图形符号”，无“规划（设计）的/运行的或未加规定的”两栏之分，本件即原页所刊图形
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：外框实测 120x149 px（x932..1051，y765..913）；顶内横线 y793..798 px，x948..1037；钟圆实测 Ø 约 91 px（x948..1038，y809..900）；指针：竖针 x~993 自 y823 至圆心，横针 y~854 自 x966 至圆心（表盘示 9:00）。QET 落位：外框 (0,0,40,50)；顶线 (5,9)-(35,9)；钟圆 (5,15,30,30)，圆心 (20,30)；竖针 (20,19)-(20,30)，横针 (11,30)-(20,30)。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="0" y1="0" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="0" x2="40" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="50" x2="0" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="50" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="5" y1="9" x2="35" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="5" y="15" width="30" height="30" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="20" y1="19" x2="20" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="11" y1="30" x2="20" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a453b3b5-8245-41c0-83b4-6be220937f32}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

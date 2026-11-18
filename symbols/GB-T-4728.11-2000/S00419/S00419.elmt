@@ -1,0 +1,33 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="56" height="54" hotspot_x="28" hotspot_y="27">
+    <uuid uuid="{d288b12a-d041-4095-a30b-c4ddda4f083f}"/>
+    <names>
+        <name lang="zh">地上防风雨罩，一般符号</name>
+        <name lang="en">Weatherproof cover above ground, general symbol</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：5；PDF 页：11；S 号：S00419；出版标准序号：GB/T 4728.11 (ed.2.0) 11-04-01
+名称：地上防风雨罩，一般符号 / Weatherproof cover above ground, general symbol；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：一般符号（说明：罩内的装置可用限定符号或代号表示）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 25-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 25-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：防风雨罩：矩形 36x49 单位（实测左右边 x929、x1037 px、底边 y817 px），顶为浅圆弧：弦 56 单位、矢高 13 单位、半径约 37 单位（实测弧顶 y657 px、端点 x900、x1066 px、y约 693 px），弧两端各出矩形边约 10 单位。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+第 4 章“其他”。</informations>
+    <description>
+        <arc x="-9" y="0" width="74" height="74" start="41" angle="98" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="5" x2="10" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="46" y1="5" x2="46" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="54" x2="46" y2="54" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8830d404-5bb2-4f25-a688-bf5f19f1b738}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

@@ -1,0 +1,40 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="152" height="34" hotspot_x="76" hotspot_y="17">
+    <uuid uuid="{6be11bf3-2d1f-466e-8b3d-8836250c72b9}"/>
+    <names>
+        <name lang="zh">带有几路分支的直通段，示出四路分支器，上下各两路</name>
+        <name lang="en">Through section with several branches, shown four-way tap-off, two above and two below</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：15；PDF 页：21；S 号：S00522；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-25
+名称：带有几路分支的直通段，示出四路分支器，上下各两路 / Through section with several branches, shown four-way tap-off, two above and two below；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 17 章 干线系统
+变体：无（原页本序号仅刊一种图形；本章无规划/运行分栏）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：主线 x124-571 y90；四圆圆心 x187/293/399/485 y90，直径约 36 px（圆心间距前两档约 106 px，末档约 86 px，扫描页本身不均匀）；上支线 x187/399 y44-72，下支线 x293/485 y108-137；端档 x125/569 y77-103。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="1" y1="16" x2="150" y2="16" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="1" y1="12" x2="1" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="149" y1="12" x2="149" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="16" y="10" diameter="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="51" y="10" diameter="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="87" y="10" diameter="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="115" y="10" diameter="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="22" y1="1" x2="22" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="93" y1="2" x2="93" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="57" y1="22" x2="57" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="121" y1="22" x2="121" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{66183161-009a-4031-ac4b-9fb394723737}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

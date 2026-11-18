@@ -1,0 +1,32 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="19" height="12" hotspot_x="10" hotspot_y="6">
+    <uuid uuid="{8ea0b3a1-27cc-47f5-9788-aa9640691a37}"/>
+    <names>
+        <name lang="zh">防电缆蠕动装置</name>
+        <name lang="en">Device against cable creep</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：5；PDF 页：11；S 号：S00424；出版标准序号：GB/T 4728.11 (ed.2.0) 11-04-06
+名称：防电缆蠕动装置 / Device against cable creep；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第二篇 网络，4 其他
+变体：一般符号（11-04-07 为其应用示例）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线长 19（实测约 58 px，x 957–1015，y 约 2114）；竖线长 12（实测约 36 px，x 约 972，y 2096–2132）；右凸浅弧弦长 12（实测约 35 px，x 约 1009–1015，y 2097–2132），弧顶至弦约 2 单位（实测约 6 px）。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。该符号应标在入口“蠕动”侧（原页说明），本件只含符号图形。</informations>
+    <description>
+        <line x1="5" y1="0" x2="5" y2="12" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="6" x2="19" y2="6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="-1" y="-4" width="20" height="20" start="323" angle="74" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d0d0339f-62a5-408f-8fc2-357d41769251}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

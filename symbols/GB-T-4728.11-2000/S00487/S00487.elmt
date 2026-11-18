@@ -1,0 +1,32 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="30" height="30" hotspot_x="15" hotspot_y="15">
+    <uuid uuid="{796d31ec-1ab6-4502-8520-980fb2bf5548}"/>
+    <names>
+        <name lang="zh">投光灯</name>
+        <name lang="en">Projector</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：12；PDF 页：18；S 号：S00487；出版标准序号：GB/T 4728.11 (ed.2.0) 11-15-07
+名称：投光灯 / Projector；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无变体（原页该序号仅刊一图；本章无‘规划（设计）的/运行的’双栏）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：左弧：圆心 (356,77)，半径约 37 px，端点 (362,40) 与 (362,113)，约 198 度弧（start=81, angle=198，左半圆近似会差约 6 px）；内圆 X：圆直径约 35x33 px，圆心 (360,78)；外框 59x74 px。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <arc x="6" y="3" width="24" height="24" start="81" angle="198" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <ellipse x="13" y="10" width="12" height="12" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="13" y1="10" x2="25" y2="22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="25" y1="10" x2="13" y2="22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4452d550-4ed8-477f-a5b2-667f7d35eec5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

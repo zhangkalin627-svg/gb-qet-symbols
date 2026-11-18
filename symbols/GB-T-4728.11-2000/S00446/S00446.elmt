@@ -1,0 +1,32 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="90" height="22" hotspot_x="45" hotspot_y="11">
+    <uuid uuid="{0bbe524d-1340-4109-a202-091d873a404d}"/>
+    <names>
+        <name lang="zh">中性线</name>
+        <name lang="en">Neutral conductor</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：8；PDF 页：14；S 号：S00446；出版标准序号：GB/T 4728.11 (ed.2.0) 11-11-01
+名称：中性线 / Neutral conductor；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 11 专用导线的识别 章
+变体：无变体：原页该序号仅刊一种图形；本章 11.1 注：本章所示出的符号可以被 GB 4026 所给的符号代替。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-29 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-29 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线 90 单位长，y=12，实测约 270 px；斜线由（45,5）至（36,21），向左下倾斜，实测上端约（344,60）、下端约（318,108）；斜线上端实心圆点直径约 19 px（6 单位），圆心（45,3）。图形中的横线为符号组成部分，非引线。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="-45" y1="1" x2="45" y2="1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="-3" y="-11" diameter="6" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+        <line x1="0" y1="-6" x2="-9" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c6ee5120-cce0-497d-8c2c-0a71767220ad}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

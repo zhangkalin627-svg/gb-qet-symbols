@@ -1,0 +1,40 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="68" height="39" hotspot_x="34" hotspot_y="20">
+    <uuid uuid="{15ed6df3-37cb-45fa-b133-5dee7160e4d3}"/>
+    <names>
+        <name lang="zh">热水器示出引线</name>
+        <name lang="en">Water heater, outlet lead shown</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：12；PDF 页：18；S 号：S00493；出版标准序号：GB/T 4728.11 (ed.2.0) 11-16-01
+名称：热水器示出引线 / Water heater, outlet lead shown；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 16 章 其他
+变体：本章表为单栏“图形符号”，无“规划（设计）的/运行的或未加规定的”两栏之分，本件即原页所刊图形
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：引线＋圆实测总 203x116 px（x890..1092，y2963..3078）；圆实测 Ø 约 116 px，圆心 (1033,3021) px；引线 y3018..3022 px，自 x890 至圆左缘 x975；圆内竖条纹 9 条，中心 x 约 978/991/1005/1019/1035/1047/1061/1075/1088 px。QET 落位：圆 (29,0,38,38)，圆心 (48,19)；引线 (0,19)-(29,19)；条纹竖线 x=30/34/38/43/48/53/57/62/66，上下端按圆弦长取（x=30：y13..25；x=34：y6..32；x=38：y3..35；x=43：y1..37；x=48：y0..38；x=53：y1..37；x=57：y2..36；x=62：y6..32；x=66：y13..25）。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。示出引线绘为普通线条（自左缘接入图形），不设端子。</informations>
+    <description>
+        <line x1="0" y1="19" x2="29" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="29" y="0" width="38" height="38" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <line x1="30" y1="13" x2="30" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="34" y1="6" x2="34" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="38" y1="3" x2="38" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="43" y1="1" x2="43" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="48" y1="0" x2="48" y2="38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="53" y1="1" x2="53" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="57" y1="2" x2="57" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="62" y1="6" x2="62" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="66" y1="13" x2="66" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f8d5abbf-73a5-4499-9eb4-b82db320abaf}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

@@ -1,0 +1,34 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="121" height="21" hotspot_x="60" hotspot_y="11">
+    <uuid uuid="{18944ceb-5572-41ad-b1c8-71391a55f8ed}"/>
+    <names>
+        <name lang="zh">具有埋入地下连接点的线路</name>
+        <name lang="en">Line with a buried underground joint</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：4；PDF 页：10；S 号：S00413；出版标准序号：GB/T 4728.11 (ed.2.0) 11-03-07
+名称：具有埋入地下连接点的线路 / Line with a buried underground joint；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无（第 3 章表格为单栏“图形符号”，无规划/运行分栏）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 25-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 25-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：长横线 121 单位（实测 x805-1168 px、y1845 px）；线上实心圆点直径 6 单位（实测约 16-18 px，圆心 x988 px）；其上三条居中递减短横线：83 px（x946-1028，y1794）、57 px（x959-1015，y1806）、31 px（x972-1002，y1819），间距约 13 px。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。
+第 3 章“线路”。</informations>
+    <description>
+        <line x1="47" y1="1" x2="74" y2="1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="51" y1="5" x2="70" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="56" y1="9" x2="66" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="18" x2="121" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="58" y="15" diameter="6" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c3e34527-5c0d-48cc-903e-83582baca2da}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

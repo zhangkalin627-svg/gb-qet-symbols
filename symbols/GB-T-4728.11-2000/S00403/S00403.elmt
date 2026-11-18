@@ -1,0 +1,31 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="40" height="40" hotspot_x="20" hotspot_y="20">
+    <uuid uuid="{128e7863-5c7b-48da-9adc-9bde1819239e}"/>
+    <names>
+        <name lang="zh">等离子体发电站</name>
+        <name lang="en">Magnetohydrodynamic generating station</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：3；PDF 页：9；S 号：S00403；出版标准序号：GB/T 4728.11 (ed.2.0) 11-02-13
+名称：等离子体发电站 / Magnetohydrodynamic generating station；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：规划（设计）的（原页同一序号栏分“规划（设计）的”与“运行的或未加规定的”两栏，本件取其一）
+MHD（磁流体发电）。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：正方形 40x40（外框实测约 117x118 px）；内菱形顶点 (20,10)、(30,20)、(20,30)、(10,20)（实测菱形约 59x60 px）。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <rect x="0" y="0" width="40" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <polygon x1="20" y1="10" x2="30" y2="20" x3="20" y3="30" x4="10" y4="20" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8465c86b-79ed-4fbd-baa8-dbc5779b3a71}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

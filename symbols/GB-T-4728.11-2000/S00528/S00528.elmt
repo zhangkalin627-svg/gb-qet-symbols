@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="76" height="47" hotspot_x="38" hotspot_y="24">
+    <uuid uuid="{ad66d494-fd5f-4a7e-bb78-d2fb0d39ce57}"/>
+    <names>
+        <name lang="zh">固定分支带有保护触点的插座的直通段</name>
+        <name lang="en">Through section with socket with protective contact on fixed branch</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：16；PDF 页：22；S 号：S00528；出版标准序号：GB/T 4728.11 (ed.2.0) 11-17-31
+章节：第 17 章 干线系统
+名称：固定分支带有保护触点的插座的直通段 / Through section with socket with protective contact on fixed branch；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：无规划/运行分栏（第 17 章表无此分栏）；图形按原页所刊
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 21-31 px），尺寸按点阵距相对量取，±1 单位扫描偏差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 21-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：主横线 y=10，x=0-76，两端竖档 x=0、76，高 4-15；圆：椭圆 (29,1,18,18)，中心 (38,10)；竖线 x=38，y=19-37；横档 y=37、x=28-48；插座弧：上半圆弧 (28,37,20,20)，start=0、angle=180，顶 (38,37)、底端 y=47。实测（px）：主横线 y=1208、x=874-1102；圆外径约 50-53 px、中心 (988,1207)；竖线 x=987、y=1232-1290；横档 y=1286-1290、x=957-1017；弧廓逐行量取：y=1293 宽约 37 px、y=1310 宽约 58 px、y=1320 宽约 58 px（向下渐宽，属上半圆弧），弧高约 30 px。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="0" y1="10" x2="76" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="4" x2="0" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="76" y1="4" x2="76" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="29" y="1" width="18" height="18" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true" />
+        <line x1="38" y1="19" x2="38" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="28" y1="37" x2="48" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="28" y="37" width="20" height="20" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{81a998fd-d3cd-44e6-9fd1-ab3d14bb53ba}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

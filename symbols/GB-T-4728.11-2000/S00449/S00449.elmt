@@ -1,0 +1,37 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="99" height="22" hotspot_x="49" hotspot_y="11">
+    <uuid uuid="{685372a6-e069-47de-a916-28edef9c85ac}"/>
+    <names>
+        <name lang="zh">具有中性线和保护线的三相配线</name>
+        <name lang="en">Three-phase wiring with neutral and protective conductors (example)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：8；PDF 页：14；S 号：S00449；出版标准序号：GB/T 4728.11 (ed.2.0) 11-11-04
+名称：具有中性线和保护线的三相配线 / Three-phase wiring with neutral and protective conductors (example)；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第 11 专用导线的识别 章
+变体：示例：原页说明栏为“示例：具有中性线和保护线的三相配线”，本件按示例图形绘制；本章 11.1 注：本章所示出的符号可以被 GB 4026 所给的符号代替。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 26-29 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26-29 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线 99 单位长（实测约 296 px，x=0 至 98），y=12；左侧三条平行斜线，间距约 13 px，分别为（28,2）至（19,21)、（32,2）至（24,21)、（37,2）至（28,21）；中性线标记：实心圆点圆心（55,3）、直径 6 单位，斜线（55,5）至（45,21）；保护线标记：顶端横杠（74,3）至（87,3），斜线（79,4）至（71,21）。三组斜线均向左下倾斜。图形中的横线为符号组成部分，非引线。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="-49" y1="1" x2="49" y2="1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-21" y1="-9" x2="-30" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-17" y1="-9" x2="-25" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="-12" y1="-9" x2="-21" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="3" y="-11" diameter="6" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+        <line x1="6" y1="-6" x2="-4" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="25" y1="-8" x2="38" y2="-8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="30" y1="-7" x2="22" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{6f746bb6-962f-4f56-b2e9-541aa3fca076}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

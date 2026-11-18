@@ -1,0 +1,37 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="77" height="57" hotspot_x="37" hotspot_y="29">
+    <uuid uuid="{59853297-0911-4d48-9bd7-1eee4d3794db}"/>
+    <names>
+        <name lang="zh">主干桥式放大器</name>
+        <name lang="en">Trunk bridge amplifier</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：6；PDF 页：12；S 号：S00431；出版标准序号：GB/T 4728.11 (ed.2.0) 11-06-02
+名称：主干桥式放大器 / Trunk bridge amplifier；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+章节：第三篇 音响和电视的分配系统，6 放大器
+变体：示出三个馈线支路（原页说明）。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-28 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-28 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线长 77（实测约 231 px，x 872–1103，y 约 2205）；三角左竖边长 28（x 约 959，y 2163–2248）、顶点 (1033,2205)；下竖线长 14（x 约 959，y 2248–2290）；上支路两条，分别自上斜边 (980,2175)、(1006,2190) 向右上至 (1007,2123)、(1045,2119)。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。横线与下竖线为通路示意线，非端子引线。</informations>
+    <description>
+        <line x1="0" y1="29" x2="29" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="54" y1="29" x2="77" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="15" x2="29" y2="43" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="15" x2="54" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="43" x2="54" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="29" y1="43" x2="29" y2="57" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="45" y1="1" x2="36" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="58" y1="0" x2="45" y2="24" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1d27a974-0548-4b61-8f06-354faff3cee3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>
