@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="25" hotspot_x="19" hotspot_y="20" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{97e44cf7-e6ed-4b7c-b0f4-857ec4205d7a}" />
+  <names>
+    <name lang="zh">带滑动触点和断开位置的电阻器</name>
+    <name lang="en">Resistor with movable contact and off position</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：2；PDF 页：6；S 号：S00560；出版标准序号：GB/T 4728.4(ed. 2.0)04-01-06
+名称：带滑动触点和断开位置的电阻器 / Resistor with movable contact and off position；标准；发布日期：2001-07-01
+关键词：电阻
+采用符号：S00211，S00555
+形状类别：箭头，直线，矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 28 px；矩形外框 px x 45..124、y 73..98（宽 79 px、高 25 px），中心 (84.5,85.5)；仅左引线 y≈86，左端 x≈31；上方滑动触点：竖线 x≈82 自 y≈31 下至箭头，箭头顶边 y≈54、x 74..90，箭头尖约 (82,76)，顶水平线 y≈31 自 x≈82 至 x≈137；右侧断开位置黑块 px x 131..143、y 75..98。QET：矩形 (-14,-4.5) 宽 28、高 9；左引线 (-19,0)-(-14,0)；竖线 (-1,-19.5)-(-1,-11)；顶水平线 (-1,-19.5)-(19,-19.5)；箭头多边形 (-4,-11)、(2,-11)、(-1,-3.5)；黑块四边形 (16.5,-4)、(21,-4)、(21,4.5)、(16.5,4.5)。
+端口适配：原文图形为矩形加左端一根引线（右端无引线），上方一根竖线带向下箭头触及矩形顶边、顶端向右折水平线，矩形右外侧有一实心黑块表示断开位置；QET 适配设两端口：1=左引线外端 (-19,0) w、2=顶水平线右端 (19,-19.5) e；黑块不设端口。</informations>
+  <description>
+  <line x1="-14" y1="-4.5" x2="14" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14" y1="-4.5" x2="14" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14" y1="4.5" x2="-14" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-14" y1="4.5" x2="-14" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-19" y1="0" x2="-14" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-1" y1="-19.5" x2="-1" y2="-11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-1" y1="-19.5" x2="19" y2="-19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="-4" y1="-11" x2="2" y2="-11" x3="-1" y3="-3.5" />
+  <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="16.5" y1="-4" x2="21" y2="-4" x3="21" y3="4.5" x4="16.5" y4="4.5" />
+  <terminal x="-19" y="0" orientation="w" uuid="{8fd4c3f7-6dff-4fdf-be56-921541774bc8}" name="1" type="Generic" />
+  <terminal x="19" y="-19.5" orientation="e" uuid="{a77ae1ce-8307-47aa-be42-c18d773da1f7}" name="2" type="Generic" />
+  <dynamic_text x="-19" y="-28" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e4c4c8a8-425b-44af-83c1-0667753e8f49}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,49 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="60" height="40" hotspot_x="30" hotspot_y="20">
+    <uuid uuid="{8397b105-1f13-4cda-8bd8-3e41fbb8a941}"/>
+    <names>
+        <name lang="zh">热电站</name>
+        <name lang="en">Thermal power station</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.11-2000（idt IEC 60617-11:1996）
+版次：2000 版
+印刷页：1；PDF 页：7；S 号：S00388；出版标准序号：GB/T 4728.11 (ed.2.0) 11-01-04
+名称：热电站 / Thermal power station；状态：标准；批准日期：2000-12-28；实施日期：2001-08-01
+变体：运行的或未加规定的（原页同一序号栏分“规划（设计）的”与“运行的或未加规定的”两栏，本件取其一）
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fdb46c41061812b26638da5edf03b18664b1120cb952396ceb7ad3e871982ffa
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.11-2000 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；英文名为中文说明的翻译，未与 IEC 60617 数据库英文名逐字核对；点阵间距在扫描页上不均匀（约 27-31 px），尺寸按点阵距相对量取。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27-31 px；按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：矩形 60x40（外框中心线实测约 166x113 px，约 6x4 点阵距）；内竖线 x=40 与 x=50；左部 40x40 区内填“/”向斜线，间距 5 单位，共 15 条，竖条与尾段不填斜线。
+端口适配：原文为建筑安装平面布置符号，无端子、无引线；零端子件，QET 适配不设端子。</informations>
+    <description>
+        <line x1="0" y1="0" x2="60" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="60" y1="0" x2="60" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="60" y1="40" x2="0" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="40" x2="0" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="40" y1="0" x2="40" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="50" y1="0" x2="50" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="5" x2="5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="15" x2="15" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="25" x2="25" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="30" x2="30" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="35" x2="35" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="40" x2="40" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="5" y1="40" x2="40" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="40" x2="40" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="15" y1="40" x2="40" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="40" x2="40" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="25" y1="40" x2="40" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="30" y1="40" x2="40" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="35" y1="40" x2="40" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9f89fe8d-522a-4b49-b20c-71c1926fcabd}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

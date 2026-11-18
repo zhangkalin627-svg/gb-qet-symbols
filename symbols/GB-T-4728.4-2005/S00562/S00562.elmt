@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="41" height="31" hotspot_x="20" hotspot_y="21" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{517602ef-dcc3-47d3-8486-a70081741b8b}" />
+  <names>
+    <name lang="zh">带滑动触点和预调的电位器</name>
+    <name lang="en">Potentiometer with movable contact and pre-set adjustment</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：3；PDF 页：7；S 号：S00562；出版标准序号：GB/T 4728.4(ed. 2.0)04-01-08
+名称：带滑动触点和预调的电位器 / Potentiometer with movable contact and pre-set adjustment；标准；发布日期：2001-07-01
+关键词：电位器，电阻
+采用符号：S00085，S00211，S00555
+形状类别：箭头，直线，矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；矩形外框 px x 50..137、y 83..110（宽 87 px、高 27 px），中心 (93.5,96.5)；引线 y≈94.5，左端 x≈33、右端 x≈154；上方滑动触点：竖线 x≈91 自 y≈35 下至箭头，箭头顶边 y≈63、x 83..99，箭头尖约 (91,86)，顶水平线 y≈35 自 x≈91 至 x≈156；预调斜线自左下约 (66,126) 至右上约 (132,55)，上端有一与斜线垂直的短横杠约 (128,50)-(143,66)。QET：矩形 (-14.5,-4.5) 宽 29、高 9；引线 (-20,0)-(-14.5,0)、(14.5,0)-(20,0)；竖线 (-1,-20.5)-(-1,-11.5)；顶水平线 (-1,-20.5)-(21,-20.5)；箭头多边形 (-3.5,-11.5)、(2,-11.5)、(-1,-3.5)；预调斜线 (-9,10)-(13.5,-13)；短横杠 (11.5,-15.5)-(16.5,-10)。
+端口适配：原文图形为矩形加两端引线，上方一根竖线带向下箭头触及矩形顶边、顶端向右折水平线，另有一根预调斜线穿过矩形、右上端带一短横杠；QET 适配设三端口：1=左引线外端 (-20,0) w、2=右引线外端 (20,0) e、3=顶水平线右端 (21,-20.5) e；预调斜线与短横杠不设端口。</informations>
+  <description>
+  <line x1="-14.5" y1="-4.5" x2="14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="-4.5" x2="14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="4.5" x2="-14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-14.5" y1="4.5" x2="-14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-20" y1="0" x2="-14.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-1" y1="-20.5" x2="-1" y2="-11.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-1" y1="-20.5" x2="21" y2="-20.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="-3.5" y1="-11.5" x2="2" y2="-11.5" x3="-1" y3="-3.5" />
+  <line x1="-9" y1="10" x2="13.5" y2="-13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="11.5" y1="-15.5" x2="16.5" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <terminal x="-20" y="0" orientation="w" uuid="{93149827-db14-4802-840b-955f8e5963d1}" name="1" type="Generic" />
+  <terminal x="20" y="0" orientation="e" uuid="{4eb2e051-4f05-4aa3-bb83-1774b4ea6e44}" name="2" type="Generic" />
+  <terminal x="21" y="-20.5" orientation="e" uuid="{71456f22-5066-49d7-adfb-cc09293077de}" name="3" type="Generic" />
+  <dynamic_text x="-20" y="-29" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{075bb3f8-f3ee-43ac-b5e8-d4e8aab83646}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>

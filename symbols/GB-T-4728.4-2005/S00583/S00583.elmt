@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="60" height="25" hotspot_x="30" hotspot_y="13" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{77501135-9c05-5e08-807e-d96be7b427f1}" />
+  <names>
+    <name lang="zh">线圈；绕组，一般符号</name>
+    <name lang="en">Coil; Winding, general symbol</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：9；PDF 页：13；S 号：S00583；出版标准序号：GB/T 4728.4(ed. 2.0)04-03-01
+名称：线圈；绕组，一般符号 / Coil; Winding, general symbol；状态：标准；发布日期：2001-07-01
+别名：电感器，扼流圈
+关键词：扼流圈，线圈，电感，绕组
+用于：S00347，S00348，S00847，S00830，S00828，S01164，S00591，S01165，S00589，S01086，S00834，S00849，S00825，S00823，S00590，S00829，S00588，S00755，S00749，S00824，S00827，S00586，S00739，S00735，S00833，S00816，S00817，S00496，S00585，S01198，S00832，S00690，S00835，S00753，S00842，S00815，S00845
+应用注释：A00127，A00263
+被替代的符号：S00815，S00816，S00817，S01363
+形状类别：半圆；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；4 个上半圆弧，弧径 10 单位（实测弧列总宽约 117 px、弧高约 18 px，单弧宽约 29 px、高约 15 px），弧列自左端点 (-20,0) 至右端点 (20,0)，基线 y=0；画布 60×25 单位（热点 (30,13)）；图形纵向 -5–0、横向 -20–20。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(10,15)w；端口 2(50,15)e。这（些）连接点是 QET 适配，不是额外的标准图形。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <arc x="10" y="10" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="20" y="10" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="30" y="10" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="40" y="10" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="15" orientation="w" uuid="{f2566cce-d88c-5f67-bdd9-12f9ac4f9897}" name="1" type="Generic" />
+    <terminal x="50" y="15" orientation="e" uuid="{a3a55fdc-1b74-53cc-b996-54733d674b5a}" name="2" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{c71838a4-9414-5053-bb31-e2af99ba615f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

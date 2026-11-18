@@ -1,0 +1,64 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="86" height="46" hotspot_x="43" hotspot_y="23">
+    <uuid uuid="{ee646191-ef22-43cd-9f8a-122853e933bc}"/>
+    <names>
+        <name lang="zh">带断开触头的电话型插塞和插孔</name>
+        <name lang="en">Telephone type plug and jack with break contacts</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：16；PDF 页：20；S 号：S00040；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-13
+名称：带断开触头的电话型插塞和插孔 / Telephone type plug and jack with break contacts；状态：标准；发布日期：2001-07-01
+关键词：连接器件,插塞,插孔
+采用符号：S00039；S00233；应用注释：A00009
+备注：本符号示出三个极。
+形状类别：圆,描述,直线,矩形；功能类别：X 连接；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 24.4 px；西侧三插头（实心矩形长 1.9/1.3/0.9 格），中部插孔条宽 0.6 格、高 4.3 格（中部开槽，下端右轨续至底线），上断开触头 V 形向下、中断开触头 V 形向上，各极东侧端子圆 Ø0.5 格；两条竖直连线分别连接两对断开触头。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形西侧三根引线、东侧五个端子圆；QET 适配在八处外端各设一个端口（w 端口 1、2、3，e 端口 4、5、6、7、8）。东侧自上而下：端口 4、5 为第一对断开触头，端口 6、7 为第二对断开触头，端口 8 为第三极。端子圆为 S00017 同形端子标记，端口设于圆外缘。</informations>
+    <description>
+        <line x1="-42.4" y1="-10.8" x2="-29.7" y2="-10.8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-29.7" y="-12.6" width="18.2" height="4.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x1="-42.4" y1="-0.7" x2="-29.7" y2="-0.7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-29.7" y="-2.8" width="12.7" height="4.2" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x1="-42.4" y1="9.6" x2="-29.7" y2="9.6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-29.7" y="7.9" width="8.6" height="3.8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-6.7" y="-22.5" width="5.7" height="6.2" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-6.7" y="4.7" width="5.7" height="7.4" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-6.7" y="-15.1" width="1.2" height="19.8" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-2.6" y="-15.1" width="1.6" height="35.4" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x1="7.6" y1="-21.3" x2="12.5" y2="-13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="12.5" y1="-13" x2="23.2" y2="-19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="23.2" y1="-19.5" x2="37.6" y2="-19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="37.5" y="-22" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="28" y1="-22.9" x2="28" y2="-9.7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="28" y1="-10.5" x2="37.6" y2="-10.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="37.5" y="-13" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="8.5" y1="-0.3" x2="5.2" y2="9.6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="8.5" y1="-0.3" x2="15.8" y2="9.6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="28" y1="0.1" x2="37.6" y2="0.1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="37.5" y="-2.4" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="15.8" y1="9.6" x2="37.6" y2="9.6" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="37.5" y="7.1" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="28" y1="0.1" x2="28" y2="13.4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-1.8" y1="20" x2="37.6" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="37.5" y="17.5" width="5" height="5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-42" y="-27.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e2ff3550-792a-4a99-91fc-87ecb5446c7a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{b73c08e1-d081-4875-8138-4f2d94b8c48a}" name="1" x="-42.4" y="-10.8" orientation="w" type="Generic"/>
+        <terminal uuid="{ffe3aadc-18c5-4349-9a72-e7fafd233800}" name="2" x="-42.4" y="-0.7" orientation="w" type="Generic"/>
+        <terminal uuid="{24a9f854-c0bf-4b36-a375-8bdc6af1d972}" name="3" x="-42.4" y="9.6" orientation="w" type="Generic"/>
+        <terminal uuid="{9d70ec6d-70b0-4a2b-9544-b6d92781cf41}" name="4" x="42.5" y="-19.5" orientation="e" type="Generic"/>
+        <terminal uuid="{0768ebd2-d6eb-40e9-a825-6cb0c7894f4b}" name="5" x="42.5" y="-10.5" orientation="e" type="Generic"/>
+        <terminal uuid="{070a882a-9157-430c-80ee-9e43cbe16166}" name="6" x="42.5" y="0.1" orientation="e" type="Generic"/>
+        <terminal uuid="{0e367d0c-b621-4b98-9817-83e99949d2e3}" name="7" x="42.5" y="9.6" orientation="e" type="Generic"/>
+        <terminal uuid="{3235ba87-a35d-44f5-8eba-7213b4bb1771}" name="8" x="42.5" y="20" orientation="e" type="Generic"/>
+    </description>
+</definition>

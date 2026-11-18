@@ -1,0 +1,39 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="60" height="50" hotspot_x="30" hotspot_y="20">
+    <uuid uuid="{10744891-6d30-459b-9804-96192d72a11a}"/>
+    <names>
+        <name lang="zh">不切断导线的导线抽头</name>
+        <name lang="en">Junction not interrupting the conductor</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：12；PDF 页：16；S 号：S00029；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-02-16
+名称：不切断导线的导线抽头 / Junction not interrupting the conductor；状态：标准；发布日期：2001-07-01
+关键词：支路,连接器件,连接
+采用符号：S00019
+应用注释：A00005
+形状类别：直线
+功能类别：功能要素或属性
+应用类别：概念要素或限定符号
+备注：与符号 S00019 一起示出
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；独立复核未做；几何与原文逐像素比对未做（仅结构＋关键尺寸核对）。
+几何比例（实测，300 dpi 渲染）：点阵间距：第 15 页实测 21.5 px，其余页约 30 px；QET 比例：1 点阵距 = 10 单位；60 px 模 = 20 单位。300dpi 实测（点阵间距 30px=10 单位；交点为坐标原点）：主横线 y=0，x -20~+20（实测 121px=4 点距）；上方短横线 y=-5，x -10~+10（实测 64px≈2 点距，线宽与主线同）；下竖线 (0,0)-(0,+20)（实测 61px=2 点距）。
+端口适配：原文图形无端口标记；QET 适配在主横线两端各设一端口（端口 1 朝西、2 朝东），在下竖线端头设一端口（端口 3 朝南）。上方短横线为“导线不切断”限定标记，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <line x1="20" y1="15" x2="40" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="20" x2="50" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="30" y1="20" x2="30" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{a99cc62e-2051-4900-97ba-aeb35adf2924}" name="1" x="10" y="20" orientation="w" type="Generic"/>
+        <terminal uuid="{9931a613-b12a-452f-9486-208c106d8fe2}" name="2" x="50" y="20" orientation="e" type="Generic"/>
+        <terminal uuid="{7d8ea862-5cde-4a07-b1b7-b8e11fc519b2}" name="3" x="30" y="40" orientation="s" type="Generic"/>
+        <dynamic_text x="0" y="-12" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3a04a167-8ac2-4480-bff3-adcd9d703e70}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

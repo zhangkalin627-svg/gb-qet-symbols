@@ -1,0 +1,34 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="42" height="10" hotspot_x="21" hotspot_y="5">
+    <uuid uuid="{64899a93-de47-4b3a-88ef-9ab61bbf6a64}"/>
+    <names>
+        <name lang="zh">接通的连接片（形式 2）</name>
+        <name lang="en">Connecting link, closed (form 2)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：18；PDF 页：22；S 号：S00045；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-18
+名称：接通的连接片（形式 2） / Connecting link, closed (form 2)；状态：标准；发布日期：2001-07-01
+关键词：连接器件
+形式：形式 2；其他形式：S00044
+形状类别：直线；功能类别：X 连接；应用类别：电路图,接线图,功能图,安装简图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；水平线长 4.2 格，两竖杠各高 1.0 格、相距 2.4 格。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为一根水平线、两端各一竖杠；QET 适配在水平线两端各设一个端口（w 端口 1，e 端口 2）。</informations>
+    <description>
+        <line x1="-21" y1="0" x2="21" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-12.5" y1="-5" x2="-12.5" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="12.5" y1="-5" x2="12.5" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-20" y="-9.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4c6a365e-a851-44bd-b26b-1fd2605991b0}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{b4fe2381-8c9f-4043-a67d-32ca8543c4a7}" name="1" x="-21" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{d7d4a188-0ace-4a6c-9dd5-440969334ff6}" name="2" x="21" y="0" orientation="e" type="Generic"/>
+    </description>
+</definition>

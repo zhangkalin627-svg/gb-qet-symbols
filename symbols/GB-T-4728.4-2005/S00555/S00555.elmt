@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="42" height="10" hotspot_x="21" hotspot_y="5" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{250534dc-ece1-4eb6-97e3-699a2cbab5e8}" />
+  <names>
+    <name lang="zh">电阻器，一般符号</name>
+    <name lang="en">Resistor, general symbol</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：1；PDF 页：5；S 号：S00555；出版标准序号：GB/T 4728.4(ed. 2.0)04-01-01
+名称：电阻器，一般符号 / Resistor, general symbol；标准；发布日期：2001-07-01
+关键词：电阻
+用于：S00558，S00565，S00564，S00557，S00684，S00561，S00560，S00689，S00563，S01112，S00566，S00562，S00559
+被替代的符号：S01355
+形状类别：矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 41 px；矩形外框 px x 71..191、y 30..68（宽 120 px、高 38 px），中心 (131,49)；引线 y≈49，左端 x≈46、右端 x≈215。QET：矩形 (-14.5,-4.5) 宽 29、高 9；引线 (-20.5,0)-(-14.5,0)、(14.5,0)-(20.5,0)。
+端口适配：原文图形为矩形加两端引线；QET 适配在两根引线外端各设一端口（1=(-20.5,0) w、2=(20.5,0) e），导线由对应方向接入。</informations>
+  <description>
+  <line x1="-14.5" y1="-4.5" x2="14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="-4.5" x2="14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="4.5" x2="-14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-14.5" y1="4.5" x2="-14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-20.5" y1="0" x2="-14.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="0" x2="20.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <terminal x="-20.5" y="0" orientation="w" uuid="{46844b63-01cf-4cb5-a128-684fc085a7fd}" name="1" type="Generic" />
+  <terminal x="20.5" y="0" orientation="e" uuid="{63baf66d-f03c-454f-96c6-f5f8a908291b}" name="2" type="Generic" />
+  <dynamic_text x="-21" y="-13" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{18a45bb0-b8de-49de-aff2-ba56bc754542}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>

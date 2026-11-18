@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="120" height="10" hotspot_x="60" hotspot_y="5" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{4f76d3a1-7ee5-4ca5-a877-51dd7dc02371}" />
+  <names>
+    <name lang="zh">连线组</name>
+    <name lang="en">Group of connections</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：22；PDF 页：26；S 号：S00058；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-01-01
+名称：连线组 / Group of connections；标准；发布日期：2001-07-01
+关键词：连接
+用于：S00003，S00050，S00002，S01414
+应用注释：A00192，A00193，A00194
+形状类别：直线；功能类别：W 导引或输送；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+备注：也见符号 S00001
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；线段长 360 px = 12 网格距；线宽实心核心约 5 px、含抗锯齿约 8 px ≈ 0.27 网格距。QET：线段 120 单位，线宽以 QET 重权表示。
+端口适配：原文图形为一条横线，无端口标记；QET 适配在两端各设一端口（w/e），导线由两端接入。</informations>
+  <description>
+  <line x1="-60" y1="0" x2="60" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:hight;filling:none;color:black" antialias="false" />
+  <terminal x="-60" y="0" orientation="w" uuid="{02e97017-b78d-46e4-b49d-ec3e9fd74729}" name="1" type="Generic" />
+  <terminal x="60" y="0" orientation="e" uuid="{16925e52-0f8e-4c52-8933-fd5d40e84821}" name="2" type="Generic" />
+  <dynamic_text x="-60" y="-13" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{4105a5d5-28ff-4b44-b023-2cf1d6ac6ca2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="28" hotspot_x="30" hotspot_y="14" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{a51b63a5-7437-4b06-ac24-c85f1e297933}" />
+  <names>
+    <name lang="zh">加热元件</name>
+    <name lang="en">Heating element</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：4；PDF 页：8；S 号：S00566；出版标准序号：GB/T 4728.4 (ed. 2.0) 04-01-12
+名称：加热元件 / Heating element；状态：标准；发布日期：2001-07-01
+关键词：电阻
+用于：S00759
+采用符号：S00555
+形状类别：直线，矩形
+功能类别：R 限制或稳定
+应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；矩形 (-14,-4)-(14,4)（28×8）；分隔线 x=-8,0,8；引线 y=0 至 x=±20。QET 比例：1 点阵距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为一分格矩形＋两横引线，无端口标记、无接点圆点；QET 适配在左右引线端设端口（1=(-20,0) w，2=(20,0) e），导线由对应方向接入。</informations>
+  <description>
+    <line x1="16" y1="10" x2="44" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="18" x2="44" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="10" x2="16" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="10" x2="44" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22" y1="10" x2="22" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="10" x2="30" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="38" y1="10" x2="38" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="14" x2="16" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="14" x2="50" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="14" orientation="w" uuid="{3a08537e-ae52-4c12-8df8-ee3b5765f941}" name="1" type="Generic" />
+    <terminal x="50" y="14" orientation="e" uuid="{20fa5dae-4ac9-4328-90e2-a9d4fbddc5ac}" name="2" type="Generic" />
+    <dynamic_text x="30" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f15724f6-fca8-40fe-9ec4-84eeb26684d5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

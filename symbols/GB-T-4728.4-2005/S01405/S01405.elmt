@@ -1,0 +1,36 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="49" height="23" hotspot_x="24" hotspot_y="11">
+    <uuid uuid="{7e6c0b25-e48d-4192-8de2-7e9527db7a4c}"/>
+    <names>
+        <name lang="zh">压电效应</name>
+        <name lang="en">Piezo-electric effect</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：24；PDF 页：28；S 号：S01405；出版标准序号：未在原页刊载 04-xx-xx 编号（新符号）
+名称：压电效应 / Piezo-electric effect；状态：标准；发布日期：2001-10-13
+用于：S00602，S00601，S00600
+应用类别：概念要素或限定符号
+功能类别：功能要素或属性
+形状类别：直线，矩形
+关键词：相关，影响，压电
+更改要求：C00060
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；QET 0.90 以外版本未核。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 37 px（J 组 200 dpi 渲染实测约 24.5 px，同一数值；非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：矩形框 (0,2.5)-(48.5,20)，48.5×17.5 单位（实测外缘中心线 x 1162.5-1307.5 px、y 1707-1759.5 px）；上横杠 (11,0)-(37.5,0)（实测 y 1699.5 px、x 1195-1275 px）；下横杠 (11,22.5)-(37.5,22.5)（实测 y 1767.5 px、x 1196-1275 px）；两杠均以矩形中心 x=24.25 对称；几何范围 48.5×22.5，定义框 49×23（QET 0.90 定义宽/高须为整数，见 TEST 记录）。
+端口适配：原文图形无引线、无连接点，为限定符号（修饰件），零端子；不设端口。</informations>
+    <description>
+        <rect x="0" y="2.5" width="48.5" height="17.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="11" y1="0" x2="37.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="11" y1="22.5" x2="37.5" y2="22.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a6b21b40-9f20-429c-a9c5-44c8a5934daa}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

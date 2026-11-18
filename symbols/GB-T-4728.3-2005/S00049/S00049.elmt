@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="70" hotspot_x="30" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{38a01c36-15da-488b-88f3-c694f035a03f}" />
+  <names>
+    <name lang="zh">插头和插座式连接器，有插座的阳—阳</name>
+    <name lang="en">Plug and socket-type connector, male-male with socket access</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：19；PDF 页：23；S 号：S00049；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-22
+名称：插头和插座式连接器，有插座的阳—阳 / Plug and socket-type connector, male-male with socket access；状态：标准；发布日期：2001-07-01
+别名：U型连接
+关键词：连接器件，连接器，插头，插座
+采用符号：S00031;S00032
+形状类别：半圆，矩形；功能类别：X 连接；应用类别：电路图，接线图，功能图，安装简图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 2018 现行版逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 26.2 px（本模板图置放比例小于 S00047）；点阵中心 (82,82.5) 对应 QET (30,30)。底部与 S00047 同形：左引线 (28,82.5)-(44,82.5) px → QET (9.5,30)-(14.5,30)；左半圆卡扣中心 (55,82)、半径约 14.5 px → QET 弧 (14.5,24.5,11,11,start=90)；实心条 x54–110、y76–89 px → QET rect (19.5,27.5,21,5)；右半圆卡扣中心 (108,82)、半径约 14.5 px → QET 弧 (34.5,24.5,11,11,start=270)；右引线 (119,82.5)-(136,82.5) px → QET (44,30)-(50.5,30)。顶部插座标记：下半圆（开口向上）中心 (82,28.5)、半径约 15.5 px → QET 弧 (24,3.5,12,12,start=180)；竖茎 x81–83、y45–75 px → QET 线 (30,15.5)-(30,27.5)，接至实心条顶边。
+端口适配：原文图形为 S00047 形底部＋顶部插座标记（下半圆＋竖茎）；QET 适配在左右引线端各设一端口（1=(9.5,30) w、2=(50.5,30) e），导线由对应方向接入；顶部插座标记只作图形，不设端口；半圆按 QET 0.90 弧约定（start=90 左半圆、180 下半圆、270 右半圆）画出。端口为 QET 适配，不是标准图形的组成部分。</informations>
+  <description>
+    <line x1="9.5" y1="30" x2="14.5" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="14.5" y="24.5" width="11" height="11" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="19.5" y="27.5" width="21" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <arc x="34.5" y="24.5" width="11" height="11" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="30" x2="50.5" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="24" y="3.5" width="12" height="12" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="15.5" x2="30" y2="27.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="9.5" y="30" orientation="w" uuid="{030c75e4-1990-40ec-b3e1-5a70f1c050b6}" name="1" type="Generic" />
+    <terminal x="50.5" y="30" orientation="e" uuid="{0efad70f-1bbd-4968-834c-6f69d3c78285}" name="2" type="Generic" />
+    <dynamic_text x="35" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{94fe7c2c-137e-4f1e-ba00-26e1e965c313}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

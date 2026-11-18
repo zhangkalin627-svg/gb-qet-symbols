@@ -1,0 +1,38 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="42" height="6" hotspot_x="21" hotspot_y="3">
+    <uuid uuid="{811bebc2-db59-46f6-a807-262b03c0aa51}"/>
+    <names>
+        <name lang="zh">接通的连接片（形式 1）</name>
+        <name lang="en">Connecting link, closed (form 1)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：17；PDF 页：21；S 号：S00044；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-17
+名称：接通的连接片（形式 1） / Connecting link, closed (form 1)；状态：标准；发布日期：2001-07-01
+关键词：连接器件
+形式：形式 1；其他形式：S00045；采用符号：S00017
+原页图形在 PDF 第 21 页，文字说明续于 PDF 第 22 页。
+形状类别：圆,描述；功能类别：X 连接；应用类别：电路图,接线图,功能图,安装简图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；两端子圆各 Ø0.6 格，上下两水平线各长约 2.5 格，引线各长约 0.7 格。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形西、东各一根短引线；QET 适配在两引线外端各设一个端口（w 端口 1，e 端口 2）。两端子圆为 S00017 同形端子标记。</informations>
+    <description>
+        <line x1="-21" y1="0" x2="-15" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-16" y="-3" width="6" height="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-13" y1="-3" x2="13" y2="-3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-13" y1="3" x2="13" y2="3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="10" y="-3" width="6" height="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="15" y1="0" x2="21" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-20" y="-7.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{404208c3-8570-4c6d-baf0-3e5fe8050472}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{b13ed320-55f9-4dea-8d97-828ca19ebfe3}" name="1" x="-21" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{d1167677-b99a-4ab2-906b-4c2f6063ba47}" name="2" x="21" y="0" orientation="e" type="Generic"/>
+    </description>
+</definition>

@@ -1,0 +1,39 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="140" height="22" hotspot_x="70" hotspot_y="11">
+    <uuid uuid="{dbde224a-eda0-47c9-b43a-0dad45d64ec5}"/>
+    <names>
+        <name lang="zh">同轴的插头和插座</name>
+        <name lang="en">Plug and socket, coaxial</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：17；PDF 页：21；S 号：S00042；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-15
+名称：同轴的插头和插座 / Plug and socket, coaxial；状态：标准；发布日期：2001-07-01
+关键词：连接器件,连接器,插头,插座
+采用符号：S00011；S00033；应用注释：A00010
+形状类别：圆,半圆,直线,矩形；功能类别：X 连接；应用类别：电路图,接线图,功能图,安装简图,概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.9 px；左右两半各一空心圆 Ø2.1 格（同 S00011），左半东端阴接触弧（宽 0.6 格、高 1.1 格），右半西端阳接触实心矩形 1.1×0.5 格；每圆底部有一段约 0.5 格的屏蔽短线（左半在圆底右侧，右半在圆底左侧）；两半间距约 2.0 格（未插合状态）。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为未插合的两半：左半西端引线、右半东端引线；QET 适配在两引线外端各设一个端口（w 端口 1，e 端口 2）。两半之间的阴/阳接触件为配合界面，不设端口；元件内部两端口之间无连接（未插合状态）。</informations>
+    <description>
+        <line x1="-70" y1="0" x2="-16" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="-50.5" y="-10.5" width="21" height="21" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-35" y1="9.5" x2="-30" y2="9.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-16" y="-5.5" width="6" height="11" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="9.5" y="-2.5" width="11.5" height="5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x1="21" y1="0" x2="70" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="29.5" y="-10.5" width="21" height="21" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="30" y1="10" x2="35" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-69" y="-15.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ef103e08-1bf9-4d49-b1f1-4e49ea95f8be}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{d4ca6cc9-2636-4dbe-a98d-8885c3c9e9d5}" name="1" x="-70" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{7b3a7475-d772-4bba-88b3-b91b715dc5e9}" name="2" x="70" y="0" orientation="e" type="Generic"/>
+    </description>
+</definition>

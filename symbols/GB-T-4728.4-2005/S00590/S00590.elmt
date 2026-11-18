@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="80" height="61" hotspot_x="40" hotspot_y="31" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{479d1e13-3e2c-5229-a26d-11db7aa7f4be}" />
+  <names>
+    <name lang="zh">可变电感器</name>
+    <name lang="en">Variometer</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：11；PDF 页：15；S 号：S00590；出版标准序号：GB/T 4728.4(ed. 2.0)04-03-08
+名称：可变电感器 / Variometer；状态：标准；发布日期：2001-07-01
+关键词：电感器，可变电感器
+采用符号：S00081，S00583
+形状类别：箭头，半圆；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；上下两条横线 y=-10 与 y=+10（实测线心约 1757.5 px 与 1817.5 px），各长 60 单位，右端由竖线 x=+30 连接；上排 4 个下半圆弧（弧径 10 单位，弧底约 -5 单位，实测弧底约 1773 px），下排 4 个上半圆弧（弧顶约 +5 单位，实测弧顶约 1802.5 px）；斜箭头杆自 (-19,21) 至 (20,-20)（实测杆下端约 (1161,1851) px，约 45°），实心三角头顶点约 (20.5,-20)、底边两角约 (12.5,-16)、(17,-12)（实测头顶约 (1279,1727) px）；画布 80×61 单位（热点 (40,31)）；图形纵向 -20–21、横向 -30–30。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(10,20)w；端口 2(10,40)w。这（些）连接点是 QET 适配，不是额外的标准图形。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="20" x2="70" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="40" x2="70" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="20" x2="70" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="20" y="15" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="30" y="15" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="40" y="15" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="50" y="15" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="20" y="35" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="30" y="35" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="40" y="35" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="50" y="35" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="21" y1="51" x2="60" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="60.5" y1="10" x2="52.5" y2="14" x3="57" y3="18" />
+    <terminal x="10" y="20" orientation="w" uuid="{c086d7d7-abe5-51bc-a8cc-f666dc2e6b3d}" name="1" type="Generic" />
+    <terminal x="10" y="40" orientation="w" uuid="{c4be04e4-2070-50fb-b9e4-9280fe034e7b}" name="2" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{92e28df9-0075-52e9-be4c-df91e9b588c7}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

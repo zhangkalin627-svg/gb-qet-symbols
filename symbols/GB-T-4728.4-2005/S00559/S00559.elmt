@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="26" hotspot_x="22" hotspot_y="21" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{65fd34bf-5e11-4b67-969d-d005ed84f6ef}" />
+  <names>
+    <name lang="zh">带滑动触点的电阻器</name>
+    <name lang="en">Resistor with movable contact</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：2；PDF 页：6；S 号：S00559；出版标准序号：GB/T 4728.4(ed. 2.0)04-01-05
+名称：带滑动触点的电阻器 / Resistor with movable contact；标准；发布日期：2001-07-01
+关键词：电阻
+采用符号：S00211，S00555
+形状类别：箭头，直线，矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 33 px；矩形外框 px x 62..159、y 89..119（宽 97 px、高 30 px），中心 (110.5,104)；仅左引线 y≈104，左端 x≈39；上方滑动触点：竖线 x≈102.5 自 y≈36 下至箭头，箭头顶边 y≈66、x 95..112，箭头尖约 (102,92)，顶水平线 y≈36.5 自 x≈102 至 x≈170。QET：矩形 (-14.5,-4.5) 宽 29、高 9；左引线 (-21.5,0)-(-14.5,0)；竖线 (-2.5,-20.5)-(-2.5,-11.5)；顶水平线 (-2.5,-20.5)-(18,-20.5)；箭头多边形 (-4.5,-11.5)、(0.5,-11.5)、(-2.5,-3.5)。
+端口适配：原文图形为矩形加左端一根引线（右端无引线），上方一根竖线带向下箭头触及矩形顶边、顶端向右折水平线；QET 适配设两端口：1=左引线外端 (-21.5,0) w、2=顶水平线右端 (18,-20.5) e。</informations>
+  <description>
+  <line x1="-14.5" y1="-4.5" x2="14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="-4.5" x2="14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="4.5" x2="-14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-14.5" y1="4.5" x2="-14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-21.5" y1="0" x2="-14.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-2.5" y1="-20.5" x2="-2.5" y2="-11.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-2.5" y1="-20.5" x2="18" y2="-20.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="-4.5" y1="-11.5" x2="0.5" y2="-11.5" x3="-2.5" y3="-3.5" />
+  <terminal x="-21.5" y="0" orientation="w" uuid="{f5c3233c-a203-4e64-af11-2ba5226bc1ab}" name="1" type="Generic" />
+  <terminal x="18" y="-20.5" orientation="e" uuid="{fff0b42a-821b-4593-a5ba-6794029194eb}" name="2" type="Generic" />
+  <dynamic_text x="-22" y="-29" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1522f74b-cd7a-468e-a21e-ccc7966c445a}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>

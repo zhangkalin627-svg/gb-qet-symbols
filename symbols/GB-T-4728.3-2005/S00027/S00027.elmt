@@ -1,0 +1,50 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="160" height="150" hotspot_x="90" hotspot_y="80">
+    <uuid uuid="{3fe40681-2a8a-4ecb-a00a-93be8d32f09b}"/>
+    <names>
+        <name lang="zh">发电机中性点（单线表示法）</name>
+        <name lang="en">Neutral point of a generator (single-line representation)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：11；PDF 页：15；S 号：S00027；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-02-14
+名称：发电机中性点（单线表示法） / Neutral point of a generator (single-line representation)；状态：标准；发布日期：2001-07-01
+关键词：发电机,中性点,电能发生器
+采用符号：S00003,S00026,S00797,S00819
+形状类别：直线
+功能类别：X 连接
+应用类别：电路图,功能图,概略图
+备注：绕组每相两端引出,示出外部中性点的三相同步发电机
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；独立复核未做；几何与原文逐像素比对未做（仅结构＋关键尺寸核对）。
+几何比例（实测，300 dpi 渲染）：点阵间距：第 15 页实测 21.5 px，其余页约 30 px；QET 比例：1 点阵距 = 10 单位；60 px 模 = 20 单位。300dpi 实测（点阵间距 21.5px=10 单位；圆心为坐标原点）：顶线 y=-50,x -80~+60；“3~”字标于顶线左上；三斜线中心 x -46/-40/-35（线 y -50 处），各从 (cx+7,-63) 至 (cx-7,-37)；上竖线 (0,-50)-(0,-30)；圆 Ø60（实测 Ø129px=6 点距，圆心点阵交点）；“GS”字标圆心上方约 -10 单位；“III”三竖线 x -5/0/+5，y +3~+17；下竖线 (0,+30)-(0,+61)；中性点托架横线 y=+61，x -20~+20，两端上翘 10 单位。
+端口适配：原文图形无端口标记、无引线；QET 适配在顶线两端各设一端口（端口 1 朝西、2 朝东），在中性点托架底设一端口（端口 3 朝南）。圆内 GS/III 为发电机标识，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <line x1="10" y1="30" x2="150" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="3~" x="16" y="26" size="9"/>
+        <line x1="61" y1="18" x2="49" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="56" y1="18" x2="44" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="51" y1="18" x2="40" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="90" y1="30" x2="90" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="60" y="50" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <text text="GS" x="87" y="76" size="10"/>
+        <line x1="85" y1="83" x2="85" y2="97" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="90" y1="83" x2="90" y2="97" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="95" y1="83" x2="95" y2="97" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="90" y1="110" x2="90" y2="141" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="70" y1="141" x2="110" y2="141" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="70" y1="131" x2="70" y2="141" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="110" y1="131" x2="110" y2="141" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{e7f63c61-f6b2-49fd-9302-b614553db4bd}" name="1" x="10" y="30" orientation="w" type="Generic"/>
+        <terminal uuid="{8d96add2-2cf7-4cdf-84e1-321d80f2bf51}" name="2" x="150" y="30" orientation="e" type="Generic"/>
+        <terminal uuid="{dc8bec8c-aa4c-4456-b50b-48a181f7fc69}" name="3" x="90" y="141" orientation="s" type="Generic"/>
+        <dynamic_text x="0" y="-12" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a49c39c7-0308-4be3-b4d6-561fc979b553}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

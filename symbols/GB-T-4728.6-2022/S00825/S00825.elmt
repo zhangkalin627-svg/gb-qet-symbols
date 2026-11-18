@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="120" height="100" hotspot_x="60" hotspot_y="50" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{d06b64ff-71ad-4d51-ba72-1a5465973ddc}" />
+  <names>
+    <name lang="zh">短分路复励直流发电机</name>
+    <name lang="en">Generator, DC, compound-excited (short shunt)</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：10；PDF 页：16；S 号：S00825；出版标准序号：GB/T 4728.6 06-05-03
+名称：短分路复励直流发电机 / Generator, DC, compound-excited (short shunt)；状态：标准；发布日期：2001-07-01
+关键词：发电机，直流电机，电能发生器
+采用符号：S00583、S00818、S00819、S01401；形状类别：圆，半圆；功能类别：G 启动能量流；应用类别：电路图
+应用注释：A00126。备注：表示出接线端子和电刷。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。圆内字母与标记为自绘折线/圆弧表达，字形精度未独立核对。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px（1 点阵距 = 10 QET 单位）；圆心 (792,980.5) px，直径约 180 px；G 中心相对 (0,0)（实测包围盒 x 785..802、y 970..990 px，约 5.7×6.8 单位）；“=”实线 y 1008..1011 px（相对 +10），虚线 y 1021..1023 px（相对 +14）；左竖干 x 643..645 px，y 862..1099 px（相对 -40..+40）；右绕组线 x 938..940 px，凸点中心相对 y -35、-25、-15，竖直段自相对 -10 至 +40；电刷实心方块 21×14 px（约 7×5 单位），左块 x 683..704 px（相对 -37..-30）、右块 x 881..901 px（相对 +30..+37），y 973..987 px（相对 -2.5..+2.5）；底线 y 1098..1100 px（相对 +40），四上凸拱顶 y 约 1084 px（相对 +35）。QET 落位（圆心为原点）：圆 (30,20,60,60)；G 为 6×7 圆弧（start=45，angle=270）加横线 (0,0)-(3,0)，自绘、字形精度未独立核对；“=”实线 (-10,+10)-(+10,+10)、虚线 (-10,+14)-(+10,+14)；左竖干 (-50,-40)-(-50,+40)、短线 (-50,0)-(-30,0)；右绕组三左半圆弧 (x +45，y -40/-30/-20，10×10，start=90) 加竖干 (+50,-10)-(+50,+40)、短线 (+30,0)-(+50,0)；电刷方块 (-37,-2.5,7,5) 与 (+30,-2.5,7,5)（实心）；底线 (-50,+40)-(-20,+40) 与 (+20,+40)-(+50,+40)，四上半圆弧 (x -20/-10/0/+10，y +35，10×10，start=0)。
+端口适配：原文图形为圆加左右竖干、电刷方块与底线绕组，两竖干顶端为连接点；QET 适配设二端口（1=左上端 n、2=右上端 n）。电刷方块不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <ellipse x="30" y="20" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="57" y="46.5" width="6" height="7" start="45" angle="270" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="50" x2="63" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="60" x2="70" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="64" x2="70" y2="64" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="10" x2="10" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="23" y="47.5" width="7" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <arc x="105" y="10" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="20" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="105" y="30" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="110" y1="40" x2="110" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="50" x2="110" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="90" y="47.5" width="7" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="10" y1="90" x2="40" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="90" x2="110" y2="90" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="40" y="85" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="50" y="85" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="60" y="85" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="70" y="85" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="10" orientation="n" uuid="{675719ef-48e1-49bd-ad7c-d53abdf21eff}" name="1" type="Generic" />
+    <terminal x="110" y="10" orientation="n" uuid="{25568798-6b07-42d9-8972-0ddd75fda3cc}" name="2" type="Generic" />
+    <dynamic_text x="65" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1ddcc57a-ef68-437a-bd03-45dac24b68a2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

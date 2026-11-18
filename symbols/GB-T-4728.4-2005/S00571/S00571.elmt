@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="44" height="60" hotspot_x="22" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{5e515da9-6a19-4d00-b9fb-4ceea98b1a89}" />
+  <names>
+    <name lang="zh">极性电容器</name>
+    <name lang="en">Capacitor, polarized</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：5；PDF 页：9；S 号：S00571；出版标准序号：GB/T 4728.4 (ed. 2.0) 04-02-05
+名称：极性电容器 / Capacitor, polarized；状态：标准；发布日期：2001-07-01
+关键词：电容
+别名：电解电容
+采用符号：S00077，S00567
+被替代的符号：S01358
+形状类别：直线
+功能类别：C 存储
+应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；极板 (-10,-2)-(10,-2)、(-10,2)-(10,2)（20 宽，间距 4）；引线 x=0 至 y=±20；“＋”号中心 (-9,-10)，8×8（竖线 (-9,-14)-(-9,-6)，横线 (-13,-10)-(-5,-10)）。条目始于 PDF 第 9 页，元数据续于 PDF 第 10 页（印刷第 6 页）。QET 比例：1 点阵距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为两横极板＋上下竖引线＋左上“＋”号，无端口标记、无接点圆点；QET 适配在上下引线端设端口（1=(0,-20) n，2=(0,20) s），导线由对应方向接入。“＋”号为两直线绘制，非文本。</informations>
+  <description>
+    <line x1="12" y1="28" x2="32" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12" y1="32" x2="32" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22" y1="10" x2="22" y2="28" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="22" y1="32" x2="22" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="13" y1="16" x2="13" y2="24" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="9" y1="20" x2="17" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="22" y="10" orientation="n" uuid="{2732f5d9-2e12-4217-95b1-c0522dc32fff}" name="1" type="Generic" />
+    <terminal x="22" y="50" orientation="s" uuid="{0f98727a-21c7-4f8e-8d60-dae77d709220}" name="2" type="Generic" />
+    <dynamic_text x="22" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{acaa64ed-48c9-4221-9851-b0bd524a194f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

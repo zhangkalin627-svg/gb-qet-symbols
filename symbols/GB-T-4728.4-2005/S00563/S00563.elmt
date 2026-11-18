@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="62" height="26" hotspot_x="31" hotspot_y="21" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{d770e1a3-5d69-4a60-b125-5e303fcc287c}" />
+  <names>
+    <name lang="zh">带固定抽头的电阻器</name>
+    <name lang="en">Resistor with fixed tappings</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：3；PDF 页：7；S 号：S00563；出版标准序号：GB/T 4728.4(ed. 2.0)04-01-09
+名称：带固定抽头的电阻器 / Resistor with fixed tappings；标准；发布日期：2001-07-01
+关键词：电阻
+采用符号：S00555
+形状类别：直线，矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+备注：符号示出两个抽头
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；矩形外框 px x 79..166、y 82..108（宽 87 px、高 26 px），中心 (122.5,95)；引线 y≈93.5，左端 x≈31、右端 x≈213；两根抽头竖线 x≈93.5 与 x≈152.5，自矩形顶边 y≈84 上至 y≈34。QET：矩形 (-14.5,-4.5) 宽 29、高 9；引线 (-31,0)-(-14.5,0)、(14.5,0)-(31,0)；抽头 (-10,-20.5)-(-10,-4.5)、(10,-20.5)-(10,-4.5)。
+端口适配：原文图形为矩形加两端引线，矩形顶边引出两根竖直抽头线；QET 适配设四端口：1=左引线外端 (-31,0) w、2=右引线外端 (31,0) e、3=左抽头顶端 (-10,-20.5) n、4=右抽头顶端 (10,-20.5) n。</informations>
+  <description>
+  <line x1="-14.5" y1="-4.5" x2="14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="-4.5" x2="14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="4.5" x2="-14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-14.5" y1="4.5" x2="-14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-31" y1="0" x2="-14.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="0" x2="31" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-10" y1="-20.5" x2="-10" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="10" y1="-20.5" x2="10" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <terminal x="-31" y="0" orientation="w" uuid="{987e6da0-da70-4f47-be55-d8bde4543115}" name="1" type="Generic" />
+  <terminal x="31" y="0" orientation="e" uuid="{7a20996b-56de-430a-8ce6-3d395477dd2e}" name="2" type="Generic" />
+  <terminal x="-10" y="-20.5" orientation="n" uuid="{1117eac4-0f28-4540-9137-2a4865d301b7}" name="3" type="Generic" />
+  <terminal x="10" y="-20.5" orientation="n" uuid="{be86c4d8-e250-444e-9385-46b04bc39ae0}" name="4" type="Generic" />
+  <dynamic_text x="-31" y="-29" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d2de8578-40c1-4ac7-9442-fa977babc59d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>

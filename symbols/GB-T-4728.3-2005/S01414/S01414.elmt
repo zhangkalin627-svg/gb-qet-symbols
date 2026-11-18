@@ -1,0 +1,43 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="102" height="36" hotspot_x="51" hotspot_y="18">
+    <uuid uuid="{5a44784f-68c2-48f2-ad96-32ff09dfec93}"/>
+    <names>
+        <name lang="zh">定向连接</name>
+        <name lang="en">Directed connection</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版
+印刷页：25；PDF 页：29；S 号：S01414；出版标准序号：未在原页刊载 03-xx-xx 编号（新符号；原页“新符号”栏）
+名称：定向连接 / Directed connection；状态：标准；发布日期：2003-01-24
+应用注释：A00192，A00262，A00264
+符号限制：如果没有电气连接，该符号不适用，如捆扎
+备注：斜线应指向连接点的方向，所示符号是从右到左的一根导线，通过一个位于左边的连接点连接到末端。
+采用符号：S00001，S00058
+应用类别：电路图，接线图，安装图，概略图
+功能类别：W 导引或输送，X 连接
+形状类别：直线
+关键词：分支，电缆，导线，连接
+更改要求：C00075
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；QET 0.90 以外版本未核。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 32 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：空心圆中心 (3,3)、外径 6 单位（实测外缘 x 1060-1077 px、y 854-871 px，圆心 (1068.5,862.5) px）；点线横段 (6,3)-(24.5,3)（实测圆点 x 1084-1137 px、间距约 7 px）；实线横线 (24.5,3)-(102,3)（实测 x 1133-1366 px、中心线 y 861 px）；点线斜线 (47.5,3)-(57.5,13)（实测圆点 (1208,869)、(1213,873)、(1217,878)、(1222,883)、(1227,887) px，约 45°）；实线竖线 (57.5,13)-(57.5,36)（实测 x 1232-1233 px、y 891-961 px）；元件 102×36。原文点线段在 QET 中以虚线画出（本轮既定办法）。
+端口适配：端口 1(0,3)w（空心圆西缘，即左端连接点）、2(102,3)e（横线右端）。斜线与竖线为方向指示图形，不设端口。</informations>
+    <description>
+        <ellipse x="0" y="0" width="6" height="6" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="6" y1="3" x2="24.5" y2="3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="24.5" y1="3" x2="102" y2="3" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="47.5" y1="3" x2="57.5" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="57.5" y1="13" x2="57.5" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2c8b0cb2-25cc-4b87-a898-45f7bc5ed01e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{4710aa32-286a-46ec-a8a2-3b14297c7331}" name="1" x="0" y="3" orientation="w" type="Generic"/>
+        <terminal uuid="{0fe0ec82-4922-46f9-a4d5-0e36476366c9}" name="2" x="102" y="3" orientation="e" type="Generic"/>
+    </description>
+</definition>

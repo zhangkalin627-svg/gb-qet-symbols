@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="200" height="120" hotspot_x="100" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{2c0c2824-4613-4b6c-aab8-bb5da7e21238}" />
+  <names>
+    <name lang="zh">具有公共永久磁场的直流/直流旋转变流机</name>
+    <name lang="en">Rotary converter, DC/DC with common permanent magnet field</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：10；PDF 页：16；S 号：S00826；出版标准序号：GB/T 4728.6 06-05-04
+名称：具有公共永久磁场的直流/直流旋转变流机 / Rotary converter, DC/DC with common permanent magnet field；状态：标准；发布日期：2001-07-01
+关键词：变流机，直流电机
+采用符号：S00001、S00210、S00819、S01401；形状类别：圆；功能类别：T 保持性质的变换；应用类别：功能图，概略图
+应用注释：A00126。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。圆内字母与标记为自绘折线/圆弧表达，字形精度未独立核对。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px（1 点阵距 = 10 QET 单位）；两相切圆，圆心 (820,2318) 与 (998,2318) px（中点 (909,2318) px），直径各约 180 px；左圆 M 中心相对左圆心 (0,-3)（实测包围盒 x 811..833、y 2299..2319 px），右圆 G 中心相对右圆心 (0,-3.5)（实测包围盒 x 989..1005、y 2297..2318 px）；两圆内“=”各在相对 +10（实线）/+14（虚线）；永久磁铁：横条 y 2169..2183 px（相对 -50..-45，x 803..1016 px，相对 -36..+36）、两竖脚 y 2184..2200 px（相对 -45..-39.5，脚高约 5.7 单位、按 6 单位取，±1 单位未定）；引线 y 2318 px，左自 x 645 px（相对 -90）至左圆，右自右圆至 x 1175 px（相对 +90）；“//”斜线与引线交点：左在相对左圆心 -49.7 与 -46.3、右在 +48.6 与 +52.0，斜线长约 21 单位（相对 ±10.5 高、±5 宽）。QET 落位（两圆心中点为原点）：两圆 (40,30,60,60) 与 (100,30,60,60)；M 8×8 折线中心 (-30,-3)；G 6×7 圆弧中心 (+30,-3.5) 加横线，自绘、字形精度未独立核对；“=”各 (-40,+10)-(-20,+10)、(-40,+14)-(-20,+14) 与 (+20,+10)-(+40,+10)、(+20,+14)-(+40,+14)；磁铁横条 (-36,-50,72,5)、竖脚 (-36,-45,11,6) 与 (+25,-45,11,6)（实心）；引线 (-90,0)-(-60,0) 与 (+60,0)-(+90,0)；斜线四条：左 (-74,-10.5)-(-84,+10.5)、(-70.5,-10.5)-(-80.5,+10.5)，右 (+84,-10.5)-(+74,+10.5)、(+80.5,-10.5)-(+70.5,+10.5)。
+端口适配：原文图形为两相切圆加顶部永久磁铁与左右引线（引线带“//”标记），两引线外端为连接点；QET 适配设二端口（1=左端 w、2=右端 e）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <ellipse x="40" y="30" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <ellipse x="100" y="30" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="66" y1="53" x2="66" y2="61" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="66" y1="53" x2="70" y2="58" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="58" x2="74" y2="53" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="74" y1="53" x2="74" y2="61" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="127" y="53" width="6" height="7" start="45" angle="270" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="56.5" x2="133" y2="56.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="70" x2="80" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="74" x2="80" y2="74" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="120" y1="70" x2="140" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="120" y1="74" x2="140" y2="74" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <rect x="64" y="10" width="72" height="5" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <rect x="64" y="15" width="11" height="6" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <rect x="125" y="15" width="11" height="6" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <line x1="10" y1="60" x2="40" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="160" y1="60" x2="190" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="49.5" x2="16" y2="70.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="29.5" y1="49.5" x2="19.5" y2="70.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="184" y1="49.5" x2="174" y2="70.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="180.5" y1="49.5" x2="170.5" y2="70.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="60" orientation="w" uuid="{8869c442-dc20-4a09-9bc8-e08bf5e6107d}" name="1" type="Generic" />
+    <terminal x="190" y="60" orientation="e" uuid="{61fd2e2e-62ca-4ce2-b58b-0b95c18b62f1}" name="2" type="Generic" />
+    <dynamic_text x="105" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{242a7a9d-e22c-4f6c-a2a4-346f43d35d51}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

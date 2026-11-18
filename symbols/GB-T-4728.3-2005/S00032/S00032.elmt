@@ -1,0 +1,37 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="50" height="20" hotspot_x="20" hotspot_y="10">
+    <uuid uuid="{757ad415-580e-455a-ab47-0c4b810ed99e}"/>
+    <names>
+        <name lang="zh">阳接触件（连接器的）</name>
+        <name lang="en">Contact, male (of a socket or plug)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：13；PDF 页：17；S 号：S00032；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-03
+名称：阳接触件（连接器的） / Contact, male (of a socket or plug)；状态：标准；发布日期：2001-07-01
+关键词：连接器件,插头
+别名：插头
+用于：S00033,S00038,S00039,S00043,S00047,S00048,S00049,S01329
+应用注释：A00007
+被替代的符号：S01353
+形状类别：矩形
+功能类别：X 连接
+应用类别：电路图,接线图,功能图,安装简图,概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；独立复核未做；几何与原文逐像素比对未做（仅结构＋关键尺寸核对）。
+几何比例（实测，300 dpi 渲染）：点阵间距：第 15 页实测 21.5 px，其余页约 30 px；QET 比例：1 点阵距 = 10 单位；60 px 模 = 20 单位。300dpi 实测（点阵间距 30px=10 单位；矩形中心为坐标原点）：实心矩形 20×9 单位（实测 63×26px，宽 2 点距、高 0.9 点距）；引线自矩形右缘向东 20 单位（实测 60px=2 点距），y=0。
+端口适配：原文图形无端口标记；QET 适配在引线右端设一端口（端口 1 朝东）。实心矩形左端为插合面，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <rect x="10" y="6" width="20" height="9" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <line x1="30" y1="10" x2="50" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{d07ca9e9-b3f3-4be2-90bb-622a98f033cc}" name="1" x="50" y="10" orientation="e" type="Generic"/>
+        <dynamic_text x="0" y="-12" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8bd9af92-2d87-4b62-9a0c-d2403c99a7aa}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

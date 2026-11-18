@@ -1,0 +1,53 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="82" height="32" hotspot_x="41" hotspot_y="16">
+    <uuid uuid="{a7a04ff5-a2a4-437f-ac50-6a15fa059d8a}"/>
+    <names>
+        <name lang="zh">带绕组的磁致伸缩延迟线</name>
+        <name lang="en">Delay line, magnetostrictive with windings</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：17；PDF 页：21；S 号：S00604；出版标准序号：GB/T 4728.4(ed.2.0)04-08-01
+名称：带绕组的磁致伸缩延迟线 / Delay line, magnetostrictive with windings；状态：标准；发布日期：2001-07-01
+关键词：延迟线；采用符号：S00122,S00124
+形状类别：箭头,半圆,直线；功能类别：R 限制或稳定；应用类别：电路图,接线图,功能图
+备注：集中表示法示出三个绕组。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 24.5 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：条(0,0)-(81,0)，端刻±4.5；三箭头 y=10（杆 15，头 5×4）；三绕组各两上半圆（Ø10）＋外腿至 y=31；元件 81×31。
+端口适配：端口 1(0,0)w（条左端）、2(81,0)e（条右端）。原文条两端无引出线；端口设于条端点，导线触及条端。</informations>
+    <description>
+        <line x1="0" y1="0" x2="81" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="-4.5" x2="0" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="81" y1="-4.5" x2="81" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="10" x2="15" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="15" y1="8" x2="15" y2="12" x3="20" y3="10" />
+        <line x1="30" y1="10" x2="45" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="45" y1="8" x2="45" y2="12" x3="50" y3="10" />
+        <line x1="60" y1="10" x2="75" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="75" y1="8" x2="75" y2="12" x3="80" y3="10" />
+        <arc x="0" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="10" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="30" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="40" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="61" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="71" y="15" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="0" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="20" x2="20" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="30" y1="20" x2="30" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="50" y1="20" x2="50" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="61" y1="20" x2="61" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="81" y1="20" x2="81" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{e4b9d021-980c-4795-bf1c-c0809e4afbc6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{7e0f5b61-5c7b-4cfa-a5f0-57efa5b10abe}" name="1" x="0" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{509728dd-417d-4a7b-a3a7-cb32e5329c8f}" name="2" x="81" y="0" orientation="e" type="Generic"/>
+    </description>
+</definition>

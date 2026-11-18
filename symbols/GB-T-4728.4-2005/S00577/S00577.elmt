@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="80" height="62" hotspot_x="40" hotspot_y="31" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{d4e50e01-7558-4622-b8e8-4f97af736137}" />
+  <names>
+    <name lang="zh">差动电容器</name>
+    <name lang="en">Capacitor, differential</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：7；PDF 页：11；S 号：S00577；出版标准序号：GB/T 4728.4 (ed. 2.0) 04-02-11
+名称：差动电容器 / Capacitor, differential；状态：标准；发布日期：2001-07-01
+关键词：电容
+采用符号：S00081，S00567
+被替代的符号：S01361
+形状类别：箭头，直线
+功能类别：C 存储
+应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；上极板两段 (-30,-2)-(-10,-2)、(10,-2)-(30,-2)，下极板通长 (-30,2)-(30,2)；上引线 x=±20 至 y=-21，下引线 x=0 至 y=+21；斜箭头 (-11,10.5)-(15,-14)，箭头三角形 (15,-14),(11,-6.5),(7.5,-10)。QET 比例：1 点阵距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为两段上极板＋通长下极板＋三引线＋一斜箭头，无端口标记、无接点圆点；QET 适配在三引线端设端口（1=(-20,-21) n，2=(20,-21) n，3=(0,21) s），导线由对应方向接入。箭头为实心三角（QET 多边形填充），斜率约 -1。</informations>
+  <description>
+    <line x1="10" y1="29" x2="30" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="29" x2="70" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="33" x2="70" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="10" x2="20" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="60" y1="10" x2="60" y2="29" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="33" x2="40" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="29" y1="41.5" x2="55" y2="17" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="55" y1="17" x2="51" y2="24.5" x3="47.5" y3="21" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <terminal x="20" y="10" orientation="n" uuid="{f03069b3-0184-4d23-afc3-35604324bb98}" name="1" type="Generic" />
+    <terminal x="60" y="10" orientation="n" uuid="{ae4c734f-c279-42f5-b0ef-0a48ab9539d2}" name="2" type="Generic" />
+    <terminal x="40" y="52" orientation="s" uuid="{ebce5c9e-1c46-4873-bdf1-7558b470a755}" name="3" type="Generic" />
+    <dynamic_text x="40" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{22c53e23-0a35-4984-9d2e-0a8963858301}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

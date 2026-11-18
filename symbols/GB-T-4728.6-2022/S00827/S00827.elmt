@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="200" height="120" hotspot_x="110" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{d57b44ca-00d1-429d-81db-7208ce9df171}" />
+  <names>
+    <name lang="zh">具有公共励磁绕组的直流/直流旋转变流机</name>
+    <name lang="en">Rotary converter, DC/DC with common excitation winding</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：11；PDF 页：17；S 号：S00827；出版标准序号：GB/T 4728.6 06-05-05
+名称：具有公共励磁绕组的直流/直流旋转变流机 / Rotary converter, DC/DC with common excitation winding；状态：标准；发布日期：2001-07-01
+关键词：变流机，直流电机
+采用符号：S00583、S00819、S01401；形状类别：圆，半圆；功能类别：T 保持性质的变换；应用类别：电路图
+应用注释：A00126。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。圆内字母与标记为自绘折线/圆弧表达，字形精度未独立核对。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px（1 点阵距 = 10 QET 单位）；两相切圆，圆心 (882.7,686) 与 (1060.3,686) px（中点 (971.5,686) px），直径各约 180 px；左圆 M 中心相对左圆心 (0,-1)（实测包围盒 x 873..895、y 673..693 px），右圆 G 中心相对右圆心 (0,-0.5)（实测包围盒 x 1054..1070、y 674..695 px）；两圆内“=”各在相对 +10（实线）/+14（虚线）；顶部励磁绕组：外横线 y 537..539 px（相对 -50），外竖干 x 704..706 px（相对 -90，y -50..+10），内横线 y 567..569 px（相对 -40），内竖干 x 734..736 px（相对 -80，y -40..-10），四下凸拱底 y 约 581.5 px（相对 -35），右折段 x 1031..1033 px、y 537..575 px（相对 +20，y -50..-37）；左右引线：左 x 675..800 px（相对 -100..-60）、右 x 1143..1209 px（相对 +60..+80），y 656 与 716 px（相对 ±10）。QET 落位（两圆心中点为原点）：两圆 (50,30,60,60) 与 (110,30,60,60)；M 8×8 折线中心 (-30,-1)；G 6×7 圆弧中心 (+30,-0.5) 加横线，自绘、字形精度未独立核对；“=”各 (-40,+10)-(-20,+10)、(-40,+14)-(-20,+14) 与 (+20,+10)-(+40,+10)、(+20,+14)-(+40,+14)；绕组：外横线 (-90,-50)-(+20,-50)、外竖干 (-90,-50)-(-90,+10)、内横线 (-80,-40)-(-20,-40)、内竖干 (-80,-40)-(-80,-10)、四下半圆弧 (x -20/-10/0/+10，y -40，10×10，start=180)、右折段 (+20,-50)-(+20,-37)；引线 (-100,-10)-(-60,-10)、(-100,+10)-(-60,+10) 与 (+60,-10)-(+80,-10)、(+60,+10)-(+80,+10)。注意左右引线不对称：左端相对 -100、右端相对 +80，照实测。
+端口适配：原文图形为两相切圆加顶部共用励磁绕组与四引线，四引线外端为连接点；QET 适配设四端口（1=左上 w、2=左下 w、3=右上 e、4=右下 e）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <ellipse x="50" y="30" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <ellipse x="110" y="30" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="76" y1="55" x2="76" y2="63" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="76" y1="55" x2="80" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="60" x2="84" y2="55" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="84" y1="55" x2="84" y2="63" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="137" y="56" width="6" height="7" start="45" angle="270" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="140" y1="59.5" x2="143" y2="59.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="70" x2="90" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="74" x2="90" y2="74" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="70" x2="150" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="74" x2="150" y2="74" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="10" x2="130" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="10" x2="20" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="20" x2="90" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="20" x2="30" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="90" y="20" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="100" y="20" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="110" y="20" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="120" y="20" width="10" height="10" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="130" y1="10" x2="130" y2="23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="50" x2="50" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="70" x2="50" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="170" y1="50" x2="190" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="170" y1="70" x2="190" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="50" orientation="w" uuid="{8e71c8bd-e71f-4f24-b9a2-50066f703ad7}" name="1" type="Generic" />
+    <terminal x="10" y="70" orientation="w" uuid="{bf9175e1-ddeb-41a9-8943-5846cf011eb5}" name="2" type="Generic" />
+    <terminal x="190" y="50" orientation="e" uuid="{e9c8a786-f1e5-445f-b68b-27da11f17160}" name="3" type="Generic" />
+    <terminal x="190" y="70" orientation="e" uuid="{07f53d2c-beca-4e4c-9335-193bc1f36469}" name="4" type="Generic" />
+    <dynamic_text x="115" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{eeec8fd4-242d-41f1-b58a-176aa236d984}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

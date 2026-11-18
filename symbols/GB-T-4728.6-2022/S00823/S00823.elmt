@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="100" height="110" hotspot_x="50" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{a20a89d4-bdfe-48ef-a87b-aa14f0408c57}" />
+  <names>
+    <name lang="zh">直流串励电动机</name>
+    <name lang="en">Series motor, DC</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：9；PDF 页：15；S 号：S00823；出版标准序号：GB/T 4728.6 06-05-01
+名称：直流串励电动机 / Series motor, DC；状态：标准；发布日期：2001-07-01
+关键词：直流电机，电动机
+采用符号：S00583、S00819、S01401；形状类别：圆，半圆；功能类别：M 提供机械能；应用类别：电路图
+应用注释：A00126。
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。圆内字母与标记为自绘折线/圆弧表达，字形精度未独立核对。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px（1 点阵距 = 10 QET 单位）；圆心 (794,1361.5) px，直径约 180 px；M 中心相对 (0,-4)；直流限定符“=”：实线 y 1389..1391 px（相对 +10），虚线 y 1401..1403 px（相对 +14），x 763..826 px（相对 -10.6..+10.6）；左竖干 x 675..677 px，y 1213..1362 px（相对 (-40,-50)-(-40,0)）；右绕组线 x 898..900 px，凸点中线 y 1220..1237、1250..1267、1280..1297 px（凸点中心相对 y -45、-35、-25，左凸 5 单位）。QET 落位（圆心为原点）：圆 (20,30,60,60)；M 8×8 折线中心 (0,-4)；“=”实线 (-10,+10)-(+10,+10)、虚线 (-10,+14)-(+10,+14)（单条 line-style:dashed 线，S00894 前例）；左竖干 (-40,-50)-(-40,0)、左短线 (-40,0)-(-29,0)；右绕组三左半圆弧 (x +35，y -50/-40/-30，10×10，start=90) 加竖干 (+40,-20)-(+40,0)、右短线 (+29,0)-(+40,0)。
+端口适配：原文图形为圆加左右竖干（左直干、右绕组线）与两短线，两竖干顶端为连接点；QET 适配设二端口（1=左上端 n、2=右上端 n）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <ellipse x="20" y="30" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="46" y1="52" x2="46" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="46" y1="52" x2="50" y2="57" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="57" x2="54" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="54" y1="52" x2="54" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="70" x2="60" y2="70" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="74" x2="60" y2="74" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="10" x2="10" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="60" x2="21" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="85" y="10" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="85" y="20" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="85" y="30" width="10" height="10" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="40" x2="90" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="79" y1="60" x2="90" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="10" orientation="n" uuid="{2019dc04-ec56-4e91-852c-77fc7a34dbc1}" name="1" type="Generic" />
+    <terminal x="90" y="10" orientation="n" uuid="{fa5f93da-43db-4dbc-a07e-31a64451ca7e}" name="2" type="Generic" />
+    <dynamic_text x="55" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{19e5bfcb-dbe0-41a8-8430-44f72939f582}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

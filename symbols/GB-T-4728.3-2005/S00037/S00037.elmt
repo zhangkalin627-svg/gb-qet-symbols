@@ -1,0 +1,35 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="41" height="40" hotspot_x="31" hotspot_y="20">
+    <uuid uuid="{4f428544-0a2a-4701-8a43-d74c7c844a62}"/>
+    <names>
+        <name lang="zh">连接器·组件的可动部分</name>
+        <name lang="en">Connector, movable portion of an assembly</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：15；PDF 页：19；S 号：S00037；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-10
+名称：连接器·组件的可动部分 / Connector, movable portion of an assembly；状态：标准；发布日期：2001-07-01
+关键词：连接器件,连接器
+用于：S00038；应用注释：A00008
+形状类别：矩形；功能类别：X 连接；应用类别：电路图,接线图,功能图,安装简图,概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.8 px；本体高 4.1 格、宽 2.0 格，左端半椭圆（横半轴 0.7 格、纵半轴 2.0 格），引线长 2.1 格。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形左端一根引线；QET 适配在引线西端设一个端口（w，端口 1）。</informations>
+    <description>
+        <line x1="-31" y1="0" x2="-10" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-3" y1="-20" x2="10" y2="-20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="10" y1="-20" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-3" y1="20" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <arc x="-10" y="-20" width="14" height="40" start="90" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-30" y="-24.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{bb337c85-4d6e-4040-a630-8c85a172bb05}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{24a15dc2-a4cc-4a83-b417-5e9208f00f01}" name="1" x="-31" y="0" orientation="w" type="Generic"/>
+    </description>
+</definition>

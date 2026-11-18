@@ -1,0 +1,40 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="60" height="40" hotspot_x="30" hotspot_y="20">
+    <uuid uuid="{a00195ab-6f42-4d97-a0e9-5510ab128678}"/>
+    <names>
+        <name lang="zh">具有压电传感器式的水银延迟线</name>
+        <name lang="en">Delay line, mercury type with piezoelectric transducers</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：20；PDF 页：24；S 号：S00611；出版标准序号：GB/T 4728.4(ed.2.0)04-09-04
+名称：具有压电传感器式的水银延迟线 / Delay line, mercury type with piezoelectric transducers；状态：标准；发布日期：2001-07-01
+关键词：未录；采用符号：S00600,S00608
+形状类别：直线,正方形；功能类别：未录；应用类别：未录
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）。内条 y 按最大行取。'Hg' 未绘入：QET 0.90 实测不渲染 .elmt 静态 text 元素（载入后无显示，2026-11-18 截图核实），已从图形中略去、仅在此记录位置。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 24.5 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：框 40×40；内条 (15,7)-(45,7)，端刻±4；原文标注 'Hg'（实测位置 24,19）未绘入（QET 0.90 不渲染静态 text，见待核限制）；小矩形 (19,26,21,8)；上下横线 y=23/37；引线左右 y=20；元件 60×40。
+端口适配：端口 1(0,20)w、2(60,20)e（引线两端）。</informations>
+    <description>
+        <rect x="10" y="0" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="15" y1="7" x2="45" y2="7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="15" y1="3" x2="15" y2="11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="45" y1="3" x2="45" y2="11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="19" y="26" width="21" height="8" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="24" y1="23" x2="36" y2="23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="24" y1="37" x2="36" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="10" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="50" y1="20" x2="60" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{5ee94d2e-3c66-4de4-b810-e3c667e8d595}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{4d84bae7-93c8-431c-bd40-76c9b033484d}" name="1" x="0" y="20" orientation="w" type="Generic"/>
+        <terminal uuid="{6abded8a-7059-4791-8d1d-d51f90f732a2}" name="2" x="60" y="20" orientation="e" type="Generic"/>
+    </description>
+</definition>

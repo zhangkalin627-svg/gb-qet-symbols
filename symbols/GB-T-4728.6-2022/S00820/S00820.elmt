@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="80" height="80" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{fadc001f-ef5f-422d-a092-95c105e4f889}" />
+  <names>
+    <name lang="zh">直线电动机，一般符号</name>
+    <name lang="en">Linear motor, general symbol</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.6-2022（IEC 60617 database）
+版次：2022 版现行版（代替 GB/T 4728.6-2008）
+印刷页：8；PDF 页：14；S 号：S00820；出版标准序号：GB/T 4728.6 06-04-02
+名称：直线电动机，一般符号 / Linear motor, general symbol；状态：标准；发布日期：2001-07-01
+关键词：电机类型，电动机
+用于：S00840；采用符号：S00819；形状类别：字符，圆，直线；功能类别：M 提供机械能；应用类别：电路图，接线图，功能图，安装简图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：a7e3e654581c5f797a7c8d8ae5353df0a8b38181b681345f7c33b158c93a97bf（GB-T_4728.6-2022，72 页）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.6-2022 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。尺寸单位为 QET 画布单位。圆内字母与标记为自绘折线/圆弧表达，字形精度未独立核对。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.6 px（1 点阵距 = 10 QET 单位）；圆心 (732.5,1908.5) px，直径约 180 px；M 位于圆心（实测包围盒 x 725..746、y 1897..1918 px，约 7.4×7.1 单位）；水平线 y 约 1967..1969 px（相对 +20），x 643..822 px（相对 -30..+30），两端略出圆外。QET 落位（圆心为原点）：圆 (10,10,60,60)；M 为 8×8 折线（竖干 x ±4、y ±4，中折点 (0,+1)）；水平线 (-30,+20)-(+30,+20)。
+端口适配：原文图形为圆内 M 加一条横贯线，无引线、无连接点；零端子件，不设端口，不参与网表。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <ellipse x="10" y="10" width="60" height="60" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="36" x2="36" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="36" y1="36" x2="40" y2="41" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="41" x2="44" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="36" x2="44" y2="44" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="60" x2="70" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <dynamic_text x="45" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d3865af4-e047-431a-9ff8-e7f73251118d}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

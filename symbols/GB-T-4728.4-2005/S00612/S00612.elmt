@@ -1,0 +1,40 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="71" height="40" hotspot_x="36" hotspot_y="20">
+    <uuid uuid="{36d2c15a-d2dd-4a1b-ac81-292bfa2ae468}"/>
+    <names>
+        <name lang="zh">仿真延迟线</name>
+        <name lang="en">Delay line, artificial line type</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：20；PDF 页：24；S 号：S00612；出版标准序号：GB/T 4728.4(ed.2.0)04-09-05
+名称：仿真延迟线 / Delay line, artificial line type；状态：标准；发布日期：2001-07-01
+关键词：未录；采用符号：S00608
+形状类别：直线,正方形；功能类别：未录；应用类别：未录
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）。引线左长 21、右长 11 为实测值，不对称，待视觉门确认。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 24.5 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：框 40×40；内条 (26,10)-(57,10)，端刻±4；'I' 形（竖杆 x=41.5，y14–31，上下衬线 38–45）；引线左右 y=20；元件 71×40。
+端口适配：端口 1(0,20)w、2(71,20)e（引线两端）。</informations>
+    <description>
+        <rect x="21" y="0" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="26" y1="10" x2="57" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="26" y1="6" x2="26" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="57" y1="6" x2="57" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="38" y1="14" x2="45" y2="14" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="41.5" y1="14" x2="41.5" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="38" y1="31" x2="45" y2="31" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="21" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="61" y1="20" x2="71" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{f89041b6-1fb7-4024-b350-1192fc859ac9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{63fb4679-6052-4fc2-bcfa-e59a6150833a}" name="1" x="0" y="20" orientation="w" type="Generic"/>
+        <terminal uuid="{c76e3832-56dc-4682-a52a-941a1f353991}" name="2" x="71" y="20" orientation="e" type="Generic"/>
+    </description>
+</definition>

@@ -1,0 +1,48 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="82" height="46" hotspot_x="41" hotspot_y="23">
+    <uuid uuid="{153230b8-8402-4cf2-be89-dd88905a152f}"/>
+    <names>
+        <name lang="zh">具有压电传感器的固体材料延迟线</name>
+        <name lang="en">Delay line, solid material type with piezoelectric transducers</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：18；PDF 页：22；S 号：S00607；出版标准序号：GB/T 4728.4(ed.2.0)04-08-04
+名称：具有压电传感器的固体材料延迟线 / Delay line, solid material type with piezoelectric transducers；状态：标准；发布日期：2001-07-01
+关键词：延迟线,压电晶体,传感器；采用符号：S00114,S00124,S00600
+形状类别：直线,矩形；功能类别：未录；应用类别：未录
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 24.5 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：条 (8,17)-(75,17)，端刻±3；影线矩形 (32,0,17,9)，三斜线；换能器矩形 (13,21,9,25)、(62,21,9,25)；四竖电极；横线 (0,33)-(33,33)、(49,33)-(82,33)；元件 82×46。
+端口适配：端口 1(0,33)w、2(33,33)e（左横线两端）、3(49,33)w、4(82,33)e（右横线两端）。</informations>
+    <description>
+        <line x1="8" y1="17" x2="75" y2="17" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="8" y1="14" x2="8" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="75" y1="14" x2="75" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="32" y="0" width="17" height="9" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="39" y1="0" x2="35" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="44" y1="0" x2="40" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="49" y1="0" x2="45" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="13" y="21" width="9" height="25" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <rect x="62" y="21" width="9" height="25" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="25" x2="10" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="25" y1="25" x2="25" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="59" y1="25" x2="59" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="74" y1="25" x2="74" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="33" x2="33" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="49" y1="33" x2="82" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a3129230-1813-43c9-8827-b07d646e19a4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{e165ec71-74f6-470d-a4d3-fcd29145c678}" name="1" x="0" y="33" orientation="w" type="Generic"/>
+        <terminal uuid="{e9a6a2fd-acd5-4ed2-a791-bbabcb6a8bd3}" name="2" x="33" y="33" orientation="e" type="Generic"/>
+        <terminal uuid="{1b05ec5f-965d-453e-bd07-60ace7fd20b4}" name="3" x="49" y="33" orientation="w" type="Generic"/>
+        <terminal uuid="{50ccba58-3bf0-4b86-837c-bdb3d399a50a}" name="4" x="82" y="33" orientation="e" type="Generic"/>
+    </description>
+</definition>

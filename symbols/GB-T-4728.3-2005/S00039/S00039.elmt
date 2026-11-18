@@ -1,0 +1,48 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="84" height="24" hotspot_x="42" hotspot_y="12">
+    <uuid uuid="{3768a122-8154-4f70-a090-59509cabed7e}"/>
+    <names>
+        <name lang="zh">电话型插塞和插孔</name>
+        <name lang="en">Telephone type plug and jack</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：16；PDF 页：20；S 号：S00039；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-12
+名称：电话型插塞和插孔 / Telephone type plug and jack；状态：标准；发布日期：2001-07-01
+关键词：连接器件,插塞,插孔
+采用符号：S00017；S00032；应用注释：A00009
+备注：本符号示出二个极。
+形状类别：圆,描述,直线,矩形；功能类别：X 连接；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 27.8 px；西侧两插头（上插头实心矩形 1.7×0.4 格，下插头 0.9×0.4 格），中部插孔条宽 0.7 格、高 2.4 格（中部开槽），上极断开触头为 V 形，东侧两端子圆 Ø0.4 格。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形西侧两根引线、东侧两个端子圆；QET 适配在四处外端各设一个端口（w 端口 1、2，e 端口 3、4）。端子圆为 S00017 同形端子标记，端口设于圆外缘。</informations>
+    <description>
+        <line x1="-41.6" y1="-1.1" x2="-28.7" y2="-1.1" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-28.7" y="-2.9" width="16.8" height="4.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x1="-41.6" y1="9" x2="-29.1" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-29.1" y="6.8" width="9" height="4.3" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-6.5" y="-11.9" width="6.6" height="6.1" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-6.5" y="5.7" width="6.6" height="6.2" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-6.5" y="-5.8" width="1.8" height="11.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="-1.8" y="-5.8" width="1.9" height="11.5" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x1="3.6" y1="-12" x2="10" y2="-4.7" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="10" y1="-4.7" x2="13.6" y2="-11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="13.6" y1="-11" x2="37.6" y2="-11" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="37.4" y="-13" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="0.1" y1="9" x2="37.6" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="37.4" y="7" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-41" y="-16.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{388b900b-bb4f-4a99-8baf-3c9752260193}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{e8216ea2-6f57-498e-8841-578a125d72b0}" name="1" x="-41.6" y="-1.1" orientation="w" type="Generic"/>
+        <terminal uuid="{42a968ff-c99a-4c2a-b3df-37ba688cf6de}" name="2" x="-41.6" y="9" orientation="w" type="Generic"/>
+        <terminal uuid="{92bcbcff-0a23-4e33-9e33-a2525759b4f4}" name="3" x="41.4" y="-11" orientation="e" type="Generic"/>
+        <terminal uuid="{096768fb-db11-4919-9633-757be1056017}" name="4" x="41.4" y="9" orientation="e" type="Generic"/>
+    </description>
+</definition>

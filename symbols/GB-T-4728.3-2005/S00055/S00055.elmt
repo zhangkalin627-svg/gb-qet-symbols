@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="140" height="80" hotspot_x="70" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{2c909206-ec62-4f62-891c-8a07610d2195}" />
+  <names>
+    <name lang="zh">接线盒（单线表示）</name>
+    <name lang="en">Junction box (single-line representation)</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：21；PDF 页：25；S 号：S00055；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-04-06
+名称：接线盒（单线表示） / Junction box (single-line representation)；状态：标准；发布日期：2001-07-01
+关键词：电缆配件
+其他形式：S00054
+采用符号：S00003;S00019;S00053
+备注：本符号用单线表示带 T 型连接的三根导线
+形状类别：字符，直线，平行四边形；功能类别：X 连接；应用类别：接线图，安装简图，网络图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 2018 现行版逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；点阵中心 (242,64) 对应 QET (70,30)。单线 y64、x32–450 px → QET (0,30)-(140,30)。扁菱形四顶点：顶 (241.5,32.5)、右 (302,64)、底 (241.5,96)、左 (183,64) px → QET (70,19.5)、(90,30)、(70,41)、(50,30)。两处“3”标记与 S00053 同式：左斜线 (130,27)-(76,81) px → QET (32,17.5)-(14,36)，左“3”字 x116–128、y29–48 px → QET 静态 text (27,24.5) size 9；右斜线 (427,26)-(373,80) px → QET (133,17)-(114,35.5)，右“3”字 x414–426、y29–48 px → QET 静态 text (128,24.5) size 9。T 形分支：竖线 x241.5 自菱形底顶点 y96 下延至 y185 px → QET (70,41)-(70,71)；分支斜线 (281,118)-(225,169) px → QET (83,48.5)-(64,65.5)，约 45°；分支“3”字 x270–282、y118–138 px（竖线右侧）→ QET 静态 text (79.5,55) size 9。
+端口适配：原文图形为单线＋扁菱形＋向下 T 形分支＋三处“3”标记（单线表示带 T 型连接的三根导线）；QET 适配在线两端与分支下端各设一端口（1=(0,30) w、2=(140,30) e、3=(70,71) s），导线由对应方向接入；“3”字用静态 text 画出（S00003 先例，size 9）。端口为 QET 适配，不是标准图形的组成部分。</informations>
+  <description>
+    <line x1="0" y1="30" x2="140" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="19.5" x2="90" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="90" y1="30" x2="70" y2="41" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="41" x2="50" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="50" y1="30" x2="70" y2="19.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="32" y1="17.5" x2="14" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="133" y1="17" x2="114" y2="35.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="70" y1="41" x2="70" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="83" y1="48.5" x2="64" y2="65.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <text text="3" x="27" y="24.5" size="9"/>
+    <text text="3" x="128" y="24.5" size="9"/>
+    <text text="3" x="79.5" y="55" size="9"/>
+    <terminal x="0" y="30" orientation="w" uuid="{f362ac38-1469-40e0-83d9-75027253243f}" name="1" type="Generic" />
+    <terminal x="140" y="30" orientation="e" uuid="{38878576-4c76-4552-8cc5-c3dd9df78b4f}" name="2" type="Generic" />
+    <terminal x="70" y="71" orientation="s" uuid="{00af59cc-9e19-4e0f-b05a-6b3f1813b346}" name="3" type="Generic" />
+    <dynamic_text x="75" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3e89de3d-a898-4d46-acf9-f2c170804c7e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

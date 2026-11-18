@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="140" height="37" hotspot_x="70" hotspot_y="19" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{1a2c1da2-2d69-5894-bd68-f71eb80f415d}" />
+  <names>
+    <name lang="zh">带磁芯的同轴扼流圈</name>
+    <name lang="en">Coaxial choke with magnetic core</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：11–12；PDF 页：15–16；S 号：S00591；出版标准序号：GB/T 4728.4(ed. 2.0)04-03-09
+名称：带磁芯的同轴扼流圈 / Coaxial choke with magnetic core；状态：标准；发布日期：2001-07-01
+关键词：扼流圈，同轴电缆
+采用符号：S00011，S00583，S00585
+形状类别：圆，半圆，直线；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；上横线 y=0 长 120 单位（实测约 1056–1413 px），下横线 y=+9 长 100 单位（实测约 1085–1384 px）；两圆 Ø16 单位，圆心 (-40,0) 与 (41.5,0)（实测左圆心约 (1114,2802.5) px、右圆心约 (1358,2802.5) px，半径约 24 px），上横线穿过两圆心，下横线在两圆底下方约 1 单位处；上下各 4 个上半圆弧（弧径 10 单位），上排基线 y=0、下排基线 y=+9；磁芯横线 y=-7.5，自 x=-19 至 x=+22（实测约 1178–1301 px、线心约 2780.5 px）；画布 140×37 单位（热点 (70,19)）；图形纵向 -8–9、横向 -60–60。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形无端口标记；端口 1(10,18)w；端口 2(130,18)e；端口 3(20,27)w；端口 4(120,27)e。这（些）连接点是 QET 适配，不是额外的标准图形。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="10" y1="18" x2="130" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="27" x2="120" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <ellipse x="22" y="10" width="16" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+    <ellipse x="103.5" y="10" width="16" height="16" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+    <arc x="50" y="13" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="60" y="13" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="70" y="13" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="80" y="13" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="50" y="22" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="60" y="22" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="70" y="22" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="80" y="22" width="10" height="10" start="0" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="51" y1="10.5" x2="92" y2="10.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="10" y="18" orientation="w" uuid="{600efa1e-ba19-5e4e-8b13-9d97c1b5cfea}" name="1" type="Generic" />
+    <terminal x="130" y="18" orientation="e" uuid="{1c82ae2d-55b8-5668-a413-e38cb090fec6}" name="2" type="Generic" />
+    <terminal x="20" y="27" orientation="w" uuid="{21ddff03-1405-5125-a8bd-21a569eec576}" name="3" type="Generic" />
+    <terminal x="120" y="27" orientation="e" uuid="{90cef98b-138f-505e-a968-0975193f4b03}" name="4" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{3feb029e-34a2-5d87-a8b0-fe0457815c47}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

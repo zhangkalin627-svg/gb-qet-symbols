@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="52" height="64" hotspot_x="26" hotspot_y="32" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{6bf6f76a-43a4-41ae-8201-e5d212c0f610}" />
+  <names>
+    <name lang="zh">压敏极性电容器</name>
+    <name lang="en">Capacitor, voltage dependent and polarized</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：8；PDF 页：12；S 号：S00582；出版标准序号：GB/T 4728.4 (ed. 2.0) 04-02-16
+名称：压敏极性电容器 / Capacitor, voltage dependent and polarized；状态：标准；发布日期：2001-07-01
+关键词：电容
+别名：半导体电容器
+采用符号：S00077，S00084，S00567
+应用注释：A00230
+形状类别：直线
+功能类别：C 存储
+应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；极板 (-10,-2)-(10,-2)、(-10,2)-(10,2)（20 宽，间距 4）；引线 x=0 至 y=±20；“＋”号中心 (-9.5,-9)，8×8；相关线：横段 (-16.5,10)-(-8.5,10)，斜段 (-8.5,10)-(14.5,-14.5)（斜率约 -1，无箭头）；U 形：竖线 x=-12.5、-5.5（y=15.5..19），下半圆弧（框 x=-12.5、y=15.5、7×7，start=180）。QET 比例：1 点阵距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为两横极板＋上下竖引线＋左上“＋”号＋一折线（横段接斜段）＋左下 U 形，无端口标记、无接点圆点；QET 适配在上下引线端设端口（1=(0,-20) n，2=(0,20) s），导线由对应方向接入。“＋”号与 U 形均为几何线条／圆弧绘制，非文本。</informations>
+  <description>
+    <line x1="16" y1="30" x2="36" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="34" x2="36" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="12" x2="26" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="34" x2="26" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16.5" y1="19" x2="16.5" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="12.5" y1="23" x2="20.5" y2="23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="9.5" y1="42" x2="17.5" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="17.5" y1="42" x2="40.5" y2="17.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="13.5" y1="47.5" x2="13.5" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20.5" y1="47.5" x2="20.5" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <arc x="13.5" y="47.5" width="7" height="7" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="26" y="12" orientation="n" uuid="{60f27394-3ac9-4e54-84ed-965d95257660}" name="1" type="Generic" />
+    <terminal x="26" y="52" orientation="s" uuid="{f29f45cc-1278-4087-8cd7-1bb253d4eaec}" name="2" type="Generic" />
+    <dynamic_text x="26" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{619926d6-bb17-4834-82be-d44b2fe6f22f}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

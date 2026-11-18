@@ -1,0 +1,44 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="99" height="65" hotspot_x="50" hotspot_y="32">
+    <uuid uuid="{bdd3e470-c53c-431e-a759-0e8c534750dd}"/>
+    <names>
+        <name lang="zh">进入线束的点</name>
+        <name lang="en">Point of access to a bundle</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版
+印刷页：25；PDF 页：29；S 号：S01415；出版标准序号：未在原页刊载 03-xx-xx 编号（新符号；原页“新符号”栏）
+名称：进入线束的点 / Point of access to a bundle；状态：标准；发布日期：2003-01-24
+应用注释：A00192，A00262
+符号限制：本符号不适用于表示电气连接
+备注：在平面布置图中，本符号表示进入导线束的点，在功能图中，该符号表示“图形线束”，也就是 2 根或更多的连线在图中占用了同一个空间
+采用符号：S00001
+应用类别：电路图，接线图，功能图，安装图，网络图，概略图
+功能类别：功能要素或属性，W 导引或输送
+形状类别：圆弧，直线
+关键词：分支，线束，电缆
+更改要求：C00075
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对＋QET 渲染截图对照）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）；QET 0.90 以外版本未核。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 32 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：点线竖段 (0,0)-(0,23)（实测圆点 x 1065-1069 px、y 2038-2115 px，间距约 7 px）；点线圆弧 1：框 (0,14,18,18)、start=180、angle=90（实测圆点 (1071,2122)、(1075,2126)、(1081,2130)、(1087,2134) px，拟合圆心 (1094,2108) px、半径约 27 px）；点线横段 (0,32)-(20,32)（实测圆点 y 2135 px、x 1068-1121 px）；实线横线 (20,32)-(99,32)（实测 x 1127-1365 px、中心线 y 2135 px）；点线圆弧 2：框 (31.5,32,24,24)、start=0、angle=90（实测圆点 (1221,2143)、(1225,2147)、(1229,2153)、(1231,2159) px，拟合圆心 (1198,2171) px、半径约 36 px）；实线竖线 (55.5,44)-(55.5,65)（实测 x 1233-1235 px、y 2162-2234 px）；元件 99×65。原文点线段与点线圆弧在 QET 中以虚线画出（本轮既定办法）。
+端口适配：端口 1(0,32)w（横线左端，即线束接入点）、2(99,32)e（横线右端）。点线竖段为接入指示图形，不设端口；本符号按原页限制不表示电气连接，端口为 QET 接线适配，见 TEST 记录。</informations>
+    <description>
+        <line x1="0" y1="0" x2="0" y2="23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="0" y="14" width="18" height="18" start="180" angle="90" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="32" x2="20" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="20" y1="32" x2="99" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="31.5" y="32" width="24" height="24" start="0" angle="90" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="55.5" y1="44" x2="55.5" y2="65" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{ceea6b09-af2d-435d-9018-845bc228c0f4}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{f712d7b3-b7b6-4f8a-8738-b9c3a37c46ab}" name="1" x="0" y="32" orientation="w" type="Generic"/>
+        <terminal uuid="{0e9a12fb-a84f-4458-8e41-32843a7b4e2a}" name="2" x="99" y="32" orientation="e" type="Generic"/>
+    </description>
+</definition>

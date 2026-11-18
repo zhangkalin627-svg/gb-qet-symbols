@@ -1,0 +1,35 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="60" height="60" hotspot_x="40" hotspot_y="30">
+    <uuid uuid="{4db63c81-5d93-4981-927b-10d5d4110f4d}"/>
+    <names>
+        <name lang="zh">连接器，组件的固定部分</name>
+        <name lang="en">Connector, fixed portion of an assembly</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：15；PDF 页：19；S 号：S00036；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-09
+名称：连接器，组件的固定部分 / Connector, fixed portion of an assembly；状态：标准；发布日期：2001-07-01
+关键词：连接器件,连接器
+用于：S00038
+应用注释：A00008
+形状类别：矩形
+功能类别：X 连接
+应用类别：电路图,接线图,功能图,安装简图,概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；独立复核未做；几何与原文逐像素比对未做（仅结构＋关键尺寸核对）。
+几何比例（实测，300 dpi 渲染）：点阵间距：第 15 页实测 21.5 px，其余页约 30 px；QET 比例：1 点阵距 = 10 单位；60 px 模 = 20 单位。300dpi 实测（点阵间距 30px=10 单位；矩形中心为坐标原点）：空心矩形 20×40 单位（实测 63×123px，宽 2 点距、高 4 点距）；引线自矩形左缘中点向西 20 单位（实测 63px=2 点距），y=0。
+端口适配：原文图形无端口标记；QET 适配在引线左端设一端口（端口 1 朝西）。矩形为连接器组件固定部分外框，右缘无引线，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <rect x="30" y="10" width="20" height="40" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="10" y1="30" x2="30" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{aa12ac7e-5977-4fd4-a190-9a920add018b}" name="1" x="10" y="30" orientation="w" type="Generic"/>
+        <dynamic_text x="0" y="-12" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{08adadb8-e37b-4e84-b5ee-6c396c2f4fb8}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

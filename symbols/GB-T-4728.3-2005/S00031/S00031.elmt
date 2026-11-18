@@ -1,0 +1,37 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="50" height="40" hotspot_x="40" hotspot_y="20">
+    <uuid uuid="{67fd40d7-0951-442f-aae0-5904c7013378}"/>
+    <names>
+        <name lang="zh">阴接触件（连接器的）</name>
+        <name lang="en">Contact, female (of a socket or plug)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：13；PDF 页：17；S 号：S00031；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-01
+名称：阴接触件（连接器的） / Contact, female (of a socket or plug)；状态：标准；发布日期：2001-07-01
+关键词：连接器件,插座
+别名：插座
+用于：S00033,S00038,S00047,S00048,S00049,S00457,S01329
+应用注释：A00006
+被替代的符号：S01352
+形状类别：半圆
+功能类别：X 连接
+应用类别：电路图,接线图,功能图,概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；独立复核未做；几何与原文逐像素比对未做（仅结构＋关键尺寸核对）。
+几何比例（实测，300 dpi 渲染）：点阵间距：第 15 页实测 21.5 px，其余页约 30 px；QET 比例：1 点阵距 = 10 单位；60 px 模 = 20 单位。300dpi 实测（点阵间距 30px=10 单位；弧心为坐标原点）：引线 y=0，x -40~ -10（实测 93px≈3 点距）；半圆弧为左半圆（start=90），半径 10 单位（实测左缘 x223、端点 x252、顶 y364、底 y420，半径 28–29px≈1 点距），开口朝东。
+端口适配：原文图形无端口标记；QET 适配在引线左端设一端口（端口 1 朝西）。半圆杯口朝东为插合面，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <line x1="0" y1="20" x2="30" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc start="90" x="30" y="10" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="20" height="20"/>
+        <terminal uuid="{5432904e-54b2-435d-82cf-4bb03c07e7d5}" name="1" x="0" y="20" orientation="w" type="Generic"/>
+        <dynamic_text x="0" y="-12" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{0a39f5a7-bcaa-4021-b7bf-1f5a24617603}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

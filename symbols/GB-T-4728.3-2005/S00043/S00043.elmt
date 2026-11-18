@@ -1,0 +1,35 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="92" height="10" hotspot_x="46" hotspot_y="5">
+    <uuid uuid="{cb3e1516-2d29-408e-8a18-4604cc48f713}"/>
+    <names>
+        <name lang="zh">对接连接器</name>
+        <name lang="en">Butt-connector</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：17；PDF 页：21；S 号：S00043；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-16
+名称：对接连接器 / Butt-connector；状态：标准；发布日期：2001-07-01
+关键词：连接器件,连接器
+采用符号：S00032
+形状类别：矩形；功能类别：X 连接；应用类别：电路图,接线图,功能图,安装简图,概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30.0 px；两实心矩形各 2.1×0.9 格，间距约 0.9 格，引线各长 2.0 格。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形西、东各一根引线；QET 适配在两引线外端各设一个端口（w 端口 1，e 端口 2）。两矩形之间的间隙为对接界面，不设端口。</informations>
+    <description>
+        <line x1="-46" y1="0" x2="-26" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <rect x="-26" y="-5" width="21" height="10" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <rect x="5" y="-5" width="21" height="10" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="true"/>
+        <line x1="26" y1="0" x2="46" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-45" y="-9.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8d4e46cc-d544-41dc-af3b-8eac18fc263c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{74b6c84c-83f9-404d-ba5d-f22b2730a265}" name="1" x="-46" y="0" orientation="w" type="Generic"/>
+        <terminal uuid="{3803f2d9-537f-48e4-a4ae-066630ee82c9}" name="2" x="46" y="0" orientation="e" type="Generic"/>
+    </description>
+</definition>

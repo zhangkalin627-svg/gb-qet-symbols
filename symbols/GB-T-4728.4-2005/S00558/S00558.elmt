@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="41" height="38" hotspot_x="20" hotspot_y="15" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{6c7d0f35-78ef-4f25-8340-63a417b3811a}" />
+  <names>
+    <name lang="zh">压敏电阻器</name>
+    <name lang="en">Resistor, voltage dependent</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：1；PDF 页：5；S 号：S00558；出版标准序号：GB/T 4728.4(ed. 2.0)04-01-04
+名称：压敏电阻器 / Resistor, voltage dependent；标准；发布日期：2001-07-01
+别名：变阻器
+关键词：电阻
+采用符号：S00211，S00555
+形状类别：直线，矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29 px；矩形外框 px x 49..133、y 50..75（宽 84 px、高 25 px），中心 (91,62.5)；引线 y≈63，左端 x≈33、右端 x≈150；斜线自左下 (65,91) 至右上折点 (130,21)，上端折为水平线至 x≈148，下端折为水平足线至 x≈46（y≈91.5）；字母 U 外框 px x 54..76、y 107..127。QET：矩形 (-14.5,-4.5) 宽 29、高 9；引线 (-20,0)-(-14.5,0)、(14.5,0)-(20.5,0)；斜线 (-9,10)-(13.5,-14.5)；足线 (-15.5,10)-(-9,10)；顶水平线 (13.5,-14.5)-(20,-14.5)；字母 U 以两竖线＋下半圆弧画出，x -13..-5、y 15.5..22.5。
+端口适配：原文图形为矩形加两端引线，另有一根斜线穿过矩形（上端向右折水平、下端向左折水平足），矩形下方有一字母 U；QET 适配在两根引线外端各设一端口（1=(-20,0) w、2=(20.5,0) e），斜线与字母 U 不设端口。</informations>
+  <description>
+  <line x1="-14.5" y1="-4.5" x2="14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="-4.5" x2="14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="4.5" x2="-14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-14.5" y1="4.5" x2="-14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-20" y1="0" x2="-14.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="0" x2="20.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-9" y1="10" x2="13.5" y2="-14.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-15.5" y1="10" x2="-9" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="13.5" y1="-14.5" x2="20" y2="-14.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-13" y1="15.5" x2="-13" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-5" y1="15.5" x2="-5" y2="19" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <arc x="-13" y="15.5" width="8" height="7" start="180" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <terminal x="-20" y="0" orientation="w" uuid="{f18510c5-8fc4-4d64-ac17-7297f18d56b5}" name="1" type="Generic" />
+  <terminal x="20.5" y="0" orientation="e" uuid="{5a802939-1ad6-4ee6-9a5a-f9084f62bd1d}" name="2" type="Generic" />
+  <dynamic_text x="-20" y="-23" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{28db75af-6391-432d-90de-98ba97d2b8cb}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>

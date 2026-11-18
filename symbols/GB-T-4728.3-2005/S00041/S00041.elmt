@@ -1,0 +1,39 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="76" height="20" hotspot_x="38" hotspot_y="10">
+    <uuid uuid="{9faa474c-7faa-45f9-b55e-dfa1f6e5d586}"/>
+    <names>
+        <name lang="zh">电话型断开的插孔；电话型隔离的插孔</name>
+        <name lang="en">Telephone type break jack, telephone type isolating jack</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：16；PDF 页：20；S 号：S00041；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-14
+名称：电话型断开的插孔；电话型隔离的插孔 / Telephone type break jack, telephone type isolating jack；状态：标准；发布日期：2001-07-01
+关键词：连接器件
+原页图形在 PDF 第 20 页，文字说明续于 PDF 第 21 页。
+形状类别：圆,描述,直线；功能类别：X 连接；应用类别：电路图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；几何为 300 dpi 原页实测换算，未做逐像素比对；独立复核未做。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；交叉斜线两条（西端上下、东端上下交叉），东侧两水平线各长约 2.5 格，端子圆 Ø0.4 格。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形西侧两根斜线端、东侧两个端子圆；QET 适配在四处外端各设一个端口（w 端口 1、2，e 端口 3、4）。西上端子经斜线连至东下端子，西下端子经斜线连至东上端子。端子圆为 S00017 同形端子标记，端口设于圆外缘。</informations>
+    <description>
+        <line x1="-38" y1="-10" x2="-12" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-38" y1="10" x2="-12" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-12" y1="-10" x2="34" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="34" y="-12" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <line x1="-12" y1="10" x2="34" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <ellipse x="34" y="8" width="4" height="4" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="true"/>
+        <dynamic_text x="-37" y="-14.5" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{d4217b31-10b3-497a-9c4a-23053f8383de}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{80547608-84f3-4a43-aaf6-150b740f1f23}" name="1" x="-38" y="-10" orientation="w" type="Generic"/>
+        <terminal uuid="{0b95107d-1208-4a1d-ba6d-d81f5b533f73}" name="2" x="-38" y="10" orientation="w" type="Generic"/>
+        <terminal uuid="{3a4f11f4-e992-4faf-ab05-00934def70e6}" name="3" x="38" y="-10" orientation="e" type="Generic"/>
+        <terminal uuid="{3ddaec60-2fb5-4bdc-85b8-d33a36f760f2}" name="4" x="38" y="10" orientation="e" type="Generic"/>
+    </description>
+</definition>

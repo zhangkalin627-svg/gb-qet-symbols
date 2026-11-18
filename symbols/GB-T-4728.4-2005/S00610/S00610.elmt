@@ -1,0 +1,38 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="59" height="40" hotspot_x="30" hotspot_y="20">
+    <uuid uuid="{4d9bfbd5-186a-4052-a507-8b8148149bf8}"/>
+    <names>
+        <name lang="zh">同轴延迟线</name>
+        <name lang="en">Delay line, coaxial type</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：19-20；PDF 页：23-24；S 号：S00610；出版标准序号：GB/T 4728.4(ed.2.0)04-09-03
+名称：同轴延迟线 / Delay line, coaxial type；状态：标准；发布日期：2001-07-01
+关键词：未录；采用符号：S00011,S00608
+形状类别：圆,直线,正方形；功能类别：未录；应用类别：未录
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）。小圆直径（Ø7）与圆下短横为按行轮廓推断的形状，待视觉门确认。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 24.5 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：框 40×40；内条 (14,10)-(45,10)，端刻±4.5；小圆 Ø7（心 29,20）套于横导线；圆下短横 (23,23.5)-(35,23.5)；导线 (0,20)-(59,20) 穿框；元件 59×40。
+端口适配：端口 1(0,20)w、2(59,20)e（导线两端）。</informations>
+    <description>
+        <rect x="9" y="0" width="40" height="40" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="14" y1="10" x2="45" y2="10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="14" y1="5.5" x2="14" y2="14.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="45" y1="5.5" x2="45" y2="14.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="25.5" y="16.5" width="7" height="7" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="23" y1="23.5" x2="35" y2="23.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="20" x2="59" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{2d2a2348-6663-4907-86ff-b1589077ff1c}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{5d52b8e2-b685-4a3b-b519-d4357fee9868}" name="1" x="0" y="20" orientation="w" type="Generic"/>
+        <terminal uuid="{57589af9-ec02-4952-9bf2-896174bc1b0f}" name="2" x="59" y="20" orientation="e" type="Generic"/>
+    </description>
+</definition>

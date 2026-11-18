@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="81" height="81" hotspot_x="40" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{5d8ca9e7-9e10-4aa8-990e-e2be1cc63c64}" />
+  <names>
+    <name lang="zh">三电极压电晶体</name><name lang="en">Piezoelectric crystal with three electrodes</name></names>
+  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：16；PDF 页：20；S 号：S00601；出版标准序号：GB/T 4728.4 (ed. 2.0) 04-07-02
+名称：三电极压电晶体 / Piezoelectric crystal with three electrodes；状态：标准；发布日期：2001-07-01
+关键词：压电晶体；采用符号：S00600，S01405
+形状类别：直线，矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29–30 px；矩形外框 182×45 px ≈ 61×15 单位；上电极两横线各 42–44 px ≈ 14–15 单位；下电极横线 127 px ≈ 42 单位，位于矩形外约 2 单位；引线长约 67 px ≈ 22 单位。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为矩形与上二下一电极横线及引线，无端口标记；QET 适配在三根引线端各设一端口（端口 1/2 朝北、3 朝南），导线由相应方向接入。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="31" y1="10" x2="31" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="24" y1="32" x2="38" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="51" y1="11" x2="51" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="32" x2="58" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="35" x2="71" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="71" y1="35" x2="71" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="71" y1="49" x2="10" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="49" x2="10" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="19" y1="52" x2="61" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="52" x2="40" y2="71" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="31" y="10" orientation="n" uuid="{f08fa92e-c8e5-407e-b1bb-b6dea14a1338}" name="1" type="Generic" />
+    <terminal x="51" y="11" orientation="n" uuid="{7f52359e-3302-4e91-a2e1-fdedce039692}" name="2" type="Generic" />
+    <terminal x="40" y="71" orientation="s" uuid="{285fb336-56d4-4b4c-bed7-ee297e4ea19d}" name="3" type="Generic" />
+    <dynamic_text x="45" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{8fd1121d-11ea-4aed-9444-c852eac317a5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

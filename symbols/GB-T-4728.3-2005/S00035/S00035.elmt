@@ -1,0 +1,40 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="100" height="60" hotspot_x="50" hotspot_y="30">
+    <uuid uuid="{a2bb5a61-dc8b-46d0-be19-eb169470d145}"/>
+    <names>
+        <name lang="zh">插头和插座，多极（单线表示法）</name>
+        <name lang="en">Plug and socket, multipole (single-line representation)</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：14；PDF 页：18；S 号：S00035；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-03-08
+名称：插头和插座，多极（单线表示法） / Plug and socket, multipole (single-line representation)；状态：标准；发布日期：2001-07-01
+关键词：插头,插座
+采用符号：S00033
+形状类别：字符,半圆,矩形
+功能类别：X 连接
+应用类别：电路图,接线图,功能图,安装简图,概略图
+备注：本符号用单线表示法示出六个阴接触件和六个阳接触件
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与 2018 现行版逐项核对；独立复核未做；几何与原文逐像素比对未做（仅结构＋关键尺寸核对）。
+几何比例（实测，300 dpi 渲染）：点阵间距：第 15 页实测 21.5 px，其余页约 30 px；QET 比例：1 点阵距 = 10 单位；60 px 模 = 20 单位。300dpi 实测（点阵间距 30px=10 单位；弧心为坐标原点）：左引线 y=0，x -40~ -10（实测 92px≈3 点距）；半圆弧为左半圆（start=90），半径 10 单位（实测左缘 x131、端点 x158、顶 y518、底 y578，半径 27–30px≈1 点距）；实心矩形 20×9 单位，x 0~+20，y -4~+5（实测 64×28px）；右引线 y=0，x +20~+50（实测 88px≈3 点距）；斜线自 (+28,-17) 至 (+6,+10)（实测端点 (240,500)-(178,575)）；上标“6”位于 (+25,-12) 附近（实测字标 x235–250、y500–512）。
+端口适配：原文图形无端口标记；QET 适配在左右引线端头各设一端口（端口 1 朝西、2 朝东）。斜线与上标“6”表示六极，不设端口。点阵背景为参考栅格，未绘入元件。</informations>
+    <description>
+        <line x1="10" y1="30" x2="40" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc start="90" x="40" y="20" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" width="20" height="20"/>
+        <rect x="50" y="26" width="20" height="9" rx="0" ry="0" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false"/>
+        <line x1="70" y1="30" x2="100" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="78" y1="13" x2="56" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="6" x="75" y="18" size="7"/>
+        <terminal uuid="{af1b4c9d-cc24-4170-9fef-0650e16fb0b4}" name="1" x="10" y="30" orientation="w" type="Generic"/>
+        <terminal uuid="{22c95538-73c9-4b51-8d2d-2c0c47be2588}" name="2" x="100" y="30" orientation="e" type="Generic"/>
+        <dynamic_text x="0" y="-12" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1d82f4d5-b8f6-4b08-b331-af643689639e}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+    </description>
+</definition>

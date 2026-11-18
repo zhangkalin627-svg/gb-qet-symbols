@@ -1,0 +1,39 @@
+<definition version="0.100.0" type="element" link_type="terminal" width="120" height="37" hotspot_x="60" hotspot_y="25">
+    <uuid uuid="{bcf41656-0d2a-442f-b079-4d628946a3a5}"/>
+    <names>
+        <name lang="zh">同轴延迟线</name>
+        <name lang="en">Delay line, coaxial</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type">generic</kindInformation>
+        <kindInformation name="function">generic</kindInformation>
+    </kindInformations>
+    <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版
+印刷页：18；PDF 页：22；S 号：S00606；出版标准序号：GB/T 4728.4(ed.2.0)04-08-03
+名称：同轴延迟线 / Delay line, coaxial；状态：标准；发布日期：2001-07-01
+关键词：未录；采用符号：S00011
+形状类别：圆,直线；功能类别：未录；应用类别：电路图,接线图,功能图,概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 符号的 QET 重画件，不含标准原文。
+待核限制：未核：独立核对未完成；几何与原文逐像素比对未做（仅结构与实测坐标核对）；导出未取得（QET 0.90 无 --export-pdf/--export-png，GUI 导出框无响应）。圆下短横钩的精确形状（左端斜收）待视觉门确认；右圆心按线中点对称取，未逐像素核对。
+几何比例（实测，300 dpi 渲染）：本 PDF 点阵间距实测约 24.5 px（非模板 30 px）；本件按 3 px = 1 QET 单位换算；点阵背景为参考栅格，未绘入元件。
+几何：横线 (0,25)-(120,25)；上条 (19,5)-(101,5)，端刻±4；两圆 Ø20（心 20/100,25）；圆下短横钩 (16,36)-(32,36)、(89,36)-(102,36)；元件 120×37。
+端口适配：端口 1(0,25)w、2(120,25)e（横线两端）。</informations>
+    <description>
+        <line x1="19" y1="5" x2="101" y2="5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="19" y1="1" x2="19" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="101" y1="1" x2="101" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="25" x2="120" y2="25" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="10" y="15" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <ellipse x="90" y="15" width="20" height="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="16" y1="36" x2="32" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="89" y1="36" x2="102" y2="36" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <dynamic_text x="0" y="-14" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{1d649921-0f26-4a21-9aaa-a13fd5d052a3}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal uuid="{938d02e2-ac8c-4a6a-9fd2-ce07c95109c7}" name="1" x="0" y="25" orientation="w" type="Generic"/>
+        <terminal uuid="{868ca9a7-37fe-4ce0-8ff6-804ce4ac303a}" name="2" x="120" y="25" orientation="e" type="Generic"/>
+    </description>
+</definition>

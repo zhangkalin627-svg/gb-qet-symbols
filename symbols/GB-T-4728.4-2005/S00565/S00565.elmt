@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="60" height="44" hotspot_x="30" hotspot_y="22" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{83d0a62e-9431-40b2-a9e7-ec466f7f4ce1}" />
+  <names>
+    <name lang="zh">碳柱电阻器</name>
+    <name lang="en">Carbon-pile resistor</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：4；PDF 页：8；S 号：S00565；出版标准序号：GB/T 4728.4 (ed. 2.0) 04-01-11
+名称：碳柱电阻器 / Carbon-pile resistor；状态：标准；发布日期：2001-07-01
+关键词：电阻
+采用符号：S00081，S00555
+形状类别：箭头，直线，矩形
+功能类别：R 限制或稳定
+应用类别：电路图，接线图，功能图，安装简图，网络图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 30 px；矩形 (-14,-4)-(14,4)（28×8）；分隔线 x=-10,-5,0,5,10；引线 y=0 至 x=±20；斜箭头 (-12,10)-(13,-14)，箭头三角形 (13,-14),(9,-6.5),(5.5,-10)。QET 比例：1 点阵距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为一分格矩形＋两横引线＋一斜箭头，无端口标记、无接点圆点；QET 适配在左右引线端设端口（1=(-20,0) w，2=(20,0) e），导线由对应方向接入。箭头为实心三角（QET 多边形填充），斜率约 -1。</informations>
+  <description>
+    <line x1="16" y1="18" x2="44" y2="18" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="26" x2="44" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="16" y1="18" x2="16" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="18" x2="44" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="20" y1="18" x2="20" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="25" y1="18" x2="25" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="18" x2="30" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="35" y1="18" x2="35" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="40" y1="18" x2="40" y2="26" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="10" y1="22" x2="16" y2="22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="44" y1="22" x2="50" y2="22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="18" y1="32" x2="43" y2="8" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="43" y1="8" x2="39" y2="15.5" x3="35.5" y3="12" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" />
+    <terminal x="10" y="22" orientation="w" uuid="{a363dec9-58c8-41fc-a219-70afd72eee34}" name="1" type="Generic" />
+    <terminal x="50" y="22" orientation="e" uuid="{18355fb0-79fb-4140-86b3-d064b41567ef}" name="2" type="Generic" />
+    <dynamic_text x="30" y="-38" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{9802a6d1-9793-460c-be79-eded5cafa5a9}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

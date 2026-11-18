@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="140" height="60" hotspot_x="70" hotspot_y="30" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{0c79abf2-b04c-42cc-a866-107c466e9ca4}" />
+  <names>
+    <name lang="zh">电缆密封终端（单芯电缆）</name>
+    <name lang="en">Cable sealing end (one-core cables)</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
+版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
+印刷页：20；PDF 页：24；S 号：S00051；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-04-02
+名称：电缆密封终端（单芯电缆） / Cable sealing end (one-core cables)；状态：标准；发布日期：2001-07-01
+关键词：电缆配件，密封
+采用符号：S00001
+备注：本符号表示带有三根单芯电缆
+形状类别：直线，梯形；功能类别：X 连接；应用类别：接线图，安装简图，网络图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.3-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 2018 现行版逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 29.7 px；点阵中心 (245,95.5) 对应 QET (70,30)。三线 y65.5、95.5、125.5 px（间距 1 点阵）→ QET y20、30、40，x35–454 px → QET (0,20)-(140,20)、(0,30)-(140,30)、(0,40)-(140,40)。梯形四顶点：(274,34)、(213,52)、(213,139)、(276,156) px → QET (80,9.5)、(59,15.5)、(59,44.5)、(80.5,50.5)，上边斜、下边斜、左右边竖直，右边高约 122 px ≈ 41 单位、左边高约 87 px ≈ 29 单位。
+端口适配：原文图形为三线＋梯形（三根单芯电缆的密封终端）；QET 适配在三线两端各设一端口（1=(0,20) w、2=(140,20) e、3=(0,30) w、4=(140,30) e、5=(0,40) w、6=(140,40) e），导线由对应方向接入。端口为 QET 适配，不是标准图形的组成部分。</informations>
+  <description>
+    <line x1="0" y1="20" x2="140" y2="20" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="0" y1="30" x2="140" y2="30" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="0" y1="40" x2="140" y2="40" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80" y1="9.5" x2="59" y2="15.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="59" y1="15.5" x2="59" y2="44.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="59" y1="44.5" x2="80.5" y2="50.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="80.5" y1="50.5" x2="80" y2="9.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="0" y="20" orientation="w" uuid="{0497909d-e3b6-4d0c-9384-145f8e418b1e}" name="1" type="Generic" />
+    <terminal x="140" y="20" orientation="e" uuid="{142666ef-ce1f-477f-b7c9-65851d9bf293}" name="2" type="Generic" />
+    <terminal x="0" y="30" orientation="w" uuid="{585fafcb-51f0-4aa8-8237-3205987d7320}" name="3" type="Generic" />
+    <terminal x="140" y="30" orientation="e" uuid="{7ba1f280-ee77-40b7-95e9-32e8456d6571}" name="4" type="Generic" />
+    <terminal x="0" y="40" orientation="w" uuid="{997532d7-de6d-4826-8641-de28818e3568}" name="5" type="Generic" />
+    <terminal x="140" y="40" orientation="e" uuid="{1f9aadaa-519f-4171-8ae4-f9de5baae52b}" name="6" type="Generic" />
+    <dynamic_text x="75" y="-48" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{a40011d6-353a-4a0c-94ef-1103986ce6c5}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+      <text />
+      <info_name>label</info_name>
+    </dynamic_text>
+  </description>
+</definition>

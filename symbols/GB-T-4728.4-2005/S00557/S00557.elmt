@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definition width="40" height="25" hotspot_x="20" hotspot_y="14" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{e9bded72-7989-4fdd-bd10-cd348286469f}" />
+  <names>
+    <name lang="zh">可调电阻器</name>
+    <name lang="en">Resistor, adjustable</name>
+  </names>
+  <kindInformations>
+    <kindInformation name="type">generic</kindInformation>
+    <kindInformation name="function">generic</kindInformation>
+  </kindInformations>
+  <informations>标准号：GB/T 4728.4-2005（IEC 60617 database）
+版次：2005 版历史版（不冒称与现行版一致）
+印刷页：1；PDF 页：5；S 号：S00557；出版标准序号：GB/T 4728.4(ed. 2.0)04-01-03
+名称：可调电阻器 / Resistor, adjustable；标准；发布日期：2001-07-01
+关键词：电阻
+用于：S00081，S00555
+形状类别：箭头，矩形；功能类别：R 限制或稳定；应用类别：电路图，接线图，功能图，安装简图，网络图，概略图
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：4d726ad214393f8c06183743a4f75b868e707b5011154b1ccae730b547d468df
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为 GB/T 4728.4-2005 历史版符号的 QET 重画件，不含标准原文。
+待核限制：未与现行版逐项核对；第二路独立核对未完成；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：点阵间距约 28 px；矩形外框 px x 46..126、y 47..71（宽 80 px、高 24 px），中心 (86,59)；引线 y≈59，左端 x≈31、右端 x≈141；斜箭头 45° 线 x+y=145（px），尾端约 (58,88)、箭头尖约 (125,20)、箭头底边约 y 31、x 104..121。QET：矩形 (-14.5,-4.5) 宽 29、高 9；引线 (-20,0)-(-14.5,0)、(14.5,0)-(20,0)；斜线 (-10,10.5)-(9.5,-10)；箭头多边形 (14,-14)、(6.5,-10)、(12.5,-10)。
+端口适配：原文图形为矩形加两端引线，另有一根 45° 斜箭头穿过矩形（箭头在右上方）；QET 适配在两根引线外端各设一端口（1=(-20,0) w、2=(20,0) e），斜箭头本身不设端口。</informations>
+  <description>
+  <line x1="-14.5" y1="-4.5" x2="14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="-4.5" x2="14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="4.5" x2="-14.5" y2="4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-14.5" y1="4.5" x2="-14.5" y2="-4.5" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-20" y1="0" x2="-14.5" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="14.5" y1="0" x2="20" y2="0" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <line x1="-10" y1="10.5" x2="9.5" y2="-10" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <polygon closed="true" style="line-style:normal;line-weight:normal;filling:black;color:black" antialias="false" x1="14" y1="-14" x2="6.5" y2="-10" x3="12.5" y3="-10" />
+  <terminal x="-20" y="0" orientation="w" uuid="{620721c2-bf70-41c3-8376-545d9ba91a8f}" name="1" type="Generic" />
+  <terminal x="20" y="0" orientation="e" uuid="{d93dec8e-ec41-4331-a896-ca1e6e00abce}" name="2" type="Generic" />
+  <dynamic_text x="-20" y="-22" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7e42f2a7-8926-4246-bf07-c97ac6f6d9c6}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular">
+    <text />
+    <info_name>label</info_name>
+  </dynamic_text>
+  </description>
+</definition>
