@@ -4,10 +4,10 @@
         <name lang="zh">导线组（示出导线数），形式2</name>
         <name lang="en">Group of connections (number of connections indicated), form 2</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-03 | 印刷 p2 / PDF 6 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)，线中一条斜线(斜率60°)，斜线右上角标数字3(字符为符号组成部分)；与S00002互为其他形式 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-03 | 印刷 p2 / PDF 6 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)，线中一条斜线(斜率约63°，dx36/dy70，纵长 70，中心 x=187)，斜线右上角标数字3(字符为符号组成部分)；与S00002互为其他形式 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：单斜线按原页重画 (170,103)–(205,33)（原 (195,85)–(213,51)，短 52%、右移约 17；卡林 2026-11-17 定逐件修；原页 4728.3-2005 p6，300 dpi 实测）。“3”字不动。</informations>
     <description>
         <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="195" y1="85" x2="213" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="170" y1="103" x2="205" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <text text="3" x="216" y="42" size="12"/>
         <terminal uuid="{8d9cfc57-74d7-4854-bca8-c1e325ff159c}" name="1" x="0" y="68" orientation="w" type="Generic"/>
         <terminal uuid="{fee39818-fa5a-4baa-af4e-cfd38d5076e4}" name="2" x="408" y="68" orientation="e" type="Generic"/>

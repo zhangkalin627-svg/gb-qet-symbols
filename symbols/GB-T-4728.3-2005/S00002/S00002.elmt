@@ -4,12 +4,12 @@
         <name lang="zh">导线组（示出导线数），形式1</name>
         <name lang="en">Group of connections (number of connections indicated), form 1</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-02 | 印刷 p1 / PDF 5 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)，线上三条等距短斜线，间距1格(34)、斜率60°(dx26/dy44)、线间无交叉 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-02 | 印刷 p1 / PDF 5 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)，线上三条等距长斜线，间距17、斜率约63°(dx36/dy70)、线间无交叉 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：三斜线按原页重画——中心 x=187/204/221、间距 17、dx36/dy70（纵长 70，约 63°），原 (dx20/dy34、间距 20) 短 52%（卡林 2026-11-17 定逐件修；原页 4728.3-2005 p5，300 dpi 实测）。</informations>
     <description>
         <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="174" y1="85" x2="194" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="194" y1="85" x2="214" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="214" y1="85" x2="234" y2="51" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="169" y1="103" x2="205" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="186" y1="103" x2="222" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="203" y1="103" x2="239" y2="33" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <terminal uuid="{cf2efde4-7585-4294-b9bc-41c38ffbd948}" name="1" x="0" y="68" orientation="w" type="Generic"/>
         <terminal uuid="{f1c73263-1c68-4fa2-b779-811256190d1a}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>

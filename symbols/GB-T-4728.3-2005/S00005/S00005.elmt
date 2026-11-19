@@ -1,17 +1,24 @@
-<definition width="408" link_type="simple" version="0.5" hotspot_x="204" height="150" hotspot_y="68" type="element">
+<definition width="408" link_type="simple" version="0.5" hotspot_x="204" height="160" hotspot_y="73" type="element">
     <uuid uuid="{83e34bf9-9868-46fa-9346-b2fafd9fd532}"/>
     <names>
         <name lang="zh">三相电路</name>
         <name lang="en">Three-phase circuit</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-05 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：三条平行水平线长12格(408)、间距约0.5格(18)，上注「3 N~50 Hz 400 V」、下注「3×120 mm²+1×50 mm²」；字符为符号组成部分 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-05 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：四条平行水平线长12格(408)、间距约1格(33)，上注「3 N~50 Hz 400 V」、下注「3×120 mm²+1×50 mm²」；字符为符号组成部分 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：补中性线（3 线改为 4 线，y=23/56/89/122，间距 33）；端子由 2 个改为 8 个（每线两端，全部新 UUID，旧 2 个端子 UUID 退役）；外框 408×160、hotspot (204,73)（卡林 2026-11-17 定逐件修；原页 4728.3-2005 p7，300 dpi 实测）。2018 版备注“3N 替代”四字：库内 .elmt 与 README 均未复述该备注文字，无字可删（已核；图形不动）。</informations>
     <description>
+        <line x1="0" y1="23" x2="408" y2="23" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <line x1="0" y1="56" x2="408" y2="56" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="80" x2="408" y2="80" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="3 N~50 Hz 400 V" x="163" y="46" size="10"/>
-        <text text="3×120 mm²+1×50 mm²" x="149" y="98" size="10"/>
-        <terminal uuid="{40cf74bc-37d4-4f98-b36c-9e0c6f70f518}" name="1" x="0" y="68" orientation="w" type="Generic"/>
-        <terminal uuid="{a5143416-91a9-42b0-8db1-3ef7ccf15bb3}" name="2" x="408" y="68" orientation="e" type="Generic"/>
+        <line x1="0" y1="89" x2="408" y2="89" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="122" x2="408" y2="122" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="3 N~50 Hz 400 V" x="163" y="13" size="10"/>
+        <text text="3×120 mm²+1×50 mm²" x="149" y="140" size="10"/>
+        <terminal uuid="{2d4afb29-03c0-41fd-879b-06e818220c60}" name="1" x="0" y="23" orientation="w" type="Generic"/>
+        <terminal uuid="{395b2278-debb-40e1-a012-44f4bc59033a}" name="2" x="408" y="23" orientation="e" type="Generic"/>
+        <terminal uuid="{fe6a80fa-642d-4315-97c0-abde1f67f39d}" name="3" x="0" y="56" orientation="w" type="Generic"/>
+        <terminal uuid="{8987d52a-7d06-40a6-9064-7e034f719ef3}" name="4" x="408" y="56" orientation="e" type="Generic"/>
+        <terminal uuid="{72962cf0-89c3-4cfb-bb40-a910500b580b}" name="5" x="0" y="89" orientation="w" type="Generic"/>
+        <terminal uuid="{96be5d50-bb03-4149-b671-b0515b1edafb}" name="6" x="408" y="89" orientation="e" type="Generic"/>
+        <terminal uuid="{7e3eaf3c-32ba-41ce-b6c8-3ee56c29cfe6}" name="7" x="0" y="122" orientation="w" type="Generic"/>
+        <terminal uuid="{92fc6517-fb09-4862-a986-6049f42c341d}" name="8" x="408" y="122" orientation="e" type="Generic"/>
     </description>
 </definition>

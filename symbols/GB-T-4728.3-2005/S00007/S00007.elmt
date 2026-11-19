@@ -4,10 +4,10 @@
         <name lang="zh">屏蔽导体</name>
         <name lang="en">Screened conductor</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-07 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)穿过空心圆，圆径2格(68)与S00011同轴对同径；圆内无其它笔画 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-07 | 印刷 p3 / PDF 7 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：水平线段长12格(408)穿过空心圆，圆径约 2.2 格 (76)；圆内无其它笔画 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：圆 Ø58 改为 Ø76（x=166、y=30，圆心仍 (204,68)；原页实测圆径约 73–77，旧件小 20–25%；卡林 2026-11-17 定逐件修；原页 4728.3-2005 p7，300 dpi 实测）。</informations>
     <description>
         <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <circle x="175" y="39" diameter="58" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="166" y="30" diameter="76" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <terminal uuid="{c2822627-d330-4461-abfe-bd48d1935a73}" name="1" x="0" y="68" orientation="w" type="Generic"/>
         <terminal uuid="{983d7524-9791-4c51-8145-8de343007da9}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>

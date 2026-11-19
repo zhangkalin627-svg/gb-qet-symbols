@@ -1,20 +1,19 @@
-<definition width="272" link_type="simple" version="0.5" hotspot_x="136" height="136" hotspot_y="34" type="element">
+<definition width="408" link_type="simple" version="0.5" hotspot_x="204" height="136" hotspot_y="34" type="element">
     <uuid uuid="{5c5a2dcf-b303-443f-8075-da0b726c0615}"/>
     <names>
         <name lang="zh">连到端子上的同轴对</name>
         <name lang="en">Coaxial pair connected to terminals</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-12 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面：内导体横线穿过空心圆(圆径约2.2格取68)，圆底右侧引竖线向下2格接外导体横线，外导体横线右端与内导体右端各接一个小空心端子(径约0.6格取20)，圆底另有一段水平短线；左端为自由端不接端子 → 272×136；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-12 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面：内导体横线穿过空心圆(圆径约2.2格取68)，圆底右侧引竖线向下接外导体横线，外导体横线右端与内导体右端各接一个小空心端子(径约0.6格取20)，圆底另有一段水平短线(长 68)；左端为自由端不接端子 → 408×136；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：内线 0→387（原 252，短 35%）、外线 189→386（原 136→252，短 42%）；圆移至 x=155；竖线 x=189；圆底短线改为 (155,69)–(223,69)（68 单位，参照 S00011 实测值）；小端子圆移至 (387,24)/(386,92)；删左端端子 1（自由端，与自家说明矛盾），保留两右端端子并重命名为 1、2（UUID 保留），移至 x=408（卡林 2026-11-17 定逐件修；原页 4728.3-2005 p9，300 dpi 实测）。</informations>
     <description>
-        <line x1="0" y1="34" x2="252" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <circle x="102" y="0" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="98" y1="68" x2="174" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="136" y1="68" x2="136" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="136" y1="102" x2="252" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <circle x="252" y="24" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <circle x="252" y="92" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <terminal uuid="{e986eb02-3c41-4e81-9e79-156aca337429}" name="1" x="0" y="34" orientation="w" type="Generic"/>
-        <terminal uuid="{2ef9664b-fe6e-4c5e-8597-31c4e6c45f1d}" name="2" x="272" y="34" orientation="e" type="Generic"/>
-        <terminal uuid="{84c3bcc8-35f6-41af-8413-3e6068c4d6d8}" name="3" x="272" y="102" orientation="e" type="Generic"/>
+        <line x1="0" y1="34" x2="387" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="155" y="0" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="155" y1="68" x2="223" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="189" y1="68" x2="189" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="189" y1="102" x2="386" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="387" y="24" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="386" y="92" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <terminal uuid="{2ef9664b-fe6e-4c5e-8597-31c4e6c45f1d}" name="1" x="408" y="34" orientation="e" type="Generic"/>
+        <terminal uuid="{84c3bcc8-35f6-41af-8413-3e6068c4d6d8}" name="2" x="408" y="102" orientation="e" type="Generic"/>
     </description>
 </definition>

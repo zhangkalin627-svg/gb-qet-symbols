@@ -4,12 +4,12 @@
         <name lang="zh">导线或电缆的终端，未连接并有专门的绝缘</name>
         <name lang="en">End of a conductor or cable, not connected and specially insulated</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-15 | p6 / PDF 10 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面实测：主水平线长约9.7格取374、右端接右凸半圆(半径约0.94格取34)、半圆顶部向左下延伸一段椭圆弧作绝缘层(左极点y=49，即主线上方19)、绝缘段再接水平短线65到x=227；与同页03-01-14(S00014)同族，主线长/半圆半径取值一致 → 408×136、横线居中y=68；标准未给定mm尺寸，本件数值不是标准规定值；绝缘层的椭圆弧半径为图面实测近似值，非逐点拟合；形状类别 半圆,直线；功能类别 功能要素或属性；应用类别 概念要素或限定符号；端子只保留左侧1个(w)，右端为线端不接，故不设端子 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-15 | p6 / PDF 10 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面实测：主水平线长约9.7格取374、右端接右凸窄半椭圆(高 70、外凸约 17，端点 (374,33)/(374,103)，钩居中于横线 y=68)、半圆顶部向左下延伸一段椭圆弧作绝缘层(左极点y=49，即主线上方19)、绝缘段再接水平短线78到x=214；与同页03-01-14(S00014)同族，主线长/钩取值一致 → 408×136、横线居中y=68；标准未给定mm尺寸，本件数值不是标准规定值；绝缘层的椭圆弧半径为图面实测近似值，非逐点拟合；形状类别 半圆,直线；功能类别 功能要素或属性；应用类别 概念要素或限定符号；端子只保留左侧1个(w)，右端为线端不接，故不设端子 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：钩同 S00014 由真半圆改为窄半椭圆（34×70，外凸 17）；绝缘段短线由 65 改为 78（(214,49)–(292,49)，原短 17%）；绝缘弧不动（卡林 2026-11-17 定逐件修；原页 4728.3-2005 p10，300 dpi 实测）。</informations>
     <description>
         <line x1="0" y1="68" x2="374" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <arc x="340" y="0" width="68" height="68" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <arc x="357" y="33" width="34" height="70" start="270" angle="180" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <arc x="292" y="0" width="164" height="98" start="90" angle="90" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="227" y1="49" x2="292" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="214" y1="49" x2="292" y2="49" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <terminal uuid="{2a7a844b-9cb9-477f-ab37-835d960f98b1}" name="1" x="0" y="68" orientation="w" type="Generic"/>
     </description>
 </definition>

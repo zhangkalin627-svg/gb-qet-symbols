@@ -1,15 +1,15 @@
-<definition width="272" link_type="simple" version="0.5" hotspot_x="136" height="70" hotspot_y="35" type="element">
+<definition width="408" link_type="simple" version="0.5" hotspot_x="204" height="70" hotspot_y="35" type="element">
     <uuid uuid="{a049e51f-d0f3-4e3b-b38e-4a53fda3d8bb}"/>
     <names>
         <name lang="zh">同轴对</name>
         <name lang="en">Coaxial pair</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-11 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面：空心圆径约2.1格取68、横线穿圆、圆底另有一段水平短线(长约2.3格取76、紧贴圆底) → 272×70；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-11 | p5 / PDF 9 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面：空心圆径约2.1格取68、横线穿圆、圆底另有一段水平短线(长约2格取68、紧贴圆底) → 408×70；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：线长由 272 改为 408（原页实测约 379，旧件短 28%）；圆移至 x=170（Ø68 不变）；圆底短线改为 (170,69)–(238,69)（68 单位，原 76、长 12%）；端子 2 个 UUID 不变、右端移至 x=408（卡林 2026-11-17 定逐件修；原页 4728.3-2005 p9，300 dpi 实测）。</informations>
     <description>
-        <line x1="0" y1="35" x2="272" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <circle x="102" y="1" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="98" y1="69" x2="174" y2="69" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="35" x2="408" y2="35" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <circle x="170" y="1" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="170" y1="69" x2="238" y2="69" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <terminal uuid="{dd0cc1f9-588d-4efd-b2b6-da26d4602a3c}" name="1" x="0" y="35" orientation="w" type="Generic"/>
-        <terminal uuid="{eddaf8f0-b3dc-4113-9f13-62c66c9c2a65}" name="2" x="272" y="35" orientation="e" type="Generic"/>
+        <terminal uuid="{eddaf8f0-b3dc-4113-9f13-62c66c9c2a65}" name="2" x="408" y="35" orientation="e" type="Generic"/>
     </description>
 </definition>

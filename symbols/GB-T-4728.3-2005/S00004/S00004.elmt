@@ -4,13 +4,15 @@
         <name lang="zh">直流电路</name>
         <name lang="en">Direct current circuit</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-04 | 印刷 p2 / PDF 6 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：两条平行水平线长12格(408)、线距约0.5格(17)，上注「= 110 V」、下注「2×120mm² Al」；字符为符号组成部分 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-04 | 印刷 p2 / PDF 6 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | PDF图面：两条平行水平线长12格(408)、线距约1格(34)，上注「= 110 V」、下注「2×120mm² Al」；字符为符号组成部分 | 尺寸单位=QET画布单位；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：两线间距由 10 改为 34（原页实测）；上注由“≡”改为“=”（原页为两横）；端子由 2 个改为 4 个（每线两端，1/2 沿用旧 UUID、3/4 为新 UUID：{3bb6ae46-4c6f-463d-be0a-4f4df935f07b}、{00098147-4298-4ed0-b3c1-64370d0f50ef}；卡林 2026-11-17 定逐件修；原页 4728.3-2005 p6，300 dpi 实测）。</informations>
     <description>
-        <line x1="0" y1="50" x2="408" y2="50" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="0" y1="60" x2="408" y2="60" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <text text="≡ 110 V" x="183" y="40" size="11"/>
-        <text text="2×120mm² Al" x="170" y="82" size="11"/>
-        <terminal uuid="{d185dde4-9c50-45b2-ab15-630400e85337}" name="1" x="0" y="56" orientation="w" type="Generic"/>
-        <terminal uuid="{b35ee191-5505-46ae-af65-f615e9d4e22b}" name="2" x="408" y="56" orientation="e" type="Generic"/>
+        <line x1="0" y1="38" x2="408" y2="38" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="0" y1="72" x2="408" y2="72" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <text text="= 110 V" x="183" y="28" size="11"/>
+        <text text="2×120mm² Al" x="170" y="94" size="11"/>
+        <terminal uuid="{d185dde4-9c50-45b2-ab15-630400e85337}" name="1" x="0" y="38" orientation="w" type="Generic"/>
+        <terminal uuid="{b35ee191-5505-46ae-af65-f615e9d4e22b}" name="2" x="408" y="38" orientation="e" type="Generic"/>
+        <terminal uuid="{3bb6ae46-4c6f-463d-be0a-4f4df935f07b}" name="3" x="0" y="72" orientation="w" type="Generic"/>
+        <terminal uuid="{00098147-4298-4ed0-b3c1-64370d0f50ef}" name="4" x="408" y="72" orientation="e" type="Generic"/>
     </description>
 </definition>

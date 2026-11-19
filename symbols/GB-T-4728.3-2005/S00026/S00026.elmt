@@ -3,22 +3,33 @@
   <uuid uuid="{26472515-c8e1-4bed-b052-fe7bed1cc39e}" />
   <names>
     <name lang="zh">中性点</name><name lang="en">Neutral point</name></names>
-  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.3-2005（IEC 60617 database）
-版次：2005 版历史版（非 2018 现行版，不冒称现行版一致）
-印刷页：11；PDF 页：15；S 号：S00026；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-02-13
+  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.3-2018（IEC 60617 database）
+版次：2018 版现行版（代替 2005 版；卡林 2026-11-18 定每次用最新版替代老版）
+印刷页：11；PDF 页：13；S 号：S00026；出版标准序号：GB/T 4728.3 (ed. 2.0) 03-02-13
 名称：中性点 / Neutral point；状态：标准；发布日期：2001-07-01
 关键词：连线，连接，中性点；用于：S00027，S00028
 应用注释：A00003，A00262
 形状类别：字符，直线；功能类别：X 连接；应用类别：电路图，接线图，功能图，概略图
 备注：在该点多重导体连接在一起形成多相系统的中性点
-制作者：Muse；日期：2026-11-18；源 PDF SHA256：fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d
-用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.3-2005符号的 QET 重画件，不含标准原文。
-待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。未与 2018 现行版逐项核对。静态文字为 QET 文本适配，字形与字号为候选表达，非标准字号声明。
-几何比例（实测，300 dpi 渲染）：点阵间距约 29.5 px；主竖线长 52 单位；斜线 (9,9)–(-6,22)（相对主线）；底部横线长 40 单位，两端上翘 11 单位；n 为静态文字。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
-端口适配：原文图形为主竖线、斜线与底部横线，无端口标记；QET 适配在主线顶端设一端口（n，端口 1），导线由上方接入。底部横线无端口。点阵背景为参考栅格，未绘入元件。</informations>
+制作者：Muse；日期：2026-11-18；源 PDF SHA256：32492fb2c55b1b6ef8b2b87b75c909008499855288d89b0e6920f714d523a7af（GB/T 4728.3-2018，34 页 A2 扫描）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.3-2018符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。静态文字为 QET 文本适配，字形与字号为候选表达，非标准字号声明。
+几何比例（实测，300 dpi 渲染）：2018 版点阵间距约 59 px，1 单位≈5.9 px；主竖线长 52 单位，改虚线 8 段 [2,4][7,9][13,15][18,21][25,27][30,32][35,37][40,42]，底座上方实线 [42,52]；斜线改 3 段 (26,20)–(30,17)、(30,16)–(32,15)、(33,14)–(34,13)（2018 斜线比 2005 短：2005 为 (24,22)–(39,9)；中间断口原页约 0.3 单位，取最小可见 1 单位）；底部横线长 40 单位，两端上翘 11 单位；n 为静态文字（位置与 2005 一致，实线保留）。QET 比例：1 网格距 = 10 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为主竖线、斜线与底部横线，无端口标记；QET 适配在主线顶端设一端口（n，端口 1），导线由上方接入。底部横线无端口。点阵背景为参考栅格，未绘入元件。
+2026-11-19 修理：按 GB/T 4728.3-2018（PDF p13）改虚线形（卡林 2026-11-18 定每次用最新版替代老版；2018 PDF SHA 32492fb2…）；主竖线 8 段虚划＋底座上方一小段实线，斜线断为 3 段；“n”与 U 形底座仍实线；名称/状态（标准）/编号不变。</informations>
   <description>
-    <line x1="30" y1="0" x2="30" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
-    <line x1="39" y1="9" x2="24" y2="22" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="2" x2="30" y2="4" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="7" x2="30" y2="9" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="13" x2="30" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="18" x2="30" y2="21" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="25" x2="30" y2="27" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="30" x2="30" y2="32" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="35" x2="30" y2="37" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="40" x2="30" y2="42" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="42" x2="30" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="26" y1="20" x2="30" y2="17" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="30" y1="16" x2="32" y2="15" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <line x1="33" y1="14" x2="34" y2="13" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <text text="n" x="47" y="12" size="5" />
     <line x1="10" y1="52" x2="50" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
     <line x1="10" y1="41" x2="10" y2="52" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />

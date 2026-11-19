@@ -4,14 +4,12 @@
         <name lang="zh">屏蔽同轴对</name>
         <name lang="en">Coaxial pair with screen</name>
     </names>
-    <informations>GB/T 4728.3-2005 | 03-01-13 | p6 / PDF 10 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面按内圆直径≈54px合68单位折算：内圆径68、外层屏蔽圆径136、横线贯穿(408)、屏蔽圆左右极点各一段短竖线(长44)跨过横线、圆底另有一段水平短线(宽76) → 408×136；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。</informations>
+    <informations>GB/T 4728.3-2005 | 03-01-13 | p6 / PDF 10 | 练习件(公开标准) | 来源 GB-T-4728.3-2005.pdf SHA-256 fef755f2984a01889dfd6ad2c417751e52a1b1d99f863596dc546dd7107a7b9d | 作者 Hermes | 2026-11-17 | 尺寸单位=QET画布单位(整数)；PDF图面按内圆直径≈54px合68单位折算：内圆径68、外层屏蔽圆径136、横线贯穿(408)、圆底另有一段水平短线(宽68) → 408×136；标准未给定mm尺寸，本件数值不是标准规定值 | 2026-11-17 改正：已撤回的单位换算说明已删除（卡林 16:58 决定）。 | 2026-11-19 修理：删屏蔽圆左右极点两条竖短线 x=136、x=272（原页无独立竖线，仅虚线圆的虚划）；圆底短线改为 (170,102)–(238,102)（68 单位，原 76、长 12%）（卡林 2026-11-17 定逐件修；原页 4728.3-2005 p10，300 dpi 实测）。线长 408（原页约 380，长 7%）为小偏差，本轮不动。</informations>
     <description>
         <line x1="0" y1="68" x2="408" y2="68" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="136" y="0" diameter="136" style="line-style:dashed;line-weight:normal;filling:none;color:black" antialias="false"/>
         <circle x="170" y="34" diameter="68" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="166" y1="102" x2="242" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="136" y1="48" x2="136" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
-        <line x1="272" y1="48" x2="272" y2="88" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
+        <line x1="170" y1="102" x2="238" y2="102" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false"/>
         <terminal uuid="{4e51afba-6516-4b00-aec3-dd1e0c6b50a8}" name="1" x="0" y="68" orientation="w" type="Generic"/>
         <terminal uuid="{df4fc3f2-ff79-4f89-a451-ac9625144be5}" name="2" x="408" y="68" orientation="e" type="Generic"/>
     </description>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="284" height="68" hotspot_x="142" hotspot_y="34" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{c623089b-83a9-42c6-84e9-c9dc4f69beb0}" />
+  <names>
+    <name lang="zh">活动连接端</name><name lang="en">Live connection terminal</name></names>
+  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.3-2018（IEC 60617 database）
+版次：2018 版现行版（新增符号）
+印刷页：24；PDF 页：26；S 号：S01836；出版标准序号：2018 版新增符号，无上版标准序号
+名称：活动连接端 / Live connection terminal；状态：标准；发布日期：2009-01-19
+关键词：连接设备，活动连接，端子；采用符号：S00017，S01849
+形状类别：箭头，圆（点），等边三角形，直线；功能类别：X 连接；应用类别：电路图，接线图
+符号限制：仅应在空载电流条件下断开或连接的终端
+制作者：Muse；日期：2026-11-19；源 PDF SHA256：32492fb2c55b1b6ef8b2b87b75c909008499855288d89b0e6920f714d523a7af（GB/T 4728.3-2018，34 页 A2 扫描）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.3-2018符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：2018 版点阵间距约 59 px，1 单位≈1.743 px（59.25 px/格；4728.3 批既定口径）；横线长 284 单位；中央为两个右指空心五边形嵌套、共用顶点——外 (107,25),(124,25),(136,34),(124,43),(107,43)，内 (122,27),(127,27),(136,34),(127,41),(122,41)，其右紧贴一小空心圆 Ø20（圆心 (145,34)）。QET 比例：1 网格距 = 34 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为单横线加中央箭头形与小圆点，无端口标记；QET 适配在横线两端各设一端口（端口 1 朝西、2 朝东）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <line x1="0" y1="34" x2="284" y2="34" end1="none" end2="none" length1="1.5" length2="1.5" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="107" y1="25" x2="124" y2="25" x3="136" y3="34" x4="124" y4="43" x5="107" y5="43" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="122" y1="27" x2="127" y2="27" x3="136" y3="34" x4="127" y4="41" x5="122" y5="41" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <circle x="135" y="24" diameter="20" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <terminal x="0" y="34" orientation="w" uuid="{e81bb832-b68c-4051-9981-2fb96fe14c8b}" name="1" type="Generic" />
+    <terminal x="284" y="34" orientation="e" uuid="{c5930aae-71a0-4775-b50a-cd352702d181}" name="2" type="Generic" />
+  <dynamic_text x="147" y="-46" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{7261e40d-59fe-4ebf-b76e-989fd0d5211b}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular"><text /><info_name>label</info_name></dynamic_text></description>
+</definition>

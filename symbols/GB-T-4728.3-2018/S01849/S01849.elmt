@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<definition width="68" height="84" hotspot_x="34" hotspot_y="42" type="element" link_type="simple" version="0.100.0">
+  <uuid uuid="{cc1ba163-88ea-4e97-8034-493d1f332def}" />
+  <names>
+    <name lang="zh">活动连接，活动可拆卸</name><name lang="en">Live connectable, live disconnectable</name></names>
+  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.3-2018（IEC 60617 database）
+版次：2018 版现行版（新增符号）
+印刷页：24–25；PDF 页：26–27；S 号：S01849；出版标准序号：2018 版新增符号，无上版标准序号
+名称：活动连接，活动可拆卸 / Live connectable, live disconnectable；状态：标准；发布日期：2009-01-19
+关键词：活动连接，活动线路；用于：S01836
+形状类别：等边三角形；功能类别：功能要素或属性；应用类别：概念要素或限定符号
+制作者：Muse；日期：2026-11-19；源 PDF SHA256：32492fb2c55b1b6ef8b2b87b75c909008499855288d89b0e6920f714d523a7af（GB/T 4728.3-2018，34 页 A2 扫描）
+用途：公开库 GB-QET Symbols（MIT 许可）；本件为GB/T 4728.3-2018符号的 QET 重画件，不含标准原文。
+待核限制：第二路独立核对未完成；未与 IEC 60617 原库逐项核对；尺寸为 QET 适配值，不宣称标准绝对毫米或公差。
+几何比例（实测，300 dpi 渲染）：2018 版点阵间距约 59 px，1 单位≈1.743 px（59.25 px/格；4728.3 批既定口径）；两个全等空心等边三角形，竖向错开 24 单位——外 (34,9),(9,52),(59,52)（底 50、高 43），内 (34,33),(9,76),(59,76)；内三角边穿过外三角底边。QET 比例：1 网格距 = 34 单位。点阵背景为参考栅格，未绘入元件。
+端口适配：原文图形为独立限定符号，本身无连线、无端口标记；本件零端子（独立限定符号，本身无连线；库内 225 件无端子先例）。点阵背景为参考栅格，未绘入元件。</informations>
+  <description>
+    <polygon x1="34" y1="9" x2="9" y2="52" x3="59" y3="52" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+    <polygon x1="34" y1="33" x2="9" y2="76" x3="59" y3="76" closed="true" style="line-style:normal;line-weight:normal;filling:none;color:black" antialias="false" />
+  <dynamic_text x="39" y="-54" z="2" text_width="-1" Halignment="AlignLeft" Valignment="AlignTop" frame="false" rotation="0" keep_visual_rotation="false" text_from="ElementInfo" uuid="{eecfd7c7-9aa3-458b-ab97-a4590cfe93d2}" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular"><text /><info_name>label</info_name></dynamic_text></description>
+</definition>
