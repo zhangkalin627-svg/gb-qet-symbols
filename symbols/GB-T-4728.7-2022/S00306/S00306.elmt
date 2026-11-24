@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="master" version="0.100.0">
   <uuid uuid="{6d707bbb-5475-469d-b8cf-b1490f60226b}" />
   <names>
     <name lang="zh">驱动器件一般符号；继电器线圈一般符号（形式 2）</name>
     <name lang="en">Operating device, general symbol; Relay coil, general symbol (form 2)</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="type" show="1">coil</kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版

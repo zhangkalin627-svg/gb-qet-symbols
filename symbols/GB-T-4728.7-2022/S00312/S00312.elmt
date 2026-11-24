@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="70" height="80" hotspot_x="35" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="70" height="80" hotspot_x="35" hotspot_y="40" type="element" link_type="master" version="0.100.0">
   <uuid uuid="{b0a57b36-cfc5-47cb-a50f-948582e23b17}" />
   <names>
     <name lang="zh">缓慢吸合继电器线圈</name>
     <name lang="en">Relay coil of a slow-operating relay</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="type" show="1">coil</kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版
