@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<definition width="31" height="80" hotspot_x="16" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="31" height="80" hotspot_x="16" hotspot_y="40" type="element" link_type="slave" version="0.100.0">
   <uuid uuid="{fc6b427f-bf8f-4764-b3be-330fab3aa583}" />
   <names>
     <name lang="zh">提前闭合的动合触点</name>
     <name lang="en">Make contact, early closing</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="state" show="1">NO</kindInformation>
+    <kindInformation name="number" show="1">1</kindInformation>
+    <kindInformation name="type" show="1">simple</kindInformation>
+    <kindInformation name="tempoType" show="0"></kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版
