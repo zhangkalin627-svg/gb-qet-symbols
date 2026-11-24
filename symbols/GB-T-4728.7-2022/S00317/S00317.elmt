@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="96" height="80" hotspot_x="48" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="96" height="80" hotspot_x="48" hotspot_y="40" type="element" link_type="master" version="0.100.0">
   <uuid uuid="{de4d4bb6-73e0-457b-9c19-a0eda2ceef5e}" />
   <names>
     <name lang="zh">机械谐振继电器线圈</name>
     <name lang="en">Relay coil of a mechanically resonant relay</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="type" show="1">coil</kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版

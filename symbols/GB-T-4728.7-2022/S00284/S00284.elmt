@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="slave" version="0.100.0">
   <uuid uuid="{95059c14-c19e-51dc-af0b-672aa8703e0d}" />
   <names>
     <name lang="zh">接触器；接触器的主动合触点</name><name lang="en">Contactor; Main make contact of a contactor</name></names>
-  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+  <kindInformations><kindInformation name="state" show="1">NO</kindInformation><kindInformation name="number" show="1">1</kindInformation><kindInformation name="type" show="1">power</kindInformation><kindInformation name="tempoType" show="0"></kindInformation></kindInformations><informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版
 印刷页：22；PDF 页：28；S 号：S00284；出版标准序号：GB/T 4728.7 07-13-02
 名称：接触器；接触器的主动合触点 / Contactor; Main make contact of a contactor；状态：标准；发布日期：2001-07-01

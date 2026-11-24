@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<definition width="40" height="80" hotspot_x="20" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="40" height="80" hotspot_x="20" hotspot_y="40" type="element" link_type="slave" version="0.100.0">
   <uuid uuid="{77156c39-ed12-4996-b667-0c2f5e273523}" />
   <names>
     <name lang="zh">先断后合的转换触点</name>
     <name lang="en">Change-over break before make contact</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="state" show="1">SW</kindInformation>
+    <kindInformation name="number" show="1">1</kindInformation>
+    <kindInformation name="type" show="1">simple</kindInformation>
+    <kindInformation name="tempoType" show="0"></kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版

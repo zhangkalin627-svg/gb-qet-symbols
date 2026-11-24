@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<definition width="76" height="80" hotspot_x="38" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="76" height="80" hotspot_x="38" hotspot_y="40" type="element" link_type="master" version="0.100.0">
   <uuid uuid="{b8abd8d0-caa6-4d5b-b301-84c4d32caad8}" />
   <names>
     <name lang="zh">剩磁继电器线圈（形式 2）</name>
     <name lang="en">Relay coil of a remanent relay</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="type" show="1">coil</kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版
