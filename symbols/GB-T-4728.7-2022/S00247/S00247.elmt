@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="51" height="81" hotspot_x="26" hotspot_y="41" type="element" link_type="simple" version="0.100.0">
+<definition width="51" height="81" hotspot_x="26" hotspot_y="41" type="element" link_type="slave" version="0.100.0">
   <uuid uuid="{d7e3f0e9-ffe7-5826-b8b8-ef07623b28fa}" />
   <names>
     <name lang="zh">延时动合触点</name>
     <name lang="en">Make contact, delayed</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="state" show="1">NO</kindInformation>
+    <kindInformation name="number" show="1">1</kindInformation>
+    <kindInformation name="type" show="1">delayOn</kindInformation>
+    <kindInformation name="tempoType" show="0"></kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版

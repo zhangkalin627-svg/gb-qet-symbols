@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="61" height="71" hotspot_x="31" hotspot_y="36" type="element" link_type="simple" version="0.100.0">
+<definition width="61" height="71" hotspot_x="31" hotspot_y="36" type="element" link_type="slave" version="0.100.0">
   <uuid uuid="{278b69ee-9084-576f-935b-2f296b57bdc0}" />
   <names>
     <name lang="zh">一边有自动返回，另一边无自动返回的中间断开的转换触点</name>
     <name lang="en">Change-over contact with off-position, automatic return and stay put</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="state" show="1">SW</kindInformation>
+    <kindInformation name="number" show="1">1</kindInformation>
+    <kindInformation name="type" show="1">simple</kindInformation>
+    <kindInformation name="tempoType" show="0"></kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版

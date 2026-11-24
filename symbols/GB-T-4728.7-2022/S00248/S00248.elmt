@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="120" height="81" hotspot_x="60" hotspot_y="41" type="element" link_type="simple" version="0.100.0">
+<definition width="120" height="81" hotspot_x="60" hotspot_y="41" type="element" link_type="slave" version="0.100.0">
   <uuid uuid="{da5eb7c5-7d82-5ad2-aa2b-81614d4e15a2}" />
   <names>
     <name lang="zh">触点组</name>
     <name lang="en">Contact assembly</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="state" show="1">NO</kindInformation>
+    <kindInformation name="number" show="1">3</kindInformation>
+    <kindInformation name="type" show="1">simple</kindInformation>
+    <kindInformation name="tempoType" show="0"></kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版
