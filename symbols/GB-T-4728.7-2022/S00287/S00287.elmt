@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="simple" version="0.100.0">
+<definition width="60" height="80" hotspot_x="30" hotspot_y="40" type="element" link_type="master" version="0.100.0">
   <uuid uuid="{42e44036-7951-592d-bba6-7ab780a74bcc}" />
   <names>
     <name lang="zh">断路器</name><name lang="en">Circuit breaker</name></names>
-  <kindInformations><kindInformation name="type">generic</kindInformation><kindInformation name="function">generic</kindInformation></kindInformations><informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
+  <kindInformations><kindInformation name="type" show="1">protection</kindInformation></kindInformations><informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版
 印刷页：23；PDF 页：29；S 号：S00287；出版标准序号：GB/T 4728.7 07-13-05
 名称：断路器 / Circuit breaker；状态：标准；发布日期：2001-07-01

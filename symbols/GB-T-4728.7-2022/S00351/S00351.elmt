@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<definition width="120" height="120" hotspot_x="60" hotspot_y="60" type="element" link_type="simple" version="0.100.0">
+<definition width="120" height="120" hotspot_x="60" hotspot_y="60" type="element" link_type="master" version="0.100.0">
   <uuid uuid="{e92ee1b9-7a74-41a6-ad6a-183608c3a1b7}" />
   <names>
     <name lang="zh">过流继电器</name>
     <name lang="en">Overcurrent relay</name>
   </names>
   <kindInformations>
-    <kindInformation name="type">generic</kindInformation>
-    <kindInformation name="function">generic</kindInformation>
+    <kindInformation name="type" show="1">protection</kindInformation>
   </kindInformations>
   <informations>标准号：GB/T 4728.7-2022（IEC 60617 database）
 版次：2022 版现行版
